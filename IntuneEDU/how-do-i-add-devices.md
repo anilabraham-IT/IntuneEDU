@@ -39,7 +39,7 @@ After you've set up Intune for Education with your information — such as stude
 
 ## Add devices to Intune for Education
 
-You'll need to bring do the following to bring Windows 10 devices into management by Intune for Education:
+You'll need to do the following to bring Windows 10 devices into management by Intune for Education:
 
 1. Turn on your new Windows 10 device and begin the standard Windows setup. When you reach the **Who owns this PC?** screen, select **My work or school owns it**.
 
