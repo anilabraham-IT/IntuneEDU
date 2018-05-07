@@ -68,7 +68,7 @@ Express Configuration enables you to get started in Intune quickly. You can also
 7. Review your choices. Click **Finish** to save your changes.
 
 ## Conflicting settings in Intune for Education
-It's possible to apply conflicting settings in the same group. When your assign these settings to a device or user, an error may occur. Errors are the result of the user or device being a member of groups that have conflicting settings.
+It's possible to apply conflicting settings in the same group. When your assign these settings to a device or user, an error may occur. The error occurs when the groups that the user or device belongs to are configured with conflicting setting values.
 
 For example, Esperanza is a member of the *6th Grade* group and is also a member of group called *Earth Science*. You want to assign a homepage setting to *6th Grade*. Then you configure the same homepage setting, with a different value, and assign it to *Earth Science*. Esperanza, belonging to both groups, is assigned these conflicting homepage settings. This assignment results in an error. Learn how to view and monitor setting errors in [settings errors report](what-are-reports.md).
 
