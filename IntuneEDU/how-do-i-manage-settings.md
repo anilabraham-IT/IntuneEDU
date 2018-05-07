@@ -32,13 +32,13 @@ searchScope:
 
 # How do I manage settings?
 
-Manage  settings for your users, apps, and devices with Intune. Settings that are applied to a *group of devices* affect how and when users from a group can access a device. Settings that are applied to a *group of users* affect how all devices for the group work. 
+Assign and edit settings for your users, apps, and devices. Settings that are applied to a *group of devices* dictate how group users access a device. Settings that are applied to a *group of users* dictate how all devices for the group work. 
 
 When a setting in Intune is marked as **Not configured**, a student can access the setting from their device and set it how they want.
 
-## Manage settings for groups
+## Manage group settings
 
-Complete the following steps to manage all settings in Intune for Education:
+Complete the following steps to manage settings for your groups.
 1. In [Intune for Education](https://intuneeducation.portal.azure.com), go to the left-side navigation menu and choose **Groups**.
 2. Select the group whose settings you want to manage. For a complete list, see [Available settings](what-are-settings.md).
 3. Click **Settings** to view the full list of available settings.
@@ -67,11 +67,10 @@ Express Configuration enables you to get started in Intune quickly. You can also
 6. When you are done editing your settings, click **Next**.
 7. Review your choices. Click **Finish** to save your changes.
 
-## Confliciting settings in Intune for Education
+## Conflicting settings in Intune for Education
+It's possible to apply conflicting settings in the same group. When your assign these settings to a device or user, an error may occur. Errors are the result of the user or device being a member of groups that have conflicting settings.
 
-It is possible to apply conflicting settings in the same group. When an attempt is made to apply these settings to a device or user, an error may occur. Errors are the result of the user or device being a member of multiple groups that have conflicting settings.
-
-For example, Esperanza is a member of the *6th Grade* group and is also a member of group called *Earth Science*. If you configure a homepage setting and assign to *6th Grade*, and you configure a different homepage setting and assign it to *Earth Science*, she now has two conflicting homepage settings assigned to her. When you try to assign the settings to her, you'll receive an error. For more information about devices and users with settings errors see [settings errors report](what-are-reports.md).
+For example, Esperanza is a member of the *6th Grade* group and is also a member of group called *Earth Science*. You want to assign a homepage setting to *6th Grade*. Then you configure the same homepage setting, with a different value, and assign it to *Earth Science*. Esperanza, belonging to both groups, is assigned these conflicting homepage settings. This assignment results in an error. Learn how to view and monitor setting errors in [settings errors report](what-are-reports.md).
 
 ## Find out more
 
