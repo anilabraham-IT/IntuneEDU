@@ -7,8 +7,8 @@ description: Find out what's recently released in Intune for Education.
 keywords:
 author: lenewsad
 ms.author: lanewsad
-manager: angrobe
-ms.date: 01/22/2018
+manager: dougeby
+ms.date: 05/08/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -20,7 +20,7 @@ searchScope:
 # optional metadata
 
 #ROBOTS:
-#audience: NOINDEX,NOFOLLOW
+#audience:
 .#ms.devlang:
 #ms.reviewer: rashok
 #ms.suite: ems
@@ -29,7 +29,7 @@ searchScope:
 
 ---
 # What's new in Intune for Education
-Learn what’s new in this release of Intune for Education. You can also find out about upcoming changes that you should be planning for, as well as information about past releases.
+Learn what’s new in Intune for Education. Find out about upcoming changes to plan for, product notices, and features from previous releases.
 
 ## January 2018
 
