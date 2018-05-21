@@ -31,7 +31,7 @@ searchScope:
 
 # How should I enroll devices?
 
-There are a few ways to enroll devices into management by Intune for Education. You may use them interchangeably, but some may make more sense for you based on the size of your district, number of staff helping to enroll, and the people receiving the devices. For example, you could allow teachers to enroll their devices themselves, and use a USB key to enroll the hundreds of student devices in your school.
+This article describes how to enroll school devices in Intune for Education. Select the method that works best for you based on the size of your district, number of staff helping to enroll, and the people receiving the devices. You can use multiple methods to enroll devices. For example, you might allow teachers to enroll their devices themselves, but use a USB key to enroll the hundreds of student devices in your school.
 
 * Use the free [__Set up School PCs__](https://docs.microsoft.com/education/windows/use-set-up-school-pcs-app) app to set up many PCs in your school. __Set up School PCs__ lets you configure Windows 10 devices with Microsoft's recommended education settings.The app guides you to create a PC provisioning package and helps you save it to a USB drive. To distribute the package, just plug the USB drive into student PCs running Windows 10 version 1703.
 
