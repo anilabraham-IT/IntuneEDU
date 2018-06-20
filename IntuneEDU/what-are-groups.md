@@ -31,7 +31,7 @@ searchScope:
 
 # Set up groups in Intune
 
-The group feature in Intune lets you manage users, apps, and devices that have similar nmanagement needs. With groups, you can reduce the time you spend individually managing and troubleshooting devices. 
+The group feature in Intune lets you manage users, apps, and devices that have similar management needs. With groups, you can reduce the time you spend individually managing and troubleshooting devices. 
 
 ## Default groups  
 Out-of-the-box, Intune for Education comes with default groups to allow you to manage:  
@@ -42,7 +42,7 @@ Two additional default groups are created if you used School Data Sync to import
 * All Teachers
 * All Students
 
-These default groups represent the broadest categories of users and devices in your school and[cannot be changed or removed](what-are-groups.md#why-cant-i-change-the-all-devices-all-users-all-students-or-all-teachers-groups).
+These default groups represent the broadest categories of users and devices in your school and [cannot be changed or removed](what-are-groups.md#why-cant-i-change-the-all-devices-all-users-all-students-or-all-teachers-groups).
 
 ## Custom groups
 
@@ -65,9 +65,9 @@ To learn how to manually assign or remove members, see [Edit groups](edit-groups
 ### Dynamic groups  
 Dynamic groups reference rules that you create to assign students or devices to groups. The criteria for rules is specified during initial group creation, and can be edited after a group is created.
 
-For example, you can create a group specific to students grduating from Contose High at the end of the 2019 school year. Rather than go through and assign each student manually, Intune for Education would filter the students into the group based on school and graduation date.
+For example, you can create a group specific to students graduating from Contoso High at the end of the 2019 school year. Rather than go through and assign each student manually, Intune for Education would filter the students into the group based on school and graduation date.
 
-If a student within the group transfers out of Controse High and into another school in your district, you would not be able to manually remove them from a dynamic group. Instead, you would need to update the student's school name so that Intune knows that they know longer meet the group criteria for membership.
+If a student within the group transfers out of Contoso High and into another school in your district, you would not be able to manually remove them from a dynamic group. Instead, you would need to update the student's school name so that Intune knows that they know longer meet the group criteria for membership.
 
 Since dynamic groups can only contain what their rules define, you cannot create subgroups under them.
 
@@ -92,7 +92,7 @@ Groups must be created one a time. During setup, you'll select to create a group
 
 1. In the [Intune for Education console](https://intuneeducation.portal.azure.com), click **Groups** > **Create group**.
 2. Enter a descriptive group name.
-3. Select a group type. For more details about assigned and dynamic groups see [Group types](## Group types) 
+3. Select a group type. For more details about assigned and dynamic groups see [Group types](## Group types)   
     a. Assigned: Manually add and remove users and device in these groups. If you select this option, go to step 5.
     b. Dynamic: Rules are implemented to automatically add and remove users and devices. If you select this option, go to step 4.
 4. Select to manage devices or students.
@@ -101,7 +101,7 @@ Groups must be created one a time. During setup, you'll select to create a group
 5. At the bottom of the page, click **Create group**.
 
 ### Create a subgroup  
-Groups are set up in Intune as hierarchies. The parent group is the top of the hierarchy, and [any settings applied to this group are inherited by the groups under it](settings-inheritance.md). *This concept is known as settings inheritance*.  Setting inheritance makes it easier to apply settings to a large groups of users and devices. 
+Groups are set up in Intune as hierarchies. The parent group is the top of the hierarchy, and [any settings applied to this group are inherited by the groups under it](settings-inheritance.md). *This concept is known as settings inheritance*.  Setting inheritance makes it easier to apply settings to a large group of users and devices. 
 
 Subgroups can only be created *under* assigned groups. 
 
