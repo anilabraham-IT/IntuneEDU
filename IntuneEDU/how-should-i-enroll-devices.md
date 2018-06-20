@@ -33,8 +33,8 @@ searchScope:
 
 There are multiple ways to enroll devices into Intune for Education management. You can use all of them interchangeably, but some may make more sense for you based on the size of your district, number of staff helping to enroll, and who will be receiving the devices. For example, you could give teachers their devices and tell them to enroll the devices themselves, while you could set up a quicker route for enrolling hundreds of devices using a USB key.
 
-## Use the [__Set up School PCs__](https://docs.microsoft.com/education/windows/use-set-up-school-pcs-app) app 
-Set up School PCs lets you quickly configure and distribute settings to your Windows 10 PCs. The app guides you through the creation of a school-optimized provisioning package. After you're done configuring settings for your network and devices, the app saves the package to a USB key, which you can then upload directly to each student PC. The app is compatible on PCs running Windows 10 version 1803 and earlier.
+## Run the Set up School PCs app 
+[Set up School PCs](https://docs.microsoft.com/education/windows/use-set-up-school-pcs-app) lets you quickly configure and distribute settings to your Windows 10 PCs. The app guides you through the creation of a school-optimized provisioning package. After you're done configuring settings for your network and devices, the app saves the package to a USB key, which you can then upload directly to each student PC. The app is compatible on PCs running Windows 10 version 1803 and earlier.
 
 ## Designate school faculty as enrolllment managers
 Assign enrollment capabilities to teachers or staff by making them an [Enrollment Manager](what-are-enrollment-managers.md). Enrollment managers have the capability to to enroll up to 1,000 devices within your tenant. You can also designate a service account as an enrollment manager account.
