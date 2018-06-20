@@ -33,15 +33,14 @@ searchScope:
 
 After you've set up Intune for Education with your information — such as student records, apps, and settings for devices — connect the devices to Intune for Education. For new Windows 10 devices, a connection is established during initial device setup.
 
-What about for old devices?
-
-During setup devices must have:
+During setup, devices must have:
 * Access to the Internet.
-* Intune for Education device license. Find out more about the devices license in our [licenses docs](https://docs.microsoft.com/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-4).
+* Intune for Education device license. Find out more about the devices license in the Intune [licenses docs](https://docs.microsoft.com/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-4).  
+
 ## Windows device setup
 Complete the following steps to add your Windows 10 devices to Intune for Education.
 
-1. Power on the new Windows 10 device and begin the standard Windows setup. 
+1. Power on the new Windows 10 device. Follow the standard Windows device setup. 
 2. On the **Who owns this PC?** screen, select **My work or school owns it**.
 
    ![Screenshot of the "Who owns this PC?" screen in Windows setup](./media/devices-001-who-owns-this-pc.png)
@@ -55,8 +54,8 @@ Complete the following steps to add your Windows 10 devices to Intune for Educat
 4. Your device [authenticates with Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access) and identifies with the group or groups it belongs to.  
 After setup is complete, the device will receive all apps and settings that you assigned to its group.
 
-### Set up School PCs app
-Add Windows devices to Intune through the [free __Set up School PCs__ app](how-should-i-enroll-devices.md). The app requires you to set up user and device information for a device profile. You can then save the profile configurations to a USB drive and download the info to each device during device setup. 
+## Set up School PCs app
+Add Windows devices to Intune through the Set up School PCs app. The app walks you through how to configure and save a single device profile that you can distribute to multiple PCs. A USB drive is used to save and download the profile to each device during device setup. 
 
 For more information about the app, see [**Set up School PCs** app](https://docs.microsoft.com/education/windows/use-set-up-school-pcs-app).
 

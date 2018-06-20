@@ -31,7 +31,7 @@ searchScope:
 
 # Intune for Education in your schools
 
- Microsoft Intune for Education is a cloud-based, mobile device management (MDM) service for the classroom setting. It enables your teachers and students to stay productive on classroom devices, while keeping data secure. 
+Microsoft Intune for Education is a cloud-based, mobile device management (MDM)service for the classroom setting. It enables your teachers and students to stay productive on classroom devices, while keeping data secure. 
 
 With Intune for EDU you can:
 * Manage the desktop and mobile devices your students use to access classroom data
@@ -39,15 +39,15 @@ With Intune for EDU you can:
 * Control how students and teachers access and share classroom information
 * Impose school security requirements on devices and apps
 
-The online web portal is accessible by educational and IT professionals to onboard and manage both iOS and Windows devices. From the portal, you can remotely assign, manage, and monitor device settings and apps. Outisde of the portal, Intune for EDU also offers the built-in Take a Test app, which allows teachers to assess student progess directly from classroom devices. 
+The online web portal is accessible by educational and IT professionals to onboard and manage both iOS and Windows devices. From the portal, you can remotely assign, manage, and monitor device settings and apps. Outside of the portal, Intune for EDU also offers the built-in Take a Test app, which allows teachers to assess student progress directly from classroom devices. 
 
 In addition to the education-focused online portal, you'll have access to other management tools:
 * Microsoft Intune in the Azure portal, the [full device, app, and user management experience](https://docs.microsoft.com/intune/understand-explore/introduction-to-microsoft-intune)
-* Microsot Azure Active Directory (Azure AD), [the identity and access management system](https://docs.microsoft.com/azure/active-directory/active-directory-administer)
+* Microsoft Azure Active Directory (Azure AD), [the identity and access management system](https://docs.microsoft.com/azure/active-directory/active-directory-administer)
 * [Microsoft School Data Sync](https://sds.microsoft.com)
 * [Office 365 for  Education](https://support.office.com/article/Get-started-with-Office-365-Education-AB02ABE5-A1EE-458C-B749-5B44416CCF14)
 
-Use Intune for Education in conjuction with [Mirosoft Education](https://docs.microsoft.com/education/#pivot=itpro) tools such as:
+Use Intune for Education in conjunction with [Mirosoft Education](https://docs.microsoft.com/education/#pivot=itpro) tools such as:
 
 - [Office 365 for Education](https://support.office.com/article/Set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa)
 - [Windows 10 for Education](https://docs.microsoft.com/education/windows)
@@ -59,8 +59,21 @@ Use Intune for Education in conjuction with [Mirosoft Education](https://docs.mi
 ##Supported devices
 Intune for Education supports Windows 10 and iOS devices. 
 
+## Configuring your Intune for Education tenant
+*Tenant* refers to your organization's instance of Intune for Education. Settings at a tenant-level affect your organization's Intune subscription. Intune for Educations has both **General** settings and **iOS Device Management** tenant settings. 
+
+### General settings
+The **General** page of tenant settings asks for your school's IT contact and resource information. Most of this information is optional but is useful to provide an IT point of contact for students and faculty.  For more information about editing general settings, see [Edit general settings](edu-tenant-general-settings.md). 
+
+### iOS Device Management settings
+**iOS Device Management** settings ask for information about your Apple accounts.  These settings are a requirement for organizations who wish to manage their iOS devices in Intune. Until you configure device management for iOS, you will not be able to see or manage iOS-related settings in the Intune for Education portal.
+
+For more information about setting up your device's iOS device management settings, see [Setup iOS device management](setup-ios-device-management.md).
+
+Only Intune for Education admins (//lenewsad: What do we mean here by "admins?" Is that the name of the role they need to be assigned in big intune?) can see and change tenant settings.
+
 ## Does Intune for Education work on shared devices?
-Intune for Education works with shared devices, and lets you manage multiple users on a single device. Students who share a device may have different apps and settings targeted to them. When students sign in to a device, they will see only the apps and settings assigned specifically to them.
+Intune for Education works with shared devices, and supports the management of multiple users on a single device. Students who share a device may have different apps and settings targeted to them. When students sign in to a device, they will see only the apps and settings assigned specifically to them.
 
 ## Get started with Intune for Education
 Import student records with Microsoft School Data sync. Configure school's Windows devices with the Set up School PCs app, or sign in to [Intune for Education](https://intuneeducation.portal.azure.com) to set up Apple management for your iOS devices.

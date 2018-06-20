@@ -19,7 +19,7 @@
 ### [Set up Intune for Windows](prepare-environment-windows.md)
 #### [Add device enrollment managers](add-enrollment-managers.md)
 #### [Add Windows devices](add-devices-windows.md)
-### [Set up Intune for iOS](edu-ios-device-management-settings.md)
+### [Set up Intune for iOS](setup-ios-device-management.md)
 ## Manage apps
 ### Add apps to Intune for Education
 #### [Office 365](install-office.md)

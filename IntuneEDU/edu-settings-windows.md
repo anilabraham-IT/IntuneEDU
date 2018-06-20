@@ -1,14 +1,14 @@
 ---
 # required metadata
 
-title: Available settings
+title: Windows 10 device settings in Intune for Education
 titleSuffix: Intune for Education
-description: Learn more about the settings available for Intune for Education.
+description: Learn more about the Windows 10 settings available in Intune for Education.
 keywords:
 author: lenewsad
 ms.author: lanewsad
-manager: angrobe
-ms.date: 02/20/2018
+manager: dougeby
+ms.date: 06/19/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -29,25 +29,26 @@ searchScope:
 
 ---
 
-# Available settings for Intune for Education
+# Windows 10 device settings in Intune for Education
 
 Apply settings to groups to establish access and security boundaries on your Windows 10 devices. With Intune for EDU, you can apply device and user settings uniformly, to many or all groups; or you can customize classroom experiences and apply settings per group.
 
-Many settings in EDU are configured to **Block** or **Allow** actions. For some settings, **Not configured** is an option. When toggled to Not Configured, the device will either:
-* Use the default setting 
-* Allow the device user (student or teacher) to customize the setting from their device
-
-> [!NOTE]
-> User, app, and device settings differ from [tenant settings](what-are-tenants.md). Tenant settings address the subscription and management settings at the organization's administrative level.
+Many settings in EDU are configured to **Block** or **Allow** actions. For some settings, **Not configured** is an option. When switched to **Not Configured**, the device will either:
+* Use the default setting. 
+* Allow the device user (student or teacher) to customize the setting from their device.
 
 
   ![The settings page for a group](./media/settings-001-list-of-settings.png)
 
 Much of the information in the **What it does** column can also be found in the Intune for Education console; this format is designed to make it easier for you to search through the settings for specific items.
 
+> [!NOTE]
+> User, app, and device settings differ from [tenant settings](intune-education-tenant-overview.md). Tenant settings address the subscription and management settings for your organization.
+
 ## Windows Device Settings
 This section describes the function of each Windows device setting. To view the settings in the portal, go to the dashboard and click **Group** >**Settings** > **Windows Device Settings**. 
 
+### Basic device settings  
 |Setting|What it does|
 |---|---|
 |Block manual unenrollment|Block users from manually unenrolling devices from management.|
@@ -68,7 +69,7 @@ This section describes the function of each Windows device setting. To view the 
 |Block Windows Spotlight|Block all Windows Spotlight features on these devices.|
 |Location services|Block apps from using location services to access the device’s location.|
 
-### Additional information about removing built-in apps
+#### Additional information about removing built-in apps
 
 This setting is automatically turned on when the "Optimize devices for shared use" setting is turned on. The following apps are fully removed from your users' computers when this setting is turned on:
 
@@ -82,7 +83,6 @@ This setting is automatically turned on when the "Optimize devices for shared us
 * Windows Feedback Hub
 * Xbox
 * Groove Music
-  <!--* Zune Video-->
 * Mail
 * Calendar
 
@@ -113,7 +113,7 @@ This setting is automatically turned on when the "Optimize devices for shared us
 ## Windows Defender settings
 
 > [!NOTE]
-> Certain Windows Defender settings are available at the [tenant](what-are-tenants.md) level.
+> Certain Windows Defender settings are available at only the [tenant](what-are-tenants.md) level. //lenewsad Is this true? How can these be changed?
 
 |Setting|What it does|
 |---|---|
@@ -135,7 +135,7 @@ This setting is automatically turned on when the "Optimize devices for shared us
 |Set update frequency|Define how frequently Defender checks for and downloads anti-malware updates.|
 |Potentially Unwanted Applications protection|Defender alerts the user and blocks potentially unwanted software that attempts to install itself on devices.|
 |Enable cloud-based protection|Get real-time protection when Defender sends info to Microsoft about potential security threats. This feature works best with “Prompt users for sample submission” set to automatically send samples.|
-|<a name="blocksuspiciousfiles"></a>Block suspicious files|If this setting is on, Windows Defender Antivirus will be more aggressive when identifying suspicious files to block and scan; otherwise, it will be less aggressive and therefore block and scan with less frequency. You can select **Default**, **High**, **High+**, and **Zero Tolerance**. **High** aggressively blocks unknown files while minimizing impact to impacting the device performance. **High+** aggressively blocks unknown files, but may negatively impact device performance. **Zero tolerance** blocks all unknown files from running.|
+|Block suspicious files|If this setting is on, Windows Defender Antivirus will be more aggressive when identifying suspicious files to block and scan; otherwise, it will be less aggressive and therefore block and scan with less frequency. You can select **Default**, **High**, **High+**, and **Zero Tolerance**. **High** aggressively blocks unknown files while minimizing impact to impacting the device performance. **High+** aggressively blocks unknown files, but may negatively impact device performance. **Zero tolerance** blocks all unknown files from running.|
 |Actions on detected malware threats|Windows Defender automatically quarantines detected malware.|
 |Enable Network Inspection Service|Helps protect devices against network-based exploits by using the signatures of known vulnerabilities from the Microsoft Endpoint Protection Center to help detect and block malicious traffic.|
 |Exclude files with these extensions from scans and real-time protection|Define the types of files that you want users to be able to access without scanning for security threats.|
@@ -165,15 +165,13 @@ This setting is automatically turned on when the "Optimize devices for shared us
 
 ## Wi-Fi profiles
 
-Any Wi-Fi profiles that you create appear here, along with the **Network name (SSID)**, **Security type**, and **Description**. 
+A list of Wi-Fi profiles that you create appear within this section. Details visible include the **Profile name**, **Network name (SSID)**, **Security type**, and **Description**. 
 
 > [!NOTE]
-> You can configure a WPA-2 Enterprise Wi-Fi network using the [full Wi-Fi profile management experience in Intune](https://docs.microsoft.com//intune/wi-fi-settings-import-windows-8-1). You can also use Intune to set up [SCEP](https://docs.microsoft.com/intune/certificates-scep-configure) and [PKI](https://docs.microsoft.com/intune/certficates-pfx-configure) integration. 
-
-<!--in ui, choose a list of checkboxes of wifi profiles to assign to the group-->
+> Configure a WPA-2 Enterprise Wi-Fi network using the [full Wi-Fi profile management experience in Intune](https://docs.microsoft.com//intune/wi-fi-settings-import-windows-8-1). You can also use Intune to set up [SCEP](https://docs.microsoft.com/intune/certificates-scep-configure) and [PKI](https://docs.microsoft.com/intune/certficates-pfx-configure) integration. 
 
 
-## Device sharing settings
+## Shared device settings
 
 |Setting|What it does|
 |---|---|
@@ -252,12 +250,12 @@ Any Wi-Fi profiles that you create appear here, along with the **Network name (S
 |Delivery optimization mode|Define how updates are delivered to devices.|
 
 
-## SmartScreen settings
+## SmartScreen settings //lenewsad lots of repetitive text here. Can we check these? Unable to see these in portal.
 
 |Block users from overriding SmartScreen|Block users from ignoring warnings about websites blocked by the SmartScreen Filter.|
 |SmartScreen override for files|Block users from ignoring SmartScreen Filter warnings about downloading unverified files.|
-|SmartScreen for apps and files|<!--20180105 need explainer--->
-|Block users from dismissing SmartScreen warnings|
+|SmartScreen for apps and files|Configures SmartScreen to check downloaded apps and files for malicious software.|
+|Block users from dismissing SmartScreen warnings|Blocks users from clicking out of SmartScreen Filter warning messages on their devices. 
 
 
 ## Email settings
@@ -279,7 +277,7 @@ Any Wi-Fi profiles that you create appear here, along with the **Network name (S
 
 ## Edition upgrade
 
-You use these settings to upgrade the devices in this group to a different Edition of Windows by selecting the **Edition to upgrade to** and providing your **Product key**.
+These settings are used to upgrade the devices in this group to a different Edition of Windows. Select the **Edition to upgrade to** and provide your **Product key**.
 
 ## Find out more
 
