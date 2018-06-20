@@ -26,7 +26,7 @@
 #### [Microsoft Store](acquire-store-apps.md)
 #### [iOS Store apps](add-apps-ios.md)
 #### [iOS VPP apps](add-vpp-apps-ios.md)
-#### [Web apps](hot-to-add-apps.md)
+#### [Web apps](how-to-add-apps.md)
 ### [Assign apps](install-apps.md)
 ## Manage settings
 ### [General tenant settings](edu-tenant-general-settings.md)

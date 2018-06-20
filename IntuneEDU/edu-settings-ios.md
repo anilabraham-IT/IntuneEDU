@@ -39,7 +39,7 @@ Many settings in EDU are configured to **Block** or **Allow** actions. For some 
 
 
 > [!NOTE]
-> User, app, and device settings differ from [tenant settings](what-are-tenants.md). Tenant settings target the subscription and management settings at the organization's administrative level.
+> User, app, and device settings differ from [tenant settings](intune-education-tenant-overview.md). Tenant settings target the subscription and management settings at the organization's administrative level.
 
 
   ![The settings page for a group](./media/settings-001-list-of-settings.png)

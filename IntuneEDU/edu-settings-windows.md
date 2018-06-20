@@ -33,9 +33,18 @@ searchScope:
 
 Apply settings to groups to establish access and security boundaries on your Windows 10 devices. With Intune for EDU, you can apply device and user settings uniformly, to many or all groups; or you can customize classroom experiences and apply settings per group.
 
+<<<<<<< HEAD
 Many settings in EDU are configured to **Block** or **Allow** actions. For some settings, **Not configured** is an option. When switched to **Not Configured**, the device will either:
 * Use the default setting. 
 * Allow the device user (student or teacher) to customize the setting from their device.
+=======
+Many settings in EDU are configured to **Block** or **Allow** actions. For some settings, **Not configured** is an option. When toggled to Not Configured, the device will either:
+* Use the default setting 
+* Allow the device user (student or teacher) to customize the setting from their device
+
+> [!NOTE]
+> User, app, and device settings differ from [tenant settings](intune-education-tenant-overview.md). Tenant settings address the subscription and management settings at the organization's administrative level.
+>>>>>>> 6c9332c6e776723c9ff0a68e2bc96f5edacc224a
 
 
   ![The settings page for a group](./media/settings-001-list-of-settings.png)
@@ -113,7 +122,11 @@ This setting is automatically turned on when the "Optimize devices for shared us
 ## Windows Defender settings
 
 > [!NOTE]
+<<<<<<< HEAD
 > Certain Windows Defender settings are available at only the [tenant](what-are-tenants.md) level. //lenewsad Is this true? How can these be changed?
+=======
+> Certain Windows Defender settings are available at the [tenant](intune-education-tenant-overview.md) level.
+>>>>>>> 6c9332c6e776723c9ff0a68e2bc96f5edacc224a
 
 |Setting|What it does|
 |---|---|
