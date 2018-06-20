@@ -55,6 +55,7 @@ If iOS configurations are disabled when you launch Express Configurations:
 Default groups are included with your Intune for Education subscription. They are populated with the details of your school records. Default groups include:
     * All Devices
     * All Users
+If you used SDS to import your school's records, you'll also see:      
     * All Teachers
     * All Students 
 
