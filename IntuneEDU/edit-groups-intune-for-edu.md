@@ -7,7 +7,7 @@ description: Learn how to edit existing user and device groups in Intune for Edu
 keywords:
 author: lenewsad
 ms.author: lanewsad
-manager: doueby
+manager: dougeby
 ms.date: 06/20/2018
 ms.topic: article
 ms.prod:
@@ -31,7 +31,7 @@ searchScope:
 
 # Edit existing groups
 
-This articles describes how to change the following group attributes from the Intune for Education portal > **Groups** page:
+This article describes how to change the following group attributes from the Intune for Education portal > **Groups** page:
 
 * Group name
 * Group membership
@@ -57,7 +57,7 @@ The instructions below detail how to edit *user* membership. These steps can als
 3. To assign users:
     a. Select one or more members of **All other users**. 
     b. Click **Add users**. 
-4. To unassign users
+4. To unassign users  
     a. Select one or more members of **Users in group**.
     b. Click **Remove users**.
 5. Click **OK**.
@@ -77,7 +77,7 @@ Editing existing rules may remove devices or users who were previously members o
 
 ## Move a group  
 
-Move a group up or down within your existing group list in Intune for Education. If you distribute settings differently throughout your group list, moving a group higher or lower on the list will changes its scope of settings.
+Move a group up or down within your existing group list in Intune for Education. If you distribute settings differently throughout your group list, moving a group higher or lower on the list changes its scope of settings.
 
 Generally, the higher the position of the group, such as at parent level, the broader its settings.
 
