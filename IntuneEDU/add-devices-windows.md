@@ -33,6 +33,7 @@ searchScope:
 
 After you've set up Intune for Education with your information — such as student records, apps, and settings for devices — connect the devices to Intune for Education. For new Windows 10 devices, a connection is established during initial device setup.
 
+## Before you begin
 During setup, devices must have:
 * Access to the Internet.
 * Intune for Education device license. Find out more about the devices license in the Intune [licenses docs](https://docs.microsoft.com/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-4).  
