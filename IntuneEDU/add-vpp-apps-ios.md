@@ -36,7 +36,7 @@ Add volume purchase program (VPP) iOS apps from the Intune for Education portal.
 Both free and paid-for apps are available to buy in volume through the App Store. To install free iOS apps *without a VPP token*, see [add iOS apps in Intune](add-apps-ios.md).  
 
 ## What is a VPP?
-A VPP lets organizations buy app licenses in bulk and manage them through their mobile device manager (MDM). <//lenewsad is there a limit of licenses per app?>). From an MDM, such as Intune for Eduation, licenses can be managed and then silently deployed over-the-air to student devices. A VPP/MDM partenership is ideal in classrooms and organizations where the same app is needed on many devices. 
+A VPP lets organizations buy app licenses in bulk and manage them through their mobile device manager (MDM). From an MDM, such as Intune for Education, licenses can be managed and then silently deployed over-the-air to student devices. A VPP/MDM partenership is ideal in classrooms and organizations where the same app is needed on many devices. 
 
 ## Before you begin
 To view and manage licenses from the Intune for Education portal, you must first:  

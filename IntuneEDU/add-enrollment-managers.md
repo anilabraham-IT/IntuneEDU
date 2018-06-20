@@ -48,5 +48,3 @@ Device enrollment permissions cannot be used with these other enrollment methods
 6. Click **Remove enrollment permissions**.
 7. Click **Remove** to confirm your action. Removing a device enrollment manager does not affect enrolled devices.
   ![Remove enrollment permissions button selected while viewing an individual Enrollment Manager's page](./media/enroll-mgrs-003-remove-enrollment-permissions.png)
-
-- [Find out more about the full device enrollment manager experience in Intune](https://docs.microsoft.com/intune/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune)
