@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: What are groups?
+title: Create groups of users and devices
 titleSuffix: Intune for Education
 description: Learn how to manage groups of devices with Intune for Education.
 keywords:
@@ -29,13 +29,31 @@ searchScope:
 
 ---
 
-# What are groups?
+# Set up groups in Intune
 
-You use _groups_ to manage users, apps, and devices in Intune for Education. You can group users or devices together instead of having to manage each device individually. This lets you easily assign apps and settings to large numbers of users and devices.
+The group feature in Intune lets you manage users, apps, and devices that have similar nmanagement needs. With groups, you can reduce the time you spend individually managing and troubleshooting devices. 
 
-When you create groups, consider how you plan to apply the settings and apps to users and devices. For example, you may need to block apps from using location services for all devices. Specific groups may need certain things, like giving students taking [AP Computer Science](https://www.tealsk12.org) apps to edit their code.
+Apply specific configurations to custom-created groups such as, all iPads, all Windows 10 devices, and all Devices. 
 
-Settings are applied to groups. Since groups are set up as hierarchies, with one group above another, [any settings applied to a group are inherited by all of its subgroups](settings-inheritance.md). Settings inheritance makes it easier to apply settings to large groups of users, apps, and devices. You can use [delegated permissions](group-admin-delegate.md#how-do-i-assign-admin-groups) to give admin groups access to manage groups underneath them.
+Or assign apps and settings to specific groups of students and teachers. For example, an 8th grade curriculum may require different apps than a 6th grade curriculum. You can create two grade-specific groups and assign apps and setting that are appropriate to each.
+
+## Create a group
+To get started, plan out the settings and apps required for your school district, students, teachers, and devices. Settings are assigned to groups, and some groups will require specific settings and apps. For example:
+* For all devices, block apps from using location services. 
+* For AP computer science, assign students apps to edit code.
+* For 12th grade history students, enable web browsing so they can access academic articles.
+* For photography students, enable device camera.
+
+You can create groups by navigating to **Groups**, then selecting **Create Group** from the top of the group list. You can further organize groups by creating *subgroups* under any group, except for __All Devices__ or __All Users__.
+
+  ![The create subgroup page, with the two locations for subgroup creation — at the top of the group name and the sidebar — encircled in red](./media/groups-007-create-subgroup.png)
+
+1. In the [Intune for Education console](https://intuneeducation.portal.azure.com), click **Groups** > **Create Group**.
+2. 
+3. Select the group beneath which you want to create a subgroup.
+4. Click **Create subgroup**, then enter the **Group Name**.
+
+Groups are set up in Intune as hierarchies. The parent group is the top of the hierarchy, and [any settings applied to this group are inherited by all of its subgroups](settings-inheritance.md). Settings inheritance makes it easier to apply settings to large groups of users, apps, and devices. You can use [delegated permissions](group-admin-delegate.md#how-do-i-assign-admin-groups) to give admin groups access to manage groups underneath them.
 
 Intune for Education automatically creates the __All Devices__ and __All Users__ groups when your tenant is created. These default groups represent the broadest categories of users and devices in your school or school district, and [cannot be changed](what-are-groups.md#why-cant-i-change-the-all-devices-all-users-all-students-or-all-teachers-groups).
 
@@ -58,13 +76,7 @@ Since dynamic groups can only contain what their rules define, you can't create 
 
 ## Managing groups and subgroups
 
-You can create groups by navigating to **Groups**, then selecting **Create Group** from the top of the group list. You can further organize groups by creating *subgroups* under any group, except for __All Devices__ or __All Users__.
 
-  ![The create subgroup page, with the two locations for subgroup creation — at the top of the group name and the sidebar — encircled in red](./media/groups-007-create-subgroup.png)
-
-1. In the [Intune for Education console](https://intuneeducation.portal.azure.com), select **Manage user and device groups**.
-2. Select the group beneath which you want to create a subgroup.
-3. Click **Create subgroup**, then enter the **Group Name**.
 
 ## Making changes to groups
 

@@ -1,9 +1,9 @@
 ---
 # required metadata
 
-title: Available settings
+title: Default device settings
 titleSuffix: Intune for Education
-description: Learn more about the settings available for Intune for Education.
+description: Describes the default setting names and behaviors in Intune for EDU
 keywords:
 author: lenewsad
 ms.author: lanewsad
@@ -28,28 +28,17 @@ searchScope:
 #ms.custom: intune-education
 
 ---
+# Default Windows 10 configurations in Express Configuration
+If you make no changes to your settings during Express Configuration, your Windows 10 devices will be configured with these Microsoft-recommended and school-optimized settings.
 
-# Available settings for Intune for Education
-
-Configuring settings is one of the key ways you can secure your Windows 10 devices and create the right kinds of access to enhance the learning experience. Intune for Education provides many settings that allow you to customize these experiences, both for individual groups and their subgroups.
-
-Most settings are set up to either **Block** or **Allow** access to a certain device feature, where **Not configured** is the device's default setting or a user-chosen setting.
-
-> [!NOTE]
-> These user, app, and device settings differ from [tenant settings](what-are-tenants.md).
-
-You can find these settings by first selecting a **group**, then choosing **Settings**.
-
-  ![The settings page for a group](./media/settings-001-list-of-settings.png)
-
-Much of the information in the **What it does** column can also be found in the Intune for Education console; this format is designed to make it easier for you to search through the settings for specific items.
+To restore all apps to their default selections, click **Reset to app selections**. <add screenshot>
+To restore all settings to their default values, click **Reset to suggested defaults**. <add screenshot>
+|Remove built-in Windows 10 apps|Uninstall certain built-in Windows apps. Learn what those apps are [below](available-settings.md#additional-information-about-removing-built-in-apps).|
 
 ## Basic device settings
-
-|Setting|What it does|
+|Setting|What it does|  
 |---|---|
 |Block manual unenrollment|Block users from manually unenrolling devices from management.|
-|<a name="removew10apps"></a>Remove built-in Windows 10 apps|Uninstall certain built-in Windows apps. Learn what those apps are [below](available-settings.md#additional-information-about-removing-built-in-apps).|
 |Block camera|Block user access to the device camera.|
 |Block OneDrive file sync|Block OneDrive Sync for these devices and users.|
 |Block removable storage|Block users from using removable storage such as USB drives and external hard drives.|
@@ -83,10 +72,10 @@ This setting is automatically turned on when the "Optimize devices for shared us
   <!--* Zune Video-->
 * Mail
 * Calendar
+</details>
+&nbsp;<details><summary>Shared device settings</summary>
 
-## Microsoft Edge settings
-
-|Setting|What it does|
+|Setting|What it does|  
 |---|---|
 |Configure homepages|Choose what homepages open every time someone begins a new session browsing with Microsoft Edge.|
 |Block address bar suggestions|Block Edge from suggesting possible search terms or previously visited websites as you type a URL or search term.|
@@ -106,12 +95,8 @@ This setting is automatically turned on when the "Optimize devices for shared us
 |Block access to about:flags page|Block access to the about:flags page, which contains experimental settings and features.|
 |Require intranet sites to be viewed in Internet Explorer|If set to “Block”, internal traffic is sent to Edge instead of Internet Explorer.|
 |Sync Microsoft Edge favorites with Internet Explorer|Sync all favorites added to Edge to Internet Explorer.|
-
-
-## Windows Defender settings
-
-> [!NOTE]
-> Certain Windows Defender settings are available at the [tenant](what-are-tenants.md) level.
+</details>  
+&nbsp;<details><summary>Sign-in settings</summary>
 
 |Setting|What it does|
 |---|---|
@@ -139,9 +124,8 @@ This setting is automatically turned on when the "Optimize devices for shared us
 |Exclude files with these extensions from scans and real-time protection|Define the types of files that you want users to be able to access without scanning for security threats.|
 |Exclude processes from scans and real-time protection|Define the types of processes that you want users to be able to run without scanning for security threats.
 |Exclude directories with these extensions from scans and real-time protection|Define the file locations that you want users to be able to access without scanning for security threats.|
-
-
-## Wireless settings
+</details>  
+&nbsp;<details><summary>Wireless settings</summary>
 
 |Setting|What it does|
 |---|---|
@@ -150,37 +134,32 @@ This setting is automatically turned on when the "Optimize devices for shared us
 |Block Bluetooth discoverability|Block devices from being set as discoverable using Bluetooth.|
 |Block Bluetooth advertising|Block devices from receiving advertising over Bluetooth.|
 |Block cellular data while roaming|Block devices from using cellular data plans when roaming.|
-
-
-## Proxy settings
+</details>  
+&nbsp;<details><summary>Proxy settings</summary>
 
 |Setting|What it does|
 |---|---|
 |Block automatic detection of proxy settings|If you've set up a proxy to handle device network traffic, you can choose whether devices automatically detect the proxy settings when connected.|
 |Use proxy script|Enable the use of a proxy script for your devices. If you **Allow** this setting, you need to provide a **Setup script address**.|
 |Use manual proxy server configuration|If you've set up a manual proxy, you can define settings for it here. If you **Allow** this setting, you need to provide the **Proxy server address**, **Port**, **Proxy exceptions**, and whether to **Use proxy server for local (intranet) connections**.|
-
-
-## Wi-Fi profiles
+</details>  
+&nbsp;<details><summary>Wi-Fi profiles</summary>
 
 Any Wi-Fi profiles that you create appear here, along with the **Network name (SSID)**, **Security type**, and **Description**. 
 
 > [!NOTE]
 > You can configure a WPA-2 Enterprise Wi-Fi network using the [full Wi-Fi profile management experience in Intune](https://docs.microsoft.com//intune/wi-fi-settings-import-windows-8-1). You can also use Intune to set up [SCEP](https://docs.microsoft.com/intune/certificates-scep-configure) and [PKI](https://docs.microsoft.com/intune/certficates-pfx-configure) integration. 
 
-<!--in ui, choose a list of checkboxes of wifi profiles to assign to the group-->
+<!--in ui, choose a list of checkboxes of wifi profiles to assign to the group--> 
 
-
-## Device sharing settings
-
-|Setting|What it does|
-|---|---|
+## Basic device settings
+Setting name|Default behavior|Note|
+|---|---|---|
 |Optimize devices for shared use|Configures recommended settings for shared devices, such as power and update management, and allowing multiple users to sign on to the same device.|
 |Block guest users|If you've enabled **Optimize devices for shared use**, then you can also choose whether to block guest users from signing in to devices. If blocked, only domain users can sign in.|
 |Block fast user switching|Allow users to quickly switch between user accounts from the Start menu.|
-
-
-## App settings
+</details>  
+&nbsp;<details><summary>App settings</summary>
 
 |Setting|What it does|
 |---|---|
@@ -191,16 +170,15 @@ Any Wi-Fi profiles that you create appear here, along with the **Network name (S
 |Block users from installing apps from places other than the Microsoft Store for Education|Block users from installing apps from unauthorized locations.
 |Block automatic app updates|Block Microsoft Store for Education apps from being updated automatically.|
 |Shared app data between users|Allow multiple users of shared devices to share app data.|
-
-## Sign-in settings
+</details>  
+&nbsp;<details><summary>Sign-in settings</summary>
 
 |Setting|What it does|
 |---|---|
 |Block signing in using Microsoft account|Block users from signing in with their Microsoft account.|
 |Block adding new non-Microsoft accounts|Block users from adding any account other than their Microsoft account. Use this setting if you want to force users to only use their Microsoft accounts for email.|
-
-
-## Windows interface customizations
+</details>  
+&nbsp;<details><summary>Windows interface customizations</summary>
 
 |Setting|What it does|
 |---|---|
@@ -217,10 +195,9 @@ Any Wi-Fi profiles that you create appear here, along with the **Network name (S
 |Block options from appearing on the user tile in the Start menu|You can choose **Change account settings**, **Lock**, and **Sign out**.|
 |Choose folders that appear in the Start menu|You can choose **File Explorer**, **Settings**, **Documents**, **Downloads**, **Music**, **Pictures**, **Videos**, **HomeGroup**, **Network**, and **Personal Folder**.|
 |Apply custom Start menu layout|Apply a custom Start menu layout using an XML file. You can upload an .xml file less than 2 MB in size.|
-|Pin websites as tiles in the Start menu|Pin websites as tiles in the Start menu using an XML file. You can upload an .xml file less than 2 MB in size.|
-
-
-## User access to device settings
+|Pin websites as tiles in the Start menu|Pin websites as tiles in the Start menu using an XML file. You can upload an .xml file less than 2 MB in size.
+</details>  
+&nbsp;<details><summary>User access to device settings</summary>
 
 |Setting|What it does|
 |---|---|
@@ -236,9 +213,8 @@ Any Wi-Fi profiles that you create appear here, along with the **Network name (S
 |Update & security|Block Windows Update, recovery, and backup.|
 |Apps|Block uninstall, defaults, and optional features.|
 |Gaming|Block game bar, DVR, broadcasting, and Game Mode.|
-
-
-## Device update settings
+</details>
+&nbsp;<details><summary>Device update settings</summary>  
 
 |Setting|What it does|
 |---|---|
@@ -248,17 +224,17 @@ Any Wi-Fi profiles that you create appear here, along with the **Network name (S
 |Defer quality updates|Define how many days to wait to apply quality updates to devices after they are available.|
 |Pre-release features|Define whether users can see pre-release features for settings, settings and experimentations, or no pre-release features.|
 |Delivery optimization mode|Define how updates are delivered to devices.|
+</details>  
+&nbsp;<details><summary>SmartScreen settings</summary>
 
-
-## SmartScreen settings
-
+|Setting|What it does|
+|---|---|
 |Block users from overriding SmartScreen|Block users from ignoring warnings about websites blocked by the SmartScreen Filter.|
 |SmartScreen override for files|Block users from ignoring SmartScreen Filter warnings about downloading unverified files.|
 |SmartScreen for apps and files|<!--20180105 need explainer--->
 |Block users from dismissing SmartScreen warnings|
-
-
-## Email settings
+</details>  
+&nbsp;<details><summary>Email settings</summary>
 
 |Setting|What it does|
 |---|---|
@@ -273,12 +249,10 @@ Any Wi-Fi profiles that you create appear here, along with the **Network name (S
 |Calendar|Sync calendar information.|
 |Tasks|Sync task information.|
 |SSL|Use Secure Sockets Layer (SSL) when sending emails for additional security.|
-
-
-## Edition upgrade
+</details>  
+&nbsp;<details><summary>Edition upgrade</summary>
 
 You use these settings to upgrade the devices in this group to a different Edition of Windows by selecting the **Edition to upgrade to** and providing your **Product key**.
+</details>
 
-## Find out more
-
-- [Find out more about the full Windows 10 settings management experience available in Intune](https://docs.microsoft.com/intune/deploy-use/windows-10-policy-settings-in-microsoft-intune)
+[Find out more about the full Windows 10 settings management experience available in Intune](https://docs.microsoft.com/intune/deploy-use/windows-10-policy-settings-in-microsoft-intune)
