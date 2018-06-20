@@ -56,7 +56,7 @@ Use Intune for Education in conjunction with [Mirosoft Education](https://docs.m
 
 > [!VIDEO https://www.youtube.com/embed/ukrnCwcLvV8]
 
-##Supported devices
+## Supported devices  
 Intune for Education supports Windows 10 and iOS devices. 
 
 ## Configuring your Intune for Education tenant
@@ -65,14 +65,14 @@ Intune for Education supports Windows 10 and iOS devices.
 ### General settings
 The **General** page of tenant settings asks for your school's IT contact and resource information. Most of this information is optional but is useful to provide an IT point of contact for students and faculty.  For more information about editing general settings, see [Edit general settings](edu-tenant-general-settings.md). 
 
-### iOS Device Management settings
+### iOS Device Management settings  
 **iOS Device Management** settings ask for information about your Apple accounts.  These settings are a requirement for organizations who wish to manage their iOS devices in Intune. Until you configure device management for iOS, you will not be able to see or manage iOS-related settings in the Intune for Education portal.
 
 For more information about setting up your device's iOS device management settings, see [Setup iOS device management](setup-ios-device-management.md).
 
 Only Intune for Education admins (//lenewsad: What do we mean here by "admins?" Is that the name of the role they need to be assigned in big intune?) can see and change tenant settings.
 
-## Does Intune for Education work on shared devices?
+## Does Intune for Education work on shared devices?  
 Intune for Education works with shared devices, and supports the management of multiple users on a single device. Students who share a device may have different apps and settings targeted to them. When students sign in to a device, they will see only the apps and settings assigned specifically to them.
 
 ## Get started with Intune for Education
