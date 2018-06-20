@@ -4,7 +4,6 @@
 # Conceptual
 ## [Import data with School Data Sync](what-is-school-data-sync.md)
 ## [Device enrollment](how-should-I-enroll-devices.md)
-## [Tenant settings](intune-education-tenant-overview.md)
 ## [Settings inheritance](settings-inheritance.md)
 ## Device profiles
 ### [Windows default settings](edu-default-settings-windows.md)
