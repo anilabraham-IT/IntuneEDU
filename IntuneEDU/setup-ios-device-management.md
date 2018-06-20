@@ -31,9 +31,13 @@ searchScope:
 
 # Configure iOS device management 
 
-Intune for Education supports device management for iOS devices purchased through the Apple device enrollment program (DEP). When enabled, students can securely access school resources from your managed iOS devices. As an admin, it lets you modify device and app use, groups, wi-fi profiles, and tenant settings. You'll also have access to reports and actions so you can troubleshoot conflicts from a far. 
+Intune for Education supports device management for iOS devices purchased through the Apple device enrollment program (DEP). When enabled, students can securely access school resources from your school's iOS devices. As an admin, iOS management in Intune for Education lets you modify device and app use, groups, wi-fi profiles, and tenant settings. You'll also have access to reports and actions so you can troubleshoot conflicts from a far. 
 
-Until a device is enrolled in management, you as an admin can't modify its settings through the Intune for Education portal. This article describes how to enable iOS device management so that devices can start enrolling in Intune management. By the end of this article you'll know how to:
+Devices purchased through DEP appear in your Apple School Manager account. However, until a device is enrolled in management, you as an admin can't modify its settings through the Intune for Education portal. 
+
+This article describes how to enable iOS device management so that devices can start enrolling in Intune management. When a student or teacher turns on the device, Setup Assistant runs with preconfigured settings and the device enrolls into management. 
+
+By the end of this article you'll know how to:
 
 * Upload an Apple MDM Push certificate
 * Upload Apple DEP tokens
@@ -91,6 +95,15 @@ Sometimes referred to as a DEP token, the MDM server token lets Intune sync devi
 13. Click **Save**.
 
 Tokens expire every 365 days. The token is essential to viewing and managing your devices in the Intune for Education portal. You must renew it yearly. <link to article>
+
+### Sync managed devices
+Now that Intune has permission to manage your Apple School Manager devices, sync the Intune service with the Apple service to view a list of your managed devices in Intune.
+1. Sign in to Intune for Education.
+2. Click **Tenant settings** > **iOS Device MAnagement** > **DEP Tokens**.
+3. Click on any of the listed tokens.
+4. A blade appears from the right. Click **Sync device list**. 
+
+Devices that appear in the list are ready for enrollment. When you power on a listed device, it will enroll itself in Intune management.
 
 ## Configure VPP tokens
 
