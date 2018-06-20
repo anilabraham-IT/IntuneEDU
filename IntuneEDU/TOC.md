@@ -12,9 +12,12 @@
 # Quickstart
 ## [Express Configuration](express-configuration-intune-edu.md)
 # How to guides
-## [Create groups](what-are-groups.md)
-### Change group assignments
+## [Manage groups]
+### [Create groups](what-are-groups.md)
+### [Edit groups](edit-groups-intune-for-edu.md)
+### [Delete groups](delete-group-intune-for-education.md)
 ### [Assign group admins](group-admin-delegate.md)
+### [Troubleshoot groups](troubleshoot-groups-intune-for-edu.md)
 ## Set up device management
 ### [Set up Intune for Windows](prepare-environment-windows.md)
 #### [Add device enrollment managers](add-enrollment-managers.md)
