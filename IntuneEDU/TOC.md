@@ -18,10 +18,10 @@
 ### [Assign group admins](group-admin-delegate.md)
 ### [Troubleshoot groups](troubleshoot-groups-intune-for-edu.md)
 ## Set up device management
-### [Set up Intune for Windows](prepare-environment-windows.md)
+### [Enroll Windows 10 devices](how-do-I-add-devices.md)
 #### [Add device enrollment managers](add-enrollment-managers.md)
-#### [Add Windows devices](add-devices-windows.md)
 ### [Set up Intune for iOS](setup-ios-device-management.md)
+#### [Enroll iOS devices](how-do-I-add-devices-ios.md)
 ## Manage apps
 ### Add apps to Intune for Education
 #### [Office 365](install-office.md)
