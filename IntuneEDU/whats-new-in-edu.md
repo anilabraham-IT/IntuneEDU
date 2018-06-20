@@ -20,7 +20,7 @@ searchScope:
 # optional metadata
 
 #ROBOTS:
-#audience:
+#audience: NOINDEX,NOFOLLOW
 .#ms.devlang:
 #ms.reviewer: rashok
 #ms.suite: ems
@@ -29,7 +29,7 @@ searchScope:
 
 ---
 # What's new in Intune for Education
-Learn what’s new in Intune for Education. Find out about upcoming changes to plan for, product notices, and features from previous releases.
+Learn what’s new in Intune for Education. Find out about upcoming changes, product notices, and features from previous releases.
 
 ## January 2018
 

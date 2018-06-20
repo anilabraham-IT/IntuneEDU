@@ -31,13 +31,13 @@ searchScope:
 
 # How should I enroll devices?
 
-This article describes how to enroll school devices in Intune for Education. Select the method that works best for you based on the size of your district, number of staff helping to enroll, and the people receiving the devices. You can use multiple methods to enroll devices. For example, you might allow teachers to enroll their devices themselves, but use a USB key to enroll the hundreds of student devices in your school.
+There are a few ways that you can enroll devices into management by Intune for Education. You can use all of them interchangeably, but some may make more sense for you based on the size of your district, number of staff helping to enroll, and who will be receiving the devices. For example, you could give teachers their devices and tell them to enroll the devices themselves, while you could set up a quicker route for enrolling hundreds of devices using a USB key.
 
-* Use the free [__Set up School PCs__](https://docs.microsoft.com/education/windows/use-set-up-school-pcs-app) app to set up many PCs in your school. __Set up School PCs__ lets you configure Windows 10 devices with Microsoft's recommended education settings.The app guides you to create a PC provisioning package and helps you save it to a USB drive. To distribute the package, just plug the USB drive into student PCs running Windows 10 version 1703.
+1. You can use the free [__Set up School PCs__](https://docs.microsoft.com/education/windows/use-set-up-school-pcs-app) app to quickly set up PCs for students. __Set up School PCs__ makes it easy to set up Windows 10 devices with Microsoft's recommended education settings, using a quick USB setup. This app guides you through the creation of a student PC provisioning package and helps you save it to a USB drive. From there, just plug the USB drive into student PCs running Windows 10 Creators Update (version 1703).
 
-* Assign [enrollment manager](what-are-enrollment-managers.md) accounts to your staff to give them enrollment capabilities. These special permissions let your users enroll shared student devices. Users with enrollment manager accounts can enroll up to 1,000 devices.
+2. You can assign enrollment capabilities to any staff by making them an [Enrollment Manager](what-are-enrollment-managers.md), which will let them enroll groups devices of devices. These users can either use their Enrollment Manager account to enroll up to 1,000 devices, or you can make a service account the Enrollment Manager account.
 
-* Tell device users to enroll the devices themselves. This will allow them to automatically join their machines to Azure AD.
+3. You can tell the users you're distributing the devices to that they should enroll the devices themselves. This will allow users to automatically join their machines to Azure AD.
 
 ## Find out more
 
