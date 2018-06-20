@@ -38,7 +38,7 @@ Many settings in EDU are configured to **Block** or **Allow** actions. For some 
 * Allow the device user (student or teacher) to customize the setting from their device
 
 > [!NOTE]
-> User, app, and device settings differ from [tenant settings](what-are-tenants.md). Tenant settings address the subscription and management settings at the organization's administrative level.
+> User, app, and device settings differ from [tenant settings](intune-education-tenant-overview.md). Tenant settings address the subscription and management settings at the organization's administrative level.
 
 
   ![The settings page for a group](./media/settings-001-list-of-settings.png)
@@ -113,7 +113,7 @@ This setting is automatically turned on when the "Optimize devices for shared us
 ## Windows Defender settings
 
 > [!NOTE]
-> Certain Windows Defender settings are available at the [tenant](what-are-tenants.md) level.
+> Certain Windows Defender settings are available at the [tenant](intune-education-tenant-overview.md) level.
 
 |Setting|What it does|
 |---|---|
