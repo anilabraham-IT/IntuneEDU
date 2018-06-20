@@ -29,7 +29,7 @@ searchScope:
 
 ---
 
-# iOS apps from App Store  
+# Add iOS apps to Intune for Education  
 Before you assign apps to your school's groups, you must add eligible apps to your Intune tenant. 
 
 From the Intune for Education portal you can search, add, and then assign apps purchased through the iOS Store. This article describes how to add and delete these apps. Instructions apply only to apps that are listed as **Free** in the App Store. To install a paid app, see the article, [Add VPP managed apps](add-vpp-apps-ios.md).
@@ -38,7 +38,7 @@ You do not need a VPP token to install free apps, but it is recommended. A VPP t
 
 If you choose not to use a VPP token to purchase your app, the device user will need to log in with an Apple ID to install the app.
 
-## Add free iOS apps  
+## Get free iOS apps  
 Complete the following steps to add an iOS app to Intune.
 1. Sign in to the Intune for Education portal.
 2. From the left-side of the dashboard, click **Apps**.
