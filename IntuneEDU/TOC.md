@@ -11,7 +11,7 @@
 # Quickstart
 ## [Express Configuration](express-configuration-intune-edu.md)
 # How to guides
-## [Manage groups]
+## Manage groups
 ### [Create groups](what-are-groups.md)
 ### [Edit groups](edit-groups-intune-for-edu.md)
 ### [Delete groups](delete-group-intune-for-education.md)
