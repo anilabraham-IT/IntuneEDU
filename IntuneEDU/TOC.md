@@ -4,12 +4,11 @@
 ## [Import data with School Data Sync](what-is-school-data-sync.md)
 ## [Device enrollment](how-should-I-enroll-devices.md)
 ## [Settings inheritance](settings-inheritance.md)
-## Device profiles
-### [Windows default settings](edu-default-settings-windows.md)
-### [iOS default settings](edu-default-settings-ios.md)
 # Quickstart
 ## [Windows express configuration](express-configuration-intune-edu.md)
+### [Windows default settings](edu-default-settings-windows.md)
 ## [iOS express configuration](express-configuration-intune-edu.md)
+### [iOS default settings](edu-default-settings-ios.md)
 # How to guides
 ## Manage groups
 ### [Create groups](what-are-groups.md)
