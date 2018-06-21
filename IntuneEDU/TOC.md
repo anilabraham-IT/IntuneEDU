@@ -1,6 +1,5 @@
 # [What's new in Intune for Education](whats-new-in-edu.md)
-# Overview
-## [Intune for Education](what-is-intune-for-education.md)
+# [Overview of Intune for Education](what-is-intune-for-education.md)
 # Conceptual
 ## [Import data with School Data Sync](what-is-school-data-sync.md)
 ## [Device enrollment](how-should-I-enroll-devices.md)
@@ -9,7 +8,8 @@
 ### [Windows default settings](edu-default-settings-windows.md)
 ### [iOS default settings](edu-default-settings-ios.md)
 # Quickstart
-## [Express Configuration](express-configuration-intune-edu.md)
+## [Windows express configuration](express-configuration-intune-edu.md)
+## [iOS express configuration](express-configuration-intune-edu.md)
 # How to guides
 ## Manage groups
 ### [Create groups](what-are-groups.md)
@@ -17,10 +17,10 @@
 ### [Delete groups](delete-group-intune-for-education.md)
 ### [Assign group admins](group-admin-delegate.md)
 ### [Troubleshoot groups](troubleshoot-groups-intune-for-edu.md)
-## Set up device management
+## Manage devices
 ### [Enroll Windows 10 devices](how-do-I-add-devices.md)
 #### [Add device enrollment managers](add-enrollment-managers.md)
-### [Set up Intune for iOS](setup-ios-device-management.md)
+### [Set up iOS device management](setup-ios-device-management.md)
 #### [Enroll iOS devices](how-do-I-add-devices-ios.md)
 ## Manage apps
 ### Add apps to Intune for Education
