@@ -28,8 +28,15 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/enterprise-mobility-security/toc.json"
+      "breadcrumb_path": "/enterprise-mobility-security/toc.json",
+      "product_feedback_displaytext": "Intune Feedback",
+      "product_feedback_url": "https://microsoftintune.uservoice.com/forums/291681-ideas?category_id=190729",
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/Intunedocs",
+      "feedback_product_url": "https://microsoftintune.uservoice.com/forums/291681-ideas?category_id=190729"  
     },
+
+
     "fileMetadata": {},
     "template": [],
     "dest": "IntuneEDU",
