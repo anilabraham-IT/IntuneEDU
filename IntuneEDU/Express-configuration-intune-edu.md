@@ -50,11 +50,12 @@ If iOS configurations are disabled when you launch Express Configurations:
 2. Upload an Apple MDM Push Certificaate.
 3. Register an Apple Device Enrollment Program (DEP) token.
 
-### Choose a group to configure
+### Choose a group to configure  //lenewsad Are changes implemented as each step is complete? I see the little notifications that say "app added" etc. 
 
 Default groups are included with your Intune for Education subscription. They are populated with the details of your school records. Default groups include:
     * All Devices
     * All Users
+If you used SDS to import your school's records, you'll also see:      
     * All Teachers
     * All Students 
 

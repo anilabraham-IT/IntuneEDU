@@ -56,8 +56,34 @@ Use Intune for Education in conjunction with [Mirosoft Education](https://docs.m
 
 > [!VIDEO https://www.youtube.com/embed/ukrnCwcLvV8]
 
-## Supported devices  
+## Sign up for Intune for Education
+If you are not already signed up with an Intune account, see [Sign in to Intune](https://docs.microsoft.com/en-us/intune/account-sign-up). The article is for system administrators who are ready to sign up for an Intune account.  
+
+## Manually add users to you Intune subscription
+If you are not using the Microsoft School Data Sync (SDS) service to import student and teacher records, you must [manually add users to your Intune subscription](https://docs.microsoft.com/en-us/intune/users-add). Students and teachers can be added through the Azure portal or through the Office 365 portal.] At the time of user setup, you'll also want to grant admin permissions. 
+
+## Supported operating systems
 Intune for Education supports Windows 10 and iOS devices. 
+
+### Apple
+* Apple iOS 9.0 and later
+
+### Microsoft
+* Windows 10 (Home, S mode, Pro, Education, and Enterprise versions)
+* Windows 10 Mobile
+
+## Supported web browsers //are both admin websites needed for Intune for EDU as well?
+Administrative tasks require that you use one of the following administrative websites:
+* Office 365 portal
+* Azure portal
+
+The following browsers are supported:
+
+* Microsoft Edge (latest version)
+* Microsoft Internet Explorer 11
+* Safari (latest version, Mac only)
+* Chrome (latest version)
+* Mozilla Firefox with Silverlight enabled Learn more (versions prior to version 52)
 
 ## Configuring your Intune for Education tenant
 *Tenant* refers to your organization's instance of Intune for Education. Settings at a tenant-level affect your organization's Intune subscription. Intune for Educations has both **General** settings and **iOS Device Management** tenant settings. 
