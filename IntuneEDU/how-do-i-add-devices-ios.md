@@ -34,22 +34,22 @@ searchScope:
 Devices are ready to power on and enroll in Intune management after you:
 
 * Set up Intune for Education with school information — such as student records, apps, and settings for devices.
-* Enable Intune for iOS device mangaement by setting up the Apple Push MDM certificate and Apple DEP tokens.
+* Enable Intune for iOS device management by setting up the Apple Push MDM certificate and Apple DEP tokens.
 * Sync Apple DEP tokens with Intune for Education and can see a list of ready-to-enroll devices.
 
 //lenewsad Is the license note below applicable for iOS as well?
 > [!NOTE]
-> Your devices need access to the Internet and your account must have enough Intune for Education device licenses available to complete setup. You can find out more about this in our [licenses docs](https://docs.microsoft.com/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-4).
+> Your devices need access to the Internet and your account must have enough Intune for Education device licenses available to complete setup. Find out more in this [Assign licenses to users article](https://docs.microsoft.com/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-4).
 
 ## Enroll iOS devices
-Initial device startup may be completed by you--the admin--, teachers, or students. iOS devices are enrolled with a pre-configured device profile, so no further configurations are neccessary.
+Initial device startup may be completed by you--the admin--, teachers, or students. iOS devices are enrolled with a pre-configured device profile, so no further configurations are necessary.
 
-If students and teachers are part of the intial device setup, consider creating a set of documentation for them.
+If students and teachers are part of the initial device setup, consider creating a set of documentation for them.
 
 1. Turn on your iOS device. 
 2. After you select your **Language**, connect your device to Wi-Fi.
 3. On the **Set up iOS device** screen, select **Set up as new device**.
-4. After you're connected to Wi-Fi, the **Configuration** screen appears. This says:
+4. After you're connected to Wi-Fi, the **Configuration** screen appears, with:
 **[Your School] will automatically configure your device.**  
 
    **Configuration allows [Your School] to manage this device over the air. An administrator can help you set up email and network accounts, install and configure apps, and manage settings remotely. An administrator may disable features, install and remove apps, monitor and restrict your Internet traffic and remotely erase this device.**
@@ -58,9 +58,8 @@ If students and teachers are part of the intial device setup, consider creating 
    [Your School's] iOS Team
    [Address]**
 
-5. When prompted, sign in with your Apple ID. Logging in lets you install the Company Portal app and install the management profile that will let you access your school's resources, such as email and apps.  //lenewsad Do they really need to sign in here? Is the Company portal app really installed?
 6. Agree to the **Terms and Conditions** and decide whether you want to send diagnostic information to Apple.
-7. Once you complete your enrollment, your device may prompt you to take more actions. Some of these steps might be entering your password for email access or setting up a passcode. //lenewsad What is actually involved?
+7. Once you complete your enrollment, your device may prompt you to take more actions. Some of these steps might be entering your password for email access or setting up a passcode. //lenewsad What is involved?
 
 ## Find out more
 - [Find out more about the **Set up School PCs** app](https://docs.microsoft.com/education/windows/use-set-up-school-pcs-app)
