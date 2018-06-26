@@ -1,14 +1,14 @@
 ---
 # required metadata
 
-title: Default device settings
+title: Express Configuration default device settings for Windows 10
 titleSuffix: Intune for Education
-description: Describes the default setting names and behaviors in Intune for EDU
+description: Describes the default settings for Windows 10 devices in Intune for Education.
 keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: angrobe
-ms.date: 02/20/2018
+ms.date: 06/26/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -29,15 +29,16 @@ searchScope:
 
 ---
 # Default Windows 10 configurations in Express Configuration
- Apply device and user settings the same across all groups; or customize the classroom experience and apply settings to individual groups.If you make no changes to your settings during Express Configuration, your Windows 10 devices will be configured with these Microsoft-recommended and school-optimized settings.
+Express Configuration comes preset to help you quickly set up your iOS devices. Intune for Education chooses options that are both Microsoft-recommended and best for school environments. This article lists each of those settings and their default behavior. 
 
-To restore all apps to their default selections, click **Reset to app selections**. <add screenshot>
-To restore all settings to their default values, click **Reset to suggested defaults**. <add screenshot>
+ Make changes to fit your school's rules and policies, or click straight through the settings page to apply the preset recommendations. 
+
+For the complete list of settings and descriptions, see [All iOS settings in Intune for Education](edu-settings-windows.md). 
 
 
 ## Basic device settings  
-|Setting|What it does|  
-|---|---|
+|Setting|Default behavior|What it does|  
+|---|---|---|
 |Block manual unenrollment|Block users from manually unenrolling devices from management.|
 |Block camera|Block user access to the device camera.|
 |Block removable storage|Block users from using removable storage such as USB drives and external hard drives.|
@@ -52,15 +53,15 @@ To restore all settings to their default values, click **Reset to suggested defa
 
 ## Sign-in settings  
 
-|Setting|What it does|  
-|---|---|
+|Setting|Default behavior|What it does|  
+|---|---|---|
 |Block signing in using Microsoft account|Block users from signing in with their Microsoft account.|  
 |Block adding new non-Microsoft accounts|Block users from adding any account other than their Microsoft account. Use this setting if you want to force users to only use their Microsoft accounts for email.||Block signing in using a Microsoft account|   
 
 ## Microsoft Edge settings  
 
-|Setting|What it does|  
-|---|---|
+|Setting|Default behavior|What it does|  
+|---|---|---|
 |Block InPrivate browsing|Block users from using InPrivate browsing, which stops Edge from saving data like browsing history and cookies.|  
 |Block pop-ups|Block websites from opening new windows.|  
 |Block password manager|Block users from using the password manager to save passwords.|  
@@ -72,8 +73,8 @@ To restore all settings to their default values, click **Reset to suggested defa
 
 ## Microsoft Store settings  
 
-|Setting|What it does|  
-|---|---|
+|Setting|Default behavior|What it does|  
+|---|---|---|
 |Block installing apps from the Microsoft Store for Education|Block users from installing apps from unauthorized locations.|  
 |Require Microsoft Store for Education apps to be installed from the private store|Only allow users to install apps from the Microsoft Store for Education that your organization has set up.|  
 |Block automatic app updates|Block Microsoft Store for Education apps from being updated automatically.|  
@@ -81,9 +82,11 @@ To restore all settings to their default values, click **Reset to suggested defa
 
 ## Wireless settings      
 
-|Setting|What it does|  
-|---|---|  
+|Setting|Default behavior|What it does|  
+|---|---|---|
 |Block Bluetooth|Block devices from using Bluetooth.|  
 
-
+## Reset default settings
+To restore all apps to their default selections, click **Reset to app selections**. <add screenshot>  
+To restore all settings to their default values, click **Reset to suggested defaults**. <add screenshot>  
 
