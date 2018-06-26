@@ -2,13 +2,13 @@
 # [Overview of Intune for Education](what-is-intune-for-education.md)
 # Conceptual
 ## [Import data with School Data Sync](what-is-school-data-sync.md)
+## [General tenant settings](edu-tenant-general-settings.md)
 ## [Device enrollment](how-should-I-enroll-devices.md)
+## [Initial default settings]
 ## [Settings inheritance](settings-inheritance.md)
-# Getting Started
-## [Windows express configuration](express-configuration-intune-edu.md)
-### [Windows default settings](edu-default-settings-windows.md)
-## [iOS express configuration](express-configuration-intune-edu.md)
-### [iOS default settings](edu-default-settings-ios.md)
+# [Express configuration](express-configuration-intune-edu.md)
+## [Windows default settings](edu-default-settings-windows.md)
+## [iOS default settings](edu-default-settings-ios.md)
 # Manage groups
 ## [Create groups](what-are-groups.md)
 ## [Edit groups](edit-groups-intune-for-edu.md)
@@ -29,7 +29,6 @@
 ### [Web apps](how-to-add-apps.md)
 ## [Assign apps](install-apps.md)
 # Manage settings
-## [General tenant settings](edu-tenant-general-settings.md)
 ## [Windows device settings](edu-settings-windows.md)
 ## [iOS device settings](edu-settings-ios.md)
 ## [Add Wi-Fi profiles](add-wi-fi-profile.md)
