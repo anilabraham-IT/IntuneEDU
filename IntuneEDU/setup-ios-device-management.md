@@ -100,7 +100,7 @@ Sometimes referred to as a DEP token, the MDM server token lets Intune sync devi
 Tokens expire every 365 days. The token is essential to viewing and managing your devices in the Intune for Education portal. You must renew it yearly. <link to article>
 
 ### Device enrollment profile
-Intune also creates and applies a device enrollment profile to each MDM server token you configure. When you use that token to enroll a device, the device enrolls as supervised and can only sync data to your tenant. For a list of all default enrollment profile settings that are applied to iOS devices see, **Enrollment profile settings**.
+Intune also creates and applies a device enrollment profile to each MDM server token you configure. Any devices you enroll with the token will enroll in supervised mode, and will only sync data with your tenant. For a list of all default enrollment profile settings that are applied to iOS devices see, **Enrollment profile settings**.
 
 ### Sync managed devices
 Now that Intune for Education has permission to manage your iOS devices, sync with Apple to view a list of your managed devices.  
@@ -125,7 +125,7 @@ Without a VPP token, you can still search and get [free iOS apps through the App
 1. On the iOS Device Management page, click the **VPP Tokens** tab.
 2. Click **Open Apple School Manager** and sign in with your school's Apple ID, not your personal one. If you use the legacy Apple VPP site to buy apps, click **Download your token from the VPP website**. 
 3. Follow the steps on either site to create and download the token. Save the token to your local drive.
-4. Return to the Intune for Education portal. Enter the Apple ID that you used to sign in to the Apple Push Certificates portal.
+4. Return to the Intune for Education portal. Enter the Apple ID that you used to sign in to Apple School Manager.
 5. Click the folder icon to browse your computer's files. Select the token file that you downloaded and saved in step 3.
 6. Choose the location of your school's devices.
 7. If you don't want to enable automatic app updates, switch the setting to disable them.  (//lenewsad *might remove from steps due to engineering)
