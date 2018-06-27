@@ -24,11 +24,13 @@
 ## Add apps to Intune for Education
 ### [Office 365](install-office.md)
 ### [Microsoft Store](acquire-store-apps.md)
-### [iOS Store apps](add-apps-ios.md)
+### [Popular school apps](add-popular-apps-edu.md)
+### [Free iOS Store apps](add-apps-ios.md)
 ### [iOS VPP apps](add-vpp-apps-ios.md)
-### [Web apps](how-to-add-apps.md)
-## [Assign apps](install-apps.md)
-# Manage settings
+### [Desktop apps](add-desktop-apps-edu.md)
+### [Web apps](add-web-apps-edu.md)
+## [Assign apps to groups](install-apps.md)
+# Manage device settings
 ## [Windows device settings](edu-settings-windows.md)
 ## [iOS device settings](edu-settings-ios.md)
 ## [Add Wi-Fi profiles](add-wi-fi-profile.md)
