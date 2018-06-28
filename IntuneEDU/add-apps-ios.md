@@ -36,7 +36,7 @@ Instructions apply only to apps that are listed as **Free** in the App Store. To
 
 ## Set up VPP token
 
-You do not need a VPP token to install free apps, but it is recommended. A VPP token permits you to purchase all apps through the VPP store. Intune silently installs VPP-purchased apps on devices, and does not require an Apple login to authenticate. 
+You do not need a VPP token to install free apps, but it is recommended. A VPP token permits you to purchase all apps through the VPP store. Intune silently installs VPP-purchased apps on devices, and does not require an Apple login to authenticate.  
 
 If you choose not to use a VPP token to purchase your app, the device user will need to log in with an Apple ID to install the app.
 

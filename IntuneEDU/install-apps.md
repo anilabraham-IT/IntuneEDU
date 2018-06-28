@@ -38,7 +38,7 @@ After you assign an app, the app is sent to the appropriate device. App installa
 ## Adding apps
 By default, popular apps are available in Intune for Education for immediate assignment. If the app you want to assign isn't in your inventory, learn how to add it to Intune for Education with one of the following articles:
 * [Microsoft Store for Education apps](acquire-store-apps.md)
-* [Free iOS App Store apps](add-apps-iod.md)
+* [Free iOS App Store apps](add-apps-ios.md)
 * [iOS VPP apps](add-vpp-apps-ios.md)
 * [Windows 10 desktop apps](add-desktop-apps-edu.md)
 * [Web apps](add-web-apps-edu.md)  
