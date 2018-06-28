@@ -25,7 +25,7 @@
 # Manage apps
 ## Add apps to Intune for Education
 ### [Office 365](install-office.md)
-### [Microsoft Store](acquire-store-apps.md)
+### [Microsoft Store for Education](acquire-store-apps.md)
 ### [Popular school apps](add-popular-apps-edu.md)
 ### [Free iOS Store apps](add-apps-ios.md)
 ### [iOS VPP apps](add-vpp-apps-ios.md)

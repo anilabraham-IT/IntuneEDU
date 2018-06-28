@@ -33,7 +33,7 @@ searchScope:
 
 The article provides answers to questions about creating and editing groups in Intune for Education.
 
-## Why can't I edit the "All Devices", "All Users", "All Students", or "All Teachers" groups?
+## Why can't I edit the default groups?
 
 Intune for Education creates a set of default, tenant-level groups when your school's account is created. These groups, **All Users** and **All Devices**, cannot be changed. The **All Teachers** and **All Students** groups are created after School Data Sync has imported student and teacher data into Intune for Education, and cannot be changed either.
 
