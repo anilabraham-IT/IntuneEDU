@@ -8,19 +8,19 @@
 # [Express configuration](express-configuration-intune-edu.md)
 ## [Default Windows settings](edu-default-settings-windows.md)
 ## [Default iOS settings](edu-default-settings-ios.md)
+# Add Windows 10 devices
+## [Enroll Windows 10 devices](how-do-I-add-devices.md)
+## [Add device enrollment managers](add-enrollment-managers.md)
+# Add iOS devices
+## [Set up iOS device management](setup-ios-device-management.md)
+## [Enroll iOS devices](how-do-I-add-devices-ios.md)
+## [About enrollment profile settings](enrollment-profile-default.md)
 # Manage groups
 ## [Create groups](what-are-groups.md)
 ## [Edit groups](edit-groups-intune-for-edu.md)
 ## [Delete groups](delete-group-intune-for-education.md)
 ## [Assign group admins](group-admin-delegate.md)
 ## [Troubleshoot groups](troubleshoot-groups-intune-for-edu.md)
-# Add Windows 10 devices
-## [Enroll Windows 10 devices](how-do-I-add-devices.md)
-## [Add device enrollment managers](add-enrollment-managers.md)
-# Add iOS devices
-## [Set up iOS devices management](setup-ios-device-management.md)
-## [Enroll iOS devices](how-do-I-add-devices-ios.md)
-## [About enrollment profile settings](enrollment-profile-default.md)
 # Manage apps
 ## Add apps to Intune for Education
 ### [Office 365](install-office.md)
