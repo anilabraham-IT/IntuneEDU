@@ -40,7 +40,7 @@ An easy way to start using Intune for Education is to:
 > [!NOTE]
 > Setting up School Data Sync is not required for configuring your student and teacher information. You can also set up these [groups](what-are-groups.md) manually in Azure AD.
 
-2. [Run Express Configuration](what-is-express-configuration.md) — Easily assign apps and settings to groups of students and teachers
+2. [Run Express Configuration](Express-configuration-intune-edu.md) — Easily assign apps and settings to groups of students and teachers
 3. [Add devices](how-do-i-add-devices.md) — Connect devices with Intune for Education to install apps and apply settings
 
 ## Find out more
