@@ -90,11 +90,11 @@ Sometimes referred to as a DEP token, the MDM server token lets Intune sync devi
 4. Click **Go to my MDM Servers in Apple School Manager**. 
 5. If prompted, sign in to Apple School Manager with your school's Apple ID, not your personal one. 
 6. Go the MDM servers section of the site and click the option to add a new MDM server.
-7. Follow the steps on screen to get your token. Then save your changes. If you don't have the information to complete this step, contact your school's Intune administrator. 
+7. Follow the steps on screen to get and download the MDM server token. Then save your changes. If you don't have the information to complete this step, contact your school's Intune administrator. 
 8. Remain in Apple School Manager and go to the device assignments page. Enter the serial number for each device, the order number for your entire device purchase, or a list of your devices in a CSV file. 
-9. Select the option to assign your server. Then choose the server you created from the list.
-10. Return to the Intune for Education portal and enter the Apple ID you used to sign in to the Apple Push Certificates portal.
-11. Upload the MDM server token that you created in step 7 of this procedure. 
+9. Select the option to assign your devices to a server. From the list, choose the server you just created.
+10. Return to the Intune for Education portal and enter the Apple ID you used to sign in to Apple School Manager.
+11. Upload the MDM server token that you downloaded earlier.
 12. Click **Save**.
 
 Tokens expire every 365 days. The token is needed to view and manage your devices in the Intune for Education portal. You must renew it yearly. <link to article>
@@ -128,9 +128,8 @@ Without a VPP token, you can still search and get [free iOS apps through the App
 4. Return to the Intune for Education portal. Enter the Apple ID that you used to sign in to Apple School Manager.
 5. Click the folder icon to browse your computer's files. Select the token file that you downloaded and saved earlier.
 6. Choose the location of your school's devices.
-7. If you don't want to enable automatic app updates, switch the setting to disable them.  (//lenewsad *might remove from steps due to engineering)
-8. Read and acknowledge the consent agreement at the bottom of the page.
-9. Click **Save**.
+7. If you don't want to enable automatic app updates, switch the setting to disable them. 
+8. Click **Save**.
 
 Tokens expire every 365 days. Tokens are needed to manage VPP-purchased apps, so you'll need to renew them yearly. <link to article>
 
