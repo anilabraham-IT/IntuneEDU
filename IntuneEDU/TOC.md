@@ -14,14 +14,13 @@
 ## [Delete groups](delete-group-intune-for-education.md)
 ## [Assign group admins](group-admin-delegate.md)
 ## [Troubleshoot groups](troubleshoot-groups-intune-for-edu.md)
-# Manage devices
-## Add Windows 10 devices
-### [Enroll Windows 10 devices](how-do-I-add-devices.md)
-### [Add device enrollment managers](add-enrollment-managers.md)
-## Add iOS devices
-### [Set up iOS devices management](setup-ios-device-management.md)
-### [Enroll iOS devices](how-do-I-add-devices-ios.md)
-### [About enrollment profile settings](enrollment-profile-default.md)
+# Add Windows 10 devices
+## [Enroll Windows 10 devices](how-do-I-add-devices.md)
+## [Add device enrollment managers](add-enrollment-managers.md)
+# Add iOS devices
+## [Set up iOS devices management](setup-ios-device-management.md)
+## [Enroll iOS devices](how-do-I-add-devices-ios.md)
+## [About enrollment profile settings](enrollment-profile-default.md)
 # Manage apps
 ## Add apps to Intune for Education
 ### [Office 365](install-office.md)
@@ -37,8 +36,7 @@
 ### [Windows device settings](edu-settings-windows.md)
 ### [iOS device settings](edu-settings-ios.md) 
 ## [Add Wi-Fi profiles](add-wi-fi-profile.md)
-## [Add Take a Test profiles](take-a-test-profiles.md)
- 
+## [Add Take a Test profiles](take-a-test-profiles.md)  
 # Monitor and troubleshoot
 ## [Manage Windows devices remotely](remote-actions.md)
 ## Manage iOS devices remotely
