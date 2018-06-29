@@ -35,6 +35,7 @@ Your _dashboard_ is the main landing page for Intune for Education. It's where y
 
   ![The dashboard screen, which shows express configuration, school data sync, manage user and device groups, and manage app tiles.](./media/dashboard-001-landing-page.png)
 
+## Start your tasks
 Click any of the following tiles to jump into essential device management tasks:
 
 * Launch Express Configuration
@@ -44,23 +45,23 @@ Click any of the following tiles to jump into essential device management tasks:
 
 Some tiles, such as School Data Sync and Manage apps, will update to show configuration status and current app inventory.
 
-## Customize sidebar
+## Navigating the side-bar
 
 Every page in Intune for Education has a  _sidebar_, which shows a list of categories related to managing users, apps, and devices in your school.
 
   ![The default setup for the left-hand sidebar, which lists Express configuration, groups, apps, Enrollment Managers, take a test profiles, alerts, reports, tenant settings, terms of use settings, and see all, which will pop out to allow modification of this default list of tasks.](./media/dashboard-002-left-sidebar-list.png)
 
-### Pin service to sidebar
+## Pin service to sidebar
 To see a list of everything you can do in Intune for Education, click **All services**. Click the star next to a service to *favorite* it and pin in to the sidebar. Click the star again to remove it from the sidebar. 
 
   ![The service menu pop-out, which has all available settings in a list.](./media/dashboard-003-change-sidebar-popout.png)
 
-### Reorganize sidebar
+## Reorganize sidebar
 To change the order of services in the sidebar, go to the sidebar and hover over the right-side of service link. Click and drag the three vertical dots to reposition the service. 
 
   ![The three dots that appear on hover are next to one of the list items. The cursor changes to a select option.](./media/dashboard-004-editing-sidebar.png)
 
-### Collapse and expand sidebar
+## Collapse and expand sidebar
 To collapse the sidebar so that only icons are visible, go to the top of the page and click the left-pointing arrows. Select the right-pointing arrows to expand the menu.
 
 ## Find out more

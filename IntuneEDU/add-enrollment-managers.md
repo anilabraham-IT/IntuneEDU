@@ -1,9 +1,9 @@
 ---
 # required metadata
 
-title: Add enrollment manager
+title: Add enrollment managers
 titleSuffix: Intune for Education
-description: Learn the role of Enrollment Managers in Intune for Education.
+description: Lear how to add Enrollment Managers in Intune for Education.
 keywords:
 author: lenewsad
 ms.author: lanewsad
@@ -29,22 +29,27 @@ searchScope:
 
 ---
 
-# Add enrollment managers
+# Add enrollment managers  
 
-Grant device enrollment permissions to your existing users. Users with device enrollment manager accounts can  enroll up to 1000 Windows 10 devices, and download school apps. (//lenewsad Is the latter correct?) Enrollment manager accounts are helpful in large organizations that have thousands of shared Windows 10 devices to enroll. 
+Give device enrollment permissions to your existing users. Users with device enrollment manager accounts can enroll up to 1000 Windows 10 devices in Intune for Education.
+
+ Enrollment manager accounts are helpful in large organizations that have thousands of shared Windows 10 devices to enroll. 
+
+## Requirements  
 
 Users must exist in the Azure portal to be added as device enrollment managers.
 
-Device enrollment permissions cannot be used with these other enrollment methods: Apple Configurator with Setup Assistant, Apple Configurator with direct enrollment, Apple School Manager (ASM), or Device Enrollment Program (DEP). 
+Device enrollment permissions cannot be used with these other enrollment methods: Apple Configurator with Setup Assistant, Apple Configurator with direct enrollment, Apple School Manager (ASM), or Device Enrollment Program (DEP).  
 
+## Assign enrollment permissions  
 
-  ![Dashboard left hand side](./media/dashboard-002-left-sidebar-list.png)
-
-1. Go to the Intune for Education portal > **Enrollment Managers** tab.
+1. From the Intune for Education dashboard, click **Enrollment Managers**.
 2. **Click Assign enrollment permissions**.
-3. Click the user that you want to assign permissions to. If you know the name of the user, you can search for them in the search box.
+3. Choose the user that you want to assign permissions to. If you know the name of the user, you can search for them in the search field.
 4. Click **Save**.
-5. To remove permissions from a user, go to the left side of the screen and click their name. 
-6. Click **Remove enrollment permissions**.
-7. Click **Remove** to confirm your action. Removing a device enrollment manager does not affect enrolled devices.
+
+## Remove enrollment permissions  
+1. From the **Enrollment Managers** blade go to the left side of the screen and choose a user. 
+2. Click **Remove enrollment permissions**.
+3. Click **Remove** to confirm your action. Removing a device enrollment manager does not affect enrolled devices.
   ![Remove enrollment permissions button selected while viewing an individual Enrollment Manager's page](./media/enroll-mgrs-003-remove-enrollment-permissions.png)

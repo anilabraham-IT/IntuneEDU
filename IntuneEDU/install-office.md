@@ -7,8 +7,8 @@ description: Learn how to install Microsoft Office on Windows 10 devices.
 keywords:
 author: lenewsad
 ms.author: lanewsad
-manager: angrobe
-ms.date: 10/06/2017
+manager: dougeby
+ms.date: 06/29/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -29,19 +29,17 @@ searchScope:
 
 ---
 
-# How do I manage Microsoft Office on my Windows 10 devices?
+# Add Microsoft Office to Windows 10 devices
 
-Intune for Education allows you to assign the Microsoft Office [web app version](add-web-apps-edu.md) or [desktop version](add-desktop-apps-edu.md).
+Assign the Microsoft Office [web app](add-web-apps-edu.md) or [desktop app](add-desktop-apps-edu.md) to Windows 10 devices in Intune for Education.    
+## Select during Express Configuration
+During [Express Configuration](Express-configuration-intune-edu.md), all Office desktop apps are available in a single app called "Office 365." Select it to assign students desktop versions of Word, Excel, PowerPoint, OneNote, and Skype for Business.  
 
-During [Express Configuration](Express-configuration-intune-edu.md), the Office desktop apps are always presented as a single app called "Office 365." If you select it, you will assign desktop versions of Word, Excel, PowerPoint, OneNote, and Skype for Business to your users.
+## Office for Windows 10 S
 
-This is done using [Click-to-Run](https://technet.microsoft.com/library/jj219427.aspx), a Microsoft streaming technology that reduces the time that is required to install Office on your devices. 
+Students on Windows 10 S devices, such as the [Surface Laptop](https://www.microsoft.com/surface/devices/surface-laptop/overview), receive the Universal versions of the Office apps. These versions differ from Office apps for Windows 10, and are available for purchase from the Microsoft Store for Education. 
 
-## What about Windows 10S? 
-
-There is a difference in the version of Office that your users will get if they are using Windows 10S devices, like [Surface Laptop](https://www.microsoft.com/surface/devices/surface-laptop/overview). Windows 10S devices will receive the Universal versions of the Office apps - the ones that are available in the Microsoft Store for Education. 
-
-## Find out more
+## Next steps
 
 - [Find out more about getting started with Office 365 Education](https://support.office.com/article/Get-started-with-Office-365-Education-AB02ABE5-A1EE-458C-B749-5B44416CCF14)
 - [Find out more about Universal Windows Apps](https://docs.microsoft.com/windows/uwp/get-started/whats-a-uwp)

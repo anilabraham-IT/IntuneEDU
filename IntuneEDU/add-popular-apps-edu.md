@@ -31,18 +31,17 @@ searchScope:
 
 # Add popular apps to Intune for Education
 
-Add popular school apps from the web and Microsoft Store for Education. Apps listed in Intune for Education are Microsoft-recommended apps that are frequently used by teachers.  
+Add popular school apps from the web and Microsoft Store for Education. Apps listed in Intune for Education are Microsoft-recommended apps that are frequently used in classrooms. 
 
   ![A selection of popular apps during the add apps process in Express Configuration.](./media/apps-005-popular-apps.png)\
 
-Intune for Education shows the top twelve educational web apps and top twelve educational Microsoft Store for Education apps. You'll only see the apps that you haven't yet added. //lenewsad Is this all correct?
+Intune for Education shows the top educational web apps and Microsoft Store for Education apps. From the portal, you'll only see recommendations for apps that you haven't yet added. 
 
 > [!TIP]
-> If you haven't set up your Microsoft Store for Education account to add apps to Intune for Education, learn how to [set it up](acquire-store-apps.md).
+> If you haven't set up your Microsoft Store for Education account to add apps to Intune for Education, learn what steps you need to take to [set it up](acquire-store-apps.md).
 
-1. Sign in to the Intune for Education portal.
-2. Click **Apps**.
-2. Select the apps you want to add, then click **Add apps**.
+1. From the Intune for Education dashboard, click **Apps**.
+3. Select the apps you want to add. Then click **Add apps**.
 
    ![Selecting multiple popular apps to add to the portal.](./media/apps-007-select-multiple-popular-apps.png)
 
@@ -50,6 +49,6 @@ Intune for Education shows the top twelve educational web apps and top twelve ed
 
    ![Your apps are being added screen.](./media/apps-008-your-popular-apps-are-being-added.png)  
 
-## Find out more
+## Next steps
 
 - [Find out more about the full experience managing apps using Intune](https://docs.microsoft.com/intune/deploy-use/add-apps)

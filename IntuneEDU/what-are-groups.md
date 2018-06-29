@@ -34,13 +34,13 @@ searchScope:
 The group feature in Intune lets you manage users, apps, and devices that have similar management needs. With groups, you can reduce the time you spend individually managing and troubleshooting devices. 
 
 ## Default groups  
-Out-of-the-box, Intune for Education comes with default groups to allow you to manage:  
-* All Devices
-* All Users
+Out-of-the-box, Intune for Education comes with default groups that enable you to manage:  
+* All devices
+* All users
 
-Two additional default groups are created if you used School Data Sync to import your school records:  
-* All Teachers
-* All Students
+Two additional default groups are created if you used School Data Sync to import your school records. They enable you to manage:  
+* All teachers
+* All students
 
 These default groups represent the broadest categories of users and devices in your school and [cannot be changed or removed](what-are-groups.md#why-cant-i-change-the-all-devices-all-users-all-students-or-all-teachers-groups).
 
@@ -51,7 +51,7 @@ You can also apply specific or scenario-based configurations to custom-created g
 You can also assign apps and settings to specifics groups of students. For example, an 8th grade curriculum may require different apps than a 6th grade curriculum. You can create two, grade-specific groups and assign apps and settings that are appropriate for each set of students.  
 ## Group types  
 
-There are two types of groups that you can use to organize users and devices in Intune for Education: **assigned** groups and **dynamic** groups.
+There are two types of groups that you can use to organize users and devices in Intune for Education: assigned groups and dynamic groups.
 
 ### Assigned groups  
 
@@ -77,7 +77,7 @@ To learn how to edit group rules, see [Edit groups](edit-groups-intune-for-edu.m
 > Use the dynamic rules to filter through groups of similarly-named or recently onboarded groups of devices, such as *DeviceType_School_Grade_0001*. Dynamic groups are ideal for managing large groups of devices or users in large school districts. They reduce the time and costs required to manually go through a school's inventory or headcount.  
 
 
-## Before you begin
+## Plan your groups
 To get started, plan out the settings and apps required for your school district, students, teachers, and devices. Settings are assigned to groups, and some groups will require specific settings and apps.   
 
 For example:  
@@ -100,21 +100,20 @@ Groups must be created one a time. During setup, you'll select to create a group
     b. Students: If you select Students, a location and identification rule appears. Create a rule to automatically assign students that go to a specific school in your tenant. Then select to group students by grade or graduation year. After you input all fields, a preview of members will populate at the bottom of the page.
 5. At the bottom of the page, click **Create group**.
 
-### Create a subgroup  
-Groups are set up in Intune as hierarchies. The parent group is the top of the hierarchy, and [any settings applied to this group are inherited by the groups under it](settings-inheritance.md). *This concept is known as settings inheritance*.  Setting inheritance makes it easier to apply settings to a large group of users and devices. 
+## Create a subgroup  
+Groups are set up in Intune as hierarchies. The parent group is the top of the hierarchy, and [any settings applied to this group are inherited by the groups under it](settings-inheritance.md). This concept is known as *settings inheritance*.  Setting inheritance makes it easier to apply settings to a large group of users and devices. 
 
 Subgroups can only be created *under* assigned groups. 
 
  ![The create subgroup page, with the two locations for subgroup creation — at the top of the group name and the sidebar — encircled in red](./media/groups-007-create-subgroup.png)
 
-1. Go to Groups and select a group. This group will be a top level to your subgroup.
-2. From the righ-side of the page, click **Create sub group**.
+1. Go to **Groups** and choose a group. This group will be the parent to your subgroup.
+2. On the right-side of the blade, click **Create sub group**.
 3. Enter the **Group name**. 
-4. Select your group type. For more details about group types, see the steps for *Create a group**.
-5. Click **Create group**.
+4. Select your group type. For more details about group types, see the steps for [Create a group](what-are-groups.md#create-a-group) above.
+5. Click **Create group**.  
 
- You can also [delegate permissions](group-admin-delegate.md#how-do-i-assign-admin-groups) that allow admin groups to manage subgroups.
-
-## Find out more  
+## Next steps 
+[Delegate permission](group-admin-delegate.md#how-do-i-assign-admin-groups) to allow admin groups to manage parent level groups and subgroups. 
 
 - [Find out more about the full groups management experience in Intune](https://docs.microsoft.com/intune/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune)

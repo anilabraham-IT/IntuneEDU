@@ -31,24 +31,24 @@ searchScope:
 
 # Windows 10 device settings in Intune for Education
 
-Apply settings to groups to establish access and security boundaries on your Windows 10 devices. With Intune for EDU, you can apply device and user settings uniformly, to many or all groups; or you can customize classroom experiences and apply settings per group.
+This article lists and describes all Windows device settings in Intune for Education. To view and edit these settings in the portal, click **Group** >**Settings** > **Windows Device Settings**.  
 
-Many settings in EDU are configured to **Block** or **Allow** actions. For some settings, **Not configured** is an option. When switched to **Not Configured**, the device will either:
+
+  ![The settings page for a group](./media/settings-001-list-of-settings.png)   
+
+## Apply settings  
+Apply [group settings](what-are-groups.md) to establish access and security boundaries on devices throughout your school. You can assign the same settings across all groups in your school; or you can customize the classroom experience and apply settings to individual groups.
+
+## Configuration options  
+Many settings in Intune for Educations are configured to **Block** or **Allow**. For some settings, **Not configured** is an option. When toggled to **Not Configured**, the device will either:  
 * Use the default setting. 
-* Allow the device user (student or teacher) to customize the setting from their device.
-
-
-  ![The settings page for a group](./media/settings-001-list-of-settings.png)
-
-Much of the information in the **What it does** column can also be found in the Intune for Education console; this format is designed to make it easier for you to search through the settings for specific items.
+* Allow the device user (student or teacher) to customize the setting from their device.    
 
 > [!NOTE]
 > User, app, and device settings differ from [tenant settings](intune-education-tenant-overview.md). Tenant settings address the subscription and management settings for your organization.
 
-## Windows Device Settings
-This section describes the function of each Windows device setting. To view the settings in the portal, go to the dashboard and click **Group** >**Settings** > **Windows Device Settings**. 
 
-### Basic device settings  
+## Basic device settings  
 |Setting|What it does|
 |---|---|
 |Block manual unenrollment|Block users from manually unenrolling devices from management.|
@@ -69,7 +69,7 @@ This section describes the function of each Windows device setting. To view the 
 |Block Windows Spotlight|Block all Windows Spotlight features on these devices.|
 |Location services|Block apps from using location services to access the device’s location.|
 
-#### Additional information about removing built-in apps
+### Removing built-in apps
 
 This setting is automatically turned on when the "Optimize devices for shared use" setting is turned on. The following apps are fully removed from your users' computers when this setting is turned on:
 
@@ -107,17 +107,13 @@ This setting is automatically turned on when the "Optimize devices for shared us
 |Block developer tools|Block users from accessing developer tools.|
 |Block access to about:flags page|Block access to the about:flags page, which contains experimental settings and features.|
 |Require intranet sites to be viewed in Internet Explorer|If set to “Block”, internal traffic is sent to Edge instead of Internet Explorer.|
-|Sync Microsoft Edge favorites with Internet Explorer|Sync all favorites added to Edge to Internet Explorer.|
+|Sync Microsoft Edge favorites with Internet Explorer|Sync all favorites added to Edge to Internet Explorer.|  
 
 
 ## Windows Defender settings
 
 > [!NOTE]
-<<<<<<< HEAD
-> Certain Windows Defender settings are available at only the [tenant](what-are-tenants.md) level. //lenewsad Is this true? How can these be changed?
-=======
-> Certain Windows Defender settings are available at the [tenant](intune-education-tenant-overview.md) level.
->>>>>>> 6c9332c6e776723c9ff0a68e2bc96f5edacc224a
+> Some Windows Defender settings are available only at the [tenant](intune-education-tenant-overview.md) level and are not shown in the portal.  
 
 |Setting|What it does|
 |---|---|
@@ -139,13 +135,12 @@ This setting is automatically turned on when the "Optimize devices for shared us
 |Set update frequency|Define how frequently Defender checks for and downloads anti-malware updates.|
 |Potentially Unwanted Applications protection|Defender alerts the user and blocks potentially unwanted software that attempts to install itself on devices.|
 |Enable cloud-based protection|Get real-time protection when Defender sends info to Microsoft about potential security threats. This feature works best with “Prompt users for sample submission” set to automatically send samples.|
-|Block suspicious files|If this setting is on, Windows Defender Antivirus will be more aggressive when identifying suspicious files to block and scan; otherwise, it will be less aggressive and therefore block and scan with less frequency. You can select **Default**, **High**, **High+**, and **Zero Tolerance**. **High** aggressively blocks unknown files while minimizing impact to impacting the device performance. **High+** aggressively blocks unknown files, but may negatively impact device performance. **Zero tolerance** blocks all unknown files from running.|
+|Block suspicious files|If this setting is configured, Windows Defender Antivirus will be more aggressive about identifying suspicious files to block and scan. When not configured,it will block and scan with less frequency. You can select **Not configured**, **High**, **High plus**, and **Zero tolerance**. **High** aggressively blocks unknown files while minimizing impact to device performance. **High plus** aggressively blocks unknown files, but may negatively impact device performance. **Zero tolerance** blocks all unknown files from running.|
 |Actions on detected malware threats|Windows Defender automatically quarantines detected malware.|
 |Enable Network Inspection Service|Helps protect devices against network-based exploits by using the signatures of known vulnerabilities from the Microsoft Endpoint Protection Center to help detect and block malicious traffic.|
 |Exclude files with these extensions from scans and real-time protection|Define the types of files that you want users to be able to access without scanning for security threats.|
 |Exclude processes from scans and real-time protection|Define the types of processes that you want users to be able to run without scanning for security threats.
-|Exclude directories with these extensions from scans and real-time protection|Define the file locations that you want users to be able to access without scanning for security threats.|
-
+|Exclude directories with these extensions from scans and real-time protection|Define the file locations that you want users to be able to access without scanning for security threats.|  
 
 ## Wireless settings
 
@@ -184,17 +179,18 @@ A list of Wi-Fi profiles that you create appear within this section. Details vis
 |Block fast user switching|Allow users to quickly switch between user accounts from the Start menu.|
 
 
-## App settings
+## Microsoft Store settings
 
 |Setting|What it does|
 |---|---|
 |Block installing apps from the Microsoft Store for Education|Block users from installing apps from unauthorized locations.|
+|Block access to administrative apps|Blocks students from opening apps that require administrative privileges.|
 |Require Microsoft Store for Education apps to be installed from the private store|Only allow users to install apps from the Microsoft Store for Education that your organization has set up.|
-|Trusted apps|Define whether users can install trusted apps signed by Microsoft.|
-|Untrusted apps|Define whether users can install unsigned apps or apps signed by external sources that are not trusted by Microsoft.|
-|Block users from installing apps from places other than the Microsoft Store for Education|Block users from installing apps from unauthorized locations.
+|Trusted apps|Allow or block users from installing trusted apps that have a signed certificate from Microsoft.|
+|Untrusted apps|Allow or block users from installing unsigned apps or apps with certificates signed by external sources that are not trusted by Microsoft.|
+|Block users from installing apps from places other than the Microsoft Store for Education|Block users from installing apps from other sources and app stores.
 |Block automatic app updates|Block Microsoft Store for Education apps from being updated automatically.|
-|Shared app data between users|Allow multiple users of shared devices to share app data.|
+|Shared app data between users|Enable students on shared devices to share app data.|
 
 ## Sign-in settings
 
@@ -204,7 +200,7 @@ A list of Wi-Fi profiles that you create appear within this section. Details vis
 |Block adding new non-Microsoft accounts|Block users from adding any account other than their Microsoft account. Use this setting if you want to force users to only use their Microsoft accounts for email.|
 
 
-## Windows interface customizations
+## Windows interface settings
 
 |Setting|What it does|
 |---|---|
@@ -254,15 +250,24 @@ A list of Wi-Fi profiles that you create appear within this section. Details vis
 |Delivery optimization mode|Define how updates are delivered to devices.|
 
 
-## SmartScreen settings //lenewsad lots of repetitive text here. Can we check these? Unable to see these in portal.
+## Printer settings
 
-|Block users from overriding SmartScreen|Block users from ignoring warnings about websites blocked by the SmartScreen Filter.|
-|SmartScreen override for files|Block users from ignoring SmartScreen Filter warnings about downloading unverified files.|
-|SmartScreen for apps and files|Configures SmartScreen to check downloaded apps and files for malicious software.|
-|Block users from dismissing SmartScreen warnings|Blocks users from clicking out of SmartScreen Filter warning messages on their devices. 
+|Setting|What it does|
+|---|---|
+|Block adding new printers|Block group from connecting new printers to their devices.|
+|Printer list|Add the network location for each school printer you want to make available.| 
+|Specify default printer|Enter the printer from your **Printer list** that is to be made available on devices by default.| 
+
+## SmartScreen settings  
+|Setting|What it does|
+|---|---|
+|Block users from overriding SmartScreen|Block users from ignoring and accessing websites blocked by the SmartScreen Filter.|
+|SmartScreen override for files|Block users from ignoring and downloading unverified files that SmartScreen Filter warns about.||
+|SmartScreen for apps and files|Enables SmartScreen to protect devices by checking for unrecognized apps and files from the web|
+|Block users from dismissing SmartScreen warnings|Blocks students from dismissing SmartScreen warnings about potentially malicious files and apps.
 
 
-## Email settings
+## Configure email settings
 
 |Setting|What it does|
 |---|---|
@@ -271,18 +276,18 @@ A list of Wi-Fi profiles that you create appear within this section. Details vis
 |Email server|Enter the name of the server that hosts your email.|
 |Username|Choose the attribute that Intune uses from Azure Active Directory when applying user name settings to email profiles.|
 |Email address|Choose the attribute that Intune uses from Azure Active Directory when applying email address settings to email profiles.|
-|Length of time to store email on devices|Choose how long to store email on devices.|
-|Interval to sync email|Choose how much time passes between email syncs.|
+|Length of time to store email on devices|Choose how long to store email on devices before emails are deleted.|
+|Interval to sync email|Choose how often you want to sync email messages.|
 |Contacts|Sync contact information.|
 |Calendar|Sync calendar information.|
 |Tasks|Sync task information.|
-|SSL|Use Secure Sockets Layer (SSL) when sending emails for additional security.|
+|SSL|Enable Secure Sockets Layer (SSL) when sending emails for additional security.|
 
 
-## Edition upgrade
+## Configure edition upgrade
 
-These settings are used to upgrade the devices in this group to a different Edition of Windows. Select the **Edition to upgrade to** and provide your **Product key**.
+Select to upgrade the devices in this group to a different edition of Windows 10. Select the **Edition to upgrade to** and enter the **Product key**.
 
-## Find out more
+## Next steps
 
 - [Find out more about the full Windows 10 settings management experience available in Intune](https://docs.microsoft.com/intune/deploy-use/windows-10-policy-settings-in-microsoft-intune)
