@@ -38,7 +38,7 @@ This article describes how to:
 
 Students use the credentials you provide for them to sign in to the test profile. Then they click the assessment URL to launch the test. 
 
-## Features
+## Take a Test features
 When a student launches a test, their desktop disables and the Take a Test app opens in a new window. Take a Test clears the system's clipboard so that students cannot copy and paste content.
 
 While a test is active, test takers cannot:
@@ -53,7 +53,7 @@ While a test is active, test takers cannot:
 * Use Cortana
 * Share, print, or record device screens, unless allowed by school or IT administrator
 
-### Assistive technology still functional
+### How is assistive technology affected?
 Some device features--such as narrator--and other assistive technology are still fully functional while taking a test. For a list of functional features see [Take a Test app technical reference](https://docs.microsoft.com/en-us/education/windows/take-a-test-app-technical).
 
 
@@ -63,30 +63,36 @@ Some device features--such as narrator--and other assistive technology are still
 ## Take a Test profile setup
 Set up a profile in Intune for Education. Before you begin, we recommend that you create a dedicated user account meant solely for assessments. Users will sign in to this account to access tests.
 
-1. From the left panel of the page, click Take a Test profiles. ![List of options in the sidebar](./media/dashboard-002-left-sidebar-list.png)
+1. From Intune for Education dashboard, click **Take a Test profiles**.  
+![List of options in the sidebar](./media/dashboard-002-left-sidebar-list.png)
 2.  Click Add Take a Test profile.
  ![Select Add a Take A Test profile button in the left hand side](./media/takeatest-001-new-profile.png)
 3. Enter a descriptive name for the test.
-4. Enter the Assessment URL (Where are they getting assessment URLS?).
+4 Enter the Assessment URL (Where are they getting assessment URLS?).
  ![Take a test profile window](./media/takeatest-002-new-profile-edit-window.png)
 5. Configure the remaining test settings:
     a. Allow screen capture
     b. Require PCs to have a printer installed
     c. Allow text suggestions
-6. Select an account from your list of existing users. Students will use the account's username and password to sign in to the appropriate assessment.
+6 Select an account from your list of existing users. Students will use the account's username and password to sign in to the appropriate assessment.
 
 To view the details of any profile, select it from the left side of the page. Then click the **Account** tab.  
 
 ## Assign or change groups
 Assign groups of students that require access to the test profile. Follow these steps to make edits to group assignments too.
-1. From the Take a Test profiles page, click the Groups tab. 
+1. From the Take a Test profiles page, click the **Groups** tab. 
 2. Click **Change group assignments**. 
 3. Select one or more groups from the **All Groups** menu. Then click **Add Groups**. 
 4. To immediately remove a group, select the group from the **Groups assigned** menu. Then click **Remove Groups**.
 5. Click **Ok** to submit your changes.
 
 ## Delete Take a Test profile  
-When you delete a Take a Test profile, the account with the assessment becomes a typical user account. Students are still able to sign in to the account with its existing credentials, but the URL assessment link is removed from the account.
+When you delete a Take a Test profile, the account with the assessment becomes a typical user account. Students are still able to sign in to the account with its existing credentials, but the URL assessment link is removed from the account. Signing into the account will also no longer lock student devices.
+
+1. From the **Take a Test profiles** page, choose the profile you want to delete.
+2. Click **Delete Take a Test profile**.
+3. Click **Delete** to confirm your action.
+
 
 
 - To find out more about Take a Test on your devices, see [Take a Test in Windows 10](https://technet.microsoft.com/edu/windows/take-tests-in-windows-10).

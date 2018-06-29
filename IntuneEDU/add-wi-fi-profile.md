@@ -31,37 +31,47 @@ searchScope:
 
 # Add a Wi-Fi Profile
 
-Wi-Fi profiles contain the network settings that are necessary to connect to a network. When a profile is assigned to a user or device group, the group is able to access your school's network without further configurations. 
+A Wi-Fi profile contains the network settings need to connect devices to a network. When you assign the proile to a user or device group, the group can automatically access your school's network on their devices. Profiles eliminate the need for the device user to manually connect to a network.
 
-This article describes how to configure a profile for Windows 10 and iOS devices.
+This article describes how to configure profiles for Windows 10 and iOS devices.
 
 ## Supported device platforms
-Wi-Fi profiles are supported on Windows 10 devices and iOS devices purchased through Apple DEP.   
+Wi-Fi profiles are supported on Windows 10 devices, and on iOS devices purchased through Apple DEP. 
 
 ## Configure your profile
+Windows 10 and iOS Wi-Fi configurations vary slightly. Because of the variation, you must create an individual Wi-Fi profile for your school's Windows 10 devices, and an individual one for your school's iOS devices.
 1. Sign in to Intune for Education > **Wi-Fi profiles**.
-2. Select the device platform you are configuring a profile for.
-    a. If you are creating a profile for a Windows device, click **Add Windows 10 Wi-Fi profile**. 
+2. Select the device platform you are configuring a profile for.  
+    a. If you are creating a profile for a Windows device, click **Add Windows 10 Wi-Fi profile**.   
     b. If you are creating a profile for an iOS device, click **Add iOS Wi-Fi profile**. 
-3. Enter the details of your school's wireless network. The table below lists each setting, a description, and the device platform it is applicable to. Settings vary between Windows 10 and iOS devices.
+3. Enter the details of your school's wireless network. Use the tables below to help you as you fill out these settings. Settings differ between device platforms so make sure you look at the table appropriate for you device.
 4. When you are done, click **Save**.
 
+### Wi-Fi settings for Windows 10 devices
+|Setting |Description  |
+|---------|---------|
+|Profile name    |  Enter a unique name for your profile.| 
+|Network name (SSID)    |  Enter a display name for your wireless connection. People will see this name when they browse the list of available networks from their device.  |
+|Security type   |  Select the security protocol to use to authenticate to the Wi-Fi network. Intune for Education supports WPA2-Personal and Open. Select Open if you require no password to access your school's network. This type of network is unsecured, meaning anyone can access it.| 
+|Password    |  Enter the password for your Wi-Fi network. Password must be 8-63 characters long. | 
+|Confirm password| Re-enter the password for your Wi-Fi network.|
+|Description| Briefly describe who the network is for or how it will be used.|  
 
-|Setting |Description  |Applicable to what devices|
-|---------|---------|---------|
-|Profile name    |  Enter a unique name for your profile.       |  Windows 10, iOS       |
-|Network name (SSID)    |  Enter a display name for your wireless connection. People will see this name when they browse the list of available networks from their device.        |Windows 10, iOS        |
-|Security type   |  Select the security protocol to use to authenticate to the Wi-Fi network. Intune for Education supports WPA2-Personal and Open. Select Open if you require no password to access your school's network. This type of network is unsecured, meaning anyone can access it.       |  Windows 10, iOS       |
-|Password    |  Enter the password for your Wi-Fi network.       |  Windows 10, iOS       |
-|Connect automatically   |  If enabled, when a device is within range of the network, it will automatically connect. If not enabled, your students or teachers must manually select the network from the list of available networks.       | Windows 10, iOS        |
-|Make a hidden network   | If enabled, your network will not be appear to users in the list of available networks.        | Windows 10, iOS        |
-|Proxy settings   |  Select if you want to manually configure your proxy settings or if you want to enable a proxy script to automatically detect settings.     |  iOS only      |
-|Proxy server address   | Type in the IP address of the proxy.       |  iOS only       |
-|Proxy server URL  | Type in the server URL for the proxy server.        |  iOS only       |
-|Port number  | Type in the computer port number where the proxy is located.    |  iOS only       |
-
-//lenewsad Could not verify the settings name for address and URL. Are they correct?
-
+### Wi-Fi settings for iOS devices
+|Setting |Description  |
+|---------|---------|
+|Profile name    |  Enter a unique name for your profile.       | 
+|Network name (SSID)    |  Enter a display name for your wireless connection. People will see this name when they browse the list of available networks from their device.        |
+|Security type   |  Select the security protocol to use to authenticate to the Wi-Fi network. Intune for Education supports WPA2-Personal and Open. Select Open if you require no password to access your school's network. This type of network is unsecured, meaning anyone can access it.       |  
+|Password    |  Enter the password for your Wi-Fi network. Password must be 8-63 characters long. | 
+|Confirm password| Re-enter the password for your Wi-Fi network.|
+|Connect automatically   |  If enabled, assigned devices within range of the network will automatically connect. If not enabled, your students or teachers must manually select the network from the list of available networks.       | 
+|Make a hidden network   | If enabled, your network will not appear to users in the list of available networks. They will have to manually type in the network name (SSID) to connect to it.       | 
+|Configure proxy settings| Enable to configure proxy settings for your school's network.|
+|Proxy settings   |  Select if you want to manually configure your proxy settings or if you want to enable a proxy script to automatically detect settings.     | 
+|Proxy server address   | Type in the IP address of the proxy server. Not applicable if you selected to automatically detect proxy settings.      |
+|Port number  | Type in the virtual port number where the proxy is located.    | 
+|Proxy server URL  | Type in the server URL you want to use to automatically connect to the proxy server. Not applicable if you selected to manually configure proxy settings.       |   
 
 ## Assign profile to groups
 2. Click the **Groups** tab.
@@ -72,5 +82,5 @@ Wi-Fi profiles are supported on Windows 10 devices and iOS devices purchased thr
 7. Click Wi-FI profiles and select a profile to assign in to the group. Deselect a profile to remove its assignment to the group.
 8. Click **Save**.
 
-## Find out more
+## Next steps
 - [Find out more about the full groups management experience in Intune](https://docs.microsoft.com/intune/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune)
