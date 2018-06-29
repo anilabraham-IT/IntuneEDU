@@ -43,12 +43,18 @@ Subgroups can be configured individually, even if they are inheriting settings f
 
 ## Settings in conflict
 
-When multiple settings have been applied to the same group, each setting is analyzed individually by Intune for Education. Settings that force users to take action to make their devices comply with your settings will always take precedence over other settings.
+When multiple settings are applied to the same group, each setting is analyzed individually by Intune for Education. Settings that you apply to your parent groups may directly contradict settings that you apply to your subgroups. When this happens, Intune for Education always enforces the settings that require users to comply with your school's settings.  
 
-Consider a subgroup, *Twelfth Grade AP Computer Science*, to the group *Twelfth Grade*. You know that the AP computer science class will need to download some JavaScript files that do not need security scanning, but you want to make sure that the whole grade does not try to do the same. If you do not override settings inheritance, the more restrictive *Twelfth Grade* setting will be applied to the users in *Twelfth Grade AP Computer Science*.
+### Example of inheritance conflict  
+
+As an example, consider the subgroup, *12th Grade AP Computer Science*. The subgroup falls under the parent group, *12th grade*. You assign a strict security scanning requirement to all files and apps downloaded devices in the *12th grade* group.
+
+However, you know that for an upcoming assignment, *12th Grade AP Computer Science* must download JavaScript files that do not need to be scanned. If you do not override settings inheritance, the more restrictive *Twelfth Grade* setting will be applied to the users in *Twelfth Grade AP Computer Science*.
+
+## Settings error report
 
 If a setting cannot be resolved, it will appear in the Settings error report. See [View and download reports](what-are-reports.md) for more information about reports in Intune for Education.
 
-## Find out more
+## Next steps
 
   - [Find out more about the full groups experience in Intune](https://docs.microsoft.com/intune/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune)

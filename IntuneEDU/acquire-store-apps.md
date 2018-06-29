@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Acquire Microsoft Store for Education apps
+title: How to Microsoft Store for Education apps
 titleSuffix: Intune for Education
 description: Learn how to purchase apps from the Microsoft Store for Education.
 keywords:
@@ -29,12 +29,14 @@ searchScope:
 
 ---
 
-# How do I acquire apps from the Microsoft Store for Education?
+# Get apps from the Microsoft Store for Education
 
-Apps that you've acquired from the Microsoft Store for Education are automatically available in Intune for Education. This makes it easy for you to access hundreds of thousands of apps for your Windows 10 devices.
+View and distribute apps that you've purchased from the Microsoft Store for Education. To manage your Store apps from the Intune for Education portal, make sure that [you've associated your Intune for Education account with your Store account](https://docs.microsoft.com/en-us/education/get-started/configure-microsoft-store-for-education).  
 
-Learn how to acquire these apps in the [Microsoft Store](https://docs.microsoft.com/microsoft-store/acquire-apps-windows-store-for-business#acquire-apps) documentation.
+After you're set up, visit the Microsoft Store documentation to learn [how to acquire Store apps] for your school.
 
-## Find out more
+From there, all apps that you purchase from the store will atomatically appear in your Intune for Education inventory.  
+
+## Next steps
 
 - [Find out more about the full experience acquiring Store apps using Intune](https://docs.microsoft.com/intune/deploy-use/manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune)

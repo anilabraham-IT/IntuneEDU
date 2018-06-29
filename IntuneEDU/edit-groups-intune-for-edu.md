@@ -45,7 +45,7 @@ Change the name of an existing group.
 3. Enter a new name in **Group name**.
 4. Click **OK**.
 
-## Manually assign members  
+## Manually assign members to groups 
 Follow this procedure to add or remove users and devices to an existing assigned group.
 
 If you add or remove a member of a group, the member, whether it is a device or user, may experience a change in access or permissions.
@@ -53,31 +53,31 @@ If you add or remove a member of a group, the member, whether it is a device or 
 The instructions below detail how to edit *user* membership. These steps can also be followed to edit membership for device groups.
 
 1. Go to **Groups** and select the group you want to assign users to. 
-2. Click *Edit user membership**.
-3. To assign users:
-    a. Select one or more members of **All other users**. 
-    b. Click **Add users**. 
-4. To unassign users  
-    a. Select one or more members of **Users in group**.
+2. Click **Edit user membership**.
+3. To assign users:  
+    a. Select one or more members of **All other users**.  
+    b. Click **Add users**.  
+4. To unassign users:    
+    a. Select one or more members of **Users in group**.  
     b. Click **Remove users**.
 5. Click **OK**.
 
 ![Editing devices in a group](./media/groups-008-edit-group-membership.png)
 
 
-## Edit group rules  
+## Edit dynamic group rules  
 Adjust dynamic group rules to accommodate new devices, locations, or school years.
 
 Editing existing rules may remove devices or users who were previously members of the group. Edits may cause them to experience a change in permissions or access. 
 
 1. Go to **Groups** and select the group you want to edit.
-2. Click *Edit group rules**.
+2. Click **Edit group rules**.
 3. Make changes to the rules. 
 4. Click **Save changes**.  
 
 ## Move a group  
 
-Move a group up or down within your existing group list in Intune for Education. If you distribute settings differently throughout your group list, moving a group higher or lower on the list changes its scope of settings.
+Move a group up or down within your existing group list. If you distribute settings differently throughout your group list, moving a group higher or lower on the list changes its scope of settings.
 
 Generally, the higher the position of the group, such as at parent level, the broader its settings.
 
@@ -88,6 +88,6 @@ Generally, the higher the position of the group, such as at parent level, the br
 4. Select or search for the location where you want to move the group. 
 5.	Click **OK**.
 
-## Find out more  
+## Next steps
 
 - [Find out more about the full groups management experience in Intune](https://docs.microsoft.com/intune/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune)

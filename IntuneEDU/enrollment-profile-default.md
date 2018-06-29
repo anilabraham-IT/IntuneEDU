@@ -1,9 +1,9 @@
 ---
 # required metadata
 
-title: Default enrollment profile settings
+title: iOS device enrollment profile settings
 titleSuffix: Intune for Education
-description: Describes the default settings for devices during initial startup
+description: Describes the default settings applied to iOS devices during initial startup
 keywords:
 author: lenewsad
 ms.author: lanewsad
@@ -28,43 +28,36 @@ searchScope:
 #ms.custom: intune-education
 
 ---
-# Enrollment profile default settings
+# iOS device enrollment profile settings
 
-After you sync your devices from Apple School Manager, Intune for Education creates and assigns each one a school-optimized enrollment profile. The enrollment profile is pre-configured to tell the device how to set itself up and enroll in management. Little to no work is required from you to enroll your device. 
+After you sync your devices from Apple School Manager, Intune for Education creates and assigns each device a school-optimized enrollment profile. The enrollment profile is pre-configured to tell the device how to set itself up and enroll in management. Nearly no work is required from you to enroll your device. 
 
-The first time that you turn on your device, Intune for Education and Setup Assistant will configure the following settings to prepare your device for school use.   
+## What is Setup Assistant?
+The first time that you turn on your device, Intune for Education initiates the iOS out-of-the-box experience, called Setup Assistant. Setup Assistant walks you through a series of screens and prepares your device for school use.   
 
-## Tenant settings
-|Setting|Default enrollment configuration|
-|---|---|
-|Supervised mode|Enabled|
-|Locked to tenant||
-|Shared iPad|Not configured|
-|Device-to-device pairing|No|
-|Department Name|Tenant name|
-|Phone|IT contact number in tenant settings|
-|Email|IT contact address in tenant settings|  
+## List of preconfigured settings
+During initial device setup, devices enroll with the following configurations:
 
-## Setup Assistant settings
-|Setting|Default enrollment configuration|
-|---|---|
-|Passcode|Show|
-|Location services|Hide|
-|Restore|Hide|
-|Apple ID|Hide|
-|Terms and Conditions|Show|
-|Touch ID|Hide|
-|Apple Pay|Hide|
-|Zoom|Hide|
-|Siri|Hide|
-|Diagnostic Data|Hide|
-|Home Button|Show|
-|Android Migration|Hide|
-|Display Tone|Show|
-|Keyboard|Show|
-|Onboarding|Hide|   
-|Watch Migration|Hide|
-|Privacy|Skip|
+* No user affinity
+* Supervised mode enabled
+* Blocked from syncing or pairing with other devices
+* Locked enrollment, meaning users cannot change management settings on their devices
+
+
+The following Setup Assistant settings are hidden during enrollment:
+* Passcode setup
+* Location Services
+* Device restore
+* iCloud & Apple ID
+* Touch ID setup
+* Apple Pay setup
+* Display Zoom options
+* Siri setup
+* Diagnostics Data options
+
+The following Setup Assistant setting is shown during enrollment:
+* Terms and Conditions
+
 
 
 

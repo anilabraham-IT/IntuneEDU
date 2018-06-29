@@ -47,6 +47,6 @@ Intune for Education lets your pick from a subset of the dynamic attributes avai
 
 Intune for Education is designed to be an easy way to manage devices in your schools. It uses [Intune in the Azure portal](https://docs.microsoft.com/intune/what-is-intune), an enterprise product, to manage apps and groups. Certain admins in your organization have permission to use both Intune in the Azure portal and Intune for Education to create special groups. If you can't edit a group, it's likely that it was created in Intune in the Azure portal, and you don't have permissions to modify the group.
 
-## Find out more
+## Next steps
 
 - [Find out more about the full groups management experience in Intune](https://docs.microsoft.com/intune/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune)
