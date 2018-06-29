@@ -31,21 +31,22 @@ searchScope:
 
 # Windows 10 device settings in Intune for Education
 
-Apply settings to groups to establish access and security boundaries on your Windows 10 devices. With Intune for EDU, you can apply device and user settings uniformly, to many or all groups; or you can customize classroom experiences and apply settings per group.
+This article lists and describes all Windows device settings in Intune for Education. To view and edit these settings in the portal, click **Group** >**Settings** > **Windows Device Settings**.  
 
-Many settings in EDU are configured to **Block** or **Allow** actions. For some settings, **Not configured** is an option. When switched to **Not Configured**, the device will either:
+
+  ![The settings page for a group](./media/settings-001-list-of-settings.png)   
+
+## Apply settings  
+Apply [group settings](what-are-groups.md) to establish access and security boundaries on devices throughout your school. You can assign the same settings across all groups in your school; or you can customize the classroom experience and apply settings to individual groups.
+
+## Configuration options  
+Many settings in Intune for Educations are configured to **Block** or **Allow**. For some settings, **Not configured** is an option. When toggled to **Not Configured**, the device will either:  
 * Use the default setting. 
-* Allow the device user (student or teacher) to customize the setting from their device.
-
-
-  ![The settings page for a group](./media/settings-001-list-of-settings.png)
-
-Much of the information in the **What it does** column can also be found in the Intune for Education console; this format is designed to make it easier for you to search through the settings for specific items.
+* Allow the device user (student or teacher) to customize the setting from their device.    
 
 > [!NOTE]
 > User, app, and device settings differ from [tenant settings](intune-education-tenant-overview.md). Tenant settings address the subscription and management settings for your organization.
 
-This article lists all Windows device settings in Intune for Education, and a description for each setting. To view these settings in the portal, click **Group** >**Settings** > **Windows Device Settings**. 
 
 ## Basic device settings  
 |Setting|What it does|

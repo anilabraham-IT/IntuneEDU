@@ -42,8 +42,8 @@ Apply [group settings](what-are-groups.md) to establish access and security boun
 
 ## Configuration options
 Many settings in Intune for Educations are configured to **Block** or **Allow**. For some settings, **Not configured** is an option. When toggled to **Not Configured**, the device will either:  
-* Use the default setting 
-* Allow the device user (student or teacher) to customize the setting from their device  
+* Use the default setting. 
+* Allow the device user (student or teacher) to customize the setting from their device.  
 
 > [!NOTE]
 > User, app, and device settings differ from [tenant settings](edu-tenant-general-settings.md). Tenant settings target the subscription and management settings at the organization's administrative level.
