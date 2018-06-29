@@ -33,9 +33,8 @@ searchScope:
 
 This article lists and describes all iOS device settings in Intune for Education. To view and edit these settings in the portal, click **Group** >**Settings** > **iOS Device Settings**.   
 
-## Cannot see or use iOS options in Intune for Education  
-
-If you find that the iOS dropdown is not visible or if it is disabled, [set up iOS device management](setup-ios-device-management.md). After setup is complete, all iOS controls will become enabled.
+> [!IMPORTANT]
+> Can't see any iOS settings? If you find that the iOS dropdown is not visible or if it is disabled, [set up iOS device management](setup-ios-device-management.md). After setup is complete, all iOS controls will become enabled.
 
 ## Apply settings to groups  
 Apply [group settings](what-are-groups.md) to establish access and security boundaries on devices throughout your school. You can assign the same settings across all groups in your school; or you can customize the classroom experience and apply settings to individual groups.
