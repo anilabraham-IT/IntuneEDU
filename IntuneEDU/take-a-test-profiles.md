@@ -7,8 +7,8 @@ description: Learn how to use Take A Test profiles to make it easy to administer
 keywords:
 author: lenewsad
 ms.author: lanewsad
-manager: angrobe
-ms.date: 01/17/2018
+manager: dougeby
+ms.date: 06/29/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -45,7 +45,7 @@ While a test is active, test takers cannot:
 
 * Visit other websites
 * Open or access other apps 
-* Change settings 
+* Change settings
 * Extend the display  
 * See notifications
 * Receive app and OS updates
@@ -83,7 +83,7 @@ Assign groups of students that require access to the test profile. Follow these 
 1. From the Take a Test profiles page, click the **Groups** tab. 
 2. Click **Change group assignments**. 
 3. Select one or more groups from the **All Groups** menu. Then click **Add Groups**. 
-4. To immediately remove a group, select the group from the **Groups assigned** menu. Then click **Remove Groups**.
+4. To remove a group from the assignment, select the group from the **Groups assigned** menu. Then click **Remove Groups**.
 5. Click **Ok** to submit your changes.
 
 ## Delete Take a Test profile  
