@@ -7,8 +7,8 @@ description: Learn more about the settings available for Intune for Education.
 keywords:
 author: lenewsad
 ms.author: lanewsad
-manager: angrobe
-ms.date: 02/20/2018
+manager: dougeby
+ms.date: 06/29/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -251,11 +251,12 @@ Any Wi-Fi profiles that you create appear here, along with the **Network name (S
 
 
 ## SmartScreen settings
-
-|Block users from overriding SmartScreen|Block users from ignoring warnings about websites blocked by the SmartScreen Filter.|
-|SmartScreen override for files|Block users from ignoring SmartScreen Filter warnings about downloading unverified files.|
-|SmartScreen for apps and files|<!--20180105 need explainer--->
-|Block users from dismissing SmartScreen warnings|
+|Setting|What it does|
+|---|---|
+|Block users from overriding SmartScreen|Block users from ignoring and accessing websites blocked by the SmartScreen Filter.|
+|SmartScreen override for files|Block users from ignoring and downloading unverified files that SmartScreen Filter warns about.|
+|SmartScreen for apps and files|Enables SmartScreen to protect devices by checking for unrecognized apps and files from the web.|
+|Block users from dismissing SmartScreen warnings|Blocks students from dismissing SmartScreen warnings about potentially malicious files and apps.
 
 
 ## Email settings
