@@ -3,7 +3,7 @@
 
 title: Add web apps to Intune for Education
 titleSuffix: Intune for Education
-description: Learn how to add new web apps to Intune for Education.
+description: Learn how to add new web apps to Intune for Education for Windows 10 and iOS devices.
 keywords:
 author: lenewsad
 ms.author: lanewsad
@@ -31,9 +31,9 @@ searchScope:
 
 # Add web apps to Intune for Education  
 
-Add web apps to your Intune for Education app list. After you've added the apps, you can [assign them to groups](install-apps.md) and install them on school devices. 
+Add web apps to your Intune for Education inventory. After you've added the apps, you can [assign them to groups](install-apps.md) and install them to your Windows 10 or iOS devices.
 
-A _web app_ is an app that students access in a browser, such as Microsoft Edge. Students open web apps through links that you send to their devices. LInks appear in the **Start** menu on their Windows 10 devices. //lenewsad Is this correct?  
+A _web app_ is an app that students access in a browser, such as Microsoft Edge or Safari. Students access web apps by clicking a link that you send to their devices. Links appear in the **Start** menu on their Windows 10 devices, and on the main app screen of their iOS devices. 
 
 1. Sign in to the Intune for Education portal.
 2. Click **Apps**.
@@ -48,6 +48,6 @@ A _web app_ is an app that students access in a browser, such as Microsoft Edge.
 5. Click **Save**. You app will appear in your app lists under ***WEB APPS**. You can edit app details at any time by clicking the app in your app list > **Edit**.
  
 
-## Find out more
+## Nest steps
 
 - [Find out more about the full experience managing apps using Intune](https://docs.microsoft.com/intune/deploy-use/add-apps)

@@ -7,8 +7,8 @@ description: Learn how to install Microsoft Office on Windows 10 devices.
 keywords:
 author: lenewsad
 ms.author: lanewsad
-manager: angrobe
-ms.date: 10/06/2017
+manager: dougeby
+ms.date: 06/29/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -31,11 +31,9 @@ searchScope:
 
 # Add Microsoft Office to Windows 10 devices
 
-Intune for Education lets you assign the Microsoft Office [web app](add-web-apps-edu.md) or [desktop app](add-desktop-apps-edu.md) to Windows 10 devices.
-
-During [Express Configuration](Express-configuration-intune-edu.md), the Office desktop apps are always available as a single app called "Office 365." If you select it, you will assign students desktop versions of Word, Excel, PowerPoint, OneNote, and Skype for Business.
-
-App assignment is made available through [Click-to-Run](https://technet.microsoft.com/library/jj219427.aspx), a Microsoft streaming technology that reduces the time required to install Office on your devices. 
+Assign the Microsoft Office [web app](add-web-apps-edu.md) or [desktop app](add-desktop-apps-edu.md) to Windows 10 devices in Intune for Education.    
+## Select during Express Configuration
+During [Express Configuration](Express-configuration-intune-edu.md), all Office desktop apps are available in a single app called "Office 365." Select it to assign students desktop versions of Word, Excel, PowerPoint, OneNote, and Skype for Business.  
 
 ## Office for Windows 10 S
 

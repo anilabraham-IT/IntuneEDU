@@ -30,17 +30,17 @@ searchScope:
 ---
 
 # Add free iOS apps to Intune for Education  
-From the Intune for Education portal you can search, add, and then assign free apps from the iOS App Store. This article describes how to add and delete these apps.  
+Search for and add free apps from the iOS App Store to your app inventory. This article describes how to purchase free iOS apps so that you can view and assign them in the Intune for Education portal.
  
-Instructions apply only to apps that are listed as **Free** in the App Store. To add a paid-for app, see the article, [Add VPP managed apps](add-vpp-apps-ios.md).
+Instructions apply only to apps that are listed as **Free** in the App Store. To add a paid-for app, see the article, [Add VPP-purchased iOS apps to Intune](add-vpp-apps-ios.md).
 
-## Set up VPP token
+## Recommendation: Set up VPP token
 
-You do not need a VPP token to install free apps, but it is recommended. A VPP token permits you to purchase all apps through the VPP store. Intune silently installs VPP-purchased apps on devices, and does not require an Apple login to authenticate.  
+You do not need a VPP token to install free apps, but we recommended it. A VPP token permits you to purchase all apps--free and paid--through the VPP store. Intune silently installs VPP-purchased apps on devices, and does not require an Apple login to authenticate.  
 
 If you choose not to use a VPP token to purchase your app, the device user will need to log in with an Apple ID to install the app.
 
-## Get free iOS apps  
+## Add new iOS app
 Complete the following steps to add an iOS app to Intune for Education.
 1. Sign in to the Intune for Education portal.
 2. Click **Apps**.
@@ -48,20 +48,12 @@ Complete the following steps to add an iOS app to Intune for Education.
 5. In the search box, type the full or partial name of an app.
 6. Select the app and click **Save** to add the app to your Intune inventory.
 
-### View app details  
+## View app details in Intune for Education
 Added apps appear in the app list, under **iOS store**. Click the app to view its:
 
 * **Overview**: Lists app name, publisher, and date you added it to Intune. Click the app name to see the app in iTunes.
 * **Groups**: Lists all groups that are assigned the app. Change group assignments here or go to the details page for a specific group.
-* **Install status**: Shows details about the app's installation, such as the device it was assigned to. The status also lists last check-in time and if the installation was a success, failure, or still-in-progress.
-
-## Delete iOS apps  
-Delete an iOS app from your Intune tenant. When you delete an app, it is removed from group assignments. To assign the app again, you will need to add it back to your Intune tenant through the App Store. (//lenewsad--does this uninstall the app from the devce? what do they need to do to remove it from the device?  follow-up)
-
-1. From the Intune for Education portal, click **Apps**.
-2. Go to the app list, and under **iOS Apps** click the app that you want to delete.
-3. Click **Delete App**.
-4. Click **Delete** to confirm your action.  
+* **Install status**: Shows details about the app's installation, such as the device it was assigned to. The status also lists last check-in time and if the installation was a success, failure, or still-in-progress.  
 
 ## Next steps
 - [Find out more about the full experience managing apps using Intune](https://docs.microsoft.com/intune/deploy-use/add-apps)

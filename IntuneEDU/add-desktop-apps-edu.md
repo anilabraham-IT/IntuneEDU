@@ -29,11 +29,11 @@ searchScope:
 
 ---
 
-# Add desktop apps to Intune for Education
+# Add desktop apps in Intune for Education
 
-Upload and add desktop apps to your Intune for Education app list. After you've added the apps, you can [assign them to groups](install-apps.md) and install them on school devices. 
+Upload and add desktop apps to your Intune for Education inventory. After you've added the apps, you can [assign them to groups](install-apps.md) and install them on your Windows 10 devices.  
 
-To complete these steps, you will need the installation file for the app that you want to add.
+To complete these steps, you will need the installation file for the app that you want to add.  
 
 1. Sign in to the Intune for Education portal.
 2. Click **Apps**.

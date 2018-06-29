@@ -34,8 +34,8 @@ searchScope:
 Devices are ready to power on and enroll in management after you:
 
 * Set up Intune for Education [with school information](what-is-school-data-sync.md) — such as student records, apps, and settings for devices.
-* Enable Intune for iOS device management by [setting up the Apple Push MDM certificate and Apple DEP tokens](setup-ios-device-management.md#add-an-MDM-push-certificate).
-* [Sync your Apple DEP tokens](setup-ios-device-management.md#Sync-managed-devices) with Intune for Education and see a list of ready-to-enroll devices.  
+* Enable Intune for iOS device management by [setting up the Apple Push MDM certificate and Apple DEP tokens](setup-ios-device-management.md#add-an-mdm-push-certificate).
+* [Sync your Apple DEP tokens](setup-ios-device-management.md#sync-managed-devices) with Intune for Education and see a list of ready-to-enroll devices.  
 
 > [!NOTE]
 > Make sure your devices are connected to the Internet and your account has enough Intune for Education device licenses to complete setup. Find out more about licensing in [Assign licenses to users](https://docs.microsoft.com/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-4).
@@ -59,7 +59,7 @@ These steps can be done by a delegated admin or [enrollment manager](add-enrollm
    [Address]**
 
 5. Agree to the **Terms and Conditions**. Then decide if you want to send diagnostic information to Apple.
-6. After you complete enrollment, you may receive a prompt to take more actions. Some of these steps might be entering your password for email access or setting up a passcode. //lenewsad What is involved?
+6. After you complete enrollment, you may receive a prompt to take more actions. Some of these steps might be entering your password for email access or setting up a passcode.
 
 ## Next steps
 - [Find out more about the **Set up School PCs** app](https://docs.microsoft.com/education/windows/use-set-up-school-pcs-app)
