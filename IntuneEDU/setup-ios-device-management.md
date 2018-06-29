@@ -90,7 +90,7 @@ Intune for Education creates and applies an iOS enrollment profile to each MDM s
 
 All iOS devices added to Intune for Education are set to supervised mode. As an admin, this allows you more control over your school's devices, such as being able to push new apps or app updates silently to a device. For a complete list of supervised-only settings, see the article, [Configurations requiring supervision](https://docs.microsoft.com/en-us/intune/device-restrictions-ios#configurations-requiring-supervision).  
 
-To see all of the enrollment settings Intune configures, see ([Enrollment profile default settings](enrollment-profile-default.md).
+For more details about enrollment profiles, view the [list of settings configured](how-do-i-add-devices-ios.md#list-of-preconfigured-settings) during enrollment.
 
 ### Sync managed devices
 Now that Intune for Education has permission to manage your iOS devices, sync with Apple to view a list of your managed devices.  

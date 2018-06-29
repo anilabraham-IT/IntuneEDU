@@ -15,7 +15,6 @@
 # Add iOS devices
 ## [Set up iOS device management](setup-ios-device-management.md)
 ## [Enroll iOS devices](how-do-I-add-devices-ios.md)
-## [About enrollment profile settings](enrollment-profile-default.md)
 # Manage groups
 ## [Create groups](what-are-groups.md)
 ## [Edit groups](edit-groups-intune-for-edu.md)

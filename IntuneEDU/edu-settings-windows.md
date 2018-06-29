@@ -106,14 +106,7 @@ This setting is automatically turned on when the "Optimize devices for shared us
 |Block developer tools|Block users from accessing developer tools.|
 |Block access to about:flags page|Block access to the about:flags page, which contains experimental settings and features.|
 |Require intranet sites to be viewed in Internet Explorer|If set to “Block”, internal traffic is sent to Edge instead of Internet Explorer.|
-|Sync Microsoft Edge favorites with Internet Explorer|Sync all favorites added to Edge to Internet Explorer.|
-
-## Microsoft Store settings
-
-|Setting|What it does|
-|---|---|
-|Configure homepages|Choose what homepages open every time someone begins a new session browsing with Microsoft Edge.|
-|Block address bar suggestions|Block Edge from suggesting possible search terms or previously visited websites as you type a URL or search term.|
+|Sync Microsoft Edge favorites with Internet Explorer|Sync all favorites added to Edge to Internet Explorer.|  
 
 
 ## Windows Defender settings
