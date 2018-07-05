@@ -1,14 +1,14 @@
 ---
 # required metadata
 
-title: How do I use remote actions?
+title: Remote device actions in Intune for Education
 titleSuffix: Intune for Education
-description: Learn how to use remote actions to make managing your devices easier.
+description: Learn how to use remote actions to troubleshoot and manage distant devices.
 keywords:
 author: lenewsad
 ms.author: lanewsad
-manager: angrobe
-ms.date: 01/22/2018
+manager: dougeby
+ms.date: 07/05/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -29,20 +29,27 @@ searchScope:
 
 ---
 
-# How do I use remote actions?
+# Manage devices remotely
 
-As an admin, you may need to help your users if they have issues with their devices. It can be easier to do this remotely, especially if you're in a different location than a device or its user. Intune for Education offers remote actions that you can take for both devices and users. First, select the device or user that you want to take action on. On the details pane, you will see buttons for the following actions:
+As an admin, you may need to help your users if they have issues with their devices. If you're in a different location than a device or its user, you can use remote actions to reach devices and users. 
 
-## Devices
+To begin, got to **Devices** or **Users**.
 
-- **Restart** the device
-- **Reset device** to factory settings
+## Windows 10 devices
+Select the device that you want to manage. At the bottom of the page, select any of the following actions:
+
+- **Restart**: Powers off the device and restarts it.
+- **Factory reset**: Powers off the device and resets it to its factory settings.
 - **Sync** device to get updated settings, app assignments, or group memberships. This can also help you if you're trying to troubleshoot why a device may be causing user issues.
 - **Remove from management** - Remove the device from Intune management without removing any personal data. It will no longer be able to access school resources. 
 
-## Users
+## Windows 10 students
 
 - **Reset password**
+
+## iOS devices
+
+## iOS students
 
 ## Find out more
 

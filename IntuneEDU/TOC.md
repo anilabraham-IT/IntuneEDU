@@ -40,6 +40,5 @@
 ## [Add Wi-Fi profiles](add-wi-fi-profile.md)
 ## [Add Take a Test profiles](take-a-test-profiles.md)  
 # Monitor and troubleshoot
-## [Manage Windows devices remotely](remote-actions.md)
-## Manage iOS devices remotely
+## [Manage devices with remote actions](edu-device-remote-actions.md)
 ## [View and download reports](what-are-reports.md)

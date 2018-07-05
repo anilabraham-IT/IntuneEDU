@@ -33,7 +33,7 @@ searchScope:
 Apple MDM push certificates, MDM server tokens, and VPP tokens expire 365 days after you create them. Intune for Education will alert you when a certificate or token is close to or past its expiration date. Make sure to renew them to maintain the connection between your Intune for Education account and Apple account.
 
 ## Renew Apple MDM push certificate
-The Apple MDM push certificate is valid for 365 days from the date you create it. Renew it annually to maintain iOS device management in Intune for Education. 
+ Renew your Apple MDM push certificate annually to maintain iOS device management in Intune for Education. 
 
 The MDM push certificate is associated with the Apple ID you used to create it. Renew the certificate with this same Apple ID.
 
@@ -47,11 +47,11 @@ The MDM push certificate is associated with the Apple ID you used to create it. 
 
 ## Renew MDM server token
 
-The MDM server token is valid 365 days from when you create it. Renew it annually to maintain an updated list of iOS devices in Intune for Education. 
+Renew the MDM server token annually to make sure that Intune for Education alway has an updated list of your iOS devices.
 
 The MDM server token is associated with the Apple ID you used to add the server. Renew the token with this same Apple ID. 
 
-1. On the iOS Device Management page, click the **DEP Tokens** tab.
+1. On the **iOS Device Management** page, click the **DEP Tokens** tab.
 2. Select the token that you want to renew.
 3. Click **Renew token**.
 4. Follow the instructions on the **MDM Server Token** page. You'll be required to visit Apple School Manager to generate a new MDM Server Token. Remember, sign in to Apple School Manager with the Apple ID you used to get your original token.
@@ -61,5 +61,19 @@ The MDM server token is associated with the Apple ID you used to add the server.
 
 
 ## Renew VPP token
+Renew your VPP tokens anually to make sure your VPP-purchased apps can be managed from Intune for Education.
+
+The VPP token is associated with the Apple ID you used to create it. Renew the token with this same Apple ID.  
+
+1. On the **iOS Device Management** page, click the **VPP Tokens** tab.
+2. Select the token that you want to renew.
+3. On the **VPP Token: Microsoft Intune** blade, click **Renew token**.
+4. Follow the instructions on the **VPP Token** page. You'll be required to visit Apple School Manager or legacy VPP website to get a new token. Remember, sign in to either website with the Apple ID you used to get your original token.
+5. Follow the steps on either site to create and download the token. Save the token to your local drive.
+6. Return to the Intune for Education portal. Enter the Apple ID that you used to sign in to Apple School Manager.
+7. Click the folder icon to browse your computer's files. Select the token file that you downloaded and saved earlier.
+8. Choose the location of your school's devices.
+9. If you don't want to enable automatic app updates, switch the setting to disable them. 
+10. Click **Save**.
 
 ## Next steps
