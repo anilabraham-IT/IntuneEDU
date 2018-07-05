@@ -29,7 +29,7 @@ searchScope:
 
 ---
 
-# Windows 10 device group presets in Intune for Education
+# All Devices group presets for Windows 10
 After you sign up for an account, Intune for Education pre-sets some of the settings in the All Devices group. These settings will help you get a head start at managing Windows 10 devices in the classroom. To adjust settings, go to the Intune for Education portal > **Groups** > **All Devices** > **Windows device settings**.  
 
 For a list and descriptions of all Windows 10 device settings, see [Windows 10 device settings](all-edu-settings-windows.md).  
@@ -37,8 +37,8 @@ For a list and descriptions of all Windows 10 device settings, see [Windows 10 d
 |Category|Setting|Preset value|
 |---|---|---|
 |Windows Defender|Block user access to Windows Defender settings|Enabled|
-|Windows Defender||Real-time monitoring|Enabled|
-|Windows Defender||Behavior monitoring|Enabled|
+|Windows Defender|Real-time monitoring|Enabled|
+|Windows Defender|Behavior monitoring|Enabled|
 |Windows Defender|Prompt users for sample submission|Never send data|
 |Windows Defender|Type of system scan to perform|Quick scan|
 |Windows Defender|Daily quick scan time|2 AM|
