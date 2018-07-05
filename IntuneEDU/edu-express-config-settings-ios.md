@@ -45,13 +45,13 @@ Setting name|Default behavior|
 |Block erasing content and settings|Block|
 |Block changing device name|Block|
 |Block users from enabling restrictions in device settings|Block|
-|Block changing device wallpaper|Block|//Is this a dupe. Saw under "New" in excel."|
+|Block changing device wallpaper|Block|
 |Block changing notification settings|Block|
 |Block untrusted TLS certificates|Block|
 |Block users from trusting Enterprise Developer apps|Block|
 |Block users from changing Enterprise Developer app trust settings|Block|
-|Enable Activation Lock|Allow|//Should this be allow or enable|
-|Block changing account details|Block|//need to clarify this setting because didn't have this listed in all iOS settings|
+|Enable Activation Lock|Allow|
+|Block changing account details|Block|
 
 ## Wi-Fi profiles
 Setting|Default behavior|
@@ -123,16 +123,16 @@ Setting|Default behavior|
 |---|---|
 |Block iCloud backup|Block|
 |Block syncing files to iCloud|Block|
-|Require iCloud backups to be encrypted|Block|  //Len:This is a require but value is block?|
+|Require iCloud backups to be encrypted|Block| 
 |Block Photo Stream sync to iCloud|Block|
 |Block shared Photo Stream|Block|
 |Block iCloud Photo Library|Block|
 |Block Activity continuation|Block| 
 
-## Update restrictions
+## Device update restrictions
 |Setting|Default behavior|
 |---|---|
-|Prevent devices from updating during specific times|All|Specify restricted days, time zone, start time, and end time.|
+|Prevent devices from updating during specific times|All|
 |Time zone|
 |Start Time|6:00 pm|
 |End Time|6:00 pm|  

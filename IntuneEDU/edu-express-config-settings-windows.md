@@ -69,7 +69,7 @@ For the complete list of settings and descriptions, see [All iOS settings in Int
 |Block developer tools|Block users from accessing developer tools.|  
 |Block access to about:flags page|Block access to the about:flags page, which contains experimental settings and features.|  
 
-//what is this about:flags page?  
+
 
 ## Microsoft Store settings  
 

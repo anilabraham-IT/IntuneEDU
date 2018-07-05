@@ -1,9 +1,9 @@
 ---
 # required metadata
 
-title: Available settings
+title: All iOS device settings
 titleSuffix: Intune for Education
-description: Learn more about the settings available for Intune for Education.
+description: See a list of all iOS evice settings in Intune for Education.
 keywords:
 author: lenewsad
 ms.author: lanewsad
@@ -40,7 +40,7 @@ This article lists and describes all iOS device settings in Intune for Education
 Apply [group settings](what-are-groups.md) to establish access and security boundaries on devices throughout your school. You can assign the same settings across all groups in your school; or you can customize the classroom experience and apply settings to individual groups.
 
 ## Configuration options
-Many settings in Intune for Educations are configured to **Block** or **Allow**. For some settings, **Not configured** is an option. When toggled to **Not Configured**, the device will either:  
+Many settings in Intune for Education are configured to **Block** or **Allow**. For some settings, **Not configured** is an option. When toggled to **Not Configured**, the device will either:  
 * Use the default setting. 
 * Allow the device user (student or teacher) to customize the setting from their device.  
 
@@ -48,8 +48,7 @@ Many settings in Intune for Educations are configured to **Block** or **Allow**.
 > User, app, and device settings differ from [tenant settings](edu-tenant-general-settings.md). Tenant settings target the subscription and management settings at the organization's administrative level.
 
 
-  ![The settings page for a group](./media/settings-001-list-of-settings.png)
-
+  ![The settings page for a group](./media/settings-001-list-of-settings.png)  
   
 ## Basic device restrictions  
 |Setting|What it does|
@@ -65,16 +64,16 @@ Many settings in Intune for Educations are configured to **Block** or **Allow**.
 |Block erasing content and settings|Block students from erasing all content and settings on the device.|  
 |Block changing device name|Block students from changing the name of the device.|  
 |Block changing notification settings|Block students from changing the device notification settings.|  
-|Block wallpaper modification |Blocks students from changing the device background image.|    
-|Block configuration profile changes |Block students from being able to install configuration profiles.||  
-|Block Activation Lock|Block Activation Lock on supervices iOS devices.|  
+|Wallpaper modification |Blocks students from changing the device background image.|    
+|Configuration profile changes |Block students from being able to install configuration profiles.||  
+|Activation Lock|Block Activation Lock on superviced iOS devices.|  
 
 ## Lock screen and passcode  
 
 |Setting|What it does|
 |---|---|
 |Block notifications on lock screen|Block students from viewing notifications when device is locked.|
-|Block access to Control Center on lock screen|Block student from accessing the control center app when device is locked.|
+|Control Center access on lock screen|Block student from accessing the control center app when device is locked.|
 |Block Siri on lock screen|Block the use of Siri when device is locked.|
 |Block access to Wallet from lock screen|Block access to the Wallet app when device is locked.|
 |Block Today view on lock screen|Block students from seeing the Today view when device is locked.|
@@ -84,7 +83,7 @@ Many settings in Intune for Educations are configured to **Block** or **Allow**.
 |Minutes to wait before requiring passcode on lock screen|Specifies how long the device can remain idle before the student must re-enter device password.|
 |Number of failed passcode attempts before wiping device|Specifies the number of unique, bad password attempts allowed before the student must re-enter device password.
 |Block fingerprint unlock|Block students from using a fingerprint to unlock devices.|
-|Block changing registered fingerprint settings|Block students from changing, addiing, or removing TouchID settings.|  
+|Block changing registered fingerprint settings|Block students from changing, adding, or removing TouchID settings.|  
 
 ## App Store settings  
 
@@ -134,7 +133,7 @@ Setting|What it does|
 
 |Setting|What it does|
 |---|---|
-|Asset tag information|Applies your specified tag to to all devices in a group. For example, "Owned by Contoso school district."|
+|Asset tag information|Applies your specified tag to all devices in a group. For example, "Owned by Contoso school district."|
 |Lock screen footnote|If the device is lost, it displays a note or instructions to help get it returned to your school. For example, "If found, call the Contoso school district at 555-555-5555."
 
 ## Built-in apps  
@@ -146,7 +145,7 @@ Setting|What it does|
 |Block Siri|Blocks use of the Siri voice assistant on the device.|
 |Block Siri profanity filter|Blocks Siri from dictating or speaking profane language.|
 |Block Siri from searching for user-generated content|Blocks Siri from accessing websites to answer questions.|
-|Block Spotlight from searching for user-generated content|Block Spotlight search from connecting the the Internet to provide further results.|
+|Block Spotlight from searching for user-generated content|Block Spotlight search from connecting the Internet to provide further results.|
 |Block Apple News|Block use of the Apple News app on the device.|
 |Block iBooks Store|Block students from being able to browse and purchase books from the iBooks store.|
 |Block Messages app|Block use of the Messages app on the device.|

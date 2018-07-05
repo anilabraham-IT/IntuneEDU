@@ -34,14 +34,14 @@ searchScope:
 The Take a Test app lets you securely administer online tests on your classroom's Windows 10 devices.  Students use the credentials you provide for them to sign in to the test profile. Then they click the assessment URL to launch the test. 
  
 This article describes how to:
-* Create a Take a Test profile, which contains the secure assessment URL.
+* Create a Take a Test profile.
 * Assign the profile to students in your school.  
 
 > [!NOTE]
 > Create an exclusive user for Take a Test purposes. Assign your Take a Test profile to this user so that you don't impact student or teacher devices. Learn how to assign a user in the Windows 10 for Education, [Set up Take a Test on multiple PCs](https://technet.microsoft.com/edu/windows/take-a-test-multiple-pcs) article.
 
 ## Take a Test features
-When a student launches a test, their desktop disables and the Take a Test app opens in a new window. Take a Test clears the system's clipboard so that students cannot copy and paste content.
+When a student launches a test, their desktop locks. The Take a Test app opens in a new window. Take a Test clears the system's clipboard so that students can't copy and paste content.
 
 While a test is active, test takers cannot:
 
@@ -56,7 +56,7 @@ While a test is active, test takers cannot:
 * Share, print, or record device screens, unless allowed by school or IT administrator.
 
 ### How is assistive technology affected?
-Some device features--such as narrator--and other assistive technology are still fully functional while taking a test. For a list of functional features see [Take a Test app technical reference](https://docs.microsoft.com/en-us/education/windows/take-a-test-app-technical).
+Some device features--such as narrator--and other assistive technology are still fully functional while taking a test. For a list of the apps features, see [Take a Test app technical reference](https://docs.microsoft.com/en-us/education/windows/take-a-test-app-technical).
 
 
 ## Take a Test profile setup
@@ -69,7 +69,7 @@ Set up a profile in Intune for Education. Before you begin, we recommend that yo
 3. Enter a descriptive name for the test.  
 4 Enter the Assessment URL.  
  ![Take a test profile window](./media/takeatest-002-new-profile-edit-window.png)
-5. Configure the remaining test settings:    
+5. Configure the rest of the test settings:    
     a. Allow screen capture  
     b. Require PCs to have a printer installed  
     c. Allow text suggestions  
@@ -86,7 +86,7 @@ Assign groups of students that require access to the test profile. Follow these 
 5. Click **Ok** to submit your changes.
 
 ## Delete Take a Test profile  
-When you delete a Take a Test profile, the account with the assessment becomes a typical user account. Students are still able to sign in to the account with its existing credentials, but the URL assessment link is removed from the account. Signing into the account will also no longer lock student devices.
+When you delete a Take a Test profile, it becomes a typical user account. Students are still able to sign in to the account with its existing credentials, but the URL assessment link is removed from the account. Signing into the account will also no longer lock student devices.
 
 1. From the **Take a Test profiles** page, choose the profile you want to delete.
 2. Click **Delete Take a Test profile**.

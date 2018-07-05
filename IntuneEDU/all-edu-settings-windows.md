@@ -40,7 +40,7 @@ This article lists and describes all Windows device settings in Intune for Educa
 Apply [group settings](what-are-groups.md) to establish access and security boundaries on devices throughout your school. You can assign the same settings across all groups in your school; or you can customize the classroom experience and apply settings to individual groups.
 
 ## Configuration options  
-Many settings in Intune for Educations are configured to **Block** or **Allow**. For some settings, **Not configured** is an option. When toggled to **Not Configured**, the device will either:  
+Many settings in Intune for Education are configured to **Block** or **Allow**. For some settings, **Not configured** is an option. When toggled to **Not Configured**, the device will either:  
 * Use the default setting. 
 * Allow the device user (student or teacher) to customize the setting from their device.    
 
@@ -102,7 +102,7 @@ This setting is automatically turned on when the "Optimize devices for shared us
 |Block password manager|Block users from using the password manager to save passwords.|
 |Block automatically filling form entries|Block saving data entered in a form field online.|
 |Do-Not-Track headers|Require Microsoft Edge to ask that websites not track user data.|
-|Default search engine|Select Bing, Yahoo, or Google as the default search engine for Microsoft Edge. If you or another admin has set up a custom search engine in the full Intune experience, you can define that custom search engine as the default here.|
+|Default search engine|Select Bing, Yahoo, or Google as the default search engine for Microsoft Edge.|
 |Use cookies|Cookies can store website settings or track user’s browsing behavior.|
 |Block developer tools|Block users from accessing developer tools.|
 |Block access to about:flags page|Block access to the about:flags page, which contains experimental settings and features.|
@@ -137,7 +137,7 @@ This setting is automatically turned on when the "Optimize devices for shared us
 |Enable cloud-based protection|Get real-time protection when Defender sends info to Microsoft about potential security threats. This feature works best with “Prompt users for sample submission” set to automatically send samples.|
 |Block suspicious files|If this setting is configured, Windows Defender Antivirus will be more aggressive about identifying suspicious files to block and scan. When not configured,it will block and scan with less frequency. You can select **Not configured**, **High**, **High plus**, and **Zero tolerance**. **High** aggressively blocks unknown files while minimizing impact to device performance. **High plus** aggressively blocks unknown files, but may negatively impact device performance. **Zero tolerance** blocks all unknown files from running.|
 |Actions on detected malware threats|Windows Defender automatically quarantines detected malware.|
-|Enable Network Inspection Service|Helps protect devices against network-based exploits by using the signatures of known vulnerabilities from the Microsoft Endpoint Protection Center to help detect and block malicious traffic.|
+|Enable Network Inspection Service|Helps protect devices against network-based exploits. Uses the signatures of known vulnerabilities from the Microsoft Endpoint Protection Center to help detect and block malicious traffic.|
 |Exclude files with these extensions from scans and real-time protection|Define the types of files that you want users to be able to access without scanning for security threats.|
 |Exclude processes from scans and real-time protection|Define the types of processes that you want users to be able to run without scanning for security threats.
 |Exclude directories with these extensions from scans and real-time protection|Define the file locations that you want users to be able to access without scanning for security threats.|  
@@ -174,7 +174,7 @@ A list of Wi-Fi profiles that you create appear within this section. Details vis
 
 |Setting|What it does|
 |---|---|
-|Optimize devices for shared use|Configures recommended settings for shared devices, such as power and update management, and allowing multiple users to sign on to the same device.|
+|Optimize devices for shared use|Configures recommended settings for shared devices, such as power and update management. Allows multiple users to sign in to the same device.|
 |Block guest users|If you've enabled **Optimize devices for shared use**, then you can also choose whether to block guest users from signing in to devices. If blocked, only domain users can sign in.|
 |Block fast user switching|Allow users to quickly switch between user accounts from the Start menu.|
 
@@ -186,7 +186,7 @@ A list of Wi-Fi profiles that you create appear within this section. Details vis
 |Block installing apps from the Microsoft Store for Education|Block users from installing apps from unauthorized locations.|
 |Block access to administrative apps|Blocks students from opening apps that require administrative privileges.|
 |Require Microsoft Store for Education apps to be installed from the private store|Only allow users to install apps from the Microsoft Store for Education that your organization has set up.|
-|Trusted apps|Allow or block users from installing trusted apps that have a signed certificate from Microsoft.|
+|Trusted apps|Allow or block users from installing trusted apps that have signed certificates from Microsoft.|
 |Untrusted apps|Allow or block users from installing unsigned apps or apps with certificates signed by external sources that are not trusted by Microsoft.|
 |Block users from installing apps from places other than the Microsoft Store for Education|Block users from installing apps from other sources and app stores.
 |Block automatic app updates|Block Microsoft Store for Education apps from being updated automatically.|
@@ -246,7 +246,7 @@ A list of Wi-Fi profiles that you create appear within this section. Details vis
 |Updates and maintenance period|Define the updates and maintenance period for the installation of updates.|
 |Defer feature updates|Define how many days to wait to apply feature updates to devices after they are available.|
 |Defer quality updates|Define how many days to wait to apply quality updates to devices after they are available.|
-|Pre-release features|Define whether users can see pre-release features for settings, settings and experimentations, or no pre-release features.|
+|Pre-release features|Define whether users can see pre-release features for settings, settings and experimentation, or no pre-release features.|
 |Delivery optimization mode|Define how updates are delivered to devices.|
 
 

@@ -7,7 +7,7 @@ description: Learn how to add VPP purchased apps to Intune for Education.
 keywords:
 author: lenewsad
 ms.author: lanewsad
-manager: adougeby
+manager: dougeby
 ms.date: 06/19/2018
 ms.topic: article
 ms.prod:

@@ -41,7 +41,7 @@ This article describes how to:
 * Configure and sync an Apple DEP token.
 * Configure an Apple VPP token.
 
-## Post-setup capabilities  
+## What happens after I setup device management?
 After you've set up iOS device management, you'll be able to use Intune for Education to manage apps and settings on your iOS devices. You'll also have access to reports and actions so you can troubleshoot conflicts anywhere.  
 
 Students and teachers in your school will be able to securely access school websites and email.  
@@ -56,13 +56,13 @@ Before beginning, make sure you have:
 > Intune for Education only supports iOS device enrollment for devices bought through Apple DEP. If you did not buy a device through an approved Apple DEP vendor, you must manually enter the device serial number into Apple School Manager. For more information about Apple School Manager, see the [Apple education support site](https://support.apple.com/education).  
 
 ## Add an MDM Push certificate
-An Apple MDM push certificate sets up a secure connection between your Intune and Apple School Manager account. It ensures that Intune can continually sync and manage the device and apps you set up with Apple. 
+An Apple MDM push certificate sets up a secure connection between your Intune and Apple School Manager account. When connected, Intune can continually sync and manage your Apple devices and apps. 
 
 1. Sign in to the Intune for Education Portal.
 2. Click **Tenant settings** > **iOS device management**.
 3. On the **iOS Device Management** page, click the **MDM Push Certificate** tab.
 4. Follow the instructions on the **MDM Push Certificate** page. You will be required to visit the Apple Push Certificate portal to create an MDM push certificate. Sign in to the Apple Push Certificates portal with your school's Apple ID, not your personal one.
-5. Complete the steps in the Apple portal. After your create the certificate, click to download and save it.
+5. Complete the steps in the Apple portal. After you create the certificate, click to download and save it.
 6. Return to the Intune for Education portal and upload the saved certificate. Then click **Save**.
 
 The push certificate expires every 365 days. The certificate is needed to connect Intune for Education to your Apple School Manager account, so [you'll need to renew it yearly](renew-ios-certificate-token.md). 
@@ -76,7 +76,7 @@ Sometimes referred to as a DEP token, the MDM server token lets Intune sync devi
 4. Click **Go to my MDM Servers in Apple School Manager**. If prompted, sign in to Apple School Manager with your school's Apple ID, not your personal one.
 5. Go the MDM servers section of the site and click the option to add a new MDM server.
 6. Follow the steps on screen to get and download the MDM server token. Then save your changes. If you don't have the information to complete this step, contact your school's Intune administrator. 
-7. Remain in Apple School Manager and go to the device assignments page. Enter the serial number for each device, the order number for your entire device purchase, or a list of your devices in a CSV file. 
+7. Stay in Apple School Manager and go to the device assignments page. Enter the serial number for each device, the order number for your entire device purchase, or a list of your devices in a CSV file. 
 8. Select the option to assign your devices to a server. From the list, choose the server you just created.
 9. Return to the Intune for Education portal and enter the Apple ID you used to sign in to Apple School Manager.
 10. Upload the MDM server token that you just downloaded.
@@ -87,7 +87,7 @@ Tokens expire every 365 days. The token is needed to view and manage your device
 ### Device enrollment profile
 Intune for Education creates and applies an iOS enrollment profile to each MDM server token you configure.
 
-All iOS devices added to Intune for Education are set to supervised mode. As an admin, this allows you more control over your school's devices, such as being able to push new apps or app updates silently to a device. For a complete list of supervised-only settings, see the article, [Configurations requiring supervision](https://docs.microsoft.com/en-us/intune/device-restrictions-ios#configurations-requiring-supervision).  
+All iOS devices added to Intune for Education are set to supervised mode. As an admin, supervised mode allows you more control over your school's devices. For example, you can push new apps or app updates silently to a device. For a complete list of supervised-only settings, see the article, [Configurations requiring supervision](https://docs.microsoft.com/en-us/intune/device-restrictions-ios#configurations-requiring-supervision).  
 
 For more details about enrollment profiles, view the [list of settings configured](how-do-i-add-devices-ios.md#list-of-preconfigured-settings) during enrollment.
 
@@ -98,11 +98,11 @@ Now that Intune for Education has permission to manage your iOS devices, sync wi
 3. Click on any of the listed tokens.
 4. A blade appears from the right. Click **Sync device list**. 
 
-Devices that appear in the list are ready for enrollment. When you power on one of these devices, it will enroll itself in management.
+Devices that appear in the list are ready for enrollment. Power them on to start the enrollment process.
 
 ## Configure VPP tokens
 
- A VPP token links your Intune for Education account to your Apple VPP or Apple School Manager account. You can create a single VPP token to manage apps across the entire organization; or you can create multiple VPP tokens to designate app management across different locations or admins.  
+ A VPP token links your Intune for Education account to your Apple VPP or Apple School Manager account. You can create a single VPP token to manage apps across the entire organization; or you can create multiple VPP tokens to spread management across different locations or admins.  
 
 VPP tokens are necessary for Intune to:  
 * Sync app details in the Intune for Education portal.
@@ -123,7 +123,7 @@ Without a VPP token, you can still search and get [free iOS apps through the App
 Tokens expire every 365 days. Tokens are needed to manage VPP-purchased apps, so [you'll need to renew them yearly](renew-ios-certificate-token.md).
 
 ### What's a managed device?
-The following scenario describes the difference between a managed and unmanaged device.
+To help you understand the difference between a managed and unmanaged device, let's look at the following scenario.
 
 A teacher brings a personal iOS device to school. During school hours, the teacher uses the device to schedule parent meetings and to keep track of class assignments.  
 

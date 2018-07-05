@@ -15,7 +15,7 @@
 ## [Windows 10 device group presets](all-devices-group-presets-windows-edu.md)
 # Add iOS devices
 ## [Set up iOS device management](setup-ios-device-management.md)
-## [Enroll iOS devices](how-do-I-add-devices-ios.md)
+## [Enroll iOS devices](add-devices-ios-edu.md)
 ## [Renew iOS certificate and tokens](renew-ios-certificate-token.md)
 # Manage groups
 ## [Create groups](what-are-groups.md)
