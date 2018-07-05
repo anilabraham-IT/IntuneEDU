@@ -3,7 +3,7 @@
 
 title: Windows 10 All Devices group presets
 titleSuffix: Intune for Education
-description: See a list of the Windows 10 device settings that are preset at time of signup.
+description: See a list of the Windows 10 device settings that are preset at time of signup
 keywords:
 author: lenewsad
 ms.author: lanewsad
