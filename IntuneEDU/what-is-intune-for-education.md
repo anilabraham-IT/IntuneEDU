@@ -29,7 +29,7 @@ searchScope:
 
 ---
 
-# Intune for Education in your schools
+# What is Intune for Education?
 
 Microsoft Intune for Education is a cloud-based, mobile device management (MDM) service for schools. It helps your teachers and students stay productive on classroom devices, and keeps school data secure. 
 
@@ -39,7 +39,7 @@ With Intune for Eduction you can:
 * Control how students and teachers access and share classroom information.
 * Apply school security requirements to devices and apps.
 
-Intune for Education offers an online portal to add and manage both iOS and Windows devices. From the portal, remotely assign, change, and monitor device settings and apps. Outside of the portal, Intune for Education supports the Take a Test app, which allows teachers to assess student progress directly from classroom devices.
+The Intune for Education online portal that is optimized to add and manage iOS and Windows school devices. From the portal, remotely assign, change, and monitor device settings and apps. Outside of the portal, Intune for Education supports the Take a Test app, which allows teachers to assess student progress directly from classroom devices.
 
 In addition to the education-focused online portal, you'll have access to other management tools:
 * Microsoft Intune in the Azure portal, the [full device, app, and user management experience](https://docs.microsoft.com/intune/understand-explore/introduction-to-microsoft-intune)
@@ -63,7 +63,7 @@ If you are not already signed up with an Intune account, learn how to [sign in t
 If you are not using the Microsoft School Data Sync (SDS) service to import student and teacher records, you must [manually add users to your Intune subscription](https://docs.microsoft.com/en-us/intune/users-add). Students and teachers can be added through the Azure portal or through the Office 365 portal. At the time of user setup, you'll also want to grant admin permissions. 
 
 ## Supported operating systems and browsers
-Although Intune supports many device operating systems, Intune for Education provides a console to specifically manage your school's Windows 10 and iOS devices.  
+Although the full Intune management service supports many device operating systems, and advanced capabilities, the Intune for Education portal is optimized for educational devices. It's portal is specifically for managing Windows 10 and iOS school devices.  
 
 To view a complete list of Intune-supported web browsers and operating systems, see [Supported operating systems and browsers](https://docs.microsoft.com/en-us/intune/supported-devices-browsers) in the Microsoft Intune documentation.  
 

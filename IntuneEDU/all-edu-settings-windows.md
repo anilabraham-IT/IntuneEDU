@@ -1,9 +1,9 @@
 ---
 # required metadata
 
-title: Windows 10 device settings in Intune for Education
+title: All Windows 10 device settings
 titleSuffix: Intune for Education
-description: Learn more about the Windows 10 settings available in Intune for Education.
+description: See a list of all Windows 10 device settings in Intune for Education
 keywords:
 author: lenewsad
 ms.author: lanewsad

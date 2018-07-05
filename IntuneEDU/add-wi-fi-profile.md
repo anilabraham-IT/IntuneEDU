@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 06/19/2018
+ms.date: 07/03/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -31,7 +31,7 @@ searchScope:
 
 # Add a Wi-Fi Profile
 
-A Wi-Fi profile contains the network settings need to connect devices to a network. When you assign the proile to a user or device group, the group can automatically access your school's network on their devices. Profiles eliminate the need for the device user to manually connect to a network.
+A Wi-Fi profile contains the settings needed to connect devices to your school's network. When you assign the profile to a user or device group, the group can automatically access your school's network on their devices. Profiles eliminate the need for students and teachers to manually connect to the network.
 
 This article describes how to configure profiles for Windows 10 and iOS devices.
 
@@ -39,7 +39,7 @@ This article describes how to configure profiles for Windows 10 and iOS devices.
 Wi-Fi profiles are supported on Windows 10 devices, and on iOS devices purchased through Apple DEP. 
 
 ## Configure your profile
-Windows 10 and iOS Wi-Fi configurations vary slightly. Because of the variation, you must create an individual Wi-Fi profile for your school's Windows 10 devices, and an individual one for your school's iOS devices.
+Windows 10 and iOS Wi-Fi configurations vary slightly. Because of the differences, you must create an individual Wi-Fi profile for your school's Windows 10 devices, and an individual one for your school's iOS devices.
 1. Sign in to Intune for Education > **Wi-Fi profiles**.
 2. Select the device platform you are configuring a profile for.  
     a. If you are creating a profile for a Windows device, click **Add Windows 10 Wi-Fi profile**.   
@@ -70,7 +70,7 @@ Windows 10 and iOS Wi-Fi configurations vary slightly. Because of the variation,
 |Configure proxy settings| Enable to configure proxy settings for your school's network.|
 |Proxy settings   |  Select if you want to manually configure your proxy settings or if you want to enable a proxy script to automatically detect settings.     | 
 |Proxy server address   | Type in the IP address of the proxy server. Not applicable if you selected to automatically detect proxy settings.      |
-|Port number  | Type in the virtual port number where the proxy is located.    | 
+|Proxy server port| Type in the virtual port number where the proxy is located.    | 
 |Proxy server URL  | Type in the server URL you want to use to automatically connect to the proxy server. Not applicable if you selected to manually configure proxy settings.       |   
 
 ## Assign profile to groups

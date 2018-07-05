@@ -7,8 +7,8 @@ description: Learn how to add new web apps to Intune for Education for Windows 1
 keywords:
 author: lenewsad
 ms.author: lanewsad
-manager: angrobe
-ms.date: 05/10/2017
+manager: dougeby
+ms.date: 07/05/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -48,6 +48,6 @@ A _web app_ is an app that students access in a browser, such as Microsoft Edge 
 5. Click **Save**. You app will appear in your app lists under ***WEB APPS**. You can edit app details at any time by clicking the app in your app list > **Edit**.
  
 
-## Nest steps
+## Next steps
 
 - [Find out more about the full experience managing apps using Intune](https://docs.microsoft.com/intune/deploy-use/add-apps)

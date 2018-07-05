@@ -86,8 +86,7 @@ These steps can be done by a delegated admin or [enrollment manager](add-enrollm
    [Your School's] iOS Team
    [Address]**
 
-5. Agree to the **Terms and Conditions**. Then decide if you want to send diagnostic information to Apple.
-6. After you complete enrollment, you may receive a prompt to take more actions. Some of these steps might be entering your password for email access or setting up a passcode.  
+5. Agree to the **Terms and Conditions**. Then decide if you want to send diagnostic information to Apple.  
 
 ## Next steps
 - [Find out more about the **Set up School PCs** app](https://docs.microsoft.com/education/windows/use-set-up-school-pcs-app)
