@@ -65,7 +65,7 @@ Set up a profile in Intune for Education. Before you begin, we recommend that yo
 1. From Intune for Education dashboard, click **Take a Test profiles**.    
 ![List of options in the sidebar](./media/dashboard-002-left-sidebar-list.png)
 2.  Click Add Take a Test profile.  
- ![Select Add a Take A Test profile button in the left hand side](./media/takeatest-001-new-profile.png)
+ ![Select Add a Take A Test profile button in the left-hand side](./media/takeatest-001-new-profile.png)
 3. Enter a descriptive name for the test.  
 4 Enter the Assessment URL.  
  ![Take a test profile window](./media/takeatest-002-new-profile-edit-window.png)
