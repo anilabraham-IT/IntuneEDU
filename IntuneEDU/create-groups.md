@@ -42,9 +42,9 @@ Two additional default groups are created if you used School Data Sync to import
 * All teachers
 * All students
 
-These default groups represent the broadest categories of users and devices in your school and [cannot be changed or removed](what-are-groups.md#why-cant-i-change-the-all-devices-all-users-all-students-or-all-teachers-groups).
+These default groups represent the broadest categories of users and devices in your school and can't be changed or removed.
 
-## Custom groups
+## Custom groups  
 
 You can also apply specific or scenario-based configurations to custom-created groups. If you have both Windows 10 and iOS devices in your school, create groups, such as all iPads and all Windows 10 PCs. Doing this allows you to more easily distribute settings. 
 
@@ -110,7 +110,7 @@ Subgroups can only be created *under* assigned groups.
 1. Go to **Groups** and choose a group. This group will be the parent to your subgroup.
 2. Click **Create sub group**.
 3. Enter the **Group name**. 
-4. Select your group type. For more details about group types, see the steps for [Create a group](what-are-groups.md#create-a-group) above.
+4. Select your group type. For more details about group types, see the steps for [Create a group](#create-a-group) above.
 5. Click **Create group**.  
 
 ## Next steps 

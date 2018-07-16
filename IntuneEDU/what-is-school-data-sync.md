@@ -44,7 +44,7 @@ SDS creates copies of the information from your SIS, and stores it in Azure Acti
 For more information about creating groups in Intune for Education, see [Create groups](what-are-groups.md).  
 
 ## Set up dynamic group properties
-When importing student information from your SIS into Intune for Education with School Data Sync, include the properties __Grade__ and __Graduation Year__. These properties are necessary to create [dynamic group](what-are-groups.md#dynamic-groups) rules for students in the Intune for Education portal. 
+When importing student information from your SIS into Intune for Education with School Data Sync, include the properties __Grade__ and __Graduation Year__. These properties are necessary to create [dynamic group](create-groups.md#dynamic-groups) rules for students in the Intune for Education portal. 
 
 Properties are configured from the SDS app, and are found in  __Student options__ > __Select student properties__.
 

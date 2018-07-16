@@ -5,7 +5,7 @@
 ## [Importing data with School Data Sync](what-is-school-data-sync.md)
 ## [General tenant settings](edu-tenant-general-settings.md)
 ## [Device enrollment](how-should-I-enroll-devices.md)
-## [Group and device settings](manage-device-settings-edu.md)
+## [Group settings](about-group-settings-edu.md)
 ## [Settings inheritance](settings-inheritance.md)
 # [Express configuration](express-configuration-intune-edu.md)
 ## [Windows 10 express configuration settings](edu-express-config-settings-windows.md)
@@ -19,7 +19,7 @@
 ## [Enroll iOS devices](add-devices-ios-edu.md)
 ## [Renew iOS certificate and tokens](renew-ios-certificate-token.md)
 # Manage groups
-## [Create groups](what-are-groups.md)
+## [Create groups](create-groups.md)
 ## [Edit groups](edit-groups-intune-for-edu.md)
 ## [Delete groups](delete-group-intune-for-education.md)
 ## [Assign group admins](group-admin-delegate.md)
