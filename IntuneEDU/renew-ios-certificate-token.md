@@ -67,7 +67,7 @@ The MDM server token is associated with the Apple ID you used to add the server.
 
 
 ## Renew VPP token
-Renew your VPP tokens anually to make sure your VPP-purchased apps can be viewed and assigned from Intune for Education.  
+Renew your VPP tokens annually to make sure your VPP-purchased apps can be viewed and assigned from Intune for Education.  
 
 The VPP token is associated with the Apple ID you used to create it. Renew the token with this same Apple ID.  
 
