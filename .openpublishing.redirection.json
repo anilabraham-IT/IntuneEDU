@@ -36,7 +36,7 @@
             "redirect_document_id": true
         },
         {
-            "source_path": "IntuneEDU/what-are-certificates,md",
+            "source_path": "IntuneEDU/what-are-certificates.md",
             "redirect_url": "/intune-education/renew-ios-certificate-token",
             "redirect_document_id": false
         },
