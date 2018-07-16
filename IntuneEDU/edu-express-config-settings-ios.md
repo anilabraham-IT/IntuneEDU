@@ -29,15 +29,18 @@ searchScope:
 
 ---
 # Default iOS settings in Express Configuration
-Express Configuration comes preset to help you quickly set up your iOS devices. Intune for Education chooses options that are both Microsoft-recommended and best for school environments. This article describes those settings and their default behavior. 
+Express configuration is preset with Microsoft-suggested settings to help you quickly set up a group of devices or users. Intune for Education chooses settings that are both Microsoft-recommended and best for school environments. This article describes those settings.
 
- Make changes to fit your school's rules and policies, or click straight through the settings page to apply the preset recommendations. 
+ Make changes to fit your school's rules and policies, or click straight through the settings page to apply our recommendations. 
 
-For the complete list of settings and descriptions, see [All iOS settings in Intune for Education](edu-settings-ios.md). 
+For the complete list of settings and descriptions, see [All iOS settings in Intune for Education](all-edu-settings-ios.md). 
+
+> [!IMPORTANT]
+> If iOS configurations are disabled when you launch express configuration, check to make sure you've set up both your MDM Apple Push certificate and DEP token. If you have both of these, make sure that neither has expired. For more information about setting up iOS device management see [Set up iOS device management](setup-ios-device-management.md)
 
 
 ## General settings
-Setting name|Default behavior|
+Setting name|Suggested value|
 |---|---|
 |Block removing device management profiles|Block|
 |Block sharing device usage data with Apple|Block|
@@ -54,12 +57,12 @@ Setting name|Default behavior|
 |Block changing account details|Block|
 
 ## Wi-Fi profiles
-Setting|Default behavior|
+Setting|Suggested value|
 |---|---|
 |Wi-Fi profile configuration|Behavior|
 
 ## Password
-Setting|Default behavior|
+Setting|Suggested value|
 |---|---|
 |Require passcode|Not Configured|
 |Number of failed passcode attempts before wiping device|Not Configured|
@@ -69,7 +72,7 @@ Setting|Default behavior|
 |Block changing registered fingerprint settings|Block|
 
 ## Lock screen
-Setting|Default behavior|Description|
+Setting|Suggested value|
 |---|---|---|
 |Block notifications on lock screen|Block||
 |Block access to Control Center on lock screen|Block||
@@ -77,7 +80,7 @@ Setting|Default behavior|Description|
 |Block Today view on lock screen|Block||
 
 ## Built-in apps
-Setting|Default behavior|
+Setting|Suggested value|
 |---|---|
 |Block Camera|Block|
 |Block FaceTime|Block|
@@ -89,27 +92,22 @@ Setting|Default behavior|
 |Block Apple News|Block|
 |Block iBooks Store|Block|
 |Block Podcasts app|Block|
-|Block Apple Music|Block| //Check name of this--excel string says iTunes music service|
+|Block Apple Music|Block|
 |Block iTunes Radio|Block|
 |Block changes to Find My Friends app settings|Block|
 
 ## Connected devices
-Setting|Default behavior|
+Setting|Suggested value|
 |---|---|
 |Block changes to bluetooth settings|Block|
 
 ## Safari
-Setting|Default behavior|
+Setting|Suggested value|
 |---|---|
-|Block Safari|Not configured|
-
-## Home screen layout
-Setting|Default behavior|
-|---|---|
-|Set wallpaper|Not configured|
+|Block Safari|Not configured|  
 
 ## App Store
-Setting|Default behavior|
+Setting|Suggested value|
 |---|---|
 |Block App Store|Block|
 |Require password to access App Store|Not configured|
@@ -119,7 +117,7 @@ Setting|Default behavior|
 |Block Game Center|Block|
 
 ## Cloud and storage
-|Setting|Default behavior|
+|Setting|Suggested value|
 |---|---|
 |Block iCloud backup|Block|
 |Block syncing files to iCloud|Block|
@@ -130,16 +128,16 @@ Setting|Default behavior|
 |Block Activity continuation|Block| 
 
 ## Device update restrictions
-|Setting|Default behavior|
+|Setting|Suggested value|
 |---|---|
 |Prevent devices from updating during specific times|All|
-|Time zone|
+|Time zone|Choose your school's time zone|
 |Start Time|6:00 pm|
 |End Time|6:00 pm|  
 
 ## Reset default settings
-To restore all apps to their default selections, click **Reset to app selections**. <add screenshot>  
-To restore all settings to their default values, click **Reset to suggested defaults**. <add screenshot>  
+To restore all settings to their default values, click **Reset to suggested defaults**. 
 
+## Next steps  
 
 [Find out more about the full Windows 10 settings management experience available in Intune](https://docs.microsoft.com/intune/deploy-use/windows-10-policy-settings-in-microsoft-intune)

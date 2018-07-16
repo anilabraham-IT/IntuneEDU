@@ -45,14 +45,14 @@ Many settings in Intune for Education are configured to **Block** or **Allow**. 
 * Allow the device user (student or teacher) to customize the setting from their device.    
 
 > [!NOTE]
-> User, app, and device settings differ from [tenant settings](intune-education-tenant-overview.md). Tenant settings address the subscription and management settings for your organization.
+> User, app, and device settings differ from [tenant settings](edu-tenant-general-settings.md). Tenant settings address the subscription and management settings for your organization.
 
 
 ## Basic device settings  
 |Setting|What it does|
 |---|---|
 |Block manual unenrollment|Block users from manually unenrolling devices from management.|
-|Remove built-in Windows 10 apps|Uninstall certain built-in Windows apps. Learn what those apps are [below](available-settings.md#additional-information-about-removing-built-in-apps).|
+|Remove built-in Windows 10 apps|Uninstall certain built-in Windows apps. Learn what those apps are [below](all-edu-settings-windows.md#removing-built-in-apps).|
 |Block camera|Block user access to the device camera.|
 |Block OneDrive file sync|Block OneDrive Sync for these devices and users.|
 |Block removable storage|Block users from using removable storage such as USB drives and external hard drives.|
@@ -113,7 +113,7 @@ This setting is automatically turned on when the "Optimize devices for shared us
 ## Windows Defender settings
 
 > [!NOTE]
-> Some Windows Defender settings are available only at the [tenant](intune-education-tenant-overview.md) level and are not shown in the portal.  
+> Some Windows Defender settings are available only at the [tenant](edu-tenant-general-settings.md) level and are not shown in the portal.  
 
 |Setting|What it does|
 |---|---|
@@ -289,5 +289,8 @@ A list of Wi-Fi profiles that you create appear within this section. Details vis
 Select to upgrade the devices in this group to a different edition of Windows 10. Select the **Edition to upgrade to** and enter the **Product key**.
 
 ## Next steps
+Configure your group, app, and device settings in the Intune for Education portal. If you haven't yet done it, go to [express configuration](edu-express-config-settings-windows.md) and set up your school with Microsoft-recommended settings. 
+
+Need help managing devices? [Assign group admins](group-admin-delegate.md) in your school to help you manage device settings.
 
 - [Find out more about the full Windows 10 settings management experience available in Intune](https://docs.microsoft.com/intune/deploy-use/windows-10-policy-settings-in-microsoft-intune)

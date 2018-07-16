@@ -37,8 +37,8 @@ For the complete list of settings and descriptions, see [All iOS settings in Int
 
 
 ## Basic device settings  
-|Setting|Default behavior|What it does|  
-|---|---|---|
+|Setting|Suggested value| 
+|---|---|
 |Block manual unenrollment|Block users from manually unenrolling devices from management.|
 |Block camera|Block user access to the device camera.|
 |Block removable storage|Block users from using removable storage such as USB drives and external hard drives.|
@@ -53,15 +53,15 @@ For the complete list of settings and descriptions, see [All iOS settings in Int
 
 ## Sign-in settings  
 
-|Setting|Default behavior|What it does|  
-|---|---|---|
+|Setting|Suggested value|  
+|---|---|
 |Block signing in using Microsoft account|Block users from signing in with their Microsoft account.|  
 |Block adding new non-Microsoft accounts|Block users from adding any account other than their Microsoft account. Use this setting if you want to force users to only use their Microsoft accounts for email.||Block signing in using a Microsoft account|   
 
 ## Microsoft Edge settings  
 
-|Setting|Default behavior|What it does|  
-|---|---|---|
+|Setting|Suggested value|
+|---|---|
 |Block InPrivate browsing|Block users from using InPrivate browsing, which stops Edge from saving data like browsing history and cookies.|  
 |Block pop-ups|Block websites from opening new windows.|  
 |Block password manager|Block users from using the password manager to save passwords.|  
@@ -71,19 +71,17 @@ For the complete list of settings and descriptions, see [All iOS settings in Int
 
 
 
-## Microsoft Store settings  
-
-|Setting|Default behavior|What it does|  
-|---|---|---|
+## Microsoft Store settings   
+|Setting|Suggested value|  
+|---|---|
 |Block installing apps from the Microsoft Store for Education|Block users from installing apps from unauthorized locations.|  
 |Require Microsoft Store for Education apps to be installed from the private store|Only allow users to install apps from the Microsoft Store for Education that your organization has set up.|  
 |Block automatic app updates|Block Microsoft Store for Education apps from being updated automatically.|  
 |Shared app data between users|Allow multiple users of shared devices to share app data.|  
 
 ## Wireless settings      
-
-|Setting|Default behavior|What it does|  
-|---|---|---|
+|Setting|Suggested value|  
+|---|---|
 |Block Bluetooth|Block devices from using Bluetooth.|  
 
 ## Reset default settings

@@ -38,7 +38,7 @@ During setup, you'll connect your Intune for Education account with your Apple S
 This article describes how to:
 
 * Add an Apple MDM Push certificate.
-* Configure and sync an Apple DEP token.
+* Configure and sync an Apple MDM Server token.
 * Configure an Apple VPP token.
 
 ## What happens after I setup device management?
@@ -53,36 +53,37 @@ Before beginning, make sure you have:
 * Intune for Education device licenses. Find out more about the device licenses in the [Intune licenses docs](https://docs.microsoft.com/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-4).
 
 > [!IMPORTANT]
-> Intune for Education only supports iOS device enrollment for devices bought through Apple DEP. If you did not buy a device through an approved Apple DEP vendor, you must manually enter the device serial number into Apple School Manager. For more information about Apple School Manager, see the [Apple education support site](https://support.apple.com/education).  
+> Intune for Education only supports iOS device enrollment for devices bought through Apple DEP. For more information about Apple School Manager, see the [Apple education support site](https://support.apple.com/education).  
 
 ## Add an MDM Push certificate
-An Apple MDM push certificate sets up a secure connection between your Intune and Apple School Manager account. When connected, Intune can continually sync and manage your Apple devices and apps. 
+An Apple MDM Push certificate sets up a secure connection between your Intune and Apple School Manager account. When connected, Intune can continually sync and manage your Apple devices and apps. 
 
 1. Sign in to the Intune for Education Portal.
-2. Click **Tenant settings** > **iOS device management**.
-3. On the **iOS Device Management** page, click the **MDM Push Certificate** tab.
-4. Follow the instructions on the **MDM Push Certificate** page. You will be required to visit the Apple Push Certificate portal to create an MDM push certificate. Sign in to the Apple Push Certificates portal with your school's Apple ID, not your personal one.
+2. Click **Tenant settings** > **iOS Device Management**.
+3. Click the **MDM Push Certificate** tab.
+4. Follow the instructions on the **MDM Push Certificate** page. You will be required to visit the Apple Push Certificates portal to create an MDM push certificate. Sign in to the Apple Push Certificates portal with your school's Apple ID, not your personal one.
 5. Complete the steps in the Apple portal. After you create the certificate, click to download and save it.
-6. Return to the Intune for Education portal and upload the saved certificate. Then click **Save**.
+6. Return to the Intune for Education portal and enter the Apple ID you used to sign in to Apple Push Certificates portal.
+7. Upload the certificate you downloaded.
+8. Click **Save**.
 
 The push certificate expires every 365 days. The certificate is needed to connect Intune for Education to your Apple School Manager account, so [you'll need to renew it yearly](renew-ios-certificate-token.md). 
 
 ## Configure MDM server tokens
 Sometimes referred to as a DEP token, the MDM server token lets Intune sync device details from Apple School Manager. These details inform Intune of the devices it needs to manage, and populate your inventory in the Intune for Education portal.  
 
-1. On the iOS Device Management page, click the **DEP Tokens** tab.
+1. On the **iOS Device Management** page, click the **MDM Server Tokens** tab.
 2. Click **Set up token**.
-3. Click **Download** to download the required Intune public key. You'll need to upload this file in Apple School Manager to create your MDM Server Token. Save the file to your computer.
+3. Click **Download** to download the required Intune public key. You'll need to upload this file in Apple School Manager to create your MDM server token. Save the file to your computer.
 4. Click **Go to my MDM Servers in Apple School Manager**. If prompted, sign in to Apple School Manager with your school's Apple ID, not your personal one.
-5. Go the MDM servers section of the site and click the option to add a new MDM server.
-6. Follow the steps on screen to get and download the MDM server token. Then save your changes. If you don't have the information to complete this step, contact your school's Intune administrator. 
-7. Stay in Apple School Manager and go to the device assignments page. Enter the serial number for each device, the order number for your entire device purchase, or a list of your devices in a CSV file. 
-8. Select the option to assign your devices to a server. From the list, choose the server you just created.
-9. Return to the Intune for Education portal and enter the Apple ID you used to sign in to Apple School Manager.
-10. Upload the MDM server token that you just downloaded.
-11. Click **Save**.
+5. Follow the steps on screen to get and download the MDM server token. Then save your changes. If you don't have the information to complete this step, contact your school's Intune administrator. 
+6. Stay in Apple School Manager and go **Device Assignments**. Enter the serial number for each device, the order number for your entire device purchase, or a list of your devices in a CSV file. 
+7. From the drop-down menu, choose **Assign to Server**. Then choose the MDM server you just created.
+8. Return to the Intune for Education portal and enter the Apple ID you used to sign in to Apple School Manager.
+9. Upload the MDM server token you downloaded.
+10. Click **Save**.
 
-Tokens expire every 365 days. The token is needed to view and manage your devices in the Intune for Education portal. You'll need to [renew it yearly](renew-ios-certificate-token.md).
+MDM server tokens expire every 365 days. The token is needed to view and manage your devices in the Intune for Education portal. You'll need to [renew it yearly](renew-ios-certificate-token.md).
 
 ### Device enrollment profile
 Intune for Education creates and applies an iOS enrollment profile to each MDM server token you configure.
@@ -94,9 +95,9 @@ For more details about enrollment profiles, view the [list of settings configure
 ### Sync managed devices
 Now that Intune for Education has permission to manage your iOS devices, sync with Apple to view a list of your managed devices.  
 1. Sign in to Intune for Education.
-2. Click **Tenant settings** > **iOS Device MAnagement** > **DEP Tokens**.
+2. Click **Tenant settings** > **iOS Device Management** > **DEP Tokens**.
 3. Click on any of the listed tokens.
-4. A blade appears from the right. Click **Sync device list**. 
+4. Click **Sync device list**. 
 
 Devices that appear in the list are ready for enrollment. Power them on to start the enrollment process.
 
@@ -111,9 +112,9 @@ VPP tokens are necessary for Intune to:
 
 Without a VPP token, you can still search and get [free iOS apps through the App Store](add-apps-ios.md). However, to install the app on the device, the device user must sign in with an Apple ID. 
 
-1. On the iOS Device Management page, click the **VPP Tokens** tab.
-2. Click **Open Apple School Manager** and sign in with your school's Apple ID, not your personal one. If you use the legacy Apple VPP site to buy apps, click **Download your token from the VPP website**. 
-3. Follow the steps on either site to create and download the token. Save the token to your local drive.
+1. On the **iOS Device Management** page, click the **VPP Tokens** tab.
+2. Click **Open Apple School Manager** and sign in with your school's Apple ID, not your personal one.
+3. Follow the steps in Apple School Manage to create and download the token. Save the token to your local drive.
 4. Return to the Intune for Education portal. Enter the Apple ID that you used to sign in to Apple School Manager.
 5. Click the folder icon to browse your computer's files. Select the token file that you downloaded and saved earlier.
 6. Choose the location of your school's devices.

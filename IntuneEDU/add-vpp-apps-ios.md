@@ -31,12 +31,12 @@ searchScope:
 
 # Add VPP-purchased iOS apps to Intune
 
-Add volume purchase program (VPP) iOS apps from the Intune for Education portal. This article describes how to manage VPP-purchased apps that have been synced to Microsoft Intune.
+Add Volume Purchase Program (VPP) iOS apps from the Intune for Education portal. This article describes how to manage VPP-purchased apps that have been synced to Microsoft Intune.
 
 Both free and paid-for apps are available to buy in volume through the App Store. To install free iOS apps *without a VPP token*, see how to [add free iOS apps in Intune](add-apps-ios.md).  
 
-## What is a VPP?
-A VPP lets organizations buy app licenses in bulk and manage them through their mobile device manager (MDM). From an MDM, such as Intune for Education, licenses can be managed and then silently deployed over-the-air to student devices. A VPP/MDM partenership is ideal in classrooms and organizations where the same app is needed on many devices. 
+## What is the Volume Purchase Program?
+The Apple Volume Purchase Program lets organizations buy app licenses in bulk and manage them through their mobile device manager (MDM). With an MDM, such as Intune for Education, licenses can be managed and then silently deployed over-the-air to student devices. A VPP/MDM partenership is ideal in classrooms and organizations where the same app is needed on many devices. 
 
 ## Before you begin
 To view and manage licenses from the Intune for Education portal, you must first:  
@@ -55,9 +55,9 @@ Free apps are made available for purchase directly from the portal. However, the
 4. Select the country from where you are purchasing the app.
 5. Type in the app's full or partial name. Intune returns a list of relevant results from the App Store. 
 6. Select the app. 
-7. A message appears that prompts you to complete your purchase through Apple School Manager or the legacy VPP site. Click the site where your volume-purchased apps belong. 
-8. Follow the steps on the external website to complete your purchase. You will be prompted to assign your licenses to the appropriate location.
-9. Return to Intune for Education > Apps. Your app will appear in the **iOS Apps** list. If you don't see it right away, wait a few minutes and refresh your page.
+7. A message appears that prompts you to complete your purchase through Apple School Manager. Click the link to go to Apple School Manager.
+8. Follow the steps in Apple School Manager to complete your purchase. You will be prompted to assign your licenses to the appropriate location.
+9. Return to Intune for Education > **Apps**. Your app will appear in the **iOS Apps** list. If you don't see it right away, wait a few minutes and refresh your page.
 
 ### View app details
 Apps appear in the app list, under **iOS Apps**. Click the app to view its:
@@ -67,8 +67,7 @@ Apps appear in the app list, under **iOS Apps**. Click the app to view its:
 * **Install status**: Shows details about the app's installation, such as the device it was assigned to. The status also lists last check-in time and if the installation was a success, failure, or still-in-progress.
 
 ## Reassign VPP-purchased licenses
-VPP-purchased apps cannot be deleted from Intune for Education. However, you can remove a user from an assigned group, or remove the entire group from assignment. Learn how to [change group assignments](link).
+VPP-purchased apps cannot be deleted from Intune for Education. However, you can remove a user from an assigned group, or remove the entire group from assignment.  
 
-## Next steps
-
-- [Find out more about the full experience managing apps using Intune](https://docs.microsoft.com/intune/deploy-use/add-apps)
+## Next steps  
+[Find out more about the full experience managing apps using Intune](https://docs.microsoft.com/intune/deploy-use/add-apps)

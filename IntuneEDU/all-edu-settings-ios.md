@@ -176,4 +176,6 @@ Select from the list of Wi-Fi profiles to assign one or more profiles to the gro
 |Block changing Bluetooth settings|Block students from changing Bluetooth settings on the device.|  
 
 ## Next steps
-[Find out more about the full Windows 10 settings management experience available in Intune](https://docs.microsoft.com/intune/deploy-use/windows-10-policy-settings-in-microsoft-intune)
+Configure your group, app, and device settings in the Intune for Education portal. If you haven't yet done it, go to [express configuration](edu-express-config-settings-ios.md) and set up your school with Microsoft-recommended settings.  
+
+- [Find out more about the full Windows 10 settings management experience available in Intune](https://docs.microsoft.com/intune/deploy-use/windows-10-policy-settings-in-microsoft-intune)

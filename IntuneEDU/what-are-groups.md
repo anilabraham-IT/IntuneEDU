@@ -108,7 +108,7 @@ Subgroups can only be created *under* assigned groups.
  ![The create subgroup page, with the two locations for subgroup creation — at the top of the group name and the sidebar — encircled in red](./media/groups-007-create-subgroup.png)
 
 1. Go to **Groups** and choose a group. This group will be the parent to your subgroup.
-2. On the right-side of the blade, click **Create sub group**.
+2. Click **Create sub group**.
 3. Enter the **Group name**. 
 4. Select your group type. For more details about group types, see the steps for [Create a group](what-are-groups.md#create-a-group) above.
 5. Click **Create group**.  

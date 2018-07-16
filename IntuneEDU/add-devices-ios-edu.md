@@ -34,14 +34,16 @@ searchScope:
 Devices are ready to power on and enroll in management after you:
 
 * Set up Intune for Education [with school information](what-is-school-data-sync.md) — such as student records, apps, and settings for devices.
-* Enable Intune for iOS device management by [setting up the Apple Push MDM certificate and Apple DEP tokens](setup-ios-device-management.md#add-an-mdm-push-certificate).
-* [Sync your Apple DEP tokens](setup-ios-device-management.md#sync-managed-devices) with Intune for Education and see a list of ready-to-enroll devices.  
+* Enable Intune for iOS device management by [setting up the Apple Push MDM certificate and Apple MDM Server tokens](setup-ios-device-management.md#add-an-mdm-push-certificate).
+* [Sync your Apple MDM Server tokens](setup-ios-device-management.md#sync-managed-devices) with Intune for Education and see a list of ready-to-enroll devices.  
 
 > [!NOTE]
 > Make sure your devices are connected to the Internet and your account has enough Intune for Education device licenses to complete setup. Find out more about licensing in [Assign licenses to users](https://docs.microsoft.com/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-4).
 
 ## Pre-configured enrollment profile
-Intune for Education creates and assigns each synced device a school-optimized enrollment profile. The enrollment profile is already configured to tell the device how to set itself up and enroll in management. When you turn the device on, the enrollment profile immediately starts working. Minimal input or effort is needed from you during enrollment.
+Intune for Education creates and assigns each synced device a school-optimized enrollment profile.  
+
+Enrollment profiles are configured to tell the device how to set itself up and enroll in management. Intune configures the settings to help speed up your enrollment.  When you turn the device on, the enrollment profile immediately begins setting up your device.
 
 ## List of preconfigured settings
 During initial device setup, devices enroll with the following configurations:
@@ -69,7 +71,7 @@ The following Setup Assistant setting is shown during enrollment:
 ### What is Setup Assistant?
 The first time that you turn on your device, Intune for Education launches the iOS out-of-the-box experience, called *Setup Assistant*. Setup Assistant walks you through a series of screens and prepares your device for school use.  
 
-## Enroll iOS device
+## Enroll a device
 
 These steps can be done by a delegated admin or [enrollment manager](add-enrollment-managers.md), such as a teacher or IT person, or by your students. If students and teachers are part of the initial device setup, consider pointing them to this article.
 
