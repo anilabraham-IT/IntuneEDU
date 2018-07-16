@@ -212,7 +212,7 @@ A list of Wi-Fi profiles that you create appear within this section. Details vis
 |Block showing recently added apps in Start menu|Block recently added apps from showing in the Start menu.|
 |Block showing the most used apps in Start menu|Block the most used apps from showing in the Start menu.|
 |Block app list in the Start menu|Block the list of all apps on the device from showing in the Start menu.|
-|Block power menu in the Start menu|Block the power menu (e.g., Restart, Shut down) from showing in the Start menu.|
+|Block power menu in the Start menu|Block the power menu (for example, Restart, Shut down) from showing in the Start menu.|
 |Block user tile in the Start menu|Block the current user’s information from being shown in the Start menu.|
 |Block options from appearing on the user tile in the Start menu|You can choose **Change account settings**, **Lock**, and **Sign out**.|
 |Choose folders that appear in the Start menu|You can choose **File Explorer**, **Settings**, **Documents**, **Downloads**, **Music**, **Pictures**, **Videos**, **HomeGroup**, **Network**, and **Personal Folder**.|

@@ -43,7 +43,7 @@ Devices are ready to power on and enroll in management after you:
 ## Pre-configured enrollment profile
 Intune for Education creates and assigns each synced device a school-optimized enrollment profile.  
 
-Enrollment profiles are configured to tell the device how to set itself up and enroll in management. Intune configures the settings to help speed up your enrollment.  When you turn the device on, the enrollment profile immediately begins setting up your device.
+Enrollment profiles are configured to tell the device how to set itself up and enroll in management. Intune configures the settings to help speed up your enrollment.  When you power on the device, the enrollment profile immediately begins setting up your device.
 
 ## List of preconfigured settings
 During initial device setup, devices enroll with the following configurations:

@@ -66,7 +66,7 @@ Many settings in Intune for Education are configured to **Block** or **Allow**. 
 |Block changing notification settings|Block students from changing the device notification settings.|  
 |Wallpaper modification |Blocks students from changing the device background image.|    
 |Configuration profile changes |Block students from being able to install configuration profiles.||  
-|Activation Lock|Block Activation Lock on superviced iOS devices.|  
+|Activation Lock|Block Activation Lock on supervised iOS devices.|  
 
 ## Lock screen and passcode  
 

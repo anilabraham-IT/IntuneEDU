@@ -54,7 +54,7 @@ Windows 10 and iOS Wi-Fi configurations vary slightly. Because of the difference
 |Network name (SSID)    |  Enter a display name for your wireless connection. People will see this name when they browse the list of available networks from their device.  |
 |Security type   |  Select the security protocol to use to authenticate to the Wi-Fi network. Intune for Education supports WPA2-Personal and Open. Select Open if you require no password to access your school's network. This type of network is unsecured, meaning anyone can access it.| 
 |Password    |  Enter the password for your Wi-Fi network. Password must be 8-63 characters long. | 
-|Confirm password| Re-enter the password for your Wi-Fi network.|
+|Confirm password| Reenter the password for your Wi-Fi network.|
 |Description| Briefly describe who the network is for or how it will be used.|  
 
 ### Wi-Fi settings for iOS devices
@@ -64,7 +64,7 @@ Windows 10 and iOS Wi-Fi configurations vary slightly. Because of the difference
 |Network name (SSID)    |  Enter a display name for your wireless connection. People will see this name when they browse the list of available networks from their device.        |
 |Security type   |  Select the security protocol to use to authenticate to the Wi-Fi network. Intune for Education supports WPA2-Personal and Open. Select Open if you require no password to access your school's network. This type of network is unsecured, meaning anyone can access it.       |  
 |Password    |  Enter the password for your Wi-Fi network. Password must be 8-63 characters long. | 
-|Confirm password| Re-enter the password for your Wi-Fi network.|
+|Confirm password| Reenter the password for your Wi-Fi network.|
 |Connect automatically   |  If enabled, assigned devices within range of the network will automatically connect. If not enabled, your students or teachers must manually select the network from the list of available networks.       | 
 |Make a hidden network   | If enabled, your network won't appear to users in the list of available networks. They'll have to manually type in the network name (SSID) to connect to it.       | 
 |Configure proxy settings| When enabled, you can configure proxy settings for your school's network.|

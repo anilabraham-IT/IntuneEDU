@@ -31,12 +31,10 @@ searchScope:
 
 # Manage devices remotely
 
-As an admin, you may need to help your users if they have issues with their devices. If you're in a different location than a device or its user, you can use remote actions to reach devices and users. 
-
-To begin, got to **Devices** or **Users**.
+As an admin, you may need to help your users if they have issues with their devices. If you're in a different location than a device or its user, you can use remote actions to reach devices and users.   
 
 ## Windows 10 devices
-Select the device that you want to manage. At the bottom of the page, select any of the following actions:
+From the dashboard, go to **Devices**. Select the device that you want to manage. At the bottom of the page, select any of the following actions:
 
 - **Restart**: Powers off the device and restarts it.
 - **Factory reset**: Powers off the device and resets it to its factory settings.
@@ -44,9 +42,8 @@ Select the device that you want to manage. At the bottom of the page, select any
 - **Remove from management** - Remove the device from Intune management without removing any personal data. It will no longer be able to access school resources. 
 
 ## Windows 10 students
+From the dashboard, go to **Users**. Select the user that you want to manage. At the bottom of the page, select **Reset password**. This action resets an old, lost, or forgotten password on the user's device. 
 
-- **Reset password**: Resets an old, lost, or forgotten password.  
-
-## Find out more
+## Find out more  
 
 - [Find out more about the full set of remote actions available in full Intune console](https://docs.microsoft.com/intune/device-management)
