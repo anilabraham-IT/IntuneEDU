@@ -34,14 +34,16 @@ searchScope:
 Devices are ready to power on and enroll in management after you:
 
 * Set up Intune for Education [with school information](what-is-school-data-sync.md) — such as student records, apps, and settings for devices.
-* Enable Intune for iOS device management by [setting up the Apple Push MDM certificate and Apple DEP tokens](setup-ios-device-management.md#add-an-mdm-push-certificate).
-* [Sync your Apple DEP tokens](setup-ios-device-management.md#sync-managed-devices) with Intune for Education and see a list of ready-to-enroll devices.  
+* Enable Intune for iOS device management by [setting up the Apple Push MDM certificate and Apple MDM Server tokens](setup-ios-device-management.md#add-an-mdm-push-certificate).
+* [Sync your Apple MDM Server tokens](setup-ios-device-management.md#sync-managed-devices) with Intune for Education and see a list of ready-to-enroll devices.  
 
 > [!NOTE]
 > Make sure your devices are connected to the Internet and your account has enough Intune for Education device licenses to complete setup. Find out more about licensing in [Assign licenses to users](https://docs.microsoft.com/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-4).
 
 ## Pre-configured enrollment profile
-After you synced your devices from Apple School Manager, Intune for Education created and assigned each device a school-optimized enrollment profile. The enrollment profile has already been configured to tell the device how to set itself up and enroll in management. Other than the basic info Setup Assistant asks from you, enrollment will require very little effort from you.  
+Intune for Education creates and assigns each synced device a school-optimized enrollment profile.  
+
+Enrollment profiles are configured to tell the device how to set itself up and enroll in management. Intune configures the settings to help speed up your enrollment.  When you power on the device, the enrollment profile immediately begins setting up your device.
 
 ## List of preconfigured settings
 During initial device setup, devices enroll with the following configurations:
@@ -49,7 +51,7 @@ During initial device setup, devices enroll with the following configurations:
 * No user affinity
 * Supervised mode enabled
 * Blocked from syncing or pairing with other devices
-* Locked enrollment, meaning users cannot change management settings on their devices
+* Locked enrollment, meaning users can't change management settings on their devices
 
 
 The following Setup Assistant settings are hidden during enrollment:
@@ -67,9 +69,9 @@ The following Setup Assistant setting is shown during enrollment:
 * Terms and Conditions
 
 ### What is Setup Assistant?
-The first time that you turn on your device, Intune for Education initiates the iOS out-of-the-box experience, called Setup Assistant. Setup Assistant walks you through a series of screens and prepares your device for school use.  
+The first time that you turn on your device, Intune for Education launches the iOS out-of-the-box experience, called *Setup Assistant*. Setup Assistant walks you through a series of screens and prepares your device for school use.  
 
-## Enroll iOS device
+## Enroll a device
 
 These steps can be done by a delegated admin or [enrollment manager](add-enrollment-managers.md), such as a teacher or IT person, or by your students. If students and teachers are part of the initial device setup, consider pointing them to this article.
 
@@ -80,14 +82,13 @@ These steps can be done by a delegated admin or [enrollment manager](add-enrollm
 
 **[Your School] will automatically configure your device. Configuration allows [Your School] to manage this device over the air.**   
 
-**An administrator can help you set up email and network accounts, install and configure apps, and manage settings remotely. An administrator may disable features, install and remove apps, monitor and restrict your Internet traffic and remotely erase this device.**  
+**An administrator can help you set up email and network accounts, install and configure apps, and manage settings remotely. An administrator may disable features, install and remove apps, monitor and restrict your Internet traffic, and remotely erase this device.**  
       
 **Configuration is provided by:
    [Your School's] iOS Team
    [Address]**
 
-5. Agree to the **Terms and Conditions**. Then decide if you want to send diagnostic information to Apple.
-6. After you complete enrollment, you may receive a prompt to take more actions. Some of these steps might be entering your password for email access or setting up a passcode.  
+5. Agree to the **Terms and Conditions**. Then decide if you want to send diagnostic information to Apple.  
 
 ## Next steps
 - [Find out more about the **Set up School PCs** app](https://docs.microsoft.com/education/windows/use-set-up-school-pcs-app)

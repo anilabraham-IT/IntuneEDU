@@ -1,9 +1,9 @@
 ---
 # required metadata
 
-title: Available settings
+title: All iOS device settings
 titleSuffix: Intune for Education
-description: Learn more about the settings available for Intune for Education.
+description: See a list of all iOS evice settings in Intune for Education.
 keywords:
 author: lenewsad
 ms.author: lanewsad
@@ -40,7 +40,7 @@ This article lists and describes all iOS device settings in Intune for Education
 Apply [group settings](what-are-groups.md) to establish access and security boundaries on devices throughout your school. You can assign the same settings across all groups in your school; or you can customize the classroom experience and apply settings to individual groups.
 
 ## Configuration options
-Many settings in Intune for Educations are configured to **Block** or **Allow**. For some settings, **Not configured** is an option. When toggled to **Not Configured**, the device will either:  
+Many settings in Intune for Education are configured to **Block** or **Allow**. For some settings, **Not configured** is an option. When toggled to **Not Configured**, the device will either:  
 * Use the default setting. 
 * Allow the device user (student or teacher) to customize the setting from their device.  
 
@@ -48,11 +48,10 @@ Many settings in Intune for Educations are configured to **Block** or **Allow**.
 > User, app, and device settings differ from [tenant settings](edu-tenant-general-settings.md). Tenant settings target the subscription and management settings at the organization's administrative level.
 
 
-  ![The settings page for a group](./media/settings-001-list-of-settings.png)
-
+  ![The settings page for a group](./media/settings-001-list-of-settings.png)  
   
 ## Basic device restrictions  
-Setting|What it does|
+|Setting|What it does|
 |---|---|
 |Block users from changing diagnostic data submission settings|Blocks students from changing if or how the device sends diagnostic data. |  
 |Block screen capture|Block students from capturing the contents of the screen as an image.|  
@@ -65,16 +64,16 @@ Setting|What it does|
 |Block erasing content and settings|Block students from erasing all content and settings on the device.|  
 |Block changing device name|Block students from changing the name of the device.|  
 |Block changing notification settings|Block students from changing the device notification settings.|  
-|Block wallpaper modification |What it does|    
-|Block configuration profile changes |Block students from being able to install configuration profiles.||  
-|Block Activation Lock|Block Activation Lock on supervices iOS devices.|  
+|Wallpaper modification |Blocks students from changing the device background image.|    
+|Configuration profile changes |Block students from being able to install configuration profiles.||  
+|Activation Lock|Block Activation Lock on supervised iOS devices.|  
 
 ## Lock screen and passcode  
 
-Setting|What it does|
+|Setting|What it does|
 |---|---|
 |Block notifications on lock screen|Block students from viewing notifications when device is locked.|
-|Block access to Control Center on lock screen|Block student from accessing the control center app when device is locked.|
+|Control Center access on lock screen|Block student from accessing the control center app when device is locked.|
 |Block Siri on lock screen|Block the use of Siri when device is locked.|
 |Block access to Wallet from lock screen|Block access to the Wallet app when device is locked.|
 |Block Today view on lock screen|Block students from seeing the Today view when device is locked.|
@@ -84,7 +83,7 @@ Setting|What it does|
 |Minutes to wait before requiring passcode on lock screen|Specifies how long the device can remain idle before the student must re-enter device password.|
 |Number of failed passcode attempts before wiping device|Specifies the number of unique, bad password attempts allowed before the student must re-enter device password.
 |Block fingerprint unlock|Block students from using a fingerprint to unlock devices.|
-|Block changing registered fingerprint settings|Block students from changing, addiing, or removing TouchID settings.|  
+|Block changing registered fingerprint settings|Block students from changing, adding, or removing TouchID settings.|  
 
 ## App Store settings  
 
@@ -116,67 +115,67 @@ Setting|What it does|
 
 |Setting|What it does|  
 |---|---|  
-|Block iCloud backup|What it does|  
-|Block syncing documents to iCloud|What it does|  
-|Block Photo Stream|What it does|  
-|Require iCloud backups to be encrypted|What it does|  
-|Block iCloud Photo Library|What it does|  
-|Block shared Photo Stream|What it does|  
-|Block Handoff|What it does|  
+|Block iCloud backup|Block students from backing up devices to iCloud.|  
+|Block syncing documents to iCloud|Block documents from syncing to an iCloud storage space.|  
+|Block Photo Stream|Block students from enabling My Photo Stream. Students cannot sync photos to iCloud and share across all school devices.|  
+|Require iCloud backups to be encrypted|Required any device backups to be encrypted.|  
+|Block iCloud Photo Library|Blocks the use of iCLoud photo library. Students cannot store photos and videos in the cloud. Any photos from iCloud Photo Library that are not fully downloaded to the device are removed from the device. |  
+|Block shared Photo Stream|Blocks iCloud Photo Sharing on the device.|  
+|Block Handoff|Blocks the user from continuing work they started on an iOS device, on another iOS device.|  
 
 ## Device update restrictions
 
 |Setting|What it does|
 |---|---|
-|Prevent devices from updating specific times|What it does|
-IX Note: Describe that the user can then specificy restricted days, time zone, start time, and end time.
+|Prevent devices from updating specific times|Stops device updates according to your day and time selections.|  
 
 ## Inventory tracking  
 
 |Setting|What it does|
 |---|---|
-|Asset tag information|What does it do|
-|Lock screen footnote|What does it do|
+|Asset tag information|Applies your specified tag to all devices in a group. For example, "Owned by Contoso school district."|
+|Lock screen footnote|If the device is lost, it displays a note or instructions to help get it returned to your school. For example, "If found, call the Contoso school district at 555-555-5555."
 
 ## Built-in apps  
 
-Setting|What it does|
+|Setting|What it does|
 |---|---|
-|Block Camera|What it does|
-|Block FaceTime|What it does|
-|Block Siri|What it does|
-|Block Siri profanity filter|What it does|
-|Block Siri from searching for user-generated content|What it does|
-|Block Spotlight from searching for user-generated content|What it does|
-|Block Apple News|What it does|
-|Block iBooks Store|What it does|
-|Block Messages app|What it does|
-|Block Podcasts app|What it does|
-|Block Apple Music|What it does|
-|Block iTunes Radio|What it does|
-|Block changes to Find My Friends app settings|What it does|
+|Block Camera|Blocks the use of the camera on the device.|
+|Block FaceTime|Blocks use of the FaceTime app on the device.|
+|Block Siri|Blocks use of the Siri voice assistant on the device.|
+|Block Siri profanity filter|Blocks Siri from dictating or speaking profane language.|
+|Block Siri from searching for user-generated content|Blocks Siri from accessing websites to answer questions.|
+|Block Spotlight from searching for user-generated content|Block Spotlight search from connecting the Internet to provide further results.|
+|Block Apple News|Block use of the Apple News app on the device.|
+|Block iBooks Store|Block students from being able to browse and purchase books from the iBooks store.|
+|Block Messages app|Block use of the Messages app on the device.|
+|Block Podcasts app|Block use of the Podcasts app on the device.|
+|Block Apple Music|Block use of the Apple Music app on the device.|
+|Block iTunes Radio|Block use of the iTunes Radio app on the device.|
+|Block changes to Find My Friends app settings|Block students from changing settings for the Find My Friends app.|  
 
 ## Safari  
 
-Setting|What it does|  
+|Setting|What it does|  
 |---|---|  
-|Block Safari|What it does|  
-|Block autofill|What it does|  
-|Block cookies|What it does|  
-|Show warning when visiting a fraudulent website|What it does|  
-|Block pop-ups|What it does|
+|Block Safari|Block the Safari browser on the device.|  
+|Block autofill|Block students from changing autofill settings in the browser.|  
+|Block cookies|Block the browser from using cookies.|  
+|Show warning when visiting a fraudulent website|Shows fraud warnings in the browser.|  
+|Block pop-ups|Block pop-ups that appear in the browser.|
 
 ## Wi-Fi profiles  
-Select from the list of Wi-Fi profiles to assign them to the group.  
+Select from the list of Wi-Fi profiles to assign one or more profiles to the group.  
 
 ## Wireless and connectivity  
 
-Setting|What it does|
+|Setting|What it does|
 |---|---|
-|Block AirDrop|What it does|
-|Block personal hotspot|What it does|
-|Block changing Bluetooth settings|What it does|
-|Description|What it does|
+|Block AirDrop|Block the use of the AirDrop feature. Students will not be able to exchange content with nearby devices.|
+|Block Personal Hotspot|Block students from using the device as a personal hotspot.|
+|Block changing Bluetooth settings|Block students from changing Bluetooth settings on the device.|  
 
 ## Next steps
-[Find out more about the full Windows 10 settings management experience available in Intune](https://docs.microsoft.com/intune/deploy-use/windows-10-policy-settings-in-microsoft-intune)
+Configure your group, app, and device settings in the Intune for Education portal. If you haven't yet done it, go to [express configuration](edu-express-config-settings-ios.md) and set up your school with Microsoft-recommended settings.  
+
+- [Find out more about the full Windows 10 settings management experience available in Intune](https://docs.microsoft.com/intune/deploy-use/windows-10-policy-settings-in-microsoft-intune)

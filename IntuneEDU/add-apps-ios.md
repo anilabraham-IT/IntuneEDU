@@ -38,13 +38,13 @@ Instructions apply only to apps that are listed as **Free** in the App Store. To
 
 You do not need a VPP token to install free apps, but we recommended it. A VPP token permits you to purchase all apps--free and paid--through the VPP store. Intune silently installs VPP-purchased apps on devices, and does not require an Apple login to authenticate.  
 
-If you choose not to use a VPP token to purchase your app, the device user will need to log in with an Apple ID to install the app.
+If you choose not to use a VPP token to purchase your app, you will only be able to manage free apps in the Intune for Education. The device user will also need to log in with an Apple ID to install assigned apps.
 
 ## Add new iOS app
 Complete the following steps to add an iOS app to Intune for Education.
 1. Sign in to the Intune for Education portal.
 2. Click **Apps**.
-3. In the left pane of the blade, under **IOS APPS**, click **New app**.
+3. In the left pane, under **IOS APPS**, click **New app**.
 5. In the search box, type the full or partial name of an app.
 6. Select the app and click **Save** to add the app to your Intune inventory.
 

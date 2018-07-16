@@ -37,7 +37,7 @@ To complete these steps, you will need the installation file for the app that yo
 
 1. Sign in to the Intune for Education portal.
 2. Click **Apps**.
-3. In the left pane of the blade, under **DESKTOP APPS**, click **New app**.
+3. In the left pane, under **DESKTOP APPS**, click **New app**.
 4. In the **New desktop app** section, enter the following details:
    * **App file** — Upload an MSI installer for the app.
    * **App name** — The name of the app to appear on devices.

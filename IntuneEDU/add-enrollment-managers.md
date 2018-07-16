@@ -49,7 +49,7 @@ Device enrollment permissions cannot be used with these other enrollment methods
 4. Click **Save**.
 
 ## Remove enrollment permissions  
-1. From the **Enrollment Managers** blade go to the left side of the screen and choose a user. 
+1. From **Enrollment Managers**, go to the left side of the screen and choose a user. 
 2. Click **Remove enrollment permissions**.
 3. Click **Remove** to confirm your action. Removing a device enrollment manager does not affect enrolled devices.
   ![Remove enrollment permissions button selected while viewing an individual Enrollment Manager's page](./media/enroll-mgrs-003-remove-enrollment-permissions.png)
