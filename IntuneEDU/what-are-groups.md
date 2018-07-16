@@ -114,6 +114,6 @@ Subgroups can only be created *under* assigned groups.
 5. Click **Create group**.  
 
 ## Next steps 
-[Delegate permission](group-admin-delegate.md#how-do-i-assign-admin-groups) to allow admin groups to manage parent level groups and subgroups. 
+[Delegate permission](group-admin-delegate.md) to allow admin groups to manage parent level groups and subgroups.  
 
 - [Find out more about the full groups management experience in Intune](https://docs.microsoft.com/intune/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune)
