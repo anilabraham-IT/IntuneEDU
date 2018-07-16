@@ -5,12 +5,13 @@
 ## [Importing data with School Data Sync](what-is-school-data-sync.md)
 ## [General tenant settings](edu-tenant-general-settings.md)
 ## [Device enrollment](how-should-I-enroll-devices.md)
+## [Group and device settings](manage-device-settings-edu.md)]
 ## [Settings inheritance](settings-inheritance.md)
 # [Express configuration](express-configuration-intune-edu.md)
 ## [Windows 10 express configuration settings](edu-express-config-settings-windows.md)
 ## [iOS express configuration settings](edu-express-config-settings-ios.md)
 # Add Windows 10 devices
-## [Enroll Windows 10 devices](how-do-I-add-devices.md)
+## [Enroll Windows 10 devices](add-devices-windows.md)
 ## [Add device enrollment managers](add-enrollment-managers.md)
 ## [Windows 10 device group presets](all-devices-group-presets-windows-edu.md)
 # Add iOS devices
@@ -32,7 +33,8 @@
 ### [iOS VPP apps](add-vpp-apps-ios.md)
 ### [Desktop apps](add-desktop-apps-edu.md)
 ### [Web apps](add-web-apps-edu.md)
-## [Assign apps to groups](install-apps.md)
+## [Assign apps to groups](assign-apps.md)
+## [Delete apps](delete-apps-intune-edu.md)
 # Manage settings
 ## View all device settings
 ### [Windows device settings](all-edu-settings-windows.md)

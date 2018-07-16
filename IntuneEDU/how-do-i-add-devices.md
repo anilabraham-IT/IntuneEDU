@@ -55,6 +55,6 @@ Your device will [authenticate with Azure AD](https://docs.microsoft.com/azure/a
 
 Another way to enroll devices is through the [free __Set up School PCs__ app](how-should-i-enroll-devices.md) to quickly set up PCs using a USB key. 
 
-## Find out more
+## Next step
 - [Find out more about the **Set up School PCs** app](https://docs.microsoft.com/education/windows/use-set-up-school-pcs-app)
 - [Find out more about the full experience adding devices into Intune](https://docs.microsoft.com/intune/deploy-use/enroll-devices-in-microsoft-intune)

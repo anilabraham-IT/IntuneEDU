@@ -33,7 +33,7 @@ searchScope:
 
 To install an app on a school device, you have to first assign it to a group. This article describes three ways to assign apps to student teachers.  
 
-After you assign an app, the app is sent to the appropriate device. App installation is initiated when the device checks into Intune for Education. 
+After you assign an app, the app is sent to the appropriate device. App installation is initiated when the device checks in to Intune for Education. 
 
 ## Add apps to Intune for Education inventory
 By default, popular apps are available in Intune for Education for immediate assignment. If the app you want to assign isn't in your inventory, learn how to add it to Intune for Education with one of the following articles:

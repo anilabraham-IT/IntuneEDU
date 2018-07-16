@@ -34,7 +34,8 @@ Delete an app from your Intune tenant. When you delete an app, it is removed fro
 
 To assign the app again, you will need to add it back to your Intune tenant through the App Store.  
 
-Office desktop apps and VPP token apps cannot be deleted. To remove these from a device or user, change its group assignment.
+> [!NOTE]
+> Microsoft Office desktop apps and VPP token apps cannot be deleted. To remove these from a device or user, change its group assignment.
 
 1. From the Intune for Education dashboard, click **Apps**.
 2. Go to the app list, and under **iOS Apps** click the app that you want to delete.
