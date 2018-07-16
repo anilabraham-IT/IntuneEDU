@@ -29,7 +29,7 @@ searchScope:
 
 ---
 
-# Set up groups in Intune
+# Create groups in Intune
 
 The group feature in Intune lets you manage users, apps, and devices that have similar management needs. With groups, you can reduce the time you spend individually managing and troubleshooting devices. 
 
@@ -90,7 +90,7 @@ For example:
 ## Create a group  
 Groups must be created one a time. During setup, you'll select to create a group for either users or for devices.
 
-1. In the [Intune for Education console](https://intuneeducation.portal.azure.com), click **Groups** > **Create group**.
+1. From the Intune for Education dashboard, click **Groups** > **Create group**.
 2. Enter a descriptive group name.
 3. Select a group type. For more details about assigned and dynamic groups see [Group types](## Group types)   
     a. Assigned: Manually add and remove users and device in these groups. If you select this option, go to step 5.
@@ -116,4 +116,4 @@ Subgroups can only be created *under* assigned groups.
 ## Next steps 
 [Delegate permission](group-admin-delegate.md) to allow admin groups to manage parent level groups and subgroups.  
 
-- [Find out more about the full groups management experience in Intune](https://docs.microsoft.com/intune/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune)
+[Learn about the full](https://docs.microsoft.com/intune/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune)groups management experience in Intune.

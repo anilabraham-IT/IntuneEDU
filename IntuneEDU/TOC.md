@@ -5,7 +5,7 @@
 ## [Importing data with School Data Sync](what-is-school-data-sync.md)
 ## [General tenant settings](edu-tenant-general-settings.md)
 ## [Device enrollment](how-should-I-enroll-devices.md)
-## [Group and device settings](manage-device-settings-edu.md)]
+## [Group and device settings](manage-device-settings-edu.md)
 ## [Settings inheritance](settings-inheritance.md)
 # [Express configuration](express-configuration-intune-edu.md)
 ## [Windows 10 express configuration settings](edu-express-config-settings-windows.md)
@@ -36,11 +36,11 @@
 ## [Assign apps to groups](assign-apps.md)
 ## [Delete apps](delete-apps-intune-edu.md)
 # Manage settings
+## [Add Wi-Fi profiles](add-wi-fi-profile.md)
+## [Add Take a Test profiles](take-a-test-profiles.md) 
 ## View all device settings
 ### [Windows device settings](all-edu-settings-windows.md)
 ### [iOS device settings](all-edu-settings-ios.md) 
-## [Add Wi-Fi profiles](add-wi-fi-profile.md)
-## [Add Take a Test profiles](take-a-test-profiles.md)  
 # Monitor and troubleshoot
 ## [Manage devices with remote actions](edu-device-remote-actions.md)
 ## [View and download reports](what-are-reports.md)

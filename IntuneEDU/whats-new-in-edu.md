@@ -90,7 +90,7 @@ Select a user or device in one of your groups. A pane will now slide up from the
 
 We have launched the Intune for Education portal. Intune for Education is a streamlined experience for schools and educational organizations to manage Windows 10 devices. Find out more about Intune for Education in these docs.
 
-## Find out more
+## Next steps
 
 - [Find out more about Intune for Education](what-is-intune-for-education.md)
 - [Find out more about the full device management experience with Intune](https://docs.microsoft.com/intune/understand-explore/introduction-to-microsoft-intune)

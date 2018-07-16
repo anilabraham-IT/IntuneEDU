@@ -42,6 +42,6 @@ Assign enrollment capabilities to teachers or staff by making them an [Enrollmen
 ## Allow users to enroll their own devices
 Allow trusted users to enroll their own devices. Users will be able to automatically join their devices to Azure AD. //lenewsad Can we elaborate on this?
 
-## Find out more
+## Next steps
 - [Download the **Set Up School PCs** app from the Microsoft Store](https://www.microsoft.com/store/p/set-up-school-pcs/9nblggh4ls40)
 - [Find out more about setting up Windows devices for education](https://docs.microsoft.com/education/windows/set-up-windows-10)

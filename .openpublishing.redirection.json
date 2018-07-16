@@ -66,6 +66,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "IntuneEDU/how-do-i-customize-my-dashboard.md",
+            "redirect_url": "/intune-education/navigate-my-dashboard",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "IntuneEDU/install-apps.md",
             "redirect_url": "/intune-education/assign-apps",
             "redirect_document_id": true

@@ -65,7 +65,7 @@ It is possible for incompatible settings to be applied to the same group. These 
 
 For example, Esperanza is a member of the *6th Grade* group and is also a member of group called *Earth Science*. If you configure a homepage setting and assign to *6th Grade*, and you configure a different homepage setting and assign it to *Earth Science*, she now has two conflicting homepage settings assigned to her user. That results in inconsistent settings assignment leading to an error. You can find which devices and users have settings errors using the [settings errors report](what-are-reports.md).
 
-## Nest steps
+## Next steps
 [Create user and device groups](what-are-groups.md) in Intune for Education so that you can start configuring their settings.  
 
 [Find out more about how to protect apps and data with the full management experience in Intune](https://docs.microsoft.com/intune/deploy-use/protect-apps-and-data-with-microsoft-intune)

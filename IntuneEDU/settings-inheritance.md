@@ -31,17 +31,17 @@ searchScope:
 
 # What is settings inheritance?
 
-Settings are applied to groups. Since groups are set up as hierarchies, with one group above another, any settings applied to a group are inherited by all of its subgroups. This makes it easier to apply settings to large groups of users, apps, and devices.
+Settings are applied to groups. Since groups are set up as hierarchies, with one group above another, all settings applied to a group are inherited by its subgroups. Subgroups automatically take on the changes you make to the group above it. This is called _inheritance_. Settings inheritance ia helpful when you want to apply settings to large groups of users and devices.  
 
-  ![A tree of groups of and subgroups.](./media/groups-002-inheritance.png)
 
-Subgroups automatically take on the changes you make to the group above it. This is called _inheritance_.
+  ![A tree of groups of and subgroups.](./media/groups-002-inheritance.png)  
 
-## Configure subgroups individually 
+
+## Configure subgroups individually  
 
 Subgroups can be configured individually, even if they are inheriting settings from the group above them. Override inherited settings by configuring the settings that you need within the specific group, and then saving them.
 
-## Settings in conflict
+## Settings in conflict  
 
 When multiple settings are applied to the same group, each setting is analyzed individually by Intune for Education. Settings that you apply to your parent groups may directly contradict settings that you apply to your subgroups. When this happens, Intune for Education always enforces the settings that require users to comply with your school's settings.  
 
