@@ -33,7 +33,7 @@ Express Configuration comes preset to help you quickly set up your iOS devices. 
 
  Make changes to fit your school's rules and policies, or click straight through the settings page to apply the preset recommendations. 
 
-For the complete list of settings and descriptions, see [All iOS settings in Intune for Education](edu-settings-windows.md). 
+For the complete list of settings and descriptions, see [All iOS settings in Intune for Education](all-edu-settings-windows.md). 
 
 
 ## Basic device settings  

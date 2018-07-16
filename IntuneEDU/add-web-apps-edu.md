@@ -33,7 +33,7 @@ searchScope:
 
 Add web apps to your Intune for Education inventory. After you've added the apps, you can [assign them to groups](install-apps.md) and install them to your Windows 10 or iOS devices.
 
-Students access this kind of app in a browser, such as Microsoft Edge or Safari. Students access web apps by clicking a link that you send to their devices. On a Windows 10 device, Links appear in the **Start** menu. On an iOS device, links appear on the main app screen.
+Students access this kind of app in a browser, such as Microsoft Edge or Safari. Students access web apps by clicking a link that you send to their devices. On a Windows 10 device, Links appear in the **Start** menu. On an iOS device, links appear as web clips on the main app screen.
 
 1. Sign in to the Intune for Education portal.
 2. Click **Apps**.

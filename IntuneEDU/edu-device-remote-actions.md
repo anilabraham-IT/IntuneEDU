@@ -45,11 +45,7 @@ Select the device that you want to manage. At the bottom of the page, select any
 
 ## Windows 10 students
 
-- **Reset password**
-
-## iOS devices
-
-## iOS students
+- **Reset password**: Resets an old, lost, or forgotten password.  
 
 ## Find out more
 

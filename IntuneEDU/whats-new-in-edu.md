@@ -64,7 +64,7 @@ You can now take remote actions on your users and devices. Select the device you
 
 - Reset password
 
-Find out more about [remote actions](remote-actions.md).
+Find out more about [remote actions](edu-device-remote-actions.md).
 
 ### Wi-Fi profiles
 
