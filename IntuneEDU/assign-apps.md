@@ -49,7 +49,7 @@ Launch [Express Configuration](Express-configuration-intune-edu.md) to assign mu
 1. From the [Intune for Education dashboard](https://intuneeducation.portal.azure.com), click **Express Configuration**.  
 2. Choose the group you want to add apps to. Then click **Next**.
 3. Choose one or more apps to deploy to your group. Then click **Next**. 
-4. The apps will automatically be assigned to your group. Continue through Express Configuration. //lenewsad Want to check if there is an early exit option.
+4. The apps will automatically be assigned to your group. Continue through Express Configuration.
 
 ##  Assign apps to a single group
 Select a group and install one or more apps to the devices in that group.

@@ -40,7 +40,7 @@ There are multiple ways to enroll devices into Intune for Education management. 
 Assign enrollment capabilities to teachers or staff by making them an [Enrollment Manager](what-are-enrollment-managers.md). Enrollment managers have the capability to to enroll up to 1,000 devices within your tenant. You can also designate a service account as an enrollment manager account.
 
 ## Allow users to enroll their own devices
-Allow trusted users to enroll their own devices. Users will be able to automatically join their devices to Azure AD. //lenewsad Can we elaborate on this?
+Allow trusted users to enroll their own devices. Users will be able to automatically join their devices to Azure AD.  
 
 ## Next steps
 - [Download the **Set Up School PCs** app from the Microsoft Store](https://www.microsoft.com/store/p/set-up-school-pcs/9nblggh4ls40)
