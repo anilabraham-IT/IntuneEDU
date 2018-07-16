@@ -36,10 +36,10 @@ For a list and descriptions of all Windows 10 device settings, see [Windows 10 d
 
 |Category|Setting|Preset value|
 |---|---|---|
-|Windows Defender|Block user access to Windows Defender settings|Enabled|
-|Windows Defender|Real-time monitoring|Enabled|
-|Windows Defender|Behavior monitoring|Enabled|
-|Windows Defender|Prompt users for sample submission|Never send data|
+|Windows Defender|Block user access to Windows Defender settings|Enabled
+|Windows Defender|Real-time monitoring|Enabled
+|Windows Defender|Behavior monitoring|Enabled
+|Windows Defender|Prompt users for sample submission|Never send data
 |Windows Defender|Type of system scan to perform|Quick scan|
 |Windows Defender|Daily quick scan time|2 AM|
 |Windows Defender|Scan all downloaded files|Enabled|
@@ -49,7 +49,7 @@ For a list and descriptions of all Windows 10 device settings, see [Windows 10 d
 |Windows Defender|Scan remote folders during full scan|Enabled|
 |Windows Defender|Scan archive files|Enabled|
 |Windows Defender|Scan incoming email|Enabled|
-|Windows Defender||Scan file and program activity|Monitor all files|
+|Windows Defender|Scan file and program activity|Monitor all files|
 |Windows Defender|Days before quarantined malware is removed|0|
 |Windows Defender|Set update frequency|8 hours|
 |Windows Defender|Enable cloud-based protection|Enabled|
