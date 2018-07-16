@@ -7,8 +7,7 @@ description: Learn how to manage settings for groups of devices with Intune for 
 keywords:
 author: lenewsad
 ms.author: lanewsad
-manager: angrobe
-ms.date: 01/17/2018
+manager: dougeby
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune

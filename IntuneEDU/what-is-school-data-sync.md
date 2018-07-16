@@ -7,8 +7,8 @@ description: Use School Data Sync to import school groups and people into Azure 
 keywords:
 author: lenewsad
 ms.author: lanewsad
-manager: angrobe
-ms.date: 08/11/2017
+manager: dougeby
+ms.date: 07/23/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune

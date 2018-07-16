@@ -7,8 +7,8 @@ description: Lists the default setting names and behaviors set when using Expres
 keywords:
 author: lenewsad
 ms.author: lanewsad
-manager: angrobe
-ms.date: 02/20/2018
+manager: dougeby
+ms.date: 07/23/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune

@@ -7,8 +7,8 @@ description: Learn how to customize your dashboard and sidebar in Intune for Edu
 keywords:
 author: lenewsad
 ms.author: lanewsad
-manager: angrobe
-ms.date: 01/17/2018
+manager: dougeby
+ms.date: 07/23/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune

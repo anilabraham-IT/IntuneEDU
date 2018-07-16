@@ -7,8 +7,8 @@ description: Learn how to manage apps with Intune for Education.
 keywords:
 author: lenewsad
 ms.author: lanewsad
-manager: angrobe
-ms.date: 05/10/2017
+manager: dougeby
+ms.date: 07/23/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune

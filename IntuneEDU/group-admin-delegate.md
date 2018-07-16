@@ -1,14 +1,14 @@
 ---
 # required metadata
 
-title: "How do I delegate group management?"
+title: "Delegate admin permissions to groups"
 titleSuffix: Intune for Education
 description: Learn how to manage roles for groups in Intune for Education.
 keywords:
 author: lenewsad
 ms.author: lanewsad
-manager: angrobe
-ms.date: 01/18/2018
+manager: dougeby
+ms.date: 07/23/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune

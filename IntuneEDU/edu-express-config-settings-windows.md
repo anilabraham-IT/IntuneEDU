@@ -7,8 +7,8 @@ description: Describes the default settings for Windows 10 devices in Intune for
 keywords:
 author: lenewsad
 ms.author: lanewsad
-manager: angrobe
-ms.date: 06/26/2018
+manager: dougeby
+ms.date: 07/23/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune

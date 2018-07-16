@@ -1,14 +1,14 @@
 ---
 # required metadata
 
-title: What are settings?
+title: What are group settings?
 titleSuffix: Intune for Education
 description: Learn how to manage settings through Intune for Education policies.
 keywords:
 author: lenewsad
 ms.author: lanewsad
-manager: angrobe
-ms.date: 05/10/2017
+manager: dougeby
+ms.date: 07/23/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -30,9 +30,9 @@ searchScope:
 
 ---
 
-# Manage device settings in Intune for Education
+# What are group settings?
 
-Configure settings to manage how students, teachers, and devices work in your school.
+Configure group settings to manage how students, teachers, and devices work in your school.
 
 When you assign settings to users in a group, the settings stick with the users, no matter what devices they use. When you assign settings to devices in a group, the settings stick with the devices, no matter who uses them.  
 
