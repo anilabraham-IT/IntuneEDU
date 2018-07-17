@@ -76,12 +76,13 @@ Sometimes referred to as a DEP token, the MDM server token lets Intune sync devi
 2. Click **Set up token**.
 3. Click **Download** to download the required Intune public key. You'll need to upload this file in Apple School Manager to create your MDM server token. Save the file to your computer.
 4. Click **Go to my MDM Servers in Apple School Manager**. If prompted, sign in to Apple School Manager with your school's Apple ID, not your personal one.
-5. Follow the steps on screen to get and download the MDM server token. Then save your changes. If you don't have the information to complete this step, contact your school's Intune administrator. 
-6. Stay in Apple School Manager and go **Device Assignments**. Enter the serial number for each device, the order number for your entire device purchase, or a list of your devices in a CSV file. 
-7. From the drop-down menu, choose **Assign to Server**. Then choose the MDM server you just created.
-8. Return to the Intune for Education portal and enter the Apple ID you used to sign in to Apple School Manager.
-9. Upload the MDM server token you downloaded.
-10. Click **Save**.
+5. Follow the steps on screen to create an MDM server token. Then save your changes. If you don't have the information to complete this step, contact your school's Intune administrator.
+6. Download and save the MDM server token to your computer.
+7. Stay in Apple School Manager and go **Device Assignments**. Enter the serial number for each device, the order number for your entire device purchase, or a list of your devices in a CSV file. 
+8. From the drop-down menu, choose **Assign to Server**. Then choose the MDM server you just created.
+9. Return to the Intune for Education portal and enter the Apple ID you used to sign in to Apple School Manager.
+10. Upload the MDM server token you downloaded.
+11. Click **Save**.
 
 MDM server tokens expire every 365 days. The token is needed to view and manage your devices in the Intune for Education portal. You'll need to [renew it yearly](renew-ios-certificate-token.md).
 
