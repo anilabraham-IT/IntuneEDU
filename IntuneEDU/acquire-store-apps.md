@@ -31,12 +31,12 @@ searchScope:
 
 # Get apps from the Microsoft Store for Education
 
-View and distribute apps that you've purchased from the Microsoft Store for Education. 
+View and distribute apps you've bought from the Microsoft Store for Education. 
 To manage your Store apps from the Intune for Education portal, make sure that [you've associated your Intune for Education account with your Store account](https://docs.microsoft.com/en-us/education/get-started/configure-microsoft-store-for-education).  
 
 After you're set up, visit the Microsoft Store documentation to learn [how to acquire Store apps](https://docs.microsoft.com/en-us/microsoft-store/find-and-acquire-apps-overview) for your school.
 
-From there, all apps that you purchase from the store will atomatically appear in your Intune for Education inventory.  
+From there, all apps that you purchase from the store will automatically appear in your Intune for Education inventory.  
 
 ## Next steps
 Find out more about [acquiring Store apps through the full Intune management experience](https://docs.microsoft.com/intune/deploy-use/manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune)
