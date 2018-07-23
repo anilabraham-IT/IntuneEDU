@@ -139,5 +139,8 @@ Setting|Suggested value|
 To restore all settings to their default values, click **Reset to suggested defaults**. 
 
 ## Next steps  
-
-[Find out more about the full Windows 10 settings management experience available in Intune](https://docs.microsoft.com/intune/deploy-use/windows-10-policy-settings-in-microsoft-intune)
+Learn all about groups, settings, and monitoring conflicts in Intune for Education. 
+* Find out the difference between [assigned and dynamic](create-groups.md) groups
+* Assign [group admins](group-admin-delegate.md) to help you manage classroom settings within your school or across the district
+* Learn how [settings inheritance](settings-inheritance.md) affects group assignments
+* Review [reports](what-are-reports.md) to pinpoint and troubleshoot setting conflicts

@@ -34,7 +34,9 @@ searchScope:
 This article lists and describes all iOS device settings in Intune for Education. To view and edit these settings in the portal, click **Group** >**Settings** > **iOS Device Settings**.   
 
 > [!IMPORTANT]
-> Can't see any iOS settings? If you find that the iOS dropdown is not visible or if it is disabled, [set up iOS device management](setup-ios-device-management.md). After setup is complete, all iOS controls will become enabled.
+> Can't see any iOS settings? If you find that the iOS dropdown is not visible or if it is disabled, [set up iOS device management](setup-ios-device-management.md). After setup is complete, all iOS controls will become enabled.  
+
+  ![Screenshot of the All iOS Devices, Groups page in Intune for Education. Highlights the Settings tab and shows the iOS Device Settings category is expanded to show all 11 subcategories of settings. Each setting is collapsed.](./media/edu-ios-device-settings-1807.png)   
 
 ## Apply settings to groups  
 Apply [group settings](what-are-groups.md) to establish access and security boundaries on devices throughout your school. You can assign the same settings across all groups in your school; or you can customize the classroom experience and apply settings to individual groups.
@@ -58,7 +60,7 @@ Many settings in Intune for Education are configured to **Block** or **Allow**. 
 |Block remote screen observation by Classroom app​ |Blocks the Apple Classroom app from viewing the screen of iOS devices.|  
 |Block unprompted screen observation by Classroom app​|Blocks teachers from being able to observe student screens, without the students knowledge, through the Classroom app.|  
 |Block untrusted TLS certificates|Blocks untrusted Transport Layer Security (TSL) certificates on the device.|  
-|Block installing trusted enterprise developer apps​ |Block |  
+|Block students from trusting enterprise developers in device settings​ |Blocks visibility of the **Trust Enterprise Developer** button from students; prevents devices from installing apps that are typically not from the iOS App Store, and often developed by your organization. This restriction won't apply if the app is from your organization's developer account and pushed through Intune for Education. It also won't revoke any trust that has already been granted.|
 |Block users from changing trust enterprise developer app installation settings​|Block students from changing the app installation settings you've defined.|  
 |Block users from changing device restrictions in device settings​|Block students from changing restrictions (parental controls) on the device.|  
 |Block erasing content and settings|Block students from erasing all content and settings on the device.|  
@@ -93,7 +95,6 @@ Setting|What it does|
 |Require password to access App Store|Require the student to enter a password before they can access the App Store.|
 |Block automatically downloading apps purchased on other devices|Block apps that were purchased on another school device from being downloaded to another device.|
 |Block in-app purchases|Block attempts to make store purchases from within a running app.|
-|Block apps by age rating|What it does|//
 |Block explicit content in iTunes and the App Store|Block students from accessing content rated as adult in the App Store.|
 |Block downloading iBook content flagged as erotica|Block students from downloading books classified as erotica.|
 |Block Game Center|Block the use of the Game Center app on devices.|
@@ -119,7 +120,7 @@ Setting|What it does|
 |Block syncing documents to iCloud|Block documents from syncing to an iCloud storage space.|  
 |Block Photo Stream|Block students from enabling My Photo Stream. Students cannot sync photos to iCloud and share across all school devices.|  
 |Require iCloud backups to be encrypted|Required any device backups to be encrypted.|  
-|Block iCloud Photo Library|Blocks the use of iCLoud photo library. Students cannot store photos and videos in the cloud. Any photos from iCloud Photo Library that are not fully downloaded to the device are removed from the device. |  
+|Block iCloud Photo Library|Blocks the use of iCloud photo library. Students cannot store photos and videos in the cloud. Any photos from iCloud Photo Library that are not fully downloaded to the device are removed from the device. |  
 |Block shared Photo Stream|Blocks iCloud Photo Sharing on the device.|  
 |Block Handoff|Blocks the user from continuing work they started on an iOS device, on another iOS device.|  
 
@@ -176,6 +177,4 @@ Select from the list of Wi-Fi profiles to assign one or more profiles to the gro
 |Block changing Bluetooth settings|Block students from changing Bluetooth settings on the device.|  
 
 ## Next steps
-Configure your group, app, and device settings in the Intune for Education portal. If you haven't yet done it, go to [express configuration](edu-express-config-settings-ios.md) and set up your school with Microsoft-recommended settings.  
-
-- [Find out more about the full Windows 10 settings management experience available in Intune](https://docs.microsoft.com/intune/deploy-use/windows-10-policy-settings-in-microsoft-intune)
+Configure your group, app, and device settings in the Intune for Education portal. If you haven't yet done it, go to [express configuration](edu-express-config-settings-ios.md) and set up your school with Microsoft-recommended settings.    

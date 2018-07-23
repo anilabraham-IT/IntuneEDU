@@ -33,7 +33,7 @@ searchScope:
 Enter your organization's support information so that students and faculty can contact you for device or Intune-related questions. Unless otherwise noted, the details you provide are visible to people throughout the Company Portal app.
 
 1. Sign in to the Intune for Education portal. 
-2. Go to the left-side navigation bar and click **Tenant Settings** > **Edit**.![Screenshot of the "Tenant Settings" option in Intune for Education console showing school, support website, and other information. ](./media/tenant-001-settings-screen.png)
+2. Go to the sidebar and click **Tenant Settings** > **Edit**.![Screenshot of the "Tenant Settings" option in Intune for Education console showing school, support website, and other information. ](./media/tenant-001-settings-screen.png)
 3. Enter the details of your organization. If your organization has a specific IT department or person that troubleshoots devices, enter their contact information here.
 
 |Setting |Description  |
