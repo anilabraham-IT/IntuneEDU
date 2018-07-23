@@ -83,7 +83,7 @@ Walk through the following steps to complete device enrollment.
 
 ## Next steps
 Now that devices are setup and ready for school use, learn how to update, monitor, and troubleshoot them.   
-* Add more [free](add-apps-ios.md) and [VPP](add-vpp=apps-ios.md) iOS apps throughout the school year
+* Add more [free](add-apps-ios.md) and [VPP](add-vpp-apps-ios.md) iOS apps throughout the school year
 * Assign [group admins](group-admin-delegate.md) to help you manage classroom settings within your school or across the district
 * Learn how [settings inheritance](settings-inheritance.md) affects new groups
 * Review [reports](what-are-reports.md) to pinpoint and troubleshoot errors 

@@ -41,7 +41,7 @@ Read on to determine the best way to enroll devices in your school.
 Upload a single set of school-optimized settings to each of your Windows 10 PCs. The [Set up School PCs app](https://docs.microsoft.com/education/windows/use-set-up-school-pcs-app) guides you through how to create an installation package that's appropriate for schools. After you're done configuring settings for your network and devices, the app saves the package to a USB drive. Insert the USB drive directly in to each student PC to automatically set up the device for your students. The app is compatible on PCs running Windows 10 version 1803 and earlier.
 
 ## Give school faculty enrollment manager permissions
-Add enrollment managers, or an enrollment manager account, to allow your staff to help you enroll devices. [Enrollment managers](add-are-enrollment-managers.md) can enroll up to 1,000 devices.  
+Add enrollment managers, or an enrollment manager account, to allow your staff to help you enroll devices. [Enrollment managers](add-enrollment-managers.md) can enroll up to 1,000 devices.  
 
 ## Allow users to enroll their own devices
 Allow trusted users to enroll their own devices. These users are able to automatically join their devices to Azure AD.  
