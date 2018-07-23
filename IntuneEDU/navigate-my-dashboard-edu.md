@@ -31,7 +31,8 @@ searchScope:
 
 # Navigate your dashboard
 
-Your _dashboard_ is the main landing page for Intune for Education. It's where you begin every time you log in to the portal, and it's the starting point to manage your users, apps, and devices.
+Your _dashboard_ is the main landing page for Intune for Education. It's where you begin every time you log in to the portal, and it's the starting point to manage your users, apps, and devices.  
+
 
   ![The dashboard screen, which shows express configuration, school data sync, manage user and device groups, and manage app tiles.](./media/dashboard-001-landing-page.png)
 
@@ -62,7 +63,4 @@ To change the order of services in the sidebar, go to the sidebar and hover over
   ![The three dots that appear on hover are next to one of the list items. The cursor changes to a select option.](./media/dashboard-004-editing-sidebar.png)
 
 ## Collapse and expand sidebar
-To collapse the sidebar so that only icons are visible, go to the top of the page and click the left-pointing arrows. Select the right-pointing arrows to expand the menu.
-
-## Next steps  
-[Learn about the full Intune](https://docs.microsoft.com/intune/understand-explore/introduction-to-microsoft-intune) device management experience.
+To collapse the sidebar so that only icons are visible, go to the top of the page and click the left-pointing arrows. Select the right-pointing arrows to expand the menu.  

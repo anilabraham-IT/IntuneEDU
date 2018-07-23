@@ -1,7 +1,7 @@
 # [Overview](what-is-intune-for-education.md)
 # [What's new in Intune for Education](whats-new-in-edu.md)
 # Concepts in Intune for Education
-## [Navigating your dashboard](how-do-i-customize-my-dashboard.md)
+## [Navigating your dashboard](navigate-my-dashboard.md)
 ## [Importing data with School Data Sync](what-is-school-data-sync.md)
 ## [General tenant settings](edu-tenant-general-settings.md)
 ## [Device enrollment](how-should-I-enroll-devices.md)

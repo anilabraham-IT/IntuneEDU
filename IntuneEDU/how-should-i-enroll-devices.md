@@ -46,7 +46,10 @@ Add enrollment managers, or an enrollment manager account, to allow your staff t
 ## Allow users to enroll their own devices
 Allow trusted users to enroll their own devices. These users are able to automatically join their devices to Azure AD.  
 
-## Next steps
-See the Store documentation to [download the **Set Up School PCs** app] (https://www.microsoft.com/store/p/set-up-school-pcs/9nblggh4ls40) from the Microsoft Store. Find out more [about setting up Windows devices in schools](https://docs.microsoft.com/education/windows/set-up-windows-10) from the Windows Education documentation.
+## Next steps  
 
-Ready to enroll your devices? Learn how to add [iOS](add-devices-ios-edu.md) and [Windows 10](add-devices-windows.md) devices under Intune for Education management.
+Ready to enroll your devices? Learn how to add [iOS](add-devices-ios-edu.md) and [Windows 10](add-devices-windows.md) devices under Intune for Education management.  
+
+* See the Store documentation to [download the **Set Up School PCs** app](https://www.microsoft.com/store/p/set-up-school-pcs/9nblggh4ls40) from the Microsoft Store. 
+* Find out more [about setting up Windows devices in schools](https://docs.microsoft.com/education/windows/set-up-windows-10) from the Microsoft Education > Windows documentation.
+

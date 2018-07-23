@@ -53,5 +53,7 @@ These properties are necessary to create [dynamic group](create-groups.md#dynami
 ## What is Azure AD?
 Azure AD is a Microsoft management system that integrates with Intune and helps organize students and devices. It lets you create groups out of your students and teachers, such as *4th period Biology* or *Contoso District teachers*. Groups are necessary to assign and distribute user or device-specific apps, settings, and restrictions.
 
-## Next steps  
-[Find out more about Microsoft School Data Sync](https://sds.microsoft.com). After your student and teacher information is synced with Intune for Education, get started with express configuration for [Windows](edu-express-config-settings-windows.md) or [iOS](edu-express-config-settings-ios.md) devices.
+## Next steps   
+After your student and teacher information is synced with Intune for Education, get started with express configuration for [Windows](edu-express-config-settings-windows.md) or [iOS](edu-express-config-settings-ios.md) devices.  
+
+Want to know more about Microsoft School Data Sync? Visit the [Microsoft School Data Sync page](https://sds.microsoft.com) for product information. 
