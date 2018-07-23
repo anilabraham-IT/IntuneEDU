@@ -78,7 +78,7 @@ Walk through the following steps to complete device enrollment.
 1. Turn on your iOS device. 
 2. After you select your **Language**, connect your device to Wi-Fi.
 3. On the **Set up iOS device** screen, select your **Country/Region**.
-4. Follow the instructions on screen to automatically or manually connect to Wi-Fi. AAfter you're connected, the **Configuration** screen appears, with enrollment details.  
+4. Follow the instructions on screen to automatically or manually connect to Wi-Fi. After you're connected, the **Configuration** screen appears, with enrollment details.  
 5. Agree to the **Terms and Conditions**. Then decide if you want to send diagnostic information to Apple.  
 
 ## Next steps

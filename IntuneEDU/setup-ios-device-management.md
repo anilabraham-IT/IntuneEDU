@@ -52,7 +52,7 @@ Students and teachers in your school will be able to securely access school webs
 Before beginning, make sure you have:  
 * An internet connection.
 * Your Apple School Manager account credentials.
-* Intune for Education device licenses. Find out more about the device licenses in the [Intune licenses docs](https://docs.microsoft.com/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-4).
+* Intune for Education device licenses. Find out more about the device licenses in the [Intune licenses docs](https://docs.microsoft.com/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-4).  
 
 > [!IMPORTANT]
 > Intune for Education only supports iOS device enrollment for devices bought through Apple DEP. For more information about Apple School Manager, see the [Apple education support site](https://support.apple.com/education).  
@@ -67,11 +67,12 @@ An Apple MDM Push certificate sets up a secure connection between your Intune an
 5. Complete the steps in the Apple portal. After you create the certificate, click to download and save it.
 6. Return to the Intune for Education portal and enter the Apple ID you used to sign in to Apple Push Certificates portal.
 7. Upload the certificate you downloaded.
-8. Click **Save**.
+8. Click **Save**.  
 
-The push certificate expires every 365 days. The certificate is needed to connect Intune for Education to your Apple School Manager account, so [you'll need to renew it yearly](renew-ios-certificate-token.md). 
+The push certificate expires every 365 days. The certificate is needed to connect Intune for Education to your Apple School Manager account, so [you'll need to renew it yearly](renew-ios-certificate-token.md).  
 
-## Configure MDM server tokens
+
+## Configure MDM server tokens  
 Sometimes referred to as a DEP token, the MDM server token lets Intune sync device details from Apple School Manager. These details inform Intune of the devices it needs to manage, and populate your inventory in the Intune for Education portal.  
 
 1. On the **iOS Device Management** page, click the **MDM Server Tokens** tab.

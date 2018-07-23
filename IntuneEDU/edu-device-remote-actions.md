@@ -42,8 +42,4 @@ From the dashboard, go to **Devices**. Select the device that you want to manage
 - **Remove from management** - Remove the device from Intune management without removing any personal data. It will no longer be able to access school resources. 
 
 ## Windows 10 user groups  
-From the dashboard, go to **Users**. Select the user that you want to manage. At the bottom of the page, select **Reset password**. This action resets an old, lost, or forgotten password on the user's device. 
-
-## Next steps
-
-- [Find out more about the full set of remote actions available in full Intune console](https://docs.microsoft.com/intune/device-management)
+From the dashboard, go to **Users**. Select the user that you want to manage. At the bottom of the page, select **Reset password**. This action resets an old, lost, or forgotten password on the user's device.  

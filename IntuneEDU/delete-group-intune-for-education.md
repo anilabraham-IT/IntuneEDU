@@ -39,9 +39,9 @@ Deleting a group does not remove users or devices from Intune management.
 
   ![Delete groups buttons encircled in red](./media/groups-011-delete-groups.png)
 
-1.	From the [Intune for Education dashboard](https://intuneeducation.portal.azure.com), click **Groups**.  
-2. Select the group you want to delete.
-3. Click **Delete group**. 
-4. Click **Delete** to confirm that you want to delete the group.
+1.	From the Intune for Education dashboard, click **Groups**.  
+1. Select the group you want to delete.
+2. Click **Delete group**. 
+3. Click **Delete** to confirm that you want to delete the group.
 
 

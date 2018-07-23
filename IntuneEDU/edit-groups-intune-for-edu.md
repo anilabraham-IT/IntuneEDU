@@ -86,8 +86,4 @@ Generally, the higher the position of the group, such as at parent level, the br
 1. From the **Groups** list, select the group that you want to move.
 3. Click **Move Group**.
 4. Select or search for the location where you want to move the group. 
-5.	Click **OK**.
-
-## Next steps
-
-- [Find out more about the full groups management experience in Intune](https://docs.microsoft.com/intune/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune)
+5.	Click **OK**.  

@@ -54,6 +54,3 @@ Added apps appear in the app list, under **iOS store**. Click the app to view it
 * **Overview**: Lists app name, publisher, and date you added it to Intune. Click the app name to see the app in iTunes.
 * **Groups**: Lists all groups that are assigned the app. Change group assignments here or go to the details page for a specific group.
 * **Install status**: Shows details about the app's installation, such as the device it was assigned to. The status also lists last check-in time and if the installation was a success, failure, or still-in-progress.  
-
-## Next steps
-- [Find out more about the full experience managing apps using Intune](https://docs.microsoft.com/intune/deploy-use/add-apps)

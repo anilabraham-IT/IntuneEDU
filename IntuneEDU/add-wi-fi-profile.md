@@ -78,7 +78,4 @@ Windows 10 and iOS Wi-Fi configurations vary slightly. Because of the difference
 2. On the group's page, click the **Settings** tab.
 3. Click to expand the appropriate group of device settings for your OS.
 4. Click Wi-Fi profiles and select a profile to assign in to the group. Deselect a profile to remove its assignment to the group.
-5. Click **Save**.
-
-## Next steps
-- [Find out more about the full groups management experience in Intune](https://docs.microsoft.com/intune/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune)
+5. Click **Save**.  

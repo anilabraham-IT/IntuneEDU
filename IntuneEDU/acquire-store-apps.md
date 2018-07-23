@@ -39,6 +39,8 @@ After you're set up, visit the Microsoft Store documentation to learn [how to ac
 From there, all apps that you purchase from the store will automatically appear in your Intune for Education inventory.  
 
 ## Next steps
-Find out more about [acquiring Store apps through the full Intune management experience](https://docs.microsoft.com/intune/deploy-use/manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune). Then [assign apps](assign-apps.md) to user and device groups in Intune for Education.
+To learn more about [acquiring Store apps through the full Intune management experience](https://docs.microsoft.com/intune/deploy-use/manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune), see the Intune documentation.  
+
+When you're ready, [assign apps](assign-apps.md) to user and device groups in Intune for Education.
 
 

@@ -59,8 +59,4 @@ Delegated group admins have permission to manage school devices and apps. Admin 
 1. From the Intune for Education dashboard, click **Groups**.
 2. Choose a group. This group will be the one your remove an admin group from managing.
 3. Click the **Admins** tab.
-4. Select one or more groups from the list of admins. Then click **Remove Admins**  
-
-## Next steps
-
-  - [Role-based administration control with Intune](https://docs.microsoft.com/intune/role-based-access-control)
+4. Select one or more groups from the list of admins. Then click **Remove Admins**.  

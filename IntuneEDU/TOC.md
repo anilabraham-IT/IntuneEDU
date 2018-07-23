@@ -29,7 +29,7 @@
 ### [Office 365](install-office.md)
 ### [Microsoft Store for Education](acquire-store-apps.md)
 ### [Popular school apps](add-popular-apps-edu.md)
-### [Free iOS Store apps](add-apps-ios.md)
+### [Free iOS App Store apps](add-apps-ios.md)
 ### [iOS VPP apps](add-vpp-apps-ios.md)
 ### [Desktop apps](add-desktop-apps-edu.md)
 ### [Web apps](add-web-apps-edu.md)

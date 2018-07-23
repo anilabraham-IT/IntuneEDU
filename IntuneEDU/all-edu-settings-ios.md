@@ -29,12 +29,12 @@ searchScope:
 
 ---
 
-# iOS device settings in Intune for Education 
-
-This article lists and describes all iOS device settings in Intune for Education. To view and edit these settings in the portal, click **Group** >**Settings** > **iOS Device Settings**.   
+# iOS device settings in Intune for Education  
 
 > [!IMPORTANT]
-> Can't see any iOS settings? If you find that the iOS dropdown is not visible or if it is disabled, [set up iOS device management](setup-ios-device-management.md). After setup is complete, all iOS controls will become enabled.  
+> Can't see any iOS settings? If you find that the iOS dropdown is not visible or if it is disabled, [set up iOS device management](setup-ios-device-management.md). After setup is complete, all iOS controls will become enabled.
+
+This article lists and describes all iOS device settings in Intune for Education. To view and edit these settings in the portal, click **Groups** >**Settings** > **iOS Device Settings**.   
 
   ![Screenshot of the All iOS Devices, Groups page in Intune for Education. Highlights the Settings tab and shows the iOS Device Settings category is expanded to show all 11 subcategories of settings. Each setting is collapsed.](./media/edu-ios-device-settings-1807.png)   
 
@@ -44,11 +44,7 @@ Apply [group settings](what-are-groups.md) to establish access and security boun
 ## Configuration options
 Many settings in Intune for Education are configured to **Block** or **Allow**. For some settings, **Not configured** is an option. When toggled to **Not Configured**, the device will either:  
 * Use the default setting. 
-* Allow the device user (student or teacher) to customize the setting from their device.  
-
-> [!NOTE]
-> User, app, and device settings differ from [tenant settings](edu-tenant-general-settings.md). Tenant settings target the subscription and management settings at the organization's administrative level.
-
+* Allow the device user (student or teacher) to customize the setting from their device.   
 
   ![The settings page for a group](./media/settings-001-list-of-settings.png)  
   
@@ -174,7 +170,10 @@ Select from the list of Wi-Fi profiles to assign one or more profiles to the gro
 |---|---|
 |Block AirDrop|Block the use of the AirDrop feature. Students will not be able to exchange content with nearby devices.|
 |Block Personal Hotspot|Block students from using the device as a personal hotspot.|
-|Block changing Bluetooth settings|Block students from changing Bluetooth settings on the device.|  
+|Block changing Bluetooth settings|Block students from changing Bluetooth settings on the device.|   
+
+> [!NOTE]
+> User, app, and device settings differ from [tenant settings](edu-tenant-general-settings.md). Tenant settings target the subscription and management settings at the organization's administrative level.  
 
 ## Next steps
 Configure your group, app, and device settings in the Intune for Education portal. If you haven't yet done it, go to [express configuration](edu-express-config-settings-ios.md) and set up your school with Microsoft-recommended settings.    

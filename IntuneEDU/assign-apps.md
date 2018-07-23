@@ -44,17 +44,17 @@ By default, popular apps are available in Intune for Education for immediate ass
 * [Web apps](add-web-apps-edu.md)  
 
 ## Assign apps with Express Configuration
-Launch [Express Configuration](Express-configuration-intune-edu.md) to assign multiple apps to a single group. 
+Go to [express configuration](Express-configuration-intune-edu.md) to assign multiple apps to a single group. 
 
-1. From the [Intune for Education dashboard](https://intuneeducation.portal.azure.com), click **Express Configuration**.  
+1. From the Intune for Education dashboard, click **Express Configuration**.  
 2. Choose the group you want to add apps to. Then click **Next**.
 3. Choose one or more apps to deploy to your group. Then click **Next**. 
-4. The apps will automatically be assigned to your group. Continue through Express Configuration.
+4. The apps will automatically be assigned to your group. Continue through express configuration.
 
 ##  Assign apps to a single group
 Select a group and install one or more apps to the devices in that group.
 
-1. From the [Intune for Education dashboard](https://intuneeducation.portal.azure.com), click **Groups**.
+1. From the Intune for Education dashboard, click **Groups**.
 2. Choose the groups you want to deploy the apps to.
 3. Go to the task bar at the top and click **Apps** to see a list of available apps.  
 4. Choose one or more apps to deploy to your group. 
@@ -63,11 +63,7 @@ Select a group and install one or more apps to the devices in that group.
 ## Asign apps to multiple groups
 Select an app and assign it to one or more groups for installation.
 
-1. From the [Intune for Education dashboard](https://intuneeducation.portal.azure.com), click **Apps**.
+1. From the Intune for Education dashboard, click **Apps**.
 2. From the list of apps on the left, choose the app you want to assign.
 3. Go to the task bar at the top and click **Groups** > **Change group assignments**. 
-4. Choose the groups you want to assign the app to.
-
-## Next steps
-
-- [Find out more about installing apps using the full app management experience in Intune](https://docs.microsoft.com/intune/deploy-use/deploy-apps)
+4. Choose the groups you want to assign the app to.  
