@@ -46,9 +46,9 @@ These default groups represent the broadest categories of users and devices in y
 
 ## Custom groups  
 
-You can also apply specific or scenario-based configurations to custom-created groups. If you have both Windows 10 and iOS devices in your school, create groups, such as all iPads and all Windows 10 PCs. Doing this allows you to more easily distribute settings. 
+Apply specific or scenario-based configurations to custom-created groups. If you have both Windows 10 and iOS devices in your school, create groups, such as all iPads and all Windows 10 PCs. This way, you'll be able to more easily recognize groups and distribute settings. 
 
-You can also assign apps and settings to specifics groups of students. For example, an 8th grade curriculum may require different apps than a 6th grade curriculum. You can create two, grade-specific groups and assign apps and settings that are appropriate for each set of students.  
+You can also assign apps and settings to specific groups of students. For example, an 8th grade curriculum may require different apps than a 6th grade curriculum. You can create two, grade-specific groups and assign apps and settings that are appropriate for each set of students.  
 ## Group types  
 
 There are two types of groups that you can use to organize users and devices in Intune for Education: assigned groups and dynamic groups.

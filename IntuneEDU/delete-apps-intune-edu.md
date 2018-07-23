@@ -30,7 +30,7 @@ searchScope:
 ---
 
 # Delete apps from Intune for Education 
-Delete an app from your Intune tenant. When you delete an app, it is removed from group assignments *and* uninstalled from devices.  
+Delete an app from your Intune tenant. Deleted apps are removed from group assignments *and* uninstalled from devices.  
 
 To assign the app again, you will need to add it back to your Intune tenant through the App Store.  
 
