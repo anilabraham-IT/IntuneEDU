@@ -31,9 +31,7 @@ searchScope:
 
 # Delete a group  
 
-When you delete a device group, apps and settings are removed from the devices that belonged to the group. The devices themselves are not deleted. 
-
-When you delete a user group, user members can no longer access assigned apps. The users themselves are not deleted.
+When you delete a *device* group, apps and settings are removed from the devices that belonged to the group. The devices themselves are not deleted. When you delete a *user* group, user members can no longer access assigned apps. The users themselves are not deleted.
 
 Deleting a group does not remove users or devices from Intune management.
 
