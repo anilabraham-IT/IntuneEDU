@@ -262,7 +262,7 @@ A list of Wi-Fi profiles that you create appear within this section. Details vis
 |Setting|What it does|
 |---|---|
 |Block users from overriding SmartScreen|Block users from ignoring and accessing websites blocked by the SmartScreen Filter.|
-|SmartScreen override for files|Block users from ignoring and downloading unverified files that SmartScreen Filter warns about.||
+|SmartScreen override for files|Block users from ignoring and downloading unverified files that SmartScreen Filter warns about.|
 |SmartScreen for apps and files|Enables SmartScreen to protect devices by checking for unrecognized apps and files from the web.|
 |Block users from dismissing SmartScreen warnings|Blocks students from dismissing SmartScreen warnings about potentially malicious files and apps.
 
