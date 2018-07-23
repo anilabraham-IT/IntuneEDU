@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 07/05/2018
+ms.date: 07/23/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -41,13 +41,8 @@ Students access this kind of app in a browser, such as Microsoft Edge or Safari.
 4. In the **New web app** section, enter the following details:
    * **URL** — The URL of the app that you want to assign.
    * **App name** — The display name for the app in the **Start** menu on student devices.
-   * **Icon** — Upload a PNG or JPG file to use as the app's icon.
+   * **Icon** — Upload a PNG or JPG file to use as the app's icon.  
 
-  ![Add a new web app page, which prompts users for the information described in the procedure below.](./media/apps-001-add-webapp.png)
+   ![Add a new web app page, which prompts users for the information described in the procedure below.](./media/apps-001-add-webapp.png)
 
-5. Click **Save**. Your app will appear in your app lists under ***WEB APPS**. You can edit app details at any time by clicking the app in your app list > **Edit**.
- 
-
-## Next steps
-
-- [Find out more about the full experience managing apps using Intune](https://docs.microsoft.com/intune/deploy-use/add-apps)
+5. Click **Save**. Your app will appear in your app lists under **WEB APPS**. You can edit app details at any time by clicking the app in your app list > **Edit**.  

@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 07/01/2018
+ms.date: 07/23/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -42,7 +42,7 @@ With Intune for Eduction you can:
 The Intune for Education portal is simply designed to include only the settings and workflows you need to manage iOS and Windows school devices. From the portal, you can view and take action on your device, user, and app inventory. Intune for Education also supports the Take a Test app, which allows teachers to assess student progress directly from classroom devices.  
 
 ## Sign up for Intune for Education
-If you're not already signed up with an Intune account, learn how to [sign in to Intune](https://docs.microsoft.com/en-us/intune/account-sign-up). The article is for system administrators who are ready to sign up for an Intune account.  
+If you're not already signed up with an Intune for Education account, learn [how to get started](https://docs.microsoft.com/en-us/intune/account-sign-up). The article is for system administrators who are ready to sign their school up for an Intune subscription. 
 
 ## Manually add users to you Intune subscription
 If you're not using the Microsoft School Data Sync (SDS) service to import student and teacher records, you must [manually add users to your Intune subscription](https://docs.microsoft.com/en-us/intune/users-add). Students and teachers can be added through the Azure portal or through the Office 365 portal. At the time of user setup, you'll also want to grant admin permissions. 

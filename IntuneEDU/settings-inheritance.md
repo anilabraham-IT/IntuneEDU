@@ -7,8 +7,7 @@ description: Learn how to manage settings for groups of devices with Intune for 
 keywords:
 author: lenewsad
 ms.author: lanewsad
-manager: angrobe
-ms.date: 01/17/2018
+manager: dougeby
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -31,30 +30,31 @@ searchScope:
 
 # What is settings inheritance?
 
-Settings are applied to groups. Since groups are set up as hierarchies, with one group above another, any settings applied to a group are inherited by all of its subgroups. This makes it easier to apply settings to large groups of users, apps, and devices.
+Settings are applied to groups. Since groups are set up as hierarchies, with one group above another, all settings applied to a group are inherited by its subgroups. Subgroups automatically take on the changes you make to the group above it. This action is called _inheritance_. Settings inheritance ia helpful when you want to apply settings to large groups of users and devices.  
 
-  ![A tree of groups of and subgroups.](./media/groups-002-inheritance.png)
 
-Subgroups automatically take on the changes you make to the group above it. This is called _inheritance_.
+  ![A tree of groups of and subgroups.](./media/groups-002-inheritance.png)  
 
-## Configure subgroups individually 
 
-Subgroups can be configured individually, even if they are inheriting settings from the group above them. Override inherited settings by configuring the settings that you need within the specific group, and then saving them.
+## Configure subgroups individually  
 
-## Settings in conflict
+To override recently inherited settings, go directly to the subgroup. Configure it individually by removing or adding settings. Then save your changes.
 
-When multiple settings are applied to the same group, each setting is analyzed individually by Intune for Education. Settings that you apply to your parent groups may directly contradict settings that you apply to your subgroups. When this happens, Intune for Education always enforces the settings that require users to comply with your school's settings.  
+## Settings in conflict  
+
+If you apply conflicting settings to the same group, Intune will analyze each one individually. Intune always chooses the settings that, for sure, complies with school policies.
+
+In other cases, when Intune can't resolve the conflict, you should review the [settings conflict](what-are-reports.md) report.
 
 ### Example of inheritance conflict  
 
 As an example, consider the subgroup, *12th Grade AP Computer Science*. The subgroup falls under the parent group, *12th grade*. You assign a strict security scanning requirement to all files and apps downloaded devices in the *12th grade* group.
 
-However, you know that for an upcoming assignment, *12th Grade AP Computer Science* must download JavaScript files that do not need to be scanned. If you do not override settings inheritance, the more restrictive *Twelfth Grade* setting will be applied to the users in *Twelfth Grade AP Computer Science*.
+However, you know that for an upcoming assignment, *12th Grade AP Computer Science* must download JavaScript files that don't need to be scanned. If you don't override settings inheritance, the more restrictive *Twelfth Grade* setting will be applied to the users in *Twelfth Grade AP Computer Science*.
 
 ## Settings error report
 
-If a setting cannot be resolved, it will appear in the Settings error report. See [View and download reports](what-are-reports.md) for more information about reports in Intune for Education.
+If a setting can't be resolved, it will appear in the Settings error report. For more information about reports, see [View and download reports](what-are-reports.md).  
 
-## Next steps
-
-  - [Find out more about the full groups experience in Intune](https://docs.microsoft.com/intune/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune)
+## Next steps  
+Find out more about the [full groups experience in Intune](https://docs.microsoft.com/intune/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune).

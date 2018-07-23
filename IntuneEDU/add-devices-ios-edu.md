@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 06/20/2018
+ms.date: 07/23/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -73,23 +73,18 @@ The first time that you turn on your device, Intune for Education launches the i
 
 ## Enroll a device
 
-These steps can be done by a delegated admin or [enrollment manager](add-enrollment-managers.md), such as a teacher or IT person, or by your students. If students and teachers are part of the initial device setup, consider pointing them to this article.
+Walk through the following steps to complete device enrollment.
 
 1. Turn on your iOS device. 
 2. After you select your **Language**, connect your device to Wi-Fi.
-3. On the **Set up iOS device** screen, select **Set up as new device**.
-4. After you're connected to Wi-Fi, the **Configuration** screen appears, with:  
-
-**[Your School] will automatically configure your device. Configuration allows [Your School] to manage this device over the air.**   
-
-**An administrator can help you set up email and network accounts, install and configure apps, and manage settings remotely. An administrator may disable features, install and remove apps, monitor and restrict your Internet traffic, and remotely erase this device.**  
-      
-**Configuration is provided by:
-   [Your School's] iOS Team
-   [Address]**
-
+3. On the **Set up iOS device** screen, select your **Country/Region**.
+4. Follow the instructions on screen to automatically or manually connect to Wi-Fi. After you're connected, the **Configuration** screen appears, with enrollment details.  
 5. Agree to the **Terms and Conditions**. Then decide if you want to send diagnostic information to Apple.  
 
 ## Next steps
-- [Find out more about the **Set up School PCs** app](https://docs.microsoft.com/education/windows/use-set-up-school-pcs-app)
-- [Find out more about the full experience adding devices into Intune](https://docs.microsoft.com/intune/deploy-use/enroll-devices-in-microsoft-intune)
+Now that devices are setup and ready for school use, learn how to update, monitor, and troubleshoot them.   
+* Add more [free](add-apps-ios.md) and [VPP](add-vpp-apps-ios.md) iOS apps throughout the school year
+* Assign [group admins](group-admin-delegate.md) to help you manage classroom settings within your school or across the district
+* Learn how [settings inheritance](settings-inheritance.md) affects new groups
+* Review [reports](what-are-reports.md) to pinpoint and troubleshoot errors 
+* Renew [iOS certificates and tokens](renew-ios-certificate-token.md) every year

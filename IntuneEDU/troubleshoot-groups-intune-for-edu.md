@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: doueby
-ms.date: 06/20/2018
+ms.date: 07/23/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -45,8 +45,4 @@ Intune for Education lets your pick from a subset of the dynamic attributes avai
 
 ## Why can't I edit a specific group?  
 
-Intune for Education is designed to be an easy way to manage devices in your schools. It uses [Intune in the Azure portal](https://docs.microsoft.com/intune/what-is-intune), an enterprise product, to manage apps and groups. Certain admins in your organization have permission to use both Intune in the Azure portal and Intune for Education to create special groups. If you can't edit a group, it's likely that it was created in Intune in the Azure portal, and you don't have permissions to modify the group.
-
-## Next steps
-
-- [Find out more about the full groups management experience in Intune](https://docs.microsoft.com/intune/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune)
+Intune for Education is designed to be an easy way to manage devices in your schools. It uses [Intune in the Azure portal](https://docs.microsoft.com/intune/what-is-intune), an enterprise product, to manage apps and groups. Certain admins in your organization have permission to use both Intune in the Azure portal and Intune for Education to create special groups. If you can't edit a group, it's likely that it was created in Intune in the Azure portal, and you don't have permissions to modify the group.  

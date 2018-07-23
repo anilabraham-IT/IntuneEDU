@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 06/19/2018
+ms.date: 07/23/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -31,10 +31,10 @@ searchScope:
 
 # Windows 10 device settings in Intune for Education
 
-This article lists and describes all Windows device settings in Intune for Education. To view and edit these settings in the portal, click **Group** >**Settings** > **Windows Device Settings**.  
+This article lists and describes all Windows device settings in Intune for Education. To view and edit these settings in the portal, click **Groups** > **Settings** > **Windows Device Settings**.  
 
 
-  ![The settings page for a group](./media/settings-001-list-of-settings.png)   
+  ![Screenshot of the All Devices, Groups page in Intune for Education. Highlights the Settings tab and shows the Windows Device Settings category is expanded to show all 16 subcategories of settings. Each setting is collapsed.](./media/edu-windows-device-settings-1807.png)   
 
 ## Apply settings  
 Apply [group settings](what-are-groups.md) to establish access and security boundaries on devices throughout your school. You can assign the same settings across all groups in your school; or you can customize the classroom experience and apply settings to individual groups.
@@ -263,7 +263,7 @@ A list of Wi-Fi profiles that you create appear within this section. Details vis
 |---|---|
 |Block users from overriding SmartScreen|Block users from ignoring and accessing websites blocked by the SmartScreen Filter.|
 |SmartScreen override for files|Block users from ignoring and downloading unverified files that SmartScreen Filter warns about.||
-|SmartScreen for apps and files|Enables SmartScreen to protect devices by checking for unrecognized apps and files from the web|
+|SmartScreen for apps and files|Enables SmartScreen to protect devices by checking for unrecognized apps and files from the web.|
 |Block users from dismissing SmartScreen warnings|Blocks students from dismissing SmartScreen warnings about potentially malicious files and apps.
 
 

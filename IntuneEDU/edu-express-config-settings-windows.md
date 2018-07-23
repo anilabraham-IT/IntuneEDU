@@ -7,8 +7,8 @@ description: Describes the default settings for Windows 10 devices in Intune for
 keywords:
 author: lenewsad
 ms.author: lanewsad
-manager: angrobe
-ms.date: 06/26/2018
+manager: dougeby
+ms.date: 07/23/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -85,6 +85,5 @@ For the complete list of settings and descriptions, see [All iOS settings in Int
 |Block Bluetooth|Block devices from using Bluetooth.|  
 
 ## Reset default settings
-To restore all apps to their default selections, click **Reset to app selections**. <add screenshot>  
-To restore all settings to their default values, click **Reset to suggested defaults**. <add screenshot>  
+To restore all settings to their default values, click **Reset to suggested defaults**.  
 

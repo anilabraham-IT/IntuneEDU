@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 06/19/2018
+ms.date: 07/23/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -31,12 +31,16 @@ searchScope:
 
 # Get apps from the Microsoft Store for Education
 
-View and distribute apps that you've purchased from the Microsoft Store for Education. 
-To manage your Store apps from the Intune for Education portal, make sure that [you've associated your Intune for Education account with your Store account](https://docs.microsoft.com/en-us/education/get-started/configure-microsoft-store-for-education).  
+View and distribute apps you've bought from the Microsoft Store for Education. 
+To manage your Store apps from the Intune for Education portal, make sure that [you've associated your Intune for Education account](https://docs.microsoft.com/en-us/education/get-started/configure-microsoft-store-for-education) with your Store account.  
 
 After you're set up, visit the Microsoft Store documentation to learn [how to acquire Store apps](https://docs.microsoft.com/en-us/microsoft-store/find-and-acquire-apps-overview) for your school.
 
-From there, all apps that you purchase from the store will atomatically appear in your Intune for Education inventory.  
+From there, all apps that you purchase from the store will automatically appear in your Intune for Education inventory.  
 
 ## Next steps
-Find out more about [acquiring Store apps through the full Intune management experience](https://docs.microsoft.com/intune/deploy-use/manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune)
+To learn more about [acquiring Store apps through the full Intune management experience](https://docs.microsoft.com/intune/deploy-use/manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune), see the Intune documentation.  
+
+When you're ready, [assign apps](assign-apps.md) to user and device groups in Intune for Education.
+
+

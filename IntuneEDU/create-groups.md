@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: doueby
-ms.date: 06/20/2018
+ms.date: 07/23/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -29,7 +29,7 @@ searchScope:
 
 ---
 
-# Set up groups in Intune
+# Create groups in Intune
 
 The group feature in Intune lets you manage users, apps, and devices that have similar management needs. With groups, you can reduce the time you spend individually managing and troubleshooting devices. 
 
@@ -42,13 +42,13 @@ Two additional default groups are created if you used School Data Sync to import
 * All teachers
 * All students
 
-These default groups represent the broadest categories of users and devices in your school and [cannot be changed or removed](what-are-groups.md#why-cant-i-change-the-all-devices-all-users-all-students-or-all-teachers-groups).
+These default groups represent the broadest categories of users and devices in your school and can't be changed or removed.
 
-## Custom groups
+## Custom groups  
 
-You can also apply specific or scenario-based configurations to custom-created groups. If you have both Windows 10 and iOS devices in your school, create groups, such as all iPads and all Windows 10 PCs. Doing this allows you to more easily distribute settings. 
+Apply specific or scenario-based configurations to custom-created groups. If you have both Windows 10 and iOS devices in your school, create groups, such as all iPads and all Windows 10 PCs. This way, you'll be able to more easily recognize groups and distribute settings. 
 
-You can also assign apps and settings to specifics groups of students. For example, an 8th grade curriculum may require different apps than a 6th grade curriculum. You can create two, grade-specific groups and assign apps and settings that are appropriate for each set of students.  
+You can also assign apps and settings to specific groups of students. For example, an 8th grade curriculum may require different apps than a 6th grade curriculum. You can create two, grade-specific groups and assign apps and settings that are appropriate for each set of students.  
 ## Group types  
 
 There are two types of groups that you can use to organize users and devices in Intune for Education: assigned groups and dynamic groups.
@@ -90,7 +90,7 @@ For example:
 ## Create a group  
 Groups must be created one a time. During setup, you'll select to create a group for either users or for devices.
 
-1. In the [Intune for Education console](https://intuneeducation.portal.azure.com), click **Groups** > **Create group**.
+1. From the Intune for Education dashboard, click **Groups** > **Create group**.
 2. Enter a descriptive group name.
 3. Select a group type. For more details about assigned and dynamic groups see [Group types](## Group types)   
     a. Assigned: Manually add and remove users and device in these groups. If you select this option, go to step 5.
@@ -110,10 +110,10 @@ Subgroups can only be created *under* assigned groups.
 1. Go to **Groups** and choose a group. This group will be the parent to your subgroup.
 2. Click **Create sub group**.
 3. Enter the **Group name**. 
-4. Select your group type. For more details about group types, see the steps for [Create a group](what-are-groups.md#create-a-group) above.
+4. Select your group type. For more details about group types, see the steps for [Create a group](#create-a-group) above.
 5. Click **Create group**.  
 
 ## Next steps 
 [Delegate permission](group-admin-delegate.md) to allow admin groups to manage parent level groups and subgroups.  
 
-- [Find out more about the full groups management experience in Intune](https://docs.microsoft.com/intune/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune)
+[Learn about the full](https://docs.microsoft.com/intune/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune)groups management experience in Intune.

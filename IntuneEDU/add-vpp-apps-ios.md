@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 06/19/2018
+ms.date: 07/23/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -69,5 +69,3 @@ Apps appear in the app list, under **iOS Apps**. Click the app to view its:
 ## Reassign VPP-purchased licenses
 VPP-purchased apps can't be deleted from Intune for Education. However, you can remove a user from an assigned group, or remove the entire group from assignment.  
 
-## Next steps  
-[Find out more about the full experience managing apps using Intune](https://docs.microsoft.com/intune/deploy-use/add-apps)

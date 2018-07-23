@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 07/03/2018
+ms.date: 07/23/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -74,11 +74,8 @@ Windows 10 and iOS Wi-Fi configurations vary slightly. Because of the difference
 |Proxy server URL  | Type in the server URL you want to use to automatically connect to the proxy server. Not applicable if you selected to manually configure proxy settings.       |   
 
 ## Assign profile to groups
-1. Go to the portal's left-navigation bar and click **Groups**.
+1. Go to the sidebar and click **Groups**.
 2. On the group's page, click the **Settings** tab.
 3. Click to expand the appropriate group of device settings for your OS.
 4. Click Wi-Fi profiles and select a profile to assign in to the group. Deselect a profile to remove its assignment to the group.
-5. Click **Save**.
-
-## Next steps
-- [Find out more about the full groups management experience in Intune](https://docs.microsoft.com/intune/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune)
+5. Click **Save**.  

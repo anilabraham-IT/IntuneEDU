@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -63,17 +63,17 @@ Some device features--such as narrator--and other assistive technology are still
 Set up a profile in Intune for Education. Before you begin, we recommend that you create a dedicated user account used solely for assessments. Users will sign in to this account to access tests. 
 
 1. From Intune for Education dashboard, click **Take a Test profiles**.    
-![List of options in the sidebar](./media/dashboard-002-left-sidebar-list.png)
+![List of options in the sidebar](./media/dashboard-002-left-sidebar-list.png)  
 2.  Click Add Take a Test profile.  
- ![Select Add a Take A Test profile button in the left-hand side](./media/takeatest-001-new-profile.png)
+ ![Select Add a Take A Test profile button in the left-hand side](./media/takeatest-001-new-profile.png)  
 3. Enter a descriptive name for the test.  
 4 Enter the Assessment URL.  
- ![Take a test profile window](./media/takeatest-002-new-profile-edit-window.png)
+ ![Take a test profile window](./media/takeatest-002-new-profile-edit-window.png)  
 5. Configure the rest of the test settings:    
     a. Allow screen capture  
     b. Require PCs to have a printer installed  
-    c. Allow text suggestions  
-6 Select an account from your list of existing users. Students will use the account's username and password to sign in to the appropriate assessment.  
+    c. Allow text suggestions   
+6. Select an account from your list of existing users. Students will use the account's username and password to sign in to the appropriate assessment.  
 
 To view the details of any profile, select it from the left side of the page. Then click the **Account** tab.  
 
@@ -92,6 +92,4 @@ When you delete a Take a Test profile, it becomes a typical user account. Studen
 2. Click **Delete Take a Test profile**.
 3. Click **Delete** to confirm your action.
 
-
-
-- To find out more about Take a Test on your devices, see [Take a Test in Windows 10](https://technet.microsoft.com/edu/windows/take-tests-in-windows-10).
+To find out more about Take a Test on your devices, see [Take a Test in Windows 10](https://technet.microsoft.com/edu/windows/take-tests-in-windows-10).

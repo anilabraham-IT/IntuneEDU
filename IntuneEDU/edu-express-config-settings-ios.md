@@ -7,8 +7,8 @@ description: Lists the default setting names and behaviors set when using Expres
 keywords:
 author: lenewsad
 ms.author: lanewsad
-manager: angrobe
-ms.date: 02/20/2018
+manager: dougeby
+ms.date: 07/23/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -139,5 +139,8 @@ Setting|Suggested value|
 To restore all settings to their default values, click **Reset to suggested defaults**. 
 
 ## Next steps  
-
-[Find out more about the full Windows 10 settings management experience available in Intune](https://docs.microsoft.com/intune/deploy-use/windows-10-policy-settings-in-microsoft-intune)
+Learn all about groups, settings, and monitoring conflicts in Intune for Education. 
+* Find out the difference between [assigned and dynamic](create-groups.md) groups
+* Assign [group admins](group-admin-delegate.md) to help you manage classroom settings within your school or across the district
+* Learn how [settings inheritance](settings-inheritance.md) affects group assignments
+* Review [reports](what-are-reports.md) to pinpoint and troubleshoot setting conflicts

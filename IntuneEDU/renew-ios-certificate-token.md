@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 07/03/2018
+ms.date: 07/23/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -75,7 +75,7 @@ The VPP token is associated with the Apple ID you used to create it. Renew the t
 2. Select the token that you want to renew.
 3. Under **VPP Token: Microsoft Intune**, click **Renew token**.
 4. Follow the instructions on the **VPP Token** page. You'll be required to visit Apple School Manager to get a new token. Remember, sign in with the Apple ID you used to get your original token.
-5. Follow the steps in Apple School Manager to create and download the token. Save the token to your local drive.
+5. Follow the steps in Apple School Manager to create and download the token. Then save the token to your computer.
 6. Return to the Intune for Education portal. Enter the Apple ID that you used to sign in to Apple School Manager.
 7. Click the folder icon to browse your computer's files. Select the token file that you downloaded and saved earlier.
 8. Choose the location of your school's devices.
@@ -83,3 +83,6 @@ The VPP token is associated with the Apple ID you used to create it. Renew the t
 10. Click **Save**.
 
 ## Next steps
+Now that your certificates and tokens are renewed, make sure [your group settings](edit-groups-intune-for-edu.md) are up-to-date. To see the current status of your groups in Intune, learn how to [view reports](what-are-reports.md).  
+
+Read [What's new in Intune for Education](whats-new-in-edu.md) to find out about the latest updates and features.

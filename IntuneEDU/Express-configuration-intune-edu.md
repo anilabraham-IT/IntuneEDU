@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 06/25/2018
+ms.date: 07/23/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -31,7 +31,7 @@ searchScope:
 
 # Express configuration in Intune for Education
 
-  ![The Express Configuration tile, which says Launch Express Configuration, Click here to choose apps and settings for a group.](./media/express-config-001-launch-tile.png)
+  ![The Express Configuration tile, which says "Launch Express Configuration, click here to choose apps and settings for a group."](./media/express-config-001-launch-tile.png)
 
 Express Configuration enables you to assign settings and apps to users and devices. The launch tile for the step-by-step walkthrough is found on the front page of the [Intune for Education portal](https://intuneeducation.portal.azure.com). 
 
@@ -45,35 +45,35 @@ This section describes how to complete the steps in express configuration. To ge
 1. Sign in to the Intune for Education portal.
 2. On the dashboard, click **Launch Express Configuration**.  
 
-If iOS configurations are disabled when you launch express cnfiguration:  
-1. From the dashboard select **See all** > **iOS Device Management**.
-2. Upload an Apple MDM Push Certificaate.
+If iOS configurations are disabled when you launch express configuration:  
+1. From the dashboard, select **See all** > **iOS Device Management**.
+2. Upload an Apple MDM Push certificate.
 3. Register an [Apple MDM Server token](setup-ios-device-management.md).
 
 ## Choose a group to configure
 
-Default groups are included with your Intune for Education subscription. They are populated with the details of your school records. Default groups include:  
-    * All Devices
-    * All Users
-If you used SDS to import your school's records, you'll also see:      
+Some groups are created and included with your Intune for Education subscription. Intune for Education populates the groups with details from school records. These groups are:  
+    * All Devices  
+    * All Users  
+If you use School Data Sync(SDS) to import your school's records, you'll also see:      
     * All Teachers
     * All Students 
 
-We recommend that you start with the **All Users** group,and assign the settings that all users must have. For example, assign settings such as password requirements or pop-up restrictions in Microsoft Edge.
+Intune for Education recommends that you start with the **All Users** group. Assign the settings that all users must have. For example, password requirements and pop-up restrictions are likely the same for all users.
 
   ![The choose group screen, which asks users to select a group.](./media/express-config-004-choose-group.png)
 
-Click the expand/collapse arrow to view or hide all groups. Remember, if you configure a top-level group, all settings you apply to that group will be inherited by its subgroups.
+Click the expand/collapse arrow to view or hide all groups. Remember, when you configure a top-level group, its subgroups inherit all of its settings.
 
 ## Choose apps
 
-The types of apps that you can provision to devices include:
+You can add the following app types to devices:
 * [Web apps](add-web-apps-edu.md)
 * Windows 10 apps
-    * Microsoft Office
+    * [Microsoft Office](install-office.md)
     * [Microsoft Store for Education apps](acquire-store-apps.md)
     * [Desktop apps](add-desktop-apps-edu.md)
-* [iOS apps]
+* iOS apps
     * [Free iOS App Store apps](add-apps-ios.md)
     * [Volume purchased program (VPP) apps](add-vpp-apps-ios.md)
 
@@ -92,15 +92,16 @@ The default settings are preset with recommended values. If you want to stick wi
   ![The choose settings screen. Settings are organized into a collapsed list, including divisions such as device sharing, basic device settings, app settings, browser settings, and more.](./media/express-config-006-choose-settings.png)
 
 
-Change express configuration selections at any time to fit your school's changing policies. For even more customization capabilities in Intune for Education, view the full list of [Windows 10](all-edu-settings-windows.md) and [iOS](all-edu-settings-ios.md) device settings.
+Change express configuration selections at any time to fit your school's changing policies. For more customization in Intune for Education, view the full list of [Windows 10](all-edu-settings-windows.md) and [iOS](all-edu-settings-ios.md) device settings.
 
 ## Review settings
 
 Before saving, review your apps and settings selections. Click **Back** to make changes. When your review is complete, click **Save**.
 
-  Not up to date: ![The review your choices screen. It shows the apps and settings selected during Express Configuration.](./media/express-config-007-save-changes.png)  
+ ![The review your choices screen. It shows the apps and settings selected during Express Configuration.](./media/express-config-007-save-changes.png)  
 
-  ![The completion screen. It shows the configure more groups and completed options. The All Done option offers a short explanation of what's next in the process, including adding devices to Intune for Education by joining them to Azure Active Directory.](./media/express-config-008-all-done.png)
+  ![The completion screen. It shows the "configure more groups" button and completed options. The All Done option offers a short explanation of what's next in the process, including adding devices to Intune for Education by joining them to Azure Active Directory.](./media/express-config-008-all-done.png)
 
 ## Next steps
+[Assign group admins](group-admin-delegate.md) to help you manage the group you just created. Edit your group anytime by revisiting express configuration. To view more settings, [visit the Groups tab](create-groups.md).
 

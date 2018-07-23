@@ -7,8 +7,8 @@ description: Learn how to set up Windows 10 devices for Intune for Education.
 keywords:
 author: lenewsad
 ms.author: lanewsad
-manager: angrobe
-ms.date: 05/10/2017
+manager: dougeby
+ms.date: 07/23/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -50,7 +50,7 @@ Complete the following steps to add your Windows 10 devices to Intune for Educat
 
    ![Screenshot of the "Choose how you connect" screen in Windows setup](./media/devices-002-how-you-connect-pc.png)
 
-3. Enter the account details for the Intune for Education admin or other permissioned enrollment user. Then click **Next**.
+3. Enter the account details for the Intune for Education admin or enrollment manager. Then click **Next**.
 
 4. Your device [authenticates with Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access) and identifies with the group or groups it belongs to.  
 After setup is complete, the device will receive all apps and settings that you assigned to its group.
