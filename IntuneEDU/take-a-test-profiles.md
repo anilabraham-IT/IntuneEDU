@@ -1,14 +1,14 @@
 ---
 # required metadata
 
-title: How do I use Take a Test profiles?
+title: Take a Test profiles
 titleSuffix: Intune for Education
-description: Learn how to use Take A Test profiles to make it easy to administer and capture student test results.
+description: Learn how to use Take A Test profiles to administer and capture student test results.
 keywords:
 author: lenewsad
 ms.author: lanewsad
-manager: angrobe
-ms.date: 01/17/2018
+manager: dougeby
+ms.date: 07/23/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -24,42 +24,72 @@ searchScope:
 #ms.devlang:
 #ms.reviewer: rashok
 #ms.suite: ems
-#ms.tgt_pltfrm:
+#ms.tgt_pltfrm: 
 #ms.custom: intune-education
 
 ---
 
-# How do I use Take a Test profiles?
+# Add a Take a Test profile in Intune for Education
 
-_Take a Test profiles_ are designed to make it easy for you to administer formative and summative assessments through your Windows 10 devices. Take a test creates the right environment for taking a test:
-
-- Take a Test shows just the test and nothing else.
-- Take a Test clears the clipboard.
-- Students aren’t able to go to other websites.
-- Students can’t open or access other apps.
-- Students can't share, print, or record their screens.
-- Students can’t change settings, extend their display, see notifications, get updates, or use autofill features.
-- Cortana is turned off.
+The Take a Test app lets you securely administer online tests on your classroom's Windows 10 devices.  Students use the credentials you provide for them to sign in to the test profile. Then they click the assessment URL to launch the test. 
+ 
+This article describes how to:
+* Create a Take a Test profile.
+* Assign the profile to students in your school.  
 
 > [!NOTE]
-> You will need to create a Take a Test user before you can assign the Take a Test profile. Find out how to assign these users in the [Windows 10 for Education docs](https://technet.microsoft.com/edu/windows/take-a-test-multiple-pcs).
+> Create an exclusive user for Take a Test purposes. Assign your Take a Test profile to this user so that you don't impact student or teacher devices. Learn how to assign a user in the Windows 10 for Education, [Set up Take a Test on multiple PCs](https://technet.microsoft.com/edu/windows/take-a-test-multiple-pcs) article.
 
-You can set up Take a Test profiles by selecting **Take a Test profiles** from the choices in the sidebar.
+## Take a Test features
+When a student launches a test, their desktop locks. The Take a Test app opens in a new window. Take a Test clears the system's clipboard so that students can't copy and paste content.
 
-  ![List of options in the sidebar](./media/dashboard-002-left-sidebar-list.png)
+While a test is active, test takers cannot:
 
-Select **Add Take a Test profile** to proceed.
+* Visit other websites.
+* Open or access other apps.
+* Change settings.
+* Extend the display.  
+* See notifications.
+* Receive app and OS updates.
+* Receive text suggestions.
+* Use Cortana.
+* Share, print, or record device screens, unless allowed by school or IT administrator.
 
-  ![Select Add a Take A Test profile button in the left hand side](./media/takeatest-001-new-profile.png)
+### How is assistive technology affected?
+Some device features--such as narrator--and other assistive technology are still fully functional while taking a test. For a list of the apps features, see [Take a Test app technical reference](https://docs.microsoft.com/en-us/education/windows/take-a-test-app-technical).
 
-You'll need to provide a **Name for this profile**, the **Assessment URL**, and to decide whether to allow **Screen capture**, **Text suggestions**, or **Printing**.
 
-  ![Take a test profile window](./media/takeatest-002-new-profile-edit-window.png)
+## Take a Test profile setup
+Set up a profile in Intune for Education. Before you begin, we recommend that you create a dedicated user account used solely for assessments. Users will sign in to this account to access tests. 
 
-Once a Take a Test profile has been created, you can view the details about it when you select its name from the list of Take a Test profiles.
+1. From Intune for Education dashboard, click **Take a Test profiles**.    
+![List of options in the sidebar](./media/dashboard-002-left-sidebar-list.png)  
+2.  Click Add Take a Test profile.  
+ ![Select Add a Take A Test profile button in the left-hand side](./media/takeatest-001-new-profile.png)  
+3. Enter a descriptive name for the test.  
+4 Enter the Assessment URL.  
+ ![Take a test profile window](./media/takeatest-002-new-profile-edit-window.png)  
+5. Configure the rest of the test settings:    
+    a. Allow screen capture  
+    b. Require PCs to have a printer installed  
+    c. Allow text suggestions   
+6. Select an account from your list of existing users. Students will use the account's username and password to sign in to the appropriate assessment.  
 
-  ![Take a test profile info window after creation](./media/takeatest-003-profile-details.png)
+To view the details of any profile, select it from the left side of the page. Then click the **Account** tab.  
 
-## Find out more
+## Assign or change groups
+Assign groups of students that require access to the test profile. Follow these steps to make edits to group assignments too.
+1. From the **Take a Test profiles** page, click the **Groups** tab. 
+2. Click **Change group assignments**. 
+3. Select one or more groups from the **All Groups** menu. Then click **Add Groups**. 
+4. To remove a group from the assignment, select the group from the **Groups assigned** menu. Then click **Remove Groups**.
+5. Click **Ok** to submit your changes.
 
-- [Find out more about Take a Test](https://technet.microsoft.com/edu/windows/take-tests-in-windows-10)
+## Delete Take a Test profile  
+When you delete a Take a Test profile, it becomes a typical user account. Students are still able to sign in to the account with its existing credentials, but the URL assessment link is removed from the account. Signing into the account will also no longer lock student devices.
+
+1. From the **Take a Test profiles** page, choose the profile you want to delete.
+2. Click **Delete Take a Test profile**.
+3. Click **Delete** to confirm your action.
+
+To find out more about Take a Test on your devices, see [Take a Test in Windows 10](https://technet.microsoft.com/edu/windows/take-tests-in-windows-10).

@@ -1,14 +1,14 @@
 ---
 # required metadata
 
-title: What is School Data Sync?
+title: Import school records with School Data Sync
 titleSuffix: Intune for Education
 description: Use School Data Sync to import school groups and people into Azure AD.
 keywords:
 author: lenewsad
 ms.author: lanewsad
-manager: angrobe
-ms.date: 08/11/2017
+manager: dougeby
+ms.date: 07/23/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -29,14 +29,31 @@ searchScope:
 
 ---
 
-# What is School Data Sync?
+# Microsoft School Data Sync and Intune for Education
 
-You can use Microsoft's School Data Sync (SDS) to import school records from an existing Student Information System (SIS) data with Intune for Education.
+Microsoft School Data Sync (SDS) is a free service in Office 365 Education that imports school records from your existing Student Information System (SIS). It creates online classrooms and groups for Microsoft Teams, Intune for Education, and third-party applications.  
 
-SDS duplicates the information from your SIS and stores it in Azure Active Directory (AD). Azure AD is a Microsoft management system that helps you organize students and devices. You can then use this data with Intune for Education to deploy apps and manage settings. [Learn more about how to deploy SDS](https://support.office.com/article/Overview-of-School-Data-Sync-and-Classroom-f3d1147b-4ade-4905-8518-508e729f2e91).
+Go to the School Data Sync documentation to [learn how to deploy SDS](https://support.office.com/article/Overview-of-School-Data-Sync-and-Classroom-f3d1147b-4ade-4905-8518-508e729f2e91). 
 
-When importing student information from your SIS into Intune for Education with School Data Sync, make sure that you include __Grade__ and __Graduation Year__ if you intend to make [dynamic groups](what-are-groups.md#managing-groups-and-subgroups) with those properties. This is under __Student options__ > __Select student properties__. You use this information to create a profile.  
+## Create groups from school roster
+SDS creates copies of the information from your SIS, and stores it in Azure Active Directory (Azure AD). SDS creates two groups in Intune for Education to which you can apply settings and apps:
 
-## Find out more
+* All Students
+* All Teachers
 
-- [Find out more about Microsoft School Data Sync](https://sds.microsoft.com)
+For more information about creating groups in Intune for Education, see [Create groups](create-groups.md).  
+
+## Set up dynamic group properties
+When importing student information from your SIS into Intune for Education with School Data Sync, include the following properties:
+*  Grade 
+*  Graduation Year  
+
+These properties are necessary to create [dynamic group](create-groups.md#dynamic-groups) rules for students in the Intune for Education portal.  Properties are configured from the SDS app, and are found in  __Student options__ > __Select student properties__.
+
+## What is Azure AD?
+Azure AD is a Microsoft management system that integrates with Intune and helps organize students and devices. It lets you create groups out of your students and teachers, such as *4th period Biology* or *Contoso District teachers*. Groups are necessary to assign and distribute user or device-specific apps, settings, and restrictions.
+
+## Next steps   
+After your student and teacher information is synced with Intune for Education, get started with express configuration for [Windows](edu-express-config-settings-windows.md) or [iOS](edu-express-config-settings-ios.md) devices.  
+
+Want to know more about Microsoft School Data Sync? Visit the [Microsoft School Data Sync page](https://sds.microsoft.com) for product information. 

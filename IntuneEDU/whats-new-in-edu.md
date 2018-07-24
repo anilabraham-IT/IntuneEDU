@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 05/08/2018
+ms.date: 07/23/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -20,7 +20,7 @@ searchScope:
 # optional metadata
 
 #ROBOTS:
-#audience:
+#audience: NOINDEX,NOFOLLOW
 .#ms.devlang:
 #ms.reviewer: rashok
 #ms.suite: ems
@@ -29,7 +29,20 @@ searchScope:
 
 ---
 # What's new in Intune for Education
-Learn what’s new in Intune for Education. Find out about upcoming changes to plan for, product notices, and features from previous releases.
+Learn what’s new in Intune for Education. Find out about upcoming changes, product notices, and features from previous releases.
+
+## July 2018 
+
+### All new support for iOS classroom devices  
+
+Intune for Education now supports iOS device management in the classroom! We've added new features and pages to Intune for Education to make the setup and management process easy for everyone involved. From the dashboard, you'll have everything you need to successfully setup, configure, and enroll devices.  
+
+* Setup iOS device management: We've added a new page with [step-by-step guidance](setup-ios-device-management.md) to help you quickly connect your Apple accounts to Intune for Education. On-screen indicators let you clearly see the required and optional steps, the ones you've successfully completed, and the ones that are nearing expiration.
+* Express configuration: Just like our Windows 10 experience, but tailored to iOS devices, [express configuration for iOS](express-configuration-intune-edu.md) helps you quickly assign and change apps and settings. Simply choose a group of users or devices and select from our Microsoft-recommended settings. These [recommendations are preselected](edu-express-config-settings-ios.md), but you can change them at any time to match your school's own policies.  
+* Apps and settings: We've added separate app and device setting views to help you focus on either [iOS](all-edu-settings-ios.md) or [Windows 10](all-edu-settings-windows.md) device management. With added [Apple VPP support](add-vpp-apps-ios.md), you can sync your VPP-purchased apps with Intune for Education and assign them directly from the dashboard. 
+* Dynamic grouping: Now you can apply a specific device platform rule to your [dynamic groups](create-groups.md#dynamic-groups), Create a rule to apply to devices or students on Windows 10 *or* iOS devices.  
+
+Get more details and learn how to navigatee new pages and workflows in the [Intune for Education](what-is-intune-for-education.md) documentation.   
 
 ## January 2018
 
@@ -64,7 +77,7 @@ You can now take remote actions on your users and devices. Select the device you
 
 - Reset password
 
-Find out more about [remote actions](remote-actions.md).
+Find out more about [remote actions](edu-device-remote-actions.md).
 
 ### Wi-Fi profiles
 
@@ -90,7 +103,7 @@ Select a user or device in one of your groups. A pane will now slide up from the
 
 We have launched the Intune for Education portal. Intune for Education is a streamlined experience for schools and educational organizations to manage Windows 10 devices. Find out more about Intune for Education in these docs.
 
-## Find out more
+## Next steps
 
 - [Find out more about Intune for Education](what-is-intune-for-education.md)
 - [Find out more about the full device management experience with Intune](https://docs.microsoft.com/intune/understand-explore/introduction-to-microsoft-intune)
