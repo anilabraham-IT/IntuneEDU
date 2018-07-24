@@ -102,7 +102,6 @@ Setting|What it does|
 |---|---|  
 |Block looking up word definitions|Block the use of the iOS feature that lets you highlight a word and look up its definition.|  
 |Block predictive keyboard suggestions|Block the use of predictive keyboards that suggest words when typing.|
-
 |Block auto-correction|Block the device from automatically correcting misspelled words.|
 |Block keyboard spell-check|Block the device spell checker.|
 |Block keyboard shortcuts|Block the use of keyboard shortcuts.|
@@ -159,7 +158,8 @@ Setting|What it does|
 |Block autofill|Block students from changing autofill settings in the browser.|  
 |Block cookies|Block the browser from using cookies.|  
 |Show warning when visiting a fraudulent website|Shows fraud warnings in the browser.|  
-|Block pop-ups|Block pop-ups that appear in the browser.|
+|Block pop-ups|Block pop-ups that appear in the browser.|  
+
 
 ## Wi-Fi profiles  
 Select from the list of Wi-Fi profiles to assign one or more profiles to the group.  
