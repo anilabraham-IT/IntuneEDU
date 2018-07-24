@@ -98,7 +98,7 @@ Setting|What it does|
 
 |Setting|What it does|  
 |---|---|  
-|Block looking up word definitions|Block the use of the iOS feature that lets you highlight a word and look up its definition.|  
+|Block looking up word definitions|Block the use of the iOS feature that lets you highlight a word and look up its definition.|
 |Block predictive keyboard suggestions|Block the use of predictive keyboards that suggest words when typing.|
 |Block auto-correction|Block the device from automatically correcting misspelled words.|
 |Block keyboard spell-check|Block the device spell checker.|
