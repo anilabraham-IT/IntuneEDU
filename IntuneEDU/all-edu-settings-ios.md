@@ -44,9 +44,7 @@ Apply [group settings](what-are-groups.md) to establish access and security boun
 ## Configuration options
 Many settings in Intune for Education are configured to **Block** or **Allow**. For some settings, **Not configured** is an option. When toggled to **Not Configured**, the device will either:  
 * Use the default setting. 
-* Allow the device user (student or teacher) to customize the setting from their device.   
-
-  ![The settings page for a group](./media/settings-001-list-of-settings.png)  
+* Allow the device user (student or teacher) to customize the setting from their device.  
   
 ## Basic device restrictions  
 |Setting|What it does|
@@ -100,9 +98,8 @@ Setting|What it does|
 
 |Setting|What it does|  
 |---|---|  
-|Block looking up word definitions|Block the use of the iOS feature that lets you highlight a word and look up its definition.|  
+|Block looking up word definitions|Block the use of the iOS feature that lets you highlight a word and look up its definition.|
 |Block predictive keyboard suggestions|Block the use of predictive keyboards that suggest words when typing.|
-
 |Block auto-correction|Block the device from automatically correcting misspelled words.|
 |Block keyboard spell-check|Block the device spell checker.|
 |Block keyboard shortcuts|Block the use of keyboard shortcuts.|
@@ -159,7 +156,8 @@ Setting|What it does|
 |Block autofill|Block students from changing autofill settings in the browser.|  
 |Block cookies|Block the browser from using cookies.|  
 |Show warning when visiting a fraudulent website|Shows fraud warnings in the browser.|  
-|Block pop-ups|Block pop-ups that appear in the browser.|
+|Block pop-ups|Block pop-ups that appear in the browser.|  
+
 
 ## Wi-Fi profiles  
 Select from the list of Wi-Fi profiles to assign one or more profiles to the group.  
