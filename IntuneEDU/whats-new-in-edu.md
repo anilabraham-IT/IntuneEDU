@@ -42,7 +42,7 @@ Intune for Education now supports iOS device management in the classroom! We've 
 * Apps and settings: We've added separate app and device setting views to help you focus on either [iOS](all-edu-settings-ios.md) or [Windows 10](all-edu-settings-windows.md) device management. With added [Apple VPP support](add-vpp-apps-ios.md), you can sync your VPP-purchased apps with Intune for Education and assign them directly from the dashboard. 
 * Dynamic grouping: Now you can apply a specific device platform rule to your [dynamic groups](create-groups.md#dynamic-groups), Create a rule to apply to devices or students on Windows 10 *or* iOS devices.  
 
-Get more details and learn how to navigatee new pages and workflows in the [Intune for Education](What-is-intune-for-eduation.md) documentation.   
+Get more details and learn how to navigatee new pages and workflows in the [Intune for Education](what-is-intune-for-education.md) documentation.   
 
 ## January 2018
 
