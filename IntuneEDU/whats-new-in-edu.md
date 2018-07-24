@@ -20,7 +20,7 @@ searchScope:
 # optional metadata
 
 #ROBOTS:
-#audience: NOINDEX,NOFOLLOW
+#audience: 
 .#ms.devlang:
 #ms.reviewer: rashok
 #ms.suite: ems
@@ -40,9 +40,9 @@ Intune for Education now supports iOS device management in the classroom! We've 
 * Setup iOS device management: We've added a new page with [step-by-step guidance](setup-ios-device-management.md) to help you quickly connect your Apple accounts to Intune for Education. On-screen indicators let you clearly see the required and optional steps, the ones you've successfully completed, and the ones that are nearing expiration.
 * Express configuration: Just like our Windows 10 experience, but tailored to iOS devices, [express configuration for iOS](express-configuration-intune-edu.md) helps you quickly assign and change apps and settings. Simply choose a group of users or devices and select from our Microsoft-recommended settings. These [recommendations are preselected](edu-express-config-settings-ios.md), but you can change them at any time to match your school's own policies.  
 * Apps and settings: We've added separate app and device setting views to help you focus on either [iOS](all-edu-settings-ios.md) or [Windows 10](all-edu-settings-windows.md) device management. With added [Apple VPP support](add-vpp-apps-ios.md), you can sync your VPP-purchased apps with Intune for Education and assign them directly from the dashboard. 
-* Dynamic grouping: Now you can apply a specific device platform rule to your [dynamic groups](create-groups.md#dynamic-groups), Create a rule to apply to devices or students on Windows 10 *or* iOS devices.  
+* Dynamic grouping: Now you can apply a specific device platform rule to your [dynamic groups](create-groups.md#dynamic-groups). Create a rule to apply to devices or students on Windows 10 *or* iOS devices.  
 
-Get more details and learn how to navigatee new pages and workflows in the [Intune for Education](what-is-intune-for-education.md) documentation.   
+Get more details and learn how to navigate new pages and workflows in the [Intune for Education](what-is-intune-for-education.md) documentation.   
 
 ## January 2018
 
