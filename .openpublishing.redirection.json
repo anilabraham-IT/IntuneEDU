@@ -4,6 +4,81 @@
             "source_path": "IntuneEDU/index.md",
             "redirect_url": "/intune-education/what-is-intune-for-education",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "IntuneEDU/available-settings.md",
+            "redirect_url": "/intune-education/all-edu-settings-windows",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "IntuneEDU/get-started-with-intune-edu.md",
+            "redirect_url": "/intune-education/what-is-intune-for-education",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "IntuneEDU/how-do-i-manage-settings.md",
+            "redirect_url": "/intune-education/manage-device-settings-edu",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "IntuneEDU/how-do-i-add-devices.md",
+            "redirect_url": "/intune-education/add-devices-windows",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "IntuneEDU/how-to-add-apps.md",
+            "redirect_url": "/intune-education/install-apps",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "IntuneEDU/remote-actions.md",
+            "redirect_url": "/intune-education/edu-device-remote-actions",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "IntuneEDU/what-are-certificates.md",
+            "redirect_url": "/intune-education/renew-ios-certificate-token",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "IntuneEDU/what-are-enrollment-managers.md",
+            "redirect_url": "/intune-education/add-enrollment-managers",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "IntuneEDU/what-are-settings.md",
+            "redirect_url": "/intune-education/about-group-settings",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "IntuneEDU/what-are-tenants.md",
+            "redirect_url": "/intune-education/what-is-intune-for-education#configuring-your-intune-for-education-tenant",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "IntuneEDU/what-is-express-configuration.md",
+            "redirect_url": "/intune-education/Express-configuration-intune-edu",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "IntuneEDU/where-are-my-apps.md",
+            "redirect_url": "/intune-education/acquire-store-apps",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "IntuneEDU/how-do-i-customize-my-dashboard.md",
+            "redirect_url": "/intune-education/navigate-my-dashboard-edu",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "IntuneEDU/what-are-groups.md",
+            "redirect_url": "/intune-education/create-groups",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "IntuneEDU/install-apps.md",
+            "redirect_url": "/intune-education/assign-apps",
+            "redirect_document_id": true
         }
     ]
 }
