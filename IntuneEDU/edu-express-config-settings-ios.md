@@ -29,7 +29,7 @@ searchScope:
 
 ---
 # Default iOS settings in Express Configuration
-Express configuration is preset with Microsoft-suggested iOS settings to help you quickly set up a group of devices or users. Intune for Education chooses settings that are both Microsoft-recommended and best for school environments. Make changes to fit your school's rules and policies, or click straight through the settings page to apply our recommendations. 
+Express configuration is preset with iOS setting suggestions to help you quickly set up a group of devices or users. Intune for Education chooses settings that are both Microsoft-recommended and best for school environments. Make changes to fit your school's rules and policies, or click straight through the settings page to apply our recommendations. 
 
 For the complete list of settings and descriptions, see [All iOS settings in Intune for Education](all-edu-settings-ios.md). 
 
@@ -74,7 +74,7 @@ Setting|Suggested value|
 Setting|Suggested value|
 |---|---|
 |Block App Store|Block|
-|Block in-app purchases|Block|
+|Block in-app purchases|Block\
 |Block explicit content in iTunes and the App Store|Block|
 |Block downloading iBook content flagged as erotica|Block|
 |Block Game Center|Block|  
