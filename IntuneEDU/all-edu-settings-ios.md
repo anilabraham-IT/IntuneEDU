@@ -44,9 +44,7 @@ Apply [group settings](what-are-groups.md) to establish access and security boun
 ## Configuration options
 Many settings in Intune for Education are configured to **Block** or **Allow**. For some settings, **Not configured** is an option. When toggled to **Not Configured**, the device will either:  
 * Use the default setting. 
-* Allow the device user (student or teacher) to customize the setting from their device.   
-
-  ![The settings page for a group](./media/settings-001-list-of-settings.png)  
+* Allow the device user (student or teacher) to customize the setting from their device.  
   
 ## Basic device restrictions  
 |Setting|What it does|
