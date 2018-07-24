@@ -61,7 +61,7 @@ Setting|Suggested value|
 |Control Center access on lock screen|Block|
 |Block Siri on lock screen|Block|
 |Block access to Wallet from lock screen|Block|
-|Block Today view on lock screen|Block||
+|Block Today view on lock screen|Block|
 |Require passcode|Not Configured|
 |Block changing passcode|Block|
 |Minutes inactivity before the screen locks|Not Configured|
@@ -74,7 +74,7 @@ Setting|Suggested value|
 Setting|Suggested value|
 |---|---|
 |Block App Store|Block|
-|Block in-app purchases|Block\
+|Block in-app purchases|Block|
 |Block explicit content in iTunes and the App Store|Block|
 |Block downloading iBook content flagged as erotica|Block|
 |Block Game Center|Block|  
