@@ -35,7 +35,7 @@ Learn what’s new in Intune for Education. Find out about upcoming changes, pro
 
 ### All new support for iOS classroom devices  
 
-Intune for Education now supports iOS device management in the classroom! We've added new features and pages to Intune for Education to make the setup and management process easy for everyone involved. From the dashboard, you'll have everything you need to successfully setup, configure, and enroll devices.  
+Intune for Education now supports iOS device management in the classroom. We've added new features and pages to Intune for Education to make the setup and management process easy for everyone involved. From the dashboard, you'll have everything you need to successfully setup, configure, and enroll devices.  
 
 * Setup iOS device management: We've added a new page with [step-by-step guidance](setup-ios-device-management.md) to help you quickly connect your Apple accounts to Intune for Education. On-screen indicators let you clearly see the required and optional steps, the ones you've successfully completed, and the ones that are nearing expiration.
 * Express configuration: Just like our Windows 10 experience, but tailored to iOS devices, [express configuration for iOS](express-configuration-intune-edu.md) helps you quickly assign and change apps and settings. Simply choose a group of users or devices and select from our Microsoft-recommended settings. These [recommendations are preselected](edu-express-config-settings-ios.md), but you can change them at any time to match your school's own policies.  
