@@ -57,7 +57,7 @@ Some groups are created and included with your Intune for Education subscription
  * All Devices  
  * All Users  
  
-If you use School Data Sync(SDS) to import your school's records, you'll also see:  
+If you use School Data Sync (SDS) to import your school's records, you'll also see:  
 
  * All Teachers  
  * All Students  
