@@ -53,11 +53,14 @@ If iOS configurations are disabled when you launch express configuration:
 ## Choose a group to configure
 
 Some groups are created and included with your Intune for Education subscription. Intune for Education populates the groups with details from school records. These groups are:  
-    * All Devices  
-    * All Users  
-If you use School Data Sync(SDS) to import your school's records, you'll also see:      
-    * All Teachers
-    * All Students 
+
+ * All Devices  
+ * All Users  
+ 
+If you use School Data Sync(SDS) to import your school's records, you'll also see:  
+
+ * All Teachers  
+ * All Students  
 
 Intune for Education recommends that you start with the **All Users** group. Assign the settings that all users must have. For example, password requirements and pop-up restrictions are likely the same for all users.
 
