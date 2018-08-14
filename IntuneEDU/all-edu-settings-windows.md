@@ -51,8 +51,9 @@ Many settings in Intune for Education are configured to **Block** or **Allow**. 
 ## Basic device settings  
 |Setting|What it does|
 |---|---|
-|Block manual unenrollment|Block users from manually unenrolling devices from management.|
 |Remove built-in Windows 10 apps|Uninstall certain built-in Windows apps. Learn what those apps are [below](all-edu-settings-windows.md#removing-built-in-apps).|
+|Block manual unenrollment|Block users from manually unenrolling devices from management.|
+|Enable Windows Automatic Redeployment| Allows users with administrative rights to delete all user data and settings using CTRL + Win + R at the device lock screen. The device is then automatically reconfigured and reenrolled into management.|
 |Block camera|Block user access to the device camera.|
 |Block OneDrive file sync|Block OneDrive Sync for these devices and users.|
 |Block removable storage|Block users from using removable storage such as USB drives and external hard drives.|
@@ -60,7 +61,7 @@ Many settings in Intune for Education are configured to **Block** or **Allow**. 
 |Block Cortana|Block Cortana, the digital assistant built into Windows 10 that can answer questions and perform tasks.|
 |Block adding provisioning packages|Block users from adding new provisioning packages containing device settings.|
 |Block removing provisioning packages|Block users from removing provisioning packages containing device settings.|
-|Block changing time and date settings|Block users from changing the device date and time settings.|
+|Block changing date and time settings|Block users from changing the device date and time settings.|
 |Block changing language settings|Block users from changing the device language.|
 |Send diagnostic data|Define whether to collect and send anonymous usage data to Microsoft to help improve Windows.|
 |Block changing device region settings|Block users from changing region settings, such as country and language.|
@@ -91,17 +92,16 @@ This setting is automatically turned on when the "Optimize devices for shared us
 |Setting|What it does|
 |---|---|
 |Configure homepages|Choose what homepages open every time someone begins a new session browsing with Microsoft Edge.|
+|Block editing favorites|Block users from adding, importing, sorting, or editing the Favorites list.|
 |Block address bar suggestions|Block Edge from suggesting possible search terms or previously visited websites as you type a URL or search term.|
 |Block search suggestions|Block Edge from suggesting possible websites as you type a URL or search term.|
-|Block InPrivate browsing|Block users from using InPrivate browsing, which stops Edge from saving data like browsing history and cookies.|
-|Block adult content using a SafeSearch filter|Setting to “Block” uses a strict rather than moderate SafeSearch filter to block adult content.|
+|Block InPrivate browsing|Block users from using InPrivate browsing, which stops Edge from saving data like browsing history and cookies.| 
 |Block browser extensions|Block users from using extensions to customize Edge with added functionality from Microsoft and other sources.|
 |Block first run page|Block users from seeing the first run page for the first time they open Edge.|
 |Clear browsing data upon exit|Automatically erase history, cookies, and cached files after exiting Edge.|
 |Block pop-ups|Block websites from opening new windows.|
 |Block password manager|Block users from using the password manager to save passwords.|
 |Block automatically filling form entries|Block saving data entered in a form field online.|
-|Do-Not-Track headers|Require Microsoft Edge to ask that websites not track user data.|
 |Default search engine|Select Bing, Yahoo, or Google as the default search engine for Microsoft Edge.|
 |Use cookies|Cookies can store website settings or track user’s browsing behavior.|
 |Block developer tools|Block users from accessing developer tools.|
