@@ -3,12 +3,12 @@
 
 title: All iOS device settings
 titleSuffix: Intune for Education
-description: See a list of all iOS evice settings in Intune for Education.
+description: See a list of all iOS device settings in Intune for Education.
 keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 07/23/2018
+ms.date: 08/28/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
