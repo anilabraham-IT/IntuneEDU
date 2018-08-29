@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 07/23/2018
+ms.date: 08/28/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -254,9 +254,9 @@ A list of Wi-Fi profiles that you create appear within this section. Details vis
 
 |Setting|What it does|
 |---|---|
-|Block adding new printers|Block group from connecting new printers to their devices.|
-|Printer list|Add the network location for each school printer you want to make available.| 
-|Specify default printer|Enter the printer from your **Printer list** that is to be made available on devices by default.| 
+|Block adding new printers|Block groups from connecting new printers to their devices.|
+|Printer list|Create a list of printers that you want to make available to student devices. Enter the printer hostname or IP address. An example of a formatted hostname is *printer1.contososd.edu*. An example of a formatted IP address is *75.121.7.31*.| 
+|Specify default printer|Make a printer available as the default printer option on devices. Enter the printer hostname or IP address as it appears in your **Printer list**.| 
 
 ## SmartScreen settings  
 |Setting|What it does|
