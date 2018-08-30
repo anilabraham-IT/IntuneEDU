@@ -3,12 +3,12 @@
 
 title: Add enrollment managers
 titleSuffix: Intune for Education
-description: Lear how to add Enrollment Managers in Intune for Education.
+description: Learn how to add Enrollment Managers in Intune for Education.
 keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 07/23/2018
+ms.date: 08/30/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -33,7 +33,7 @@ searchScope:
 
 Give device enrollment permissions to your existing users. Users with device enrollment manager accounts can enroll up to 1000 Windows 10 devices in Intune for Education.
 
- Enrollment manager accounts are helpful in large organizations that have thousands of shared Windows 10 devices to enroll. 
+ Enrollment manager accounts are helpful in large organizations that have thousands of shared Windows 10 devices to enroll.  
 
 ## Requirements  
 
