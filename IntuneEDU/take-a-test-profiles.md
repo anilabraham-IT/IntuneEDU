@@ -56,7 +56,7 @@ While a test is active, test takers cannot:
 * Share, print, or record device screens, unless allowed by school or IT administrator.
 
 ### How is assistive technology affected?
-Some device features--such as narrator--and other assistive technology are still fully functional while taking a test. For a list of the apps features, see [Take a Test app technical reference](https://docs.microsoft.com/en-us/education/windows/take-a-test-app-technical).
+Some device features--such as narrator--and other assistive technology are still fully functional while taking a test. For a list of the apps features, see [Take a Test app technical reference](https://docs.microsoft.com/education/windows/take-a-test-app-technical).
 
 
 ## Take a Test profile setup
