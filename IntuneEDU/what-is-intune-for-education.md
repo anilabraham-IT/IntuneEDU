@@ -42,15 +42,15 @@ With Intune for Eduction you can:
 The Intune for Education portal is simply designed to include only the settings and workflows you need to manage iOS and Windows school devices. From the portal, you can view and take action on your device, user, and app inventory. Intune for Education also supports the Take a Test app, which allows teachers to assess student progress directly from classroom devices.  
 
 ## Sign up for Intune for Education
-If you're not already signed up with an Intune for Education account, learn [how to get started](https://docs.microsoft.com/en-us/intune/account-sign-up). The article is for system administrators who are ready to sign their school up for an Intune subscription. 
+If you're not already signed up with an Intune for Education account, learn [how to get started](https://docs.microsoft.com/intune/account-sign-up). The article is for system administrators who are ready to sign their school up for an Intune subscription. 
 
 ## Manually add users to you Intune subscription
-If you're not using the Microsoft School Data Sync (SDS) service to import student and teacher records, you must [manually add users to your Intune subscription](https://docs.microsoft.com/en-us/intune/users-add). Students and teachers can be added through the Azure portal or through the Office 365 portal. At the time of user setup, you'll also want to grant admin permissions. 
+If you're not using the Microsoft School Data Sync (SDS) service to import student and teacher records, you must [manually add users to your Intune subscription](https://docs.microsoft.com/intune/users-add). Students and teachers can be added through the Azure portal or through the Office 365 portal. At the time of user setup, you'll also want to grant admin permissions. 
 
 ## Supported OS and browsers
 The full Intune management service supports many device operating systems. For school settings, like yours, we recommend using Intune for Education. Its portal is set up to specifically support Windows 10 and iOS school devices.  
 
-To view a complete list of Intune-supported web browsers and operating systems, see [Supported operating systems and browsers](https://docs.microsoft.com/en-us/intune/supported-devices-browsers) in the Microsoft Intune documentation.  
+To view a complete list of Intune-supported web browsers and operating systems, see [Supported operating systems and browsers](https://docs.microsoft.com/intune/supported-devices-browsers) in the Microsoft Intune documentation.  
 
 ## Configuring your Intune for Education tenant
 *Tenant* refers to your organization's instance of Intune for Education. Settings at a tenant-level affect your organization's Intune subscription. Intune for Education has both **General** settings and **iOS Device Management** tenant settings. 
