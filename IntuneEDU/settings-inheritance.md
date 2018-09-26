@@ -8,6 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
+ms.date: 09/26/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -42,7 +43,7 @@ To override recently inherited settings, go directly to the subgroup. Configure 
 
 ## Settings in conflict  
 
-If you apply conflicting settings to the same group, Intune will analyze each one individually. Intune always chooses the settings that, for sure, complies with school policies.
+If you apply conflicting settings to the same group, Intune will analyze each one individually. Intune always chooses the settings that, with certainty, complies with school policies.
 
 In other cases, when Intune can't resolve the conflict, you should review the [settings conflict](what-are-reports.md) report.
 
