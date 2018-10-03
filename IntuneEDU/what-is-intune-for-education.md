@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 07/23/2018
+ms.date: 10/03/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -76,7 +76,7 @@ You'll have access to other Microsoft management tools:
 * [Microsoft School Data Sync](https://sds.microsoft.com)
 * [Office 365 for  Education](https://support.office.com/article/Get-started-with-Office-365-Education-AB02ABE5-A1EE-458C-B749-5B44416CCF14)
 
-Use Intune for Education with [Mirosoft Education](https://docs.microsoft.com/education/#pivot=itpro) tools such as:
+Use Intune for Education with [Microsoft Education](https://docs.microsoft.com/education/#pivot=itpro) tools such as:
 
 - [Office 365 for Education](https://support.office.com/article/Set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa)
 - [Windows 10 for Education](https://docs.microsoft.com/education/windows)
