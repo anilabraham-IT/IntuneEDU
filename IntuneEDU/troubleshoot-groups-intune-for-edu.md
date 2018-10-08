@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: doueby
-ms.date: 07/23/2018
+ms.date: 10/08/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -41,7 +41,7 @@ In rare situations, you may end up with the same subgroup underneath two groups.
 
 ## Why can't I edit dynamic groups?
 
-Intune for Education lets your pick from a subset of the dynamic attributes available in Intune's full management portal. If the attribute that you want to edit is not visible in the Intune for Education portal, you must edit it in Intune in the Azure Portal or Azure Active Directory.
+Intune for Education lets you pick from a subset of the dynamic attributes available in Intune's full management portal. If the attribute that you want to edit is not visible in the Intune for Education portal, you must edit it in Intune in the Azure Portal or Azure Active Directory.
 
 ## Why can't I edit a specific group?  
 
