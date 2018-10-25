@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 07/23/2018
+ms.date: 10/24/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -33,10 +33,11 @@ searchScope:
 
 After you've set up Intune for Education with your information — such as student records, apps, and settings for devices — connect the devices to Intune for Education. For new Windows 10 devices, a connection is established during initial device setup.
 
+## Setting up devices with Windows Autopilot
+[Windows Autopilot](https://docs.microsoft.com/intune/enrollment-autopilot) is compatible with Intune for Education, but it has to be set up in Intune in the Azure portal. To set up your devices with Autopilot, go to [Intune](https://portal.azure.com) > Device enrollment > Windows enrollment > Devices.  
+
 ## Before you begin
-During setup, devices must have:
-* Access to the Internet.
-* Intune for Education device license. Find out more about the devices license in the Intune [licenses docs](https://docs.microsoft.com/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-4).  
+During setup, devices must have access to the Internet. 
 
 ## Windows device setup
 Complete the following steps to add your Windows 10 devices to Intune for Education.
