@@ -77,8 +77,10 @@ Complete the following steps to add your Windows 10 devices to Intune for Educat
 9. Select **Accept** to finish device setup. It might take a few minutes to complete setup, so feel free to begin setup on another device.  
 
 ## Set up School PCs app
-Add Windows devices to Intune through the Set up School PCs app. The app walks you through how to configure and save a single device profile that you can distribute to multiple PCs. A USB drive is used to save and download the profile to each device during device setup.  
+Add Windows devices to Intune through the Set up School PCs app. The app walks you through how to configure and save a single device profile that you can distribute to multiple PCs. A USB drive is used to save and download the profile to each device during device setup. 
+
+For more information about the app, see the [What is Set up School PCs?](https://docs.microsoft.com/education/windows/use-set-up-school-pcs-app) article. 
 
    ![Example screenshot of the Set up School PC app, start screen.](./media/Set_up_School_PC.png)  
 
-For more information about the app, see [**Set up School PCs** app](https://docs.microsoft.com/education/windows/use-set-up-school-pcs-app).  
+ 
