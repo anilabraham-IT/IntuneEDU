@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 10/24/2018
+ms.date: 10/30/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -42,23 +42,43 @@ During setup, devices must have access to the Internet.
 ## Windows device setup
 Complete the following steps to add your Windows 10 devices to Intune for Education.
 
-1. Power on the new Windows 10 device. Follow the standard Windows device setup. 
-2. On the **Who owns this PC?** screen, select **My work or school owns it**.
+1. Power on the new Windows 10 device. 
+2. On a new or reset device, the first setup screen reads, **Lets start with region. Is this right?** Select the region where your PCs are located. Then select **Yes**.  
 
-   ![Screenshot of the "Who owns this PC?" screen in Windows setup](./media/devices-001-who-owns-this-pc.png)
+   ![Example screenshot of the beginning setup screen in the Windows 10 OOBE. United States is highlighted as the selected region](./media/RS5_Choose_Region.png)  
 
-2. On the **Choose how you'll connect** screen, select **Join Azure AD**.
+3. Choose a keyboard layout. This step configures the onscreen keyboard to match your keyboard's physical layout. It also configures language and keyboard characters. Select **Yes** to continue.  
 
-   ![Screenshot of the "Choose how you connect" screen in Windows setup](./media/devices-002-how-you-connect-pc.png)
+      ![Example screenshot of the keyboard layout screen, with US highlighted as the selected layout.](./media/RS5_Choose_Keyboard.png)  
 
-3. Enter the account details for the Intune for Education admin or enrollment manager. Then click **Next**.
+4. If you want to add another keyboard layout, select **Add layout**. Otherwise, select **Skip**.   
 
-4. Your device [authenticates with Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access) and identifies with the group or groups it belongs to.  
-After setup is complete, the device will receive all apps and settings that you assigned to its group.
+     ![Example screenshot of the second keyboard layout screen, with options to Add layout and Skip in lower-right corner.](./media/RS5_Second_keyboard.png)  
+
+5. Select **Set up for work or school**. Then select **Next**.  
+
+     ![Example screenshot of the **How would you like to set up?** screen, highlighting the option to Set up for work or school.](./media/RS5_Choose_Setup_Type.png)  
+
+6. Type the email address associated with your school's admin or enrollment manager. Then select **Next**.  
+
+     ![Example screenshot of the **Sign in with Microsoft** screen, with Microsoft logo, and an empty Email field.](./media/RS5_Sign-In.png)  
+
+7. Enter the password for the account. Then select **Next**.  
+
+     ![Example screenshot of the **Enter your password** screen, with your organization's logo, and an empty Password field.](./media/RS5_Enter_Password.png)  
+
+
+
+8. Choose privacy settings for the devices. Configure these settings based on your school's policies. Some of the settings, such as **Speech recognition** and **Location** are turned on by default.  
+
+     ![Example screenshot listing the privacy setting options, with some settings turned on by default.](./media/RS5_Choose_Settings.png)  
+
+
+9. Select **Accept** to finish device setup. It might take a few minutes to complete setup, so feel free to begin setup on another device.  
 
 ## Set up School PCs app
-Add Windows devices to Intune through the Set up School PCs app. The app walks you through how to configure and save a single device profile that you can distribute to multiple PCs. A USB drive is used to save and download the profile to each device during device setup. 
+Add Windows devices to Intune through the Set up School PCs app. The app walks you through how to configure and save a single device profile that you can distribute to multiple PCs. A USB drive is used to save and download the profile to each device during device setup.  
 
-For more information about the app, see [**Set up School PCs** app](https://docs.microsoft.com/education/windows/use-set-up-school-pcs-app).
+   ![Example screenshot of the Set up School PC app, start screen.](./media/Set_up_School_PC.png)  
 
-[Want to find about more about the full experience adding devices into Intune?](https://docs.microsoft.com/intune/deploy-use/enroll-devices-in-microsoft-intune)
+For more information about the app, see [**Set up School PCs** app](https://docs.microsoft.com/education/windows/use-set-up-school-pcs-app).  
