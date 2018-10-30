@@ -59,9 +59,9 @@ Complete the following steps to add your Windows 10 devices to Intune for Educat
 
      ![Example screenshot of the **How would you like to set up?** screen, highlighting the option to Set up for work or school.](./media/RS5_Choose_Setup_Type.png)  
 
-6. Type the email address associated with your school's admin or enrollment manager. Then select **Next**.  
+6. Type the email address associated with your school's admin or enrollment manager account. Then select **Next**.  
 
-     ![Example screenshot of the **Sign in with Microsoft** screen, with Microsoft logo, and an empty Email field.](./media/RS5_Sign-In.png)  
+     ![Example screenshot of the **Sign in with Microsoft** screen, with Microsoft logo, and an empty Email field.](./media/RS5_Sign_In.png)  
 
 7. Enter the password for the account. Then select **Next**.  
 
@@ -69,7 +69,7 @@ Complete the following steps to add your Windows 10 devices to Intune for Educat
 
 
 
-8. Choose privacy settings for the devices. Configure these settings based on your school's policies. Some of the settings, such as **Speech recognition** and **Location** are turned on by default.  
+8. Choose privacy settings for the device. Configure these settings based on your school's policies. Some of the settings, such as **Speech recognition** and **Location** are turned on by default.  
 
      ![Example screenshot listing the privacy setting options, with some settings turned on by default.](./media/RS5_Choose_Settings.png)  
 
