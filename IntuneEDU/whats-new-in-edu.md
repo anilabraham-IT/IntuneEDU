@@ -31,6 +31,31 @@ searchScope:
 # What's new in Intune for Education
 Learn what’s new in Intune for Education. Find out about upcoming changes, product notices, and features from previous releases.
 
+## November 2018 
+
+### Remote Autopilot Reset 
+You can now invoke Autopilot Reset remotely using the Intune for Education console. Autopilot Reset removes all user data including user-installed apps and personal settings and keeps the device enrolled in Intune so the device is kept up to date with all the latest apps, policies, and settings. With this feature, you can quickly wipe and reconfigure students' PCs in bulk to prepare them for a new school year.
+
+### New features for iOS management
+- Intune for Education now displays location information for your Apple School Manager VPP tokens, so you can easily identify your VPP tokens from both Intune for Education and Apple School Manager. 
+- You can give your VPP tokens nicknames in Intune for Education for easy labeling and organization. 
+- Enrollment is now even faster for your iOS devices when you set up an MDM Server Token. Intune for Education automatically configures enrollment settings, so the devices associated with the MDM Server Token have fewer Setup Assistant screens to tap through. 
+ 
+### Delete Device
+You can now delete a device in the Intune for Education console. Deleting a device:
+- unenrolls the device in Intune.
+- removes the device record from Azure Active Directory so the device is no longer part of your environment.
+ 
+### Immersive Reader for all Tenants 
+Your Windows Store for Education inventory gets unlimited licenses for Immersive reader when you sign up for Intune for Education. Immersive Reader is a learning tool that creates a reading experience with accessibility and comprehensions for learners of all ages and abilities. Learn more about Immersive Reader here.
+ 
+### Effective Policy Page
+The effective policy page shows all apps and settings applied to a user/device combination based on group memberships. From this page you can see settings that might be in conflict and troubleshoot the issues. You can reach the effective policy page in two ways:
+- click on a user and then click on a device that user has recently checked in with.
+- click on a device and then click on a user that has recently checked in on that device.
+
+
+
 ## July 2018 
 
 ### All new support for iOS classroom devices  
