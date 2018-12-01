@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 07/23/2018
+ms.date: 12/3/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
