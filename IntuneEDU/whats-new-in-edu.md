@@ -34,7 +34,7 @@ Learn what’s new in Intune for Education. Find out about upcoming changes, pro
 ## November 2018 
 
 ### Remote Autopilot Reset 
-You can now invoke Autopilot Reset remotely using the Intune for Education console. Autopilot Reset removes all user data including user-installed apps and personal settings and keeps the device enrolled in Intune so the device is kept up to date with all the latest apps, policies, and settings. With this feature, you can quickly wipe and reconfigure students' PCs in bulk to prepare them for a new school year.
+You can now invoke Autopilot Reset remotely using the Intune for Education console. Autopilot Reset removes all user data including user-installed apps and personal settings and keeps the device enrolled in Intune so the device is kept up to date with all the latest apps, policies, and settings. With this feature, you can quickly wipe and reconfigure students' PCs in bulk to prepare them for a new school year. Learn more about Autopilot Reset [here](autopilot-reset.md).
 
 ### New features for iOS management
 - Intune for Education now displays location information for your Apple School Manager VPP tokens, so you can easily identify your VPP tokens from both Intune for Education and Apple School Manager. 
@@ -47,7 +47,7 @@ You can now delete a device in the Intune for Education console. Deleting a devi
 - removes the device record from Azure Active Directory so the device is no longer part of your environment.
  
 ### Immersive Reader for all Tenants 
-Your Windows Store for Education inventory gets unlimited licenses for Immersive reader when you sign up for Intune for Education. Immersive Reader is a learning tool that creates a reading experience with accessibility and comprehensions for learners of all ages and abilities. Learn more about Immersive Reader here.
+Your Windows Store for Education inventory gets unlimited licenses for Immersive reader when you sign up for Intune for Education. Immersive Reader is a learning tool that creates a reading experience with accessibility and comprehensions for learners of all ages and abilities. Learn more about Immersive Reader [here](https://www.onenote.com/learningtools).
  
 ### Effective Policy Page
 The effective policy page shows all apps and settings applied to a user/device combination based on group memberships. From this page you can see settings that might be in conflict and troubleshoot the issues. You can reach the effective policy page in two ways:
