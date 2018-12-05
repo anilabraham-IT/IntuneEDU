@@ -49,5 +49,8 @@ On the device, press CTRL+WIN+R.
 2.	In the **Autopilot Reset group** box, type the name of the group in the text box and then choose **Autopilot Reset**.
 3.	A status list appears If any of the devices don’t support remote Autopilot Reset. Each device will be reset the next time that it connects to the Internet.
 
+## Next steps
+[Manage devices with remote actions](edu-device-remote-actions.md)
+
 
 
