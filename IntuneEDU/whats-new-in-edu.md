@@ -51,8 +51,8 @@ Your Windows Store for Education inventory gets unlimited licenses for Immersive
  
 ### Effective Policy Page
 The effective policy page shows all apps and settings applied to a user/device combination based on group memberships. From this page you can see settings that might be in conflict and troubleshoot the issues. You can reach the effective policy page in two ways:
-- click on a user and then click on a device that user has recently checked in with.
-- click on a device and then click on a user that has recently checked in on that device.
+- click on a user > **Go to user details** > choose a device that user has recently checked in with.
+- click on a device > **Go to device details** > choose a user that has recently checked in on that device.
 
 
 
