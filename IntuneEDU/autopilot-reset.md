@@ -44,7 +44,7 @@ On the device, press CTRL+WIN+R.
 ## Use Autopilot Reset remotely for a single device
 1.	In Intune for Education, choose **Groups** > choose a group > choose a device > **Autopilot Reset**  > **Autopilot Reset**.
 2.	A notification shows when the reset was initiated. The device will be reset the next time it connects to the Internet.
-## Use Autopilot Rest remotely for devices in bulk
+## Use Autopilot Reset remotely for devices in bulk
 1.	In Intune for Education, choose **Groups** > choose the group > **Autopilot Reset all devices**.
 2.	In the **Autopilot Reset group** box, type the name of the group in the text box and then choose **Autopilot Reset**.
 3.	A status list appears If any of the devices don’t support remote Autopilot Reset. Each device will be reset the next time that it connects to the Internet.
