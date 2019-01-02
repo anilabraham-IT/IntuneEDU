@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 08/28/2018
+ms.date: 01/09/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -34,7 +34,7 @@ searchScope:
 This article lists and describes all Windows device settings in Intune for Education. To view and edit these settings in the portal, click **Groups** > **Settings** > **Windows Device Settings**.  
 
 
-  ![Screenshot of the All Devices, Groups page in Intune for Education. Highlights the Settings tab and shows the Windows Device Settings category is expanded to show all 16 subcategories of settings. Each setting is collapsed.](./media/edu-windows-device-settings-1807.png)   
+  ![Screenshot of the All Devices, Groups page in Intune for Education. Highlights the Settings tab and shows the Windows Device Settings category is expanded to show all 10 subcategories of settings. Each setting is collapsed.](./media/edu-windows-device-settings-1812.png)   
 
 ## Apply settings  
 Apply [group settings](what-are-groups.md) to establish access and security boundaries on devices throughout your school. You can assign the same settings across all groups in your school; or you can customize the classroom experience and apply settings to individual groups.
@@ -47,32 +47,173 @@ Many settings in Intune for Education are configured to **Block** or **Allow**. 
 > [!NOTE]
 > User, app, and device settings differ from [tenant settings](edu-tenant-general-settings.md). Tenant settings address the subscription and management settings for your organization.
 
+## Apps  
 
-## Basic device settings  
 |Setting|What it does|
 |---|---|
 |Remove built-in Windows 10 apps|Uninstall certain built-in Windows apps. Learn what those apps are [below](all-edu-settings-windows.md#removing-built-in-apps).|
+|Block access to administrative apps|Blocks students from opening apps that require administrative privileges.|
+|Block installing apps from the Microsoft Store for Education|Block users from installing apps from unauthorized locations.|
+|Require Microsoft Store for Education apps to be installed from the private store|Only allow users to install apps from the Microsoft Store for Education that your organization has set up.|
+|Trusted apps|Allow or block users from installing trusted apps that have signed certificates from Microsoft.|
+|Untrusted apps|Allow or block users from installing unsigned apps or apps with certificates signed by external sources that are not trusted by Microsoft.|
+|Block users from installing apps from places other than the Microsoft Store for Education|Block users from installing apps from other sources and app stores.
+|Block automatic app updates|Block Microsoft Store for Education apps from being updated automatically.|
+|Shared app data between users|Enable students on shared devices to share app data.|  
+
+
+## Enrollment controls  
+
+|Setting|What it does|
+|---|---|
 |Block manual unenrollment|Block users from manually unenrolling devices from management.|
-|Enable Windows Automatic Redeployment| Allows users with administrative rights to delete all user data and settings using CTRL + Win + R at the device lock screen. The device is then automatically reconfigured and reenrolled into management.|
-|Block camera|Block user access to the device camera.|
-|Block OneDrive file sync|Block OneDrive Sync for these devices and users.|
-|Block removable storage|Block users from using removable storage such as USB drives and external hard drives.|
-|Block Internet sharing|Block users from using Internet Sharing to share the device’s Internet connection.|
-|Block Cortana|Block Cortana, the digital assistant built into Windows 10 that can answer questions and perform tasks.|
+|Enable Windows Automatic Redeployment| Enable users with administrative rights to press CTRL + Win + R at the device lock screen to delete all user data and settings. The device then automatically reconfigures and reenrolls into management.|
 |Block adding provisioning packages|Block users from adding new provisioning packages containing device settings.|
-|Block removing provisioning packages|Block users from removing provisioning packages containing device settings.|
-|Block changing date and time settings|Block users from changing the device date and time settings.|
-|Block changing language settings|Block users from changing the device language.|
-|Send diagnostic data|Define whether to collect and send anonymous usage data to Microsoft to help improve Windows.|
-|Block changing device region settings|Block users from changing region settings, such as country and language.|
-|Block changing power and sleep settings|Block users from changing power and sleep settings.|
-|Force Start menu size|Define whether to force the Start menu to appear full screen.|
-|Block Windows Spotlight|Block all Windows Spotlight features on these devices.|
-|Location services|Block apps from using location services to access the device’s location.|
+|Block removing provisioning packages|Block users from removing provisioning packages containing device settings.|  
 
-### Removing built-in apps
 
-This setting is automatically turned on when the "Optimize devices for shared use" setting is turned on. The following apps are fully removed from your users' computers when this setting is turned on:
+## Microsoft Edge  
+In this section, you'll configure settings for the Microsoft Edge  
+
+    * Browser experience
+    * User data
+
+### Browser experience  
+|Setting|What it does|
+|---|---|
+|Configure homepages|Choose what homepages open every time someone begins a new session browsing with Microsoft Edge.|
+|Configure new tab page|Choose what page opens every time someone opens a new tab in Microsoft Edge.|
+|Configure home button behavior|Choose what page users are taken to when they click the home button in Microsoft Edge, or choose to hide the home button.|
+|Block untrusted browser extensions|Block users from sideloading extensions to their Edge browser. These extensions are installed from untrusted sources, outside of the Microsoft Store, and could contain malware.|
+|Block printing from Microsoft Edge|Blocks users from printing browser content.|
+|Block overriding security warnings|Block users from clicking "Go on to the webpage" on sites that show an SSL/TLS certificate error.|
+|Block Prelaunch|Microsoft Edge Prelaunch opens Edge as a background process during Windows startup. This action helps the performance of Microsoft Edge and minimizes the amount of time required to start up Edge. However, running Edge as a background process might make devices appear as *not compliant* in your secure assessments.| 
+|Block editing favorites|Block users from adding, importing, sorting, or editing the Favorites list.|
+|Block address bar suggestions|Block Edge from suggesting possible search terms or previously visited websites as you type a URL or search term.|
+|Block search suggestions|Block Edge from suggesting possible websites as you type a URL or search term.|
+|Block InPrivate browsing|Block users from using InPrivate browsing, which stops Edge from saving data likr browsing history and cookies.| 
+|Block browser extensions|Block users from using extensions to customize Edge with added functionality from Microsoft and other sources.|
+|Block first run page|Block users from seeing the first run page when they open Edge for the first time.|
+|Block pop-ups|Block websites from opening new windows.|
+|Block password manager|Block users from using the password manager to save passwords.|
+|Block automatically filling form entries|Block saving data entered in a form field online.|
+|Block access to about:flags page|Block access to the about:flags page, which contains experimental settings and features.|
+|Require intranet sites to be viewed in Internet Explorer|If set to “Block”, internal traffic is sent to Edge instead of Internet Explorer.|
+|Default search engine|Select Bing, Yahoo, or Google as the default search engine for Microsoft Edge.|  
+
+### User data  
+|Setting|What it does|
+|---|---|
+|Block developer tools|Block users from accessing developer tools.|
+|Sync Microsoft Edge favorites with Internet Explorer|Sync all favorites added to Edge to Internet Explorer.| 
+|Clear browsing data upon exit|Automatically erase history, cookies, and cached files after exiting Edge.|
+|Use cookies|Cookies can store website settings or track user’s browsing behavior.|
+
+
+## Network and connectivity   
+In this section, you'll configure network and connectivity settings for
+
+    * Bluetooth
+    * Internet connectivity restrictions
+    * Proxy
+    * Wi-Fi profiles
+
+### Bluetooth  
+|Setting|What it does|
+|---|---|
+|Block Bluetooth|Block devices from using Bluetooth.|
+|Block Bluetooth discoverability|Block devices from being set as discoverable using Bluetooth.|
+|Block Bluetooth advertising|Block devices from receiving advertising over Bluetooth.|  
+|Block Bluetooth Swift Pair notifications|Block users from getting notifications about Bluetooth device pairing. Swift Pair lets users know when Bluetooth devices are nearby and able to connect to Windows 10.|  
+
+### Internet connectivity restrictions  
+|Setting|What it does|
+|---|---|
+|Block Internet sharing|Block users from using Internet Sharing to share the device’s Internet connection.|
+|Block using Wi-Fi Sense to automatically connect to open Wi-Fi hotspots|Choose whether to block devices from automatically connecting to Wi-Fi hotspots.|
+|Block cellular data while roaming|Block devices from using cellular data plans when roaming.|  
+
+### Proxy  
+|Setting|What it does|
+|---|---|
+|Block automatic detection of proxy settings|If you've set up a proxy to handle device network traffic, you can choose whether devices automatically detect the proxy settings when connected.|
+|Use proxy script|Enable the use of a proxy script for your devices. If you **Allow** this setting, you need to provide a **Setup script address**.|
+|Use manual proxy server configuration|If you've set up a manual proxy, you can define settings for it here. If you **Allow** this setting, you need to provide the **Proxy server address**, **Port**, **Proxy exceptions**, and whether to **Use proxy server for local (intranet) connections**.|  
+
+### Wi-Fi profiles  
+
+|Setting|What it does|
+|---|---|
+|Select Windows Wi-Fi profiles to assign them to this group.|A list of Wi-Fi profiles that you've created appear within this section, and are ready to assign. Details visible include the **Profile name**, **Network name (SSID)**, **Security type**, and **Description**. 
+
+> [!NOTE]
+> Configure a WPA-2 Enterprise Wi-Fi network using the [full Wi-Fi profile management experience in Intune](https://docs.microsoft.com//intune/wi-fi-settings-import-windows-8-1). You can also use Intune to set up [SCEP](https://docs.microsoft.com/intune/certificates-scep-configure) and [PKI](https://docs.microsoft.com/intune/certficates-pfx-configure) integration.   
+
+## Printer   
+
+|Setting|What it does|
+|---|---|
+|Printer list|Create a list of printers that you want to make available to student devices. Enter the printer hostname or IP address. An example of a formatted hostname is *printer1.contososd.edu*. An example of a formatted IP address is *75.121.7.31*.| 
+|Specify default printer|Make a printer available as the default printer option on devices. Enter the printer hostname or IP address as it appears in your **Printer list**.|  
+|Block adding new printers|Block groups from connecting new printers to their devices.|  
+
+
+## Security  
+In this section, you'll configure security settings for:    
+    * Windows Defender  
+    * Windows SmartScreen
+
+### Windows Defender  
+> [!NOTE]
+> Some Windows Defender settings are available only at the [tenant](edu-tenant-general-settings.md) level and are not shown in the portal.  
+
+|Setting|What it does|
+|---|---|
+|Block user access to Windows Defender settings|Block users from modifying Windows Defender settings on the device.|
+|Real-time monitoring|Enable always-on scanning for malware, spyware, and other threats.|
+|Behavior monitoring|Enable Defender to check for certain known patterns of suspicious activity.|
+|Prompt users for sample submission|Define whether files that might need further analysis are automatically sent to Microsoft.|
+|Type of system scan to perform|Choose whether Windows Defender uses a quick scan, a full scan, or not scan devices at all.|
+|Scan all downloaded files|Automatically scan all downloaded files for malware.|
+|Scan scripts run in Microsoft web browsers|Scan all scripts a website attempts to run in Edge and Internet Explorer.|
+|Scan removable drives during full scan|Include removable drives, such as USB sticks, during full scans.|
+|Scan files opened over the network|Scan all files that are opened by users from websites while using the network.|
+|Scan remote folders during full scan|Scan any folders on remote locations during full scans.|
+|Scan archive files|Scan archive files, like .zip or .rar.|
+|Scan incoming email|Scan all email received over the network.|
+|Scan file and program activity|Scan for malware when files or programs are opened and alerts users of suspicious activity.|
+|Days before quarantined malware is removed|Define the number of days that a file is saved before removing (0 = immediately delete).|
+|Set update frequency|Define how frequently Defender checks for and downloads anti-malware updates.|
+|Potentially Unwanted Applications protection|Defender alerts the user and blocks potentially unwanted software that attempts to install itself on devices.|
+|Block suspicious files|If this setting is configured, Windows Defender Antivirus will be more aggressive about identifying suspicious files to block and scan. When not configured,it will block and scan with less frequency. You can select **Not configured**, **High**, **High plus**, and **Zero tolerance**. **High** aggressively blocks unknown files while minimizing impact to device performance. **High plus** aggressively blocks unknown files, but may negatively impact device performance. **Zero tolerance** blocks all unknown files from running.|
+|Enable cloud-based protection|Get real-time protection when Defender sends info to Microsoft about potential security threats. This feature works best with “Prompt users for sample submission” set to automatically send samples.|
+|Actions on detected malware threats|Windows Defender automatically quarantines detected malware.|
+|Enable Network Inspection Service|Helps protect devices against network-based exploits. Uses the signatures of known vulnerabilities from the Microsoft Endpoint Protection Center to help detect and block malicious traffic.|
+|Exclude files with these extensions from scans and real-time protection|Define the types of files that you want users to be able to access without scanning for security threats.|
+|Exclude processes from scans and real-time protection|Define the types of processes that you want users to be able to run without scanning for security threats.
+|Exclude directories from scans and real-time protection|Define the file locations that you want users to be able to access without scanning for security threats.|   
+
+### Windows SmartScreen  
+
+|Setting|What it does|
+|---|---|
+|Block users from overriding SmartScreen|Block users from ignoring and accessing websites blocked by the SmartScreen Filter.|
+|SmartScreen override for files|Block users from ignoring and downloading unverified files that SmartScreen Filter warns about.|
+|SmartScreen for apps and files|Enables SmartScreen to protect devices by checking for unrecognized apps and files from the web.|
+|Block users from dismissing SmartScreen warnings|Blocks students from dismissing SmartScreen warnings about potentially malicious files and apps.
+
+
+## Shared devices   
+
+|Setting|What it does|
+|---|---|
+|Optimize devices for shared use|Configures recommended settings for shared devices, such as power and update management. Allows multiple users to sign in to the same device.|
+|Block fast user switching|Allow users to quickly switch between user accounts from the Start menu.|  
+
+
+### Remove built-in apps  
+
+When you select to optimize devices for shared use, these apps will be removed from teacher and student computers:
 
 * 3DBuilder
 * Bing Weather
@@ -87,127 +228,93 @@ This setting is automatically turned on when the "Optimize devices for shared us
 * Mail
 * Calendar
 
-## Microsoft Edge settings
+## Sign-in  
 
 |Setting|What it does|
 |---|---|
-|Configure homepages|Choose what homepages open every time someone begins a new session browsing with Microsoft Edge.|
-|Block editing favorites|Block users from adding, importing, sorting, or editing the Favorites list.|
-|Block address bar suggestions|Block Edge from suggesting possible search terms or previously visited websites as you type a URL or search term.|
-|Block search suggestions|Block Edge from suggesting possible websites as you type a URL or search term.|
-|Block InPrivate browsing|Block users from using InPrivate browsing, which stops Edge from saving data like browsing history and cookies.| 
-|Block browser extensions|Block users from using extensions to customize Edge with added functionality from Microsoft and other sources.|
-|Block first run page|Block users from seeing the first run page for the first time they open Edge.|
-|Clear browsing data upon exit|Automatically erase history, cookies, and cached files after exiting Edge.|
-|Block pop-ups|Block websites from opening new windows.|
-|Block password manager|Block users from using the password manager to save passwords.|
-|Block automatically filling form entries|Block saving data entered in a form field online.|
-|Default search engine|Select Bing, Yahoo, or Google as the default search engine for Microsoft Edge.|
-|Use cookies|Cookies can store website settings or track user’s browsing behavior.|
-|Block developer tools|Block users from accessing developer tools.|
-|Block access to about:flags page|Block access to the about:flags page, which contains experimental settings and features.|
-|Require intranet sites to be viewed in Internet Explorer|If set to “Block”, internal traffic is sent to Edge instead of Internet Explorer.|
-|Sync Microsoft Edge favorites with Internet Explorer|Sync all favorites added to Edge to Internet Explorer.|  
+|Block signing in using a Microsoft account|Block users from signing in with their Microsoft account.|
+|Block adding new non-Microsoft accounts|Block users from adding any account other than their Microsoft account. Use this setting if you want to force users to only use their Microsoft accounts for email.| 
+|Configure preferred Azure Active Directory tenant domain|Enables users to sign in to Windows without typing the domain name. If you configure this setting, the tenant domain name will prepopulate, but is still editable.| 
 
+## Updates and upgrade
+In this section, you'll configure settings for Windows:  
 
-## Windows Defender settings
+    * Updates
+    * Upgrade
 
-> [!NOTE]
-> Some Windows Defender settings are available only at the [tenant](edu-tenant-general-settings.md) level and are not shown in the portal.  
+### Updates  
 
 |Setting|What it does|
 |---|---|
-|Block user access to Windows Defender settings|Block users from modifying Windows Defender settings on the device.|
-|Real-time monitoring|Enable always-on scanning for malware, spyware, and other threats.|
-|Behavior monitoring|Enable Defender to check for certain known patterns of suspicious activity.|
-|Prompt users for sample submission|Define whether files that might need further analysis are automatically sent to Microsoft.|
-|Type of system scan to perform|Choose whether Windows Defender uses a quick scan, a full scan, or not scan devices at all.|
-|Daily quick scan time|Choose what hour of the day Windows Defender runs a daily quick scan.|
-|Scan all downloaded files|Automatically scan all downloaded files for malware.|
-|Scan scripts run in Microsoft web browsers|Scan all scripts a website attempts to run in Edge and Internet Explorer.|
-|Scan removable drives during full scan|Include removable drives, such as USB sticks, during full scans.|
-|Scan files opened over the network|Scan all files that are opened by users from websites while using the network.|
-|Scan remote folders during full scan|Scan any folders on remote locations during full scans.|
-|Scan archive files|Scan archive files, like .zip or .rar.|
-|Scan incoming email|Scan all email received over the network.|
-|Scan file and program activity|Scan for malware when files or programs are opened and alerts users of suspicious activity.|
-|Days before quarantined malware is removed|Define the number of days that a file is saved before removing (0 = immediately delete).|
-|Set update frequency|Define how frequently Defender checks for and downloads anti-malware updates.|
-|Potentially Unwanted Applications protection|Defender alerts the user and blocks potentially unwanted software that attempts to install itself on devices.|
-|Enable cloud-based protection|Get real-time protection when Defender sends info to Microsoft about potential security threats. This feature works best with “Prompt users for sample submission” set to automatically send samples.|
-|Block suspicious files|If this setting is configured, Windows Defender Antivirus will be more aggressive about identifying suspicious files to block and scan. When not configured,it will block and scan with less frequency. You can select **Not configured**, **High**, **High plus**, and **Zero tolerance**. **High** aggressively blocks unknown files while minimizing impact to device performance. **High plus** aggressively blocks unknown files, but may negatively impact device performance. **Zero tolerance** blocks all unknown files from running.|
-|Actions on detected malware threats|Windows Defender automatically quarantines detected malware.|
-|Enable Network Inspection Service|Helps protect devices against network-based exploits. Uses the signatures of known vulnerabilities from the Microsoft Endpoint Protection Center to help detect and block malicious traffic.|
-|Exclude files with these extensions from scans and real-time protection|Define the types of files that you want users to be able to access without scanning for security threats.|
-|Exclude processes from scans and real-time protection|Define the types of processes that you want users to be able to run without scanning for security threats.
-|Exclude directories with these extensions from scans and real-time protection|Define the file locations that you want users to be able to access without scanning for security threats.|  
+|Block pausing Windows Update|Blocks user access to the Pause updates feature.|
+|Branch readiness level|Define whether devices are on Current Branch or Current Branch for Business for Windows updates.|
+|Updates and maintenance period|Define the updates and maintenance period for the installation of updates.|
+|Defer feature updates|Define how many days to wait to apply feature updates to devices after they are available.|
+|Defer quality updates|Define how many days to wait to apply quality updates to devices after they are available.|
+|Pre-release features|Define whether users can see pre-release features for settings, settings and experimentation, or no pre-release features.|
+|Delivery optimization mode|Define how updates are delivered to devices.|  
 
-## Wireless settings
+### Upgrade
+|Setting|What it does|
+|---|---|
+|Edition to upgrade to| Upgrade the devices in this group to a different edition of Windows 10. Select the **Edition to upgrade to** and enter the **Product key**.|
+|Switch out of S Mode|Previously referred to as Windows 10 S, S Mode is a more secure version of Windows 10. It only allows teachers and students to browse with Microsoft Edge, and download apps from Microsoft Store.|
+
+## User experience  
+In this section, you'll configure the user experience settings for
+    * Device restrictions
+    * Lock screen and desktop
+    * Settings app
+    * Start menu
+
+### Device restrictions  
 
 |Setting|What it does|
 |---|---|
-|Block using Wi-Fi Sense to automatically connect to open Wi-Fi hotspots|Choose whether to block devices from automatically connecting to Wi-Fi hotspots.|
-|Block Bluetooth|Block devices from using Bluetooth.|
-|Block Bluetooth discoverability|Block devices from being set as discoverable using Bluetooth.|
-|Block Bluetooth advertising|Block devices from receiving advertising over Bluetooth.|
-|Block cellular data while roaming|Block devices from using cellular data plans when roaming.|
+|Block ending tasks in Task Manager|Block users from ending tasks that force specific programs to close.|
+|Block camera|Block user access to the device camera.|
+|Block OneDrive file sync|Block OneDrive Sync for these devices and users.|
+|Block removable storage|Block users from using removable storage such as USB drives and external hard drives.|
+|Block Cortana|Block Cortana, the digital assistant built into Windows 10 that can answer questions and perform tasks.|
+|Block location services|Block apps from using location services to access the device’s location.|  
+|Block changing date and time settings|Block users from changing the device date and time settings.|
+|Block changing language settings|Block users from changing the device language.|
+|Block changing device region settings|Block users from changing region settings, such as country and language.|
+|Block changing power and sleep settings|Block users from changing power and sleep settings.|
+|Send diagnostic data|Define whether to collect and send anonymous usage data to Microsoft to help improve Windows.|  
 
-
-## Proxy settings
-
-|Setting|What it does|
-|---|---|
-|Block automatic detection of proxy settings|If you've set up a proxy to handle device network traffic, you can choose whether devices automatically detect the proxy settings when connected.|
-|Use proxy script|Enable the use of a proxy script for your devices. If you **Allow** this setting, you need to provide a **Setup script address**.|
-|Use manual proxy server configuration|If you've set up a manual proxy, you can define settings for it here. If you **Allow** this setting, you need to provide the **Proxy server address**, **Port**, **Proxy exceptions**, and whether to **Use proxy server for local (intranet) connections**.|
-
-
-## Wi-Fi profiles
-
-A list of Wi-Fi profiles that you create appear within this section. Details visible include the **Profile name**, **Network name (SSID)**, **Security type**, and **Description**. 
-
-> [!NOTE]
-> Configure a WPA-2 Enterprise Wi-Fi network using the [full Wi-Fi profile management experience in Intune](https://docs.microsoft.com//intune/wi-fi-settings-import-windows-8-1). You can also use Intune to set up [SCEP](https://docs.microsoft.com/intune/certificates-scep-configure) and [PKI](https://docs.microsoft.com/intune/certficates-pfx-configure) integration. 
-
-
-## Shared device settings
+### Lock screen and desktop  
 
 |Setting|What it does|
 |---|---|
-|Optimize devices for shared use|Configures recommended settings for shared devices, such as power and update management. Allows multiple users to sign in to the same device.|
-|Block guest users|If you've enabled **Optimize devices for shared use**, then you can also choose whether to block guest users from signing in to devices. If blocked, only domain users can sign in.|
-|Block fast user switching|Allow users to quickly switch between user accounts from the Start menu.|
-
-
-## Microsoft Store settings
-
-|Setting|What it does|
-|---|---|
-|Block installing apps from the Microsoft Store for Education|Block users from installing apps from unauthorized locations.|
-|Block access to administrative apps|Blocks students from opening apps that require administrative privileges.|
-|Require Microsoft Store for Education apps to be installed from the private store|Only allow users to install apps from the Microsoft Store for Education that your organization has set up.|
-|Trusted apps|Allow or block users from installing trusted apps that have signed certificates from Microsoft.|
-|Untrusted apps|Allow or block users from installing unsigned apps or apps with certificates signed by external sources that are not trusted by Microsoft.|
-|Block users from installing apps from places other than the Microsoft Store for Education|Block users from installing apps from other sources and app stores.
-|Block automatic app updates|Block Microsoft Store for Education apps from being updated automatically.|
-|Shared app data between users|Enable students on shared devices to share app data.|
-
-## Sign-in settings
-
-|Setting|What it does|
-|---|---|
-|Block signing in using Microsoft account|Block users from signing in with their Microsoft account.|
-|Block adding new non-Microsoft accounts|Block users from adding any account other than their Microsoft account. Use this setting if you want to force users to only use their Microsoft accounts for email.|
-
-
-## Windows interface settings
-
-|Setting|What it does|
-|---|---|
-|Block toast notifications on lock screen|Stop notifications from appearing in the bottom right corner of the screen while devices are locked.|
-|Block Cortana on lock screen|Prevent users from accessing Cortana from the lock screen.|
 |Set custom lock screen image|Configure a custom background image on the sign-in screen. You can choose a .jpg or .png less than 20 MB in size.|
 |Set custom desktop image|Configure a custom background image on the desktop. You can choose a .jpg or .png less than 20 MB in size.|
+|Block Windows Spotlight|Block all Windows Spotlight features on these devices.|
+|Block toast notifications on lock screen|Stop notifications from appearing in the bottom right corner of the screen while devices are locked.|
+|Block Cortana on lock screen|Prevent users from accessing Cortana from the lock screen.|
+
+### Settings app  
+
+|Setting|What it does|
+|---|---|
+|Block user access to Settings app|Block user access to the Settings app. If you do not block this setting, you can instead choose to block individual parts of the Settings app listed in the rest of the table.|
+|Accounts|Block user accounts, email, sync, work, and other people.|
+|Apps|Block uninstall, defaults, and optional features.|
+|Devices|Block Bluetooth, printers, and more.|
+|Ease of Access|Block Narrator, magnifier, and high contrast.|
+|Gaming|Block game bar, DVR, broadcasting, and Game Mode.|  
+|Network & Internet|Block Wi-Fi, airplane mode, and VPN.|
+|Personalization|Block background, lock screen, and color modifications.|
+|Privacy|Block location and camera.|
+|System settings|Block display, notifications, apps, power settings.|
+|Time & language|Block size, region, and date.|
+|Update & security|Block Windows Update, recovery, and backup.|  
+
+### Start menu  
+
+|Setting|What it does|
+|---|---|
+|Force Start menu size|Define whether to force the Start menu to appear full screen.|
 |Block showing recently opened items in Start menu jump lists|Block recently opened items in jump lists from showing in the Start menu and taskbar.|
 |Block showing recently added apps in Start menu|Block recently added apps from showing in the Start menu.|
 |Block showing the most used apps in Start menu|Block the most used apps from showing in the Start menu.|
@@ -217,80 +324,13 @@ A list of Wi-Fi profiles that you create appear within this section. Details vis
 |Block options from appearing on the user tile in the Start menu|You can choose **Change account settings**, **Lock**, and **Sign out**.|
 |Choose folders that appear in the Start menu|You can choose **File Explorer**, **Settings**, **Documents**, **Downloads**, **Music**, **Pictures**, **Videos**, **HomeGroup**, **Network**, and **Personal Folder**.|
 |Apply custom Start menu layout|Apply a custom Start menu layout using an XML file. You can upload an .xml file less than 2 MB in size.|
-|Pin websites as tiles in the Start menu|Pin websites as tiles in the Start menu using an XML file. You can upload an .xml file less than 2 MB in size.|
+|Pin websites as tiles in the Start menu|Pin websites as tiles in the Start menu using an XML file. You can upload an .xml file less than 2 MB in size.|  
 
 
-## User access to device settings
 
-|Setting|What it does|
-|---|---|
-|Block user access to Settings app|Block user access to the Settings app. If you do not block this setting, you can instead choose to block individual parts of the Settings app listed in the rest of the table.|
-|System settings|Block display, notifications, apps, power settings.|
-|Devices|Block Bluetooth, printers, and more.|
-|Network & Internet|Block Wi-Fi, airplane mode, and VPN.|
-|Personalization|Block background, lock screen, and color modifications.|
-|Accounts|Block user accounts, email, sync, work, and other people.|
-|Time & language|Block size, region, and date.|
-|Ease of Access|Block Narrator, magnifier, and high contrast.|
-|Privacy|Block location and camera.|
-|Update & security|Block Windows Update, recovery, and backup.|
-|Apps|Block uninstall, defaults, and optional features.|
-|Gaming|Block game bar, DVR, broadcasting, and Game Mode.|
+## Next steps  
+Configure your group, app, and device settings in the Intune for Education portal. If you haven't yet done it, go to [express configuration](edu-express-config-settings-windows.md) and set up your school with Microsoft-recommended settings.  
 
+Need help managing devices? [Assign group admins](group-admin-delegate.md) in your school to help you manage device settings.  
 
-## Device update settings
-
-|Setting|What it does|
-|---|---|
-|Branch readiness level|Define whether devices are on Current Branch or Current Branch for Business for Windows updates.|
-|Updates and maintenance period|Define the updates and maintenance period for the installation of updates.|
-|Defer feature updates|Define how many days to wait to apply feature updates to devices after they are available.|
-|Defer quality updates|Define how many days to wait to apply quality updates to devices after they are available.|
-|Pre-release features|Define whether users can see pre-release features for settings, settings and experimentation, or no pre-release features.|
-|Delivery optimization mode|Define how updates are delivered to devices.|
-
-
-## Printer settings
-
-|Setting|What it does|
-|---|---|
-|Block adding new printers|Block groups from connecting new printers to their devices.|
-|Printer list|Create a list of printers that you want to make available to student devices. Enter the printer hostname or IP address. An example of a formatted hostname is *printer1.contososd.edu*. An example of a formatted IP address is *75.121.7.31*.| 
-|Specify default printer|Make a printer available as the default printer option on devices. Enter the printer hostname or IP address as it appears in your **Printer list**.| 
-
-## SmartScreen settings  
-|Setting|What it does|
-|---|---|
-|Block users from overriding SmartScreen|Block users from ignoring and accessing websites blocked by the SmartScreen Filter.|
-|SmartScreen override for files|Block users from ignoring and downloading unverified files that SmartScreen Filter warns about.|
-|SmartScreen for apps and files|Enables SmartScreen to protect devices by checking for unrecognized apps and files from the web.|
-|Block users from dismissing SmartScreen warnings|Blocks students from dismissing SmartScreen warnings about potentially malicious files and apps.
-
-
-## Configure email settings
-
-|Setting|What it does|
-|---|---|
-|Configure email settings|Choose whether you want to configure email settings for this group. These settings are applied to the Windows 10 Mail app. If you do not **Configure** this setting, none of the other email settings in this table are available to you.|
-|Account name|Students and teachers can see the name on their devices.|
-|Email server|Enter the name of the server that hosts your email.|
-|Username|Choose the attribute that Intune uses from Azure Active Directory when applying user name settings to email profiles.|
-|Email address|Choose the attribute that Intune uses from Azure Active Directory when applying email address settings to email profiles.|
-|Length of time to store email on devices|Choose how long to store email on devices before emails are deleted.|
-|Interval to sync email|Choose how often you want to sync email messages.|
-|Contacts|Sync contact information.|
-|Calendar|Sync calendar information.|
-|Tasks|Sync task information.|
-|SSL|Enable Secure Sockets Layer (SSL) when sending emails for additional security.|
-
-
-## Configure edition upgrade
-
-Select to upgrade the devices in this group to a different edition of Windows 10. Select the **Edition to upgrade to** and enter the **Product key**.
-
-## Next steps
-Configure your group, app, and device settings in the Intune for Education portal. If you haven't yet done it, go to [express configuration](edu-express-config-settings-windows.md) and set up your school with Microsoft-recommended settings. 
-
-Need help managing devices? [Assign group admins](group-admin-delegate.md) in your school to help you manage device settings.
-
-- [Find out more about the full Windows 10 settings management experience available in Intune](https://docs.microsoft.com/intune/deploy-use/windows-10-policy-settings-in-microsoft-intune)
+[Find out more about the full Windows 10 settings management experience available in Intune](https://docs.microsoft.com/intune/deploy-use/windows-10-policy-settings-in-microsoft-intune)
