@@ -111,10 +111,10 @@ Configure settings that affect the Microsoft Edge browser experience and user da
 
 ## Network and connectivity   
 Configure network and connectivity settings for:    
-    * Bluetooth  
-    * Internet connectivity restrictions  
-    * Proxy  
-    * Wi-Fi profiles  
+* Bluetooth  
+* Internet connectivity restrictions  
+* Proxy  
+* Wi-Fi profiles  
 
 ### Bluetooth  
 |Setting|What it does|
@@ -148,7 +148,7 @@ Configure network and connectivity settings for:
 > Configure a WPA-2 Enterprise Wi-Fi network using the [full Wi-Fi profile management experience in Intune](https://docs.microsoft.com//intune/wi-fi-settings-import-windows-8-1). You can also use Intune to set up [SCEP](https://docs.microsoft.com/intune/certificates-scep-configure) and [PKI](https://docs.microsoft.com/intune/certficates-pfx-configure) integration.   
 
 ## Printer   
-Configure settings to allow printer access.  
+Configure settings to allow printer access from school devices.    
 
 |Setting|What it does|
 |---|---|
