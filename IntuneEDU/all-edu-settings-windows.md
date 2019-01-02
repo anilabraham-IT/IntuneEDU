@@ -51,7 +51,7 @@ Many settings in Intune for Education are configured to **Block** or **Allow**. 
 
 |Setting|What it does|
 |---|---|
-|Remove built-in Windows 10 apps|Uninstall certain built-in Windows apps. Learn what those apps are [below](all-edu-settings-windows.md#removing-built-in-apps).|
+|Remove built-in Windows 10 apps|Uninstall certain built-in Windows apps. Learn what those apps are [below](all-edu-settings-windows.md#remove-built-in-apps).| 
 |Block access to administrative apps|Blocks students from opening apps that require administrative privileges.|
 |Block installing apps from the Microsoft Store for Education|Block users from installing apps from unauthorized locations.|
 |Require Microsoft Store for Education apps to be installed from the private store|Only allow users to install apps from the Microsoft Store for Education that your organization has set up.|
