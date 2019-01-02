@@ -253,10 +253,11 @@ Configure settings related to Windows Updates and upgrades.
 
 ## User experience   
 Configure the user experience settings for:   
-    * Device restrictions  
-    * Lock screen and desktop  
-    * Settings app  
-    * Start menu  
+
+  * Device restrictions  
+  * Lock screen and desktop  
+  * Settings app  
+  * Start menu  
 
 ### Device restrictions  
 
