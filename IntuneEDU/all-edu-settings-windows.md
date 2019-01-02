@@ -81,32 +81,32 @@ In this section, you'll configure settings for the Microsoft Edge
 ### Browser experience  
 |Setting|What it does|
 |---|---|
-|Configure homepages|Choose what page opens every time someone begins a new browser session in Edge.|
-|Configure new tab page|Choose what page opens every time someone opens a new tab in Edge.|
-|Configure home button behavior|Choose what page appears when users click the home button in Edge. You can also hide the home button.|
-|Block untrusted browser extensions|Block users from sideloading extensions to their Edge browser. These extensions are installed from untrusted sources&ndash;not the Microsoft Store&ndash;and could be malware.|
+|Configure homepages|Choose what page opens every time someone begins a new Microsoft Edge browser session.|
+|Configure new tab page|Choose what page opens every time someone opens a new tab in Microsoft Edge.|
+|Configure home button behavior|Choose what page appears when users click the home button in Microsoft Edge. You can also hide the home button.|
+|Block untrusted browser extensions|Block users from sideloading extensions to their Microsoft Edge browser. These extensions are installed from untrusted sources&ndash;not the Microsoft Store&ndash;and could be malware.|
 |Block printing from Microsoft Edge|Blocks users from printing browser content.|
 |Block overriding security warnings|Block users from clicking "Go on to the webpage" on sites that show an SSL/TLS certificate error.|
-|Block Prelaunch|Microsoft Edge Prelaunch opens Edge as a background process during Windows startup. This action helps the performance of Microsoft Edge and minimizes the amount of time required to start up Edge. However, running Edge as a background process might make devices appear as *not compliant* in your secure assessments.| 
+|Block Prelaunch|Microsoft Edge Prelaunch opens Microsoft Edge as a background process during Windows startup. This action helps the performance of Microsoft Edge and minimizes the amount of time required to start it. However, running Microsoft Edge as a background process might make devices appear as *not compliant* in your secure assessments.| 
 |Block editing favorites|Block users from adding, importing, sorting, or editing the Favorites list.|
-|Block address bar suggestions|Block Edge from suggesting possible search terms or previously visited websites as you type a URL or search term.|
-|Block search suggestions|Block Edge from suggesting possible websites as you type a URL or search term.|
-|Block InPrivate browsing|Block users from using InPrivate browsing, which stops Edge from saving data like browsing history and cookies.| 
-|Block browser extensions|Block users from using extensions to customize Edge with added functionality from Microsoft and other sources.|
-|Block first run page|Block users from seeing the first run page when they open Edge for the first time.|
+|Block address bar suggestions|Block Microsoft Edge from suggesting possible search terms or previously visited websites as you type a URL or search term.|
+|Block search suggestions|Block Microsoft Edge from suggesting possible websites as you type a URL or search term.|
+|Block InPrivate browsing|Block users from using InPrivate browsing, which stops Microsoft Edge from saving data like browsing history and cookies.| 
+|Block browser extensions|Block users from using extensions to customize Microsoft Edge with added functionality from Microsoft and other sources.|
+|Block first run page|Block users from seeing the first run page when they open Microsoft Edge for the first time.|
 |Block pop-ups|Block websites from opening new windows.|
 |Block password manager|Block users from using the password manager to save passwords.|
 |Block automatically filling form entries|Block saving data entered in a form field online.|
 |Block access to about:flags page|Block access to the about:flags page, which contains experimental settings and features.|
-|Require intranet sites to be viewed in Internet Explorer|If set to “Block”, internal traffic is sent to Edge instead of Internet Explorer.|
+|Require intranet sites to be viewed in Internet Explorer|If set to “Block”, internal traffic is sent to Microsoft Edge instead of Internet Explorer.|
 |Default search engine|Select Bing, Yahoo, or Google as the default search engine for Microsoft Edge.|  
 
 ### User data  
 |Setting|What it does|
 |---|---|
 |Block developer tools|Block users from accessing developer tools.|
-|Sync Microsoft Edge favorites with Internet Explorer|Sync all favorites added to Edge to Internet Explorer.| 
-|Clear browsing data upon exit|Automatically erase history, cookies, and cached files after exiting Edge.|
+|Sync Microsoft Edge favorites with Internet Explorer|Sync all favorites from Microsoft Edge to Internet Explorer.| 
+|Clear browsing data upon exit|Automatically erase history, cookies, and cached files after closing Microsoft Edge.|
 |Use cookies|Cookies can store website settings or track user’s browsing behavior.|
 
 
@@ -175,7 +175,7 @@ In this section, you'll configure security settings for:
 |Prompt users for sample submission|Choose to automatically send files to Microsoft for further analysis.|
 |Type of system scan to perform|Choose if Windows Defender does a quick scan, a full scan, or no scan on devices.|
 |Scan all downloaded files|Automatically scan all downloaded files for malware.|
-|Scan scripts run in Microsoft web browsers|Scan all scripts a website attempts to run in Edge and Internet Explorer.|
+|Scan scripts run in Microsoft web browsers|Scan all scripts a website attempts to run in Microsoft Edge and Internet Explorer.|
 |Scan removable drives during full scan|Include removable drives, such as USB sticks, during full scans.|
 |Scan files opened over the network|Scan all files that are opened by users from websites while using the network.|
 |Scan remote folders during full scan|Scan any folders on remote locations during full scans.|
