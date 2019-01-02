@@ -73,10 +73,7 @@ Many settings in Intune for Education are configured to **Block** or **Allow**. 
 
 
 ## Microsoft Edge  
-In this section, you'll configure settings for the Microsoft Edge  
-
-    * Browser experience
-    * User data
+Configure settings for the Microsoft Edge browser experience and user data.
 
 ### Browser experience  
 |Setting|What it does|
@@ -111,7 +108,7 @@ In this section, you'll configure settings for the Microsoft Edge
 
 
 ## Network and connectivity   
-In this section, you'll configure network and connectivity settings for
+Configure network and connectivity settings for:  
 
     * Bluetooth
     * Internet connectivity restrictions
@@ -159,7 +156,7 @@ In this section, you'll configure network and connectivity settings for
 
 
 ## Security  
-In this section, you'll configure security settings for:    
+Configure security settings for:    
     * Windows Defender  
     * Windows SmartScreen
 
@@ -237,10 +234,7 @@ When you select to optimize devices for shared use, these apps will be removed f
 |Configure preferred Azure Active Directory tenant domain|Enables users to sign in to Windows without typing the domain name. If you configure this setting, the tenant domain name will prepopulate, but is still editable.| 
 
 ## Updates and upgrade
-In this section, you'll configure settings for Windows:  
-
-    * Updates
-    * Upgrade
+Configure settings for Windows Updates and upgrading.
 
 ### Updates  
 
@@ -261,7 +255,7 @@ In this section, you'll configure settings for Windows:
 |Switch out of S Mode|Previously referred to as Windows 10 S, S Mode is a more secure version of Windows 10. It only allows teachers and students to browse with Microsoft Edge, and download apps from Microsoft Store.|
 
 ## User experience  
-In this section, you'll configure the user experience settings for
+Configure the user experience settings for:  
     * Device restrictions
     * Lock screen and desktop
     * Settings app
