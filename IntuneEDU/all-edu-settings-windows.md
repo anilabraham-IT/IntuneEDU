@@ -48,6 +48,7 @@ Many settings in Intune for Education are configured to **Block** or **Allow**. 
 > User, app, and device settings differ from [tenant settings](edu-tenant-general-settings.md). Tenant settings address the subscription and management settings for your organization.
 
 ## Apps  
+Configure settings such as how users obtain and access apps on their devices.  
 
 |Setting|What it does|
 |---|---|
@@ -63,6 +64,7 @@ Many settings in Intune for Education are configured to **Block** or **Allow**. 
 
 
 ## Enrollment controls  
+Configure settings related to Intune for Education device enrollment.
 
 |Setting|What it does|
 |---|---|
@@ -73,7 +75,7 @@ Many settings in Intune for Education are configured to **Block** or **Allow**. 
 
 
 ## Microsoft Edge  
-Configure settings for the Microsoft Edge browser experience and user data.
+Configure settings that affect the Microsoft Edge browser experience and user data.
 
 ### Browser experience  
 |Setting|What it does|
@@ -108,7 +110,7 @@ Configure settings for the Microsoft Edge browser experience and user data.
 
 
 ## Network and connectivity   
-Configure network and connectivity settings for:  
+Configure network and connectivity settings for:    
     * Bluetooth  
     * Internet connectivity restrictions  
     * Proxy  
@@ -146,6 +148,7 @@ Configure network and connectivity settings for:
 > Configure a WPA-2 Enterprise Wi-Fi network using the [full Wi-Fi profile management experience in Intune](https://docs.microsoft.com//intune/wi-fi-settings-import-windows-8-1). You can also use Intune to set up [SCEP](https://docs.microsoft.com/intune/certificates-scep-configure) and [PKI](https://docs.microsoft.com/intune/certficates-pfx-configure) integration.   
 
 ## Printer   
+Configure settings to allow printer access.  
 
 |Setting|What it does|
 |---|---|
@@ -197,7 +200,8 @@ Configure security settings for Windows Defender and Windows SmartScreen.
 |Block users from dismissing SmartScreen warnings|Blocks students from dismissing SmartScreen warnings about potentially malicious files and apps.
 
 
-## Shared devices   
+## Shared devices  
+Configure settings that control how teachers and students share devices.
 
 |Setting|What it does|
 |---|---|
@@ -223,6 +227,7 @@ When you select to optimize devices for shared use, these apps will be removed f
 * Calendar
 
 ## Sign-in  
+Configure how users sign in to school devices.
 
 |Setting|What it does|
 |---|---|
@@ -231,7 +236,7 @@ When you select to optimize devices for shared use, these apps will be removed f
 |Configure preferred Azure Active Directory tenant domain|Enables users to sign in to Windows without typing the domain name. If you configure this setting, the tenant domain name will prepopulate, but is still editable.| 
 
 ## Updates and upgrade
-Configure settings related to Windows Updates and upgrades.  
+Configure how devices receive updates and upgrades.    
 
 ### Updates  
 
