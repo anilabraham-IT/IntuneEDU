@@ -109,11 +109,10 @@ Configure settings for the Microsoft Edge browser experience and user data.
 
 ## Network and connectivity   
 Configure network and connectivity settings for:  
-
-    * Bluetooth
-    * Internet connectivity restrictions
-    * Proxy
-    * Wi-Fi profiles
+    * Bluetooth  
+    * Internet connectivity restrictions  
+    * Proxy  
+    * Wi-Fi profiles  
 
 ### Bluetooth  
 |Setting|What it does|
@@ -156,9 +155,7 @@ Configure network and connectivity settings for:
 
 
 ## Security  
-Configure security settings for:    
-    * Windows Defender  
-    * Windows SmartScreen
+Configure security settings for Windows Defender and Windows SmartScreen.  
 
 ### Windows Defender  
 > [!NOTE]
@@ -234,7 +231,7 @@ When you select to optimize devices for shared use, these apps will be removed f
 |Configure preferred Azure Active Directory tenant domain|Enables users to sign in to Windows without typing the domain name. If you configure this setting, the tenant domain name will prepopulate, but is still editable.| 
 
 ## Updates and upgrade
-Configure settings for Windows Updates and upgrading.
+Configure settings related to Windows Updates and upgrades.  
 
 ### Updates  
 
@@ -254,12 +251,12 @@ Configure settings for Windows Updates and upgrading.
 |Edition to upgrade to| Upgrade the devices in this group to a different edition of Windows 10. Select the **Edition to upgrade to** and enter the **Product key**.|
 |Switch out of S Mode|Previously referred to as Windows 10 S, S Mode is a more secure version of Windows 10. It only allows teachers and students to browse with Microsoft Edge, and download apps from Microsoft Store.|
 
-## User experience  
-Configure the user experience settings for:  
-    * Device restrictions
-    * Lock screen and desktop
-    * Settings app
-    * Start menu
+## User experience   
+Configure the user experience settings for:   
+    * Device restrictions  
+    * Lock screen and desktop  
+    * Settings app  
+    * Start menu  
 
 ### Device restrictions  
 
