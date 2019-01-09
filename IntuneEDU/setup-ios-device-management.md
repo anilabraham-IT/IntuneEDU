@@ -76,7 +76,7 @@ The push certificate expires every 365 days. The certificate is needed to connec
 Sometimes referred to as a DEP token, the MDM server token lets Intune sync device details from Apple School Manager. These details inform Intune of the devices it needs to manage, and populates your inventory in the Intune for Education portal.  
 
 ### Shared iPad configuration  
-You can configure your iOS devices to enroll as Shared iPad devices. With Shared iPad, students and teachers sign in to your schools' devices with their unique Managed Apple ID. As they move from device to device, their apps and data move with them. A student can use one device to begin writing a paper, and then sign in to a different device later to finish the paper. To learn more about *Shared iPad* and *Managed Apple IDs*, visit the [Apple Education website](https://www.apple.com/education/it/) and [documentation](https://www.apple.com/education/docs/).  
+You can configure your iOS devices to enroll as Shared iPad devices. With Shared iPad, students and teachers sign in to your school's devices with their unique Managed Apple ID. As they move from device to device, their apps and data move with them. A student can use one device to begin writing a paper, and then sign in to a different device later to finish the paper. To learn more about *Shared iPad* and *Managed Apple IDs*, visit the [Apple Education website](https://www.apple.com/education/it/) and [documentation](https://www.apple.com/education/docs/).  
 
 Classroom devices can still be shared between students, even without Shared iPad. However, user data does not move between devices. Before you configure your server token, you'll choose if you want to enable Shared iPad. 
 
@@ -92,9 +92,9 @@ The following steps describe how to configure your MDM Server Token.
         > You can't change your choice after you create the server token. After that point, if you want to change how devices enroll, you'll need to create a new server token.  
 
         > [!NOTE]
-        > The iOS Classroom app is a Shared iPad feature, but it's configuration isn't supported by Intune for Education. Other Shared iPad features are supported and are enabled after the MDM server token is set up. **Note from Laura: Are *all* other Shared iPad features enabled, except for iOS classroom app? Or just some (currently it says "other" which might be too ambiguou)? Where can they find out which features are enabled--or can we list them?**  
+        > If you set up a device with Shared iPad, you'll get all of features that come with Shared iPad, except for the Classroom and Schoolwork apps. These apps aren't supported by Intune for Education. All other Shared iPad features will be available to you after you set up the MDM server token.  
 
-    * If your school isn't using Managed Apple IDs, choose **Anyone can unlock these devices...** Devices can still be shared by students&ndash;they'll just be accessed directly, without need to sign in. They might require a device passcode, if you set one.  
+    * If your school isn't using Managed Apple IDs, choose **Anyone can unlock these devices...** Devices can still be shared by students&ndash;they'll just be accessed directly, without the need to sign in. They might require a device passcode, if you set one.  
 
 4. Select **Download** to download the required Intune public key. You'll need to upload this file in Apple School Manager to create your MDM server token. Save the file to your computer.
 5. Select **Go to my MDM Servers in Apple School Manager**. If prompted, sign in to Apple School Manager with your school's Apple ID, not your personal one.
