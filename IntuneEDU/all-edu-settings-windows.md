@@ -244,7 +244,6 @@ Configure how devices receive updates and upgrades.
 
 |Setting|What it does|
 |---|---|
-
 |Branch readiness level|Choose if devices are on Current Branch or Current Branch for Business for Windows updates.|
 |Configure how and when updates are installed|Set the updates and maintenance period for the installation of updates.|
 |Days to defer feature updates after they become available (0-365)|Set how many days to wait to apply a feature update after it becomes available. For example, if set to 0 days, a feature update that's just become available will be immediately applied to your devices.|
