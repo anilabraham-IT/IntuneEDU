@@ -34,7 +34,7 @@ Learn what’s new in Intune for Education. Find out about upcoming changes, pro
 ## January 2019  
 
 ### Set up iOS devices with Shared iPad features
-During iOS enrollment, you have the option to enroll your devices with Shared iPad. Shared iPad is an iOS feature that requires students and teachers to sign in to school devices with a Managed Apple ID. They can sign in and out of any enabled device in the school to access saved and in-progress work, apps, and tasks. For more information about Shared iPad in Intune for Education, see [Shared iPad configuration](setup-ios-device-management.md#shared-ipad-configuration).  
+When configuring settings in Intune for Education for iOS device enrollment, you now have the option to configure your iOS devices to enroll with Shared iPad features enabled.  Shared iPad is an iOS feature that requires students and teachers to sign in to school devices with a Managed Apple ID. They can sign in and out of any enabled device in the school to access saved and in-progress work, apps, and tasks. For more information about Shared iPad in Intune for Education, see [Shared iPad configuration](setup-ios-device-management.md#shared-ipad-configuration).  
 
 ## November 2018 
 
