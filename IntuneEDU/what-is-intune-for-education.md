@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 10/03/2018
+ms.date: 01/03/2019
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -33,16 +33,16 @@ searchScope:
 
 Microsoft Intune for Education is a cloud-based, mobile device management (MDM) service for schools. It helps your teachers and students stay productive on classroom devices, and keeps school data secure. 
 
-With Intune for Eduction you can:
+With Intune for Education you can:
 * Manage the desktop and mobile devices students use to access classroom data.
 * Configure and assign the apps students use in the classroom.
 * Control how students and teachers access and share classroom information.
 * Apply school security requirements to devices and apps.
 
-The Intune for Education portal is simply designed to include only the settings and workflows you need to manage iOS and Windows school devices. From the portal, you can view and take action on your device, user, and app inventory. Intune for Education also supports the Take a Test app, which allows teachers to assess student progress directly from classroom devices.  
+The Intune for Education portal is designed to include only the settings and workflows you need to manage iOS and Windows school devices. From the portal, you can view and take action on your device, user, and app inventory. Intune for Education also supports the Take a Test app, which allows teachers to assess student progress directly from classroom devices.  
 
 ## Sign up for Intune for Education
-If you're not already signed up with an Intune for Education account, learn [how to get started](https://docs.microsoft.com/intune/account-sign-up). The article is for system administrators who are ready to sign their school up for an Intune subscription. 
+If you're not already signed up with an Intune for Education account, learn [how to get started](https://docs.microsoft.com/intune/account-sign-up). The article is for system administrators who are ready to sign up their school for an Intune subscription. 
 
 ## Manually add users to you Intune subscription
 If you're not using the Microsoft School Data Sync (SDS) service to import student and teacher records, you must [manually add users to your Intune subscription](https://docs.microsoft.com/intune/users-add). Students and teachers can be added through the Azure portal or through the Office 365 portal. At the time of user setup, you'll also want to grant admin permissions. 
@@ -63,7 +63,7 @@ The **General** page of tenant settings asks for your school's IT contact and re
 
 For more information about setting up your device's iOS device management settings, see [Setup iOS device management](setup-ios-device-management.md).
 
-Only [delgated admins](group-admin-delegate.md) in Intune for Education are allowed to see and change tenant settings.
+Only [delegated admins](group-admin-delegate.md) in Intune for Education are allowed to see and change tenant settings.
 
 ## Does Intune for Education work on shared devices?  
 Intune for Education works with shared devices, and supports the management of multiple users on a single device. Students who share a device may have different apps and settings targeted to them. When students sign in to a device, they'll see only the apps and settings assigned specifically to them.  
