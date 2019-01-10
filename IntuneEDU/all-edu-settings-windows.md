@@ -205,9 +205,9 @@ Configure security settings for Windows Defender and Windows SmartScreen.
 |Setting|What it does|
 |---|---|
 |Block users from overriding SmartScreen warnings about websites|Block users from ignoring and accessing websites blocked by the SmartScreen Filter.|
-|Block users from overriding SmartScreen warnings about downloads from the web|Block users from ignoring and downloading unverified files that SmartScreen Filter warns about.|
-|Enable SmartScreen to check for unrecognized apps and files|Enables SmartScreen to protect devices by checking for unrecognized apps and fBlock users from dismissing SmartScreen warningsiles from the web.|
-|Block users from overriding SmartScreen warnings about apps and files|Blocks students from dismissing SmartScreen warnings about potentially malicious files and apps.|
+|Block users from overriding SmartScreen warnings about downloads from the web|Block students from ignoring and downloading unverified files that SmartScreen Filter warns about.|
+|Enable SmartScreen to check for unrecognized apps and files|Enables SmartScreen to protect devices by checking for unrecognized apps.|
+|Block users from overriding SmartScreen warnings about apps and files|Block students from dismissing SmartScreen warnings about potentially malicious files and apps.|
 
 
 ## Shared devices  
