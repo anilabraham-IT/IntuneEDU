@@ -47,6 +47,15 @@ Many settings in Intune for Education are configured to **Block** or **Allow**. 
 > [!NOTE]
 > User, app, and device settings differ from [tenant settings](edu-tenant-general-settings.md). Tenant settings address the subscription and management settings for your organization.
 
+## Accounts and sign-in  
+Configure how users sign in to school devices.
+
+|Setting|What it does|
+|---|---|
+|Block adding and signing in with personal Microsoft accounts|Block users from signing in with their Microsoft account.|
+|Block adding and signing in with non-Microsoft accounts|Block users from adding any account other than their Microsoft account. Use this setting if you want to force users to only use their Microsoft accounts for email.| 
+|Configure preferred Azure Active Directory tenant domain|Enables users to sign in to Windows without typing the domain name. If you configure this setting, the tenant domain name will prepopulate, but is still editable.|  
+
 ## Apps  
 Configure settings such as how users obtain and access apps on their devices.  
 
@@ -59,8 +68,8 @@ Configure settings such as how users obtain and access apps on their devices.
 |Trusted apps|Allow or block users from installing trusted apps that have signed certificates from Microsoft.|
 |Untrusted apps|Allow or block users from installing apps with certificates that are unsigned, or signed by sources not trusted by Microsoft.|
 |Block installing apps from places other than the Microsoft Store for Education|Block users from installing apps from other sources and app stores.
-|Block automatic app updates for Microsoft Store for Education|Block Microsoft Store for Education apps from being updated automatically.|
-|Enable students on shared device to share app data|Enables students to share and send app data between devices.|  
+|Block automatic updates for Microsoft Store for Education apps|Block Microsoft Store for Education apps from being updated automatically.|
+|Enable students on shared devices to share app data|Enable students using the same app on the same device to share data.|  
 
 
 ## Enrollment controls  
@@ -121,14 +130,14 @@ Configure network and connectivity settings for:
 |---|---|
 |Block Bluetooth|Block devices from using Bluetooth.|
 |Block Bluetooth discoverability|Block devices from being set as discoverable using Bluetooth.|
-|Block receiving advertisements over Bluetooth|Block devices from receiving advertisements onscreen while using Bluetooth.|  
+|Block receiving advertisements over Bluetooth|Block devices from receiving marketing messages and advertisements over Bluetooth.|  
 |Block Bluetooth Swift Pair notifications|Block users from getting notifications about Bluetooth device pairing. Swift Pair lets users know when Bluetooth devices are nearby and able to connect to Windows 10.|  
 
 ### Internet connectivity restrictions  
 |Setting|What it does|
 |---|---|
 |Block Internet Connection Sharing|Block users from using Internet Connection Sharing to share the device’s Internet connection with other devices.|
-|Block using Wi-Fi Sense to automatically connect to open Wi-Fi hotspots|Choose whether to block devices from automatically connecting to Wi-Fi hotspots.|
+|Block using Wi-Fi Sense to automatically connect to open hotspots|Choose if you want to block devices from automatically connecting to Wi-Fi hotspots.|
 |Block cellular data while roaming|Block the use of cellular data when device is roaming.|  
 
 ### Proxy  
@@ -170,18 +179,19 @@ Configure security settings for Windows Defender and Windows SmartScreen.
 |Enable real-time monitoring|Enable always-on scanning for malware, spyware, and other threats.|
 |Enable behavior monitoring|Enable Windows Defender to check for certain known patterns of suspicious activity.|
 |Prompt users to submit suspicious files to Microsoft|Choose to automatically send files to Microsoft for further analysis.|
-|Type of system scan to perform|Choose if Windows Defender does a quick scan, a full scan, or no scan on devices.|
+|Type of system scan to perform|Choose if Windows Defender does a quick scan, a full scan, or no scan of devices.|
+|Daily quick scan time|Choose what hour of the day Windows Defender runs a daily quick scan.|
 |Scan all downloaded files|Automatically scan all downloaded files for malware.|
 |Scan scripts run in Microsoft web browsers|Scan all scripts a website attempts to run in Microsoft Edge and Internet Explorer.|
 |Scan removable drives during full scan|Include removable drives, such as USB sticks, during full scans.|
 |Scan files opened over the network|Scan all files that are opened by users from websites while using the network.|
 |Scan remote folders during full scan|Scan any folders on remote locations during full scans.|
 |Scan archive files|Scan archive files, like .zip or .rar.|
-|Scan incoming email|Scan all email received over the network.|
+|Scan incoming emails|Scan all emails received over the network.|
 |Scan for malware when files or programs are opened|Scan for malware when a file or program opens and alert users about suspicious activity.|
-|Days before quarantined malware is removed| Set the number of days an affected file is saved. After this number of days, the file is deleted. For example, if set to 0, the file is immediately deleted.|
+|Days before quarantined malware is deleted| Set the number of days an affected file is saved. After this number of days, the file is deleted. For example, if set to 0, the file is immediately deleted.|
 |Set anti-malware update frequency|Select how frequently Windows Defender should check for and download anti-malware updates.|
-|Potentially Unwanted Applications protection|Defender alerts the user and blocks potentially unwanted software that attempts to install itself on devices.|
+|Potentially unwanted applications protection|Windows Defender alerts the user, and blocks potentially unwanted software that attempts to install itself on devices.|
 |Block suspicious files|If this setting is configured, Windows Defender Antivirus will be more aggressive about identifying suspicious files to block and scan. When not configured, it will block and scan less frequently. You can select **Not configured**, **High**, **High plus**, and **Zero tolerance**. **High** aggressively blocks unknown files while minimizing impact to device performance. **High plus** aggressively blocks unknown files, but may negatively impact device performance. **Zero tolerance** blocks all unknown files from running.|
 |Enable cloud-delivered protection|Get real-time protection when Windows Defender sends info to Microsoft about potential security threats. This feature works best with **Prompt users to submit suspicious files to Microsoft** set to automatically send files.|
 |Actions on detected malware threats|Windows Defender automatically quarantines detected malware.|
@@ -228,15 +238,6 @@ When you select to optimize devices for shared use, these apps will be removed f
 * Mail
 * Calendar
 
-## Accounts and sign-in  
-Configure how users sign in to school devices.
-
-|Setting|What it does|
-|---|---|
-|Block signing in using a Microsoft account|Block users from signing in with their Microsoft account.|
-|Block adding new non-Microsoft accounts|Block users from adding any account other than their Microsoft account. Use this setting if you want to force users to only use their Microsoft accounts for email.| 
-|Configure preferred Azure Active Directory tenant domain|Enables users to sign in to Windows without typing the domain name. If you configure this setting, the tenant domain name will prepopulate, but is still editable.| 
-
 ## Updates and upgrade
 Configure how devices receive updates and upgrades.    
 
@@ -276,11 +277,11 @@ Configure the user experience settings for:
 |Block removable storage|Block users from using removable storage such as USB drives and external hard drives.|
 |Block Cortana|Block Cortana, the digital assistant built into Windows 10 that can answer questions and perform tasks.|
 |Block location services|Block apps from using location services to access the device’s location.|  
+|Block ending tasks in Task Manager|Blocks users from being able to force a program to close.|
 |Block changing date and time settings|Block users from changing the device date and time settings.|
 |Block changing language settings|Block users from changing the device language.|
 |Block changing device region settings|Block users from changing region settings, such as country and language.|
 |Block changing power and sleep settings|Block users from changing power and sleep settings.|
-|Block ending tasks in Task Manager|Block users from ending tasks that force specific programs to close.|
 |Send diagnostic data|Define whether to collect and send anonymous usage data to Microsoft to help improve Windows.|  
 
 ### Lock screen and desktop  
@@ -290,14 +291,14 @@ Configure the user experience settings for:
 |Set custom lock screen image|Configure a custom background image on the sign-in screen. You can choose a .jpg or .png less than 20 MB in size.|
 |Set custom desktop image|Configure a custom background image on the desktop. You can choose a .jpg or .png less than 20 MB in size.|
 |Block Windows Spotlight|Block all Windows Spotlight features on these devices.|
-|Block toast notifications on lock screen|Block notifications from appearing on the screen of a locked device.|
+|Block notifications on lock screen|Block notifications from appearing on the screen of a locked device.|
 |Block Cortana on lock screen|Prevent users from accessing Cortana from the lock screen.|
 
 ### Settings app  
 
 |Setting|What it does|
 |---|---|
-|Block user access to Settings app|Block user access to the entire Settings app. To block only parts of the app, select from the other settings in this section.
+|Block access to the Settings app|Block user access to the entire Settings app. To block only parts of the app, select from the other settings in this section.
 |System settings|Block display, notifications, apps, power settings.|
 |Devices|Block Bluetooth, printers, and more.|
 |Network & Internet|Block Wi-Fi, airplane mode, and VPN.|
@@ -315,16 +316,16 @@ Configure the user experience settings for:
 |Setting|What it does|
 |---|---|
 |Force Start menu size|Define whether to force the Start menu to appear full screen.|
-|Block Jump Lists in Start menu from showing recently opened programs|Block a user's recently opened items from appearing in a Jump List in the Start menu and taskbar.|
+|Block Jump Lists in Start menu from showing recently opened programs|Block Jump Lists from appearing on Start menu, and disable the corresponding toggle in the Settings app.|
 |Block showing recently added apps in Start menu|Block recently added apps from showing in the Start menu.|
 |Block showing the most used apps in Start menu|Block the most used apps from showing in the Start menu.|
-|Block app list in the Start menu|Block the list of all apps on the device from showing in the Start menu.|
-|Block power menu in the Start menu|Block the power menu (for example, Restart, Shut down) from showing in the Start menu.|
-|Block user tile in the Start menu|Block the current user’s information from being shown in the Start menu.|
-|Block options from appearing on the user tile in the Start menu|You can choose **Change account settings**, **Lock**, and **Sign out**.|
-|Choose folders that appear in the Start menu|You can choose **File Explorer**, **Settings**, **Documents**, **Downloads**, **Music**, **Pictures**, **Videos**, **HomeGroup**, **Network**, and **Personal Folder**.|
+|Block app list in Start menu|Block the list of all apps on the device from showing in the Start menu.|
+|Block power menu in Start menu|Block the power menu (for example, Restart, Shut down) from showing in the Start menu.|
+|Block user tile in Start menu|Block the current user’s information from being shown in the Start menu.|
+|Block options from appearing on the user tile in Start menu|You can choose **Change account settings**, **Lock**, and **Sign out**.|
+|Choose folders that appear in Start menu|You can choose **File Explorer**, **Settings**, **Documents**, **Downloads**, **Music**, **Pictures**, **Videos**, **HomeGroup**, **Network**, and **Personal Folder**.|
 |Apply custom Start menu layout|Apply a custom Start menu layout using an XML file. You can upload an .xml file less than 2 MB in size.|
-|Pin websites as tiles in the Start menu|Pin websites as tiles in the Start menu using an XML file. You can upload an .xml file less than 2 MB in size.|  
+|Pin websites as tiles in Start menu|Pin websites as tiles in the Start menu using an XML file. You can upload an .xml file less than 2 MB in size.|  
 
 
 
