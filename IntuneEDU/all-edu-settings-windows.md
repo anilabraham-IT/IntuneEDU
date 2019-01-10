@@ -57,7 +57,7 @@ Configure how users sign in to school devices.
 |Configure preferred Azure Active Directory tenant domain|Enables users to sign in to Windows without typing the domain name. If you configure this setting, the tenant domain name will prepopulate, but is still editable.|  
 
 ## Apps  
-Configure settings such as how users obtain and access apps on their devices.  
+Configure settings such as how users install and access apps on their devices.  
 
 |Setting|What it does|
 |---|---|
@@ -332,4 +332,4 @@ Configure the user experience settings for:
 ## Next steps  
 Configure your group, app, and device settings in the Intune for Education portal. If you haven't yet done it, go to [express configuration](edu-express-config-settings-windows.md) and set up your school with Microsoft-recommended settings.  
 
-Need help with managing devices? [Assign group admins](group-admin-delegate.md) in your school to help you manage device settings.  You can also [find out more about the full Windows 10 settings mnagement experience](https://docs.microsoft.com/intune/deploy-use/windows-10-policy-settings-in-microsoft-intune) available in Intune.  
+Need help with managing devices? [Assign group admins](group-admin-delegate.md) in your school to help you manage device settings.  You can also [find out more about the full Windows 10 settings management experience](https://docs.microsoft.com/intune/deploy-use/windows-10-policy-settings-in-microsoft-intune) available in Intune.  
