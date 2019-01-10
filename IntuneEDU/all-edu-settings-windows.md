@@ -105,7 +105,7 @@ Configure settings that affect the Microsoft Edge browser experience and user da
 |Block password manager|Block users from using the password manager to save passwords.|
 |Block automatically filling form entries|Block saving data entered in a form field online.|
 |Block access to about:flags page|Block access to the about:flags page, which contains experimental settings and features.|
-|Require intranet sites to be viewed in Internet Explorer|If set to “Block”, internal traffic is sent to Microsoft Edge instead of Internet Explorer.|
+|Require intranet sites to be viewed in Internet Explorer|When set to **Block**, internal traffic is sent to Microsoft Edge instead of Internet Explorer.|
 |Block Prelaunch|Microsoft Edge Prelaunch opens Microsoft Edge as a background process during Windows startup. This action helps the performance of Microsoft Edge and minimizes the amount of time required to start it. However, running Microsoft Edge as a background process might make devices appear as *not compliant* in your secure assessments.| 
 |Default search engine|Select Bing, Yahoo, or Google as the default search engine for Microsoft Edge.|  
 
@@ -332,6 +332,4 @@ Configure the user experience settings for:
 ## Next steps  
 Configure your group, app, and device settings in the Intune for Education portal. If you haven't yet done it, go to [express configuration](edu-express-config-settings-windows.md) and set up your school with Microsoft-recommended settings.  
 
-Need help with managing devices? [Assign group admins](group-admin-delegate.md) in your school to help you manage device settings.  
-
-[Find out more about the full Windows 10 settings management experience available in Intune](https://docs.microsoft.com/intune/deploy-use/windows-10-policy-settings-in-microsoft-intune)
+Need help with managing devices? [Assign group admins](group-admin-delegate.md) in your school to help you manage device settings.  You can also [find out more about the full Windows 10 settings mnagement experience](https://docs.microsoft.com/intune/deploy-use/windows-10-policy-settings-in-microsoft-intune) available in Intune.  
