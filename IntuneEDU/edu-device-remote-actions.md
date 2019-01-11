@@ -39,7 +39,7 @@ From the dashboard, go to **Devices**. Select the device that you want to manage
 - **Restart**: Powers off the device and restarts it.
 - **Factory reset**: Powers off the device and resets it to its factory settings.
 - **Sync device**: Syncs device with the Intune for Education service to get updated settings, app assignments, or group memberships. This action is also helpful if you're trying to troubleshoot a device that's causing user issues.  
-- **Rename device**: Changes the name of an existing device. The new name takes affect the next time the device syncs with Intune for Education.  
+- **Rename device**: Changes the name of an existing device. The new name will appear the next time the device syncs with Intune for Education.  
 - **Delete device**: Remove the device from Intune for Education without removing any personal data. A deleted device can no longer access school resources. 
 
 ## Windows 10 user groups  
