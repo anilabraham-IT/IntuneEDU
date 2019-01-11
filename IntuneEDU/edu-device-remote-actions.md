@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 07/23/2018
+ms.date: 01/11/2019
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -31,7 +31,7 @@ searchScope:
 
 # Manage devices remotely  
 
-As an admin, you may need to help your users if they have issues with their devices. If you're in a different location than a device or its user, you can use remote actions to reach devices and users.   
+If you're in a different location than a device or its user, and need to help them troubleshoot, you can use the remote actions in Intune for Education.  
 
 ## Windows 10 device groups  
 From the dashboard, go to **Devices**. Select the device that you want to manage. At the bottom of the page, select any of the following actions:
