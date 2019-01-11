@@ -48,7 +48,7 @@ We revised many of the setting names and tooltips in Intune for Education to mak
 ### Rename Windows devices  
 Rename any Windows 10 (version 1803 or later) device remotely from the Intune for Education portal. To rename, go to **Devices** and select a device > **Rename device**. You can also rename a device from the **Device details** page.  
 
-## November 2018 
+## November 2018  
 
 ### Remote Autopilot Reset 
 You can now invoke Autopilot Reset remotely using the Intune for Education portal. Autopilot Reset removes all user data including user-installed apps and personal settings and keeps the device enrolled in Intune so the device is kept up-to-date with all the latest apps, policies, and settings. With this feature, you can quickly wipe and reconfigure students' PCs in bulk to prepare them for a new school year. Learn more about Autopilot Reset [here](autopilot-reset.md).
