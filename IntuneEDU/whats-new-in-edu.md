@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 12/3/2018
+ms.date: 01/11/2019
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -31,10 +31,27 @@ searchScope:
 # What's new in Intune for Education
 Learn what’s new in Intune for Education. Find out about upcoming changes, product notices, and features from previous releases.
 
+## January 2019  
+
+### New settings for Windows 10 devices  
+We've added new settings to give you more control over areas such as security, Windows updates, device sign-in, and browser experience. Here are just a few new settings you'll see this month:  
+
+**Configure preferred Azure Active Directory tenant domain**: This setting permits students to sign-in without a tenant domain name. Students can sign-in quickly and easily with just their alias.  
+
+**Configure new tab page**: This setting lets you choose the page that opens when students add a tab in Microsoft Edge. New tabs can open a blank page or a custom one, such as your school's home page.  
+
+**Switch out of S Mode**: This setting permits students to switch their devices out of Windows 10 in S Mode.   
+
+### Updated Windows settings names and added useful tooltips  
+We revised many of the setting names and tooltips in Intune for Education to make them easier to find and understand. For even more details about each setting, see [Windows 10 device settings in Intune for Education](all-edu-settings-windows.md).  
+
+### Rename Windows devices  
+Rename any Windows 10 (version 1803 or later) device remotely from the Intune for Education portal. To rename, simply go to **Devices** and select a device > **Rename device**. You can also rename a device from the **Device details** page.  
+
 ## November 2018 
 
 ### Remote Autopilot Reset 
-You can now invoke Autopilot Reset remotely using the Intune for Education console. Autopilot Reset removes all user data including user-installed apps and personal settings and keeps the device enrolled in Intune so the device is kept up to date with all the latest apps, policies, and settings. With this feature, you can quickly wipe and reconfigure students' PCs in bulk to prepare them for a new school year. Learn more about Autopilot Reset [here](autopilot-reset.md).
+You can now invoke Autopilot Reset remotely using the Intune for Education portal. Autopilot Reset removes all user data including user-installed apps and personal settings and keeps the device enrolled in Intune so the device is kept up to date with all the latest apps, policies, and settings. With this feature, you can quickly wipe and reconfigure students' PCs in bulk to prepare them for a new school year. Learn more about Autopilot Reset [here](autopilot-reset.md).
 
 ### New features for iOS management
 - Intune for Education now displays location information for your Apple School Manager VPP tokens, so you can easily identify your VPP tokens from both Intune for Education and Apple School Manager. 
@@ -42,7 +59,7 @@ You can now invoke Autopilot Reset remotely using the Intune for Education conso
 - Enrollment is now even faster for your iOS devices when you set up an MDM Server Token. Intune for Education automatically configures enrollment settings, so the devices associated with the MDM Server Token have fewer Setup Assistant screens to tap through. 
  
 ### Delete Device
-You can now delete a device in the Intune for Education console. Deleting a device:
+You can now delete a device in the Intune for Education portal. Deleting a device:
 - unenrolls the device in Intune.
 - removes the device record from Azure Active Directory so the device is no longer part of your environment.
  
