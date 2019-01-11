@@ -40,7 +40,7 @@ We've added new settings to give you more control over areas such as security, W
 
 * **Configure new tab page**: This setting lets you choose the page that opens when students add a tab in Microsoft Edge. New tabs can open a blank page or a custom one, such as your school's home page.  
 
-* **Switch out of S Mode**: This setting permits students to switch their devices out of Windows 10 in S Mode.   
+* **Switch out of S Mode**: This setting lets admins switch devices out of Windows 10 in S Mode, or prevents students from switching their own devices out of S Mode.    
 
 ### Updated Windows settings names and added useful tooltips  
 We revised many of the setting names and tooltips in Intune for Education to make them easier to find and understand. For even more details about each setting, see [Windows 10 device settings in Intune for Education](all-edu-settings-windows.md).  
