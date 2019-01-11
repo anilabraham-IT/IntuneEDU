@@ -38,8 +38,9 @@ From the dashboard, go to **Devices**. Select the device that you want to manage
 
 - **Restart**: Powers off the device and restarts it.
 - **Factory reset**: Powers off the device and resets it to its factory settings.
-- **Sync** device to get updated settings, app assignments, or group memberships. This can also help you if you're trying to troubleshoot why a device may be causing user issues.
-- **Remove from management** - Remove the device from Intune management without removing any personal data. It will no longer be able to access school resources. 
+- **Sync device**: Syncs device with the Intune for Education service to get updated settings, app assignments, or group memberships. This action is also helpful if you're trying to troubleshoot a device that's causing user issues.  
+- **Rename device**: Changes the name of an existing device. The new name takes affect the next time the device syncs with Intune for Education.  
+- **Delete device**: Remove the device from Intune for Education without removing any personal data. A deleted device can no longer access school resources. 
 
 ## Windows 10 user groups  
 From the dashboard, go to **Users**. Select the user that you want to manage. At the bottom of the page, select **Reset password**. This action resets an old, lost, or forgotten password on the user's device.  
