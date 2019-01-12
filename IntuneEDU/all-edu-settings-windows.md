@@ -225,18 +225,19 @@ Configure settings that control how teachers and students share devices.
 
 When you select to optimize devices for shared use, these apps will be removed from teacher and student computers:
 
-* 3DBuilder
-* Bing Weather
+* Mixed Reality Viewer  
+* Weather
 * Desktop App Installer
-* Get Started
-* Microsoft Office Hub
+* Tips
+* My Office
 * Solitaire Collection
-* One Connect
+* Mobile Plans
 * Windows Feedback Hub
 * Xbox
 * Groove Music
 * Mail
 * Calendar
+* Skype  
 
 ## Updates and upgrade
 Configure how devices receive updates and upgrades.    
