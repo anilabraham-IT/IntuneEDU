@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 01/15/2019
+ms.date: 01/22/2019
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -34,6 +34,9 @@ searchScope:
 If you're in a different location than a device or its user, and need to help them troubleshoot, use the remote actions in Intune for Education.  
 
 ## Remote actions for devices  
+
+![Example screenshot showing Intune for Education's 7 remote actions.](./media/1812_Intune_EDU_Manage_Remote.png)  
+
 From the dashboard, go to **Devices**. Select the device that you want to manage. At the bottom of the page, select any of the following actions:
 
 - **Restart**: Powers off the device and restarts it.
