@@ -162,7 +162,7 @@ Configure settings to allow printer access from school devices.
 |Setting|What it does|
 |---|---|
 |Printer list|Create a list of printers that you want to make available to student devices. Enter the printer hostname. An example of a formatted hostname is *printer1.contososd.edu*.| 
-|Specify default printer|Make a printer available as the default printer option on devices. Enter the printer hostname or as it appears in your **Printer list**.|  
+|Specify default printer|Make a printer available as the default printer option on devices. Enter the printer hostname as it appears in your **Printer list**.|  
 |Block adding new printers|Block groups from connecting new printers to their devices.|  
 
 
