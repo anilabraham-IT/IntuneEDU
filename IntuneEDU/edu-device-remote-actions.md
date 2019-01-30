@@ -33,7 +33,9 @@ searchScope:
 
 If you're in a different location than a device or its user, and need to help them troubleshoot, use the remote actions in Intune for Education.  
 
-## Windows 10 and iOS device groups  
+
+## Remote actions for devices  
+
 From the dashboard, go to **Devices**. Select the device that you want to manage. At the bottom of the page, select any of the following actions:
 
 - **Restart**: Powers off the device and restarts it.
@@ -43,5 +45,6 @@ From the dashboard, go to **Devices**. Select the device that you want to manage
 - **Rename device**: Gives the device a new name. The new name updates in Intune and locally, on the device. You must restart your Windows device for the new name to take effect.  
 - **Delete device**: Unenrolls the device from Intune for Education and removes the device from Azure Active Directory. A deleted device can no longer access your school's resources. 
 
-## User groups  
+## Remote actions for users  
+
 From the dashboard, go to **Users**. Select the user that you want to manage. At the bottom of the page, select **Reset password**. This action resets an old, lost, or forgotten password on the user's device.  
