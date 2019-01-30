@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 01/11/2019
+ms.date: 01/16/2019
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -32,6 +32,9 @@ searchScope:
 Learn what’s new in Intune for Education. Find out about upcoming changes, product notices, and features from previous releases.
 
 ## January 2019  
+
+### Set up iOS devices with Shared iPad features
+When configuring settings in Intune for Education for iOS device enrollment, you now have the option to configure your iOS devices to enroll with Shared iPad features enabled.  Shared iPad is an iOS feature that requires students and teachers to sign in to school devices with a Managed Apple ID. They can sign in and out of any enabled device in the school to access saved and in-progress work, apps, and tasks. For more information about Shared iPad in Intune for Education, see [Shared iPad configuration](setup-ios-device-management.md#shared-ipad-configuration).  
 
 ### New settings for Windows 10 devices  
 We've added new settings to give you more control over areas such as security, Windows updates, device sign-in, and browser experience. Here are just a few new settings you'll see this month:  
