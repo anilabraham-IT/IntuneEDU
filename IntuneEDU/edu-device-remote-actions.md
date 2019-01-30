@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 01/15/2019
+ms.date: 01/30/2019
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -35,6 +35,8 @@ If you're in a different location than a device or its user, and need to help th
 
 
 ## Remote actions for devices  
+
+![Example screenshot showing Intune for Education's 7 remote actions.](./media/1812_Intune_EDU_Manage_Remote.png)  
 
 From the dashboard, go to **Devices**. Select the device that you want to manage. At the bottom of the page, select any of the following actions:
 
