@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 08/28/2018
+ms.date: 02/05/2019
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -36,7 +36,7 @@ searchScope:
 
 This article lists and describes all iOS device settings in Intune for Education. To view and edit these settings in the portal, click **Groups** >**Settings** > **iOS Device Settings**.   
 
-  ![Screenshot of the All iOS Devices, Groups page in Intune for Education. Highlights the Settings tab and shows the iOS Device Settings category is expanded to show all 11 subcategories of settings. Each setting is collapsed.](./media/edu-ios-device-settings-1807.png)   
+  ![Screenshot of the All iOS Devices, Groups page in Intune for Education. Highlights the Settings tab and shows the iOS Device Settings category is expanded to show all 12 subcategories of settings. Each setting is collapsed.](./media/edu-ios-1901-device-settings.png)   
 
 ## Apply settings to groups  
 Apply [group settings](what-are-groups.md) to establish access and security boundaries on devices throughout your school. You can assign the same settings across all groups in your school; or you can customize the classroom experience and apply settings to individual groups.
@@ -63,6 +63,14 @@ Many settings in Intune for Education are configured to **Block** or **Allow**. 
 |Wallpaper modification |Blocks students from changing the device background image.|    
 |Configuration profile changes |Block students from being able to install configuration profiles.||  
 |Activation Lock|Block Activation Lock on supervised iOS devices.|  
+
+## Wallpaper and lock screen images  
+
+|Setting|What it does|
+|---|---|
+|Set device wallpaper image| Choose a custom image to appear as the wallpaper on the device's home screen.| 
+|Set device lock screen image| Choose a custom image to appear in the background on the device's lock screen.|  
+
 
 ## Lock screen and passcode  
 
