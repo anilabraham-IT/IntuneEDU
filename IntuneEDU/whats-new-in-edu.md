@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 01/16/2019
+ms.date: 02/05/2019
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -30,6 +30,14 @@ searchScope:
 ---
 # What's new in Intune for Education
 Learn what’s new in Intune for Education. Find out about upcoming changes, product notices, and features from previous releases.
+
+## February 2019  
+
+### Set custom wallpaper and lock screen images for your iOS devices  
+You can now use Intune for Education to set custom wallpaper and lock screen images on school devices. To upload your images, go to **Groups** > **iOS Device Settings** > **Wallpaper and lock screen images**.  
+
+   ![A screenshot of the iOS Device Settings, custom wallpaper and lock screen images.](./media/ios-1901-custom-image-settings.png)  
+
 
 ## January 2019  
 
