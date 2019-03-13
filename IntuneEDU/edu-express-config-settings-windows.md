@@ -29,11 +29,11 @@ searchScope:
 
 ---
 # Default Windows 10 configurations in Express Configuration
-Express Configuration comes preset to help you quickly set up your iOS devices. Intune for Education chooses options that are both Microsoft-recommended and best for school environments. This article lists each of those settings and their default behavior. 
+Express Configuration comes preset to help you quickly set up your Windows devices. Intune for Education chooses options that are both Microsoft-recommended and best for school environments. This article lists each of those settings and their default behavior. 
 
  Make changes to fit your school's rules and policies, or click straight through the settings page to apply the preset recommendations. 
 
-For the complete list of settings and descriptions, see [All iOS settings in Intune for Education](all-edu-settings-windows.md). 
+For the complete list of settings and descriptions, see [All Windows 10 settings in Intune for Education](all-edu-settings-windows.md). 
 
 
 ## Basic device settings  
