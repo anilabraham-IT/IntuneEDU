@@ -37,7 +37,7 @@ This article lists and describes all Windows device settings in Intune for Educa
   ![Screenshot of the All Devices, Groups page in Intune for Education. Highlights the Settings tab and shows the Windows Device Settings category is expanded to show all 10 subcategories of settings. Each setting is collapsed.](./media/edu-windows-device-settings-1812.png)   
 
 ## Apply settings  
-Apply [group settings](what-are-groups.md) to establish access and security boundaries on devices throughout your school. You can assign the same settings across all groups in your school; or you can customize the classroom experience and apply settings to individual groups.  
+Apply [group settings](what-are-groups.md) to establish access and security boundaries on the devices in your school. You can assign the same settings across all groups in your school; or you can customize the classroom experience and apply settings to individual groups.  
 
 ## Configuration options  
 Many settings in Intune for Education are configured to **Block** or **Allow**. For some settings, **Not configured** is an option. When toggled to **Not Configured**, the device will either:  
@@ -189,7 +189,7 @@ Configure security settings for Windows Defender and Windows SmartScreen.
 |Scan archive files|Scan archive files, like .zip or .rar.|
 |Scan incoming emails|Scan all emails received over the network.|
 |Scan for malware when files or programs are opened|Scan for malware when a file or program opens and alert users about suspicious activity.|
-|Days before quarantined malware is deleted| Set the number of days an affected file is saved. After this number of days, the file is deleted. For example, if set to 0, the file is immediately deleted.|
+|Day before quarantined malware is deleted| Set the number of days an affected file is saved. After this number of days, the file is deleted. For example, if set to 0, the file is immediately deleted.|
 |Set anti-malware update frequency|Select how frequently Windows Defender should check for and download anti-malware updates.|
 |Potentially unwanted applications protection|Windows Defender alerts the user, and blocks potentially unwanted software that attempts to install itself on devices.|
 |Block suspicious files|If this setting is configured, Windows Defender Antivirus will be more aggressive about identifying suspicious files to block and scan. When not configured, it will block and scan less frequently. You can select **Not configured**, **High**, **High plus**, and **Zero tolerance**. **High** aggressively blocks unknown files while minimizing impact to device performance. **High plus** aggressively blocks unknown files, but may negatively impact device performance. **Zero tolerance** blocks all unknown files from running.|
@@ -273,12 +273,12 @@ Configure the user experience settings for:
 
 |Setting|What it does|
 |---|---|
-|Block camera|Block user access to the device camera.|
-|Block OneDrive file sync|Block OneDrive Sync for these devices and users.|
-|Block removable storage|Block users from using removable storage such as USB drives and external hard drives.|
+|Block camera|Block use of the device camera.|
+|Block OneDrive file sync|Block the device from syncing files to OneDrive.|
+|Block removable storage|Block the use of removable storage such as USB drives, SD cards, and external hard drives.|
 |Block Cortana|Block Cortana, the digital assistant built into Windows 10 that can answer questions and perform tasks.|
 |Block location services|Block apps from using location services to access the device’s location.|  
-|Block ending tasks in Task Manager|Blocks users from being able to force a program to close.|
+|Block ending tasks in Task Manager|Block users from using Task Manager to force a program, process, or task to close.|
 |Block changing date and time settings|Block users from changing the device date and time settings.|
 |Block changing language settings|Block users from changing the device language.|
 |Block changing device region settings|Block users from changing region settings, such as country and language.|
