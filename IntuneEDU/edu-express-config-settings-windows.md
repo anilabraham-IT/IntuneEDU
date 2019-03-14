@@ -3,7 +3,7 @@
 
 title: Express Configuration default device settings for Windows 10
 titleSuffix: Intune for Education
-description: Describes the default settings for Windows 10 devices in Intune for Education.
+description: Lists and describes the Windows 10 settings in Express Configuration.
 keywords:
 author: lenewsad
 ms.author: lanewsad
@@ -29,12 +29,11 @@ searchScope:
 
 ---
 # Default Windows 10 configurations in Express Configuration
-Express Configuration comes preset to help you quickly set up your Windows devices. Intune for Education chooses options that are both Microsoft-recommended and best for school environments. This article lists each of those settings and their default behavior. 
+Express Configuration shows the most common Windows settings to help you quickly set up your Windows devices. This article lists each of those settings and describes what they do.
 
- Make changes to fit your school's rules and policies, or click straight through the settings page to apply the preset recommendations. 
+Make changes to fit your school's rules and policies, or click straight through the settings page to apply the preset recommendations.
 
 For the complete list of settings and descriptions, see [All Windows 10 settings in Intune for Education](all-edu-settings-windows.md). 
-
 
 ## Accounts and sign-in 
 
@@ -42,7 +41,7 @@ For the complete list of settings and descriptions, see [All Windows 10 settings
 |---|---|
 |Block adding and signing in with personal Microsoft accounts |Block students and teachers from adding and signing in to personal Microsoft accounts on the device. Personal Microsoft accounts refer to accounts that use a Microsoft domain name, but aren't in your school's Azure Active Directory tenant.|  
 |Block adding and signing in with non-Microsoft accounts|Block students and teachers from adding and signing in to non-Microsoft accounts, such as Google, Yahoo, and iCloud. Use this setting to force users to only use their Microsoft accounts for email.|
-|Configure preferred Azure Active Directory tenant domain|Configure your school's domain name so that users can sign in to Windows without it. For example, instead of signing in with the username *alain@contoso.com*, a student would only need to sign in with *alain*. This setting prepopulates your tenant domain name, but you can still edit it.|   
+|Configure preferred Azure Active Directory tenant domain|Configure your school's domain name so that users can sign in to Windows without it. For example, instead of signing in with the username *alain@contoso.com*, a student would only need to sign in with *alain*. When configured, this setting prepopulates your tenant domain name, but you can still edit it.|   
 
 ## Apps   
 |Setting|What it does|  
