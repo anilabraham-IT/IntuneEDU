@@ -62,7 +62,7 @@ Configure settings such as how users install and access apps on their devices.
 |Setting|What it does|
 |---|---|
 |Remove built-in Windows 10 apps|Uninstall certain built-in Windows apps. Learn what those apps are [below](all-edu-settings-windows.md#remove-built-in-apps).| 
-|Block access to administrative apps|Blocks students from opening apps that require administrative privileges.|
+|Block access to administrative apps|Block students from opening apps that require administrative privileges.|
 |Block installing apps from the Microsoft Store for Education|Block users from installing apps from unauthorized locations.|
 |Require Microsoft Store for Education apps to be installed from the private store|Only allow users to install apps from the Microsoft Store for Education that your organization has set up.|
 |Trusted apps|Allow or block users from installing trusted apps that have signed certificates from Microsoft.|
@@ -98,7 +98,7 @@ Configure settings that affect the Microsoft Edge browser experience and user da
 |Block InPrivate browsing|Block users from using InPrivate browsing, which stops Microsoft Edge from saving data like browsing history and cookies.| 
 |Block browser extensions|Block users from using extensions to customize Microsoft Edge with added functionality from Microsoft and other sources.|
 |Block untrusted browser extensions|Block users from sideloading extensions to their Microsoft Edge browser. These extensions are installed from untrusted sources&ndash;not the Microsoft Store&ndash;and could be malware.|
-|Block printing from Microsoft Edge|Blocks users from printing browser content.|
+|Block printing from Microsoft Edge|Block users from printing browser content.|
 |Block First Run page|Block users from seeing the First Run page. Microsoft Edge First Run page appears when a user opens Microsoft Edge for the first time and after browser updates.|
 |Block pop-ups|Block websites from opening new windows.|
 |Block overriding security warnings|Block users from clicking "Go on to the webpage" on sites that show an SSL/TLS certificate error.|
@@ -217,7 +217,7 @@ Configure settings that control how teachers and students share devices.
 |---|---|
 |Optimize devices for shared use|Configures recommended settings for shared devices, such as power and update management. Allows multiple students or teachers to sign in to the same device.|
 |Block guest users| This option is only available when you enable **Optimize devices for shared use**. Block guest users from signing in to shared devices. When blocked, only domain users can sign in.|  
-|Block access to local storage| This option is only available when you enable **Optimize devices for shared use**. Blocks users from saving files to the device. When blocked, users can only save to the cloud. | 
+|Block access to local storage| This option is only available when you enable **Optimize devices for shared use**. Block users from saving files to the device. When blocked, users can only save to the cloud. | 
 |Block fast user switching|Allow users to quickly switch between user accounts from the Start menu.|  
 
 
@@ -251,7 +251,7 @@ Configure how devices receive updates and upgrades.
 |Days to defer feature updates after they become available (0-365)|Set how many days to wait to apply a feature update after it becomes available. For example, if set to 0 days, a feature update that's just become available will be immediately applied to your devices.|
 |Days to defer quality updates after they become available (0-30)|Set how many days to wait to apply a quality update after it becomes available. For example, if set to 0 days, a quality update that's just become available will be immediately applied to your devices.|
 |Days before deleting uninstall files (2-60)|After installing feature updates, Windows keeps the files necessary to uninstall the new build and revert to your previous one. Set how many days to wait to uninstall these files.|
-|Block pausing Windows Update|Blocks user access to the Pause updates feature.|
+|Block pausing Windows Update|Block user access to the Pause updates feature.|
 |Allow students to see Windows 10 pre-release features|Choose if students can see pre-release features for settings, pre-release features for settings and experimentation, or no pre-release features.|
 |Delivery optimization mode|Select how you want to deliver updates to devices.|  
 
