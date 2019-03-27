@@ -6,7 +6,7 @@ titlesuffix:
 description: Microsoft Intune for Education features in development
 keywords:
 author: lenewsad  
-ms.author: lanewsad 
+ms.author: lanewsad   
 manager: dougeby
 ms.date: 03/28/2019
 ms.topic: conceptual
@@ -56,10 +56,10 @@ We’re revising many of the iOS setting names, tooltips, and categories in Intu
 WIP We’re refining the essential settings in Express Configuration to help you get devices and groups set up faster. 
 
 ###  New settings for Windows 10 devices 
-WIP Intune for Eduation will have new settings that give you more control over areas such as security, power management, and Windows updates. Windows Update notifications : This setting lets you choose whether or not users see notifications about Windows Updates.
+WIP Intune for Education will have new settings that give you more control over areas such as security, power management, and Windows updates. Windows Update notifications: This setting lets you choose whether or not users see notifications about Windows Updates.
 
 ### Apply iOS device naming template  
-When you enroll devices and set up a MDM server token in Intune for Educations, you'll have the option to create and apply a name, such as *Contoso*, to the group of devices. Intune for Education will then append a unique serial number to the end of each device name. The serial number is an automatic addition that will help you identify individual devices in a group. If you want to apply a naming template to devices that are already enrolled, you'll need to reset and re-enroll them.  
+When you enroll devices and set up an MDM server token in Intune for Education, you can create and apply a group name to the devices. Intune for Education will then append a unique serial number to the end of each device name. The serial number is an automatic addition that will help you identify individual devices in a group. To apply a naming template to devices that are already enrolled, you'll need to reset and re-enroll them.  
 
 ### See also
 See [What’s new in Intune for Education](whats-new.md) for details about recent developments.
