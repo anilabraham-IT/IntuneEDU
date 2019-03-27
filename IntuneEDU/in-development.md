@@ -62,4 +62,4 @@ WIP Intune for Education will have new settings that give you more control over 
 When you enroll devices and set up an MDM server token in Intune for Education, you can create and apply a group name to the devices. Intune for Education will then append a unique serial number to the end of each device name. The serial number is an automatic addition that will help you identify individual devices in a group. To apply a naming template to devices that are already enrolled, you'll need to reset and re-enroll them.  
 
 ### See also
-See [What’s new in Intune for Education](whats-new.md) for details about recent developments.
+See [What’s new in Intune for Education](whats-new-in-edu.md) for details about recent developments.
