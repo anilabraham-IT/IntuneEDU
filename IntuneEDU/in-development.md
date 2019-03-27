@@ -44,13 +44,15 @@ To assist in your readiness and planning, this page lists Intune for Education u
 We’re revising many of the iOS setting names, tooltips, and categories in Intune for Education to make settings easier to find and understand. 
 
 ### Refined list of iOS settings in Express Configuration   
-WIP We’re refining the essential settings in Express Configuration to help you get devices and groups set up faster. 
+We're refining the list of iOS setttings in Express Configuration so that you can get your devices and groups set up even faster. In the future, you'll see some settings moved out of Express Configuration, and new settings moved in.
 
 ###  New settings for Windows 10 devices 
-WIP Intune for Education will have new settings that give you more control over areas such as security, power management, and Windows updates. Windows Update notifications: This setting lets you choose whether or not users see notifications about Windows Updates.
+You'll be able to configure these new settings in Intune for Education:
+* Windows Update notifications: This setting lets you choose whether or not users see notifications about Windows Updates.  
+* 
 
 ### Apply iOS device naming template  
-When you enroll devices and set up an MDM server token in Intune for Education, you can create and apply a group name to the devices. Intune for Education will then append a unique serial number to the end of each device name. The serial number is an automatic addition that will help you identify individual devices in a group. To apply a naming template to devices that are already enrolled, you'll need to reset and re-enroll them.  
+When you enroll devices and set up an MDM server token in Intune for Education, you'll have the option to apply a naming template to your devices. The first part of the template lets you create and apply a name to the group of devices. The second part adds a unique serial number to the end of each device name, so that you can individually identify them. To apply a naming template to devices that are already enrolled, you'll need to reset and re-enroll them.  
 
 ### See also
 See [What’s new in Intune for Education](whats-new-in-edu.md) for details about recent developments.
