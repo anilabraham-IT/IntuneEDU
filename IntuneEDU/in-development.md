@@ -38,15 +38,6 @@ To assist in your readiness and planning, this page lists Intune for Education u
 > [!Note]
 > These items reflect Microsoft’s current expectations about Intune for Education capabilities coming in a future release. Dates and individual features may change. Not all items in development have a feature description on this page.  
 
-
-<!--
-## What's coming to Intune for Education portal  
-## Notices
--->
- 
-## Intune for Education portal
-
-
 <!-- 1904 start-->
 
 ### Improve iOS settings names and tooltips  
