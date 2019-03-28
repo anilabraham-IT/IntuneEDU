@@ -28,7 +28,7 @@ ms.custom: seodec18
 ms.collection: M365-identity-device-management
 ---
 
-# In development for Microsoft Intune - April 2019
+# In development for Intune for Education - April 2019
 
 To assist in your readiness and planning, this page lists Intune for Education updates and features that are in development but not yet released. 
 
