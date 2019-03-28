@@ -52,7 +52,7 @@ You'll be able to configure the following settings for your Windows 10 devices:
 * Manual Windows Update: This setting lets you choose whether or not users have access to the Windows Update scan, download, and install features.  
 
 ### Apply iOS device naming template  
-We're adding two new naming settings to help you group and identify your iOS devices. During iOS enrollment and MDM setup, Intune for Education will automatically name each of your devices with their unique device serial number. You'll then have the option to add a custom name, such as *Contoso* or *Math1*, to the prefix. If you do customize the name, the device serial number will be attached to the end of it. For example: *Contoso012a345b67c8*  
+We're adding two new naming settings to help you group and identify your iOS devices. During iOS enrollment and MDM server token setup, Intune for Education will automatically name each of your devices with their unique device serial number. You'll then have the option to add a custom name, such as *Contoso* or *Math1*, to the prefix. If you do customize the name, the device serial number will be attached to the end of it. For example: *Contoso012a345b67c8*  
 
 ### See also  
 See [What’s new in Intune for Education](whats-new-in-edu.md) for details about recent developments.  
