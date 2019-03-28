@@ -40,7 +40,7 @@ To assist in your readiness and planning, this page lists Intune for Education u
 
 <!-- 1904 start-->
 
-### Improve iOS settings names and tooltips  
+### Improved iOS settings names and tooltips  
 We’re revising many of the iOS setting names, tooltips, and categories in Intune for Education to make settings easier to find and understand. For a list of all settings and their descriptions, see [iOS device settings in Intune for Education](all-edu-settings-ios.md).  
 
 ### Refined list of iOS settings in Express Configuration   
