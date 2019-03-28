@@ -44,7 +44,7 @@ To assist in your readiness and planning, this page lists Intune for Education u
 We’re revising many of the iOS setting names, tooltips, and categories in Intune for Education to make settings easier to find and understand. For a detailed list of these settings, see [iOS device settings in Intune for Education](all-edu-settings-ios.md).  
 
 ### Refined list of iOS settings in Express Configuration   
-We're adjusting the [list of iOS setttings in Express Configuration](edu-express-config-settings-ios.md) so that you can get your devices and groups set up even faster. You'll see some settings moved out of Express Configuration, and new settings moved in. Settings that are removed from Express Configuration will still be available to configure in **Groups** > **Settings** > **iOS Device Settings**. For the full list of device settings in Intune for Education, see [iOS device settings](all-edu-settings-ios.md) and [Windows 10 device settings](all-edu-settings-windows.md).  
+We're adjusting the [list of iOS settings in Express Configuration](edu-express-config-settings-ios.md) so that you can get your devices and groups set up even faster. You'll see some settings moved out of Express Configuration, and new settings moved in. Settings that are removed from Express Configuration will still be available to configure in **Groups** > **Settings** > **iOS Device Settings**. For the full list of device settings in Intune for Education, see [iOS device settings](all-edu-settings-ios.md) and [Windows 10 device settings](all-edu-settings-windows.md).  
 
 ###  New settings for Windows 10 devices  
 There will be several new Windows 10 device settings. Here's just a few of the settings you'll see:  
