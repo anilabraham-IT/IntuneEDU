@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 07/23/2018
+ms.date: 04/19/2019
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -37,86 +37,60 @@ For the complete list of settings and descriptions, see [All iOS settings in Int
 > If iOS configurations are disabled when you launch express configuration, check to make sure you've set up both your MDM Apple Push certificate and DEP token. If you have both of these, make sure that neither has expired. For more information about setting up iOS device management see [Set up iOS device management](setup-ios-device-management.md)
 
 
-## Basic device restrictions
-Setting name|Suggested value|
-|---|---|
-|Block removing device management profiles|Block|
-|Block sharing device usage data with Apple|Block|
-|Block users from changing diagnostic data submission settings|Block|
-|Block erasing content and settings|Block|
-|Block changing device name|Block|
-|Block users from enabling restrictions in device settings|Block|
-|Block changing device wallpaper|Block|
-|Block changing notification settings|Block|
-|Block untrusted TLS certificates|Block|
-|Block users from trusting Enterprise Developer apps|Block|
-|Block users from changing Enterprise Developer app trust settings|Block|
-|Enable Activation Lock|Allow|
-|Block changing account details|Block|  
-
-## Lock screen and passcode
-Setting|Suggested value|
-|---|---|
-|Block notifications on lock screen|Block||
-|Control Center access on lock screen|Block|
-|Block Siri on lock screen|Block|
-|Block access to Wallet from lock screen|Block|
-|Block Today view on lock screen|Block|
-|Require passcode|Not Configured|
-|Block changing passcode|Block|
-|Minutes inactivity before the screen locks|Not Configured|
-|Minutes to wait before requiring passcode on lock screen|Not Configured|
-|Number of failed passcode attempts before wiping device|Not Configured|
-|Block fingerprint unlock|Block|
-|Block changing registered fingerprint settings|Block|  
-
-## App Store
-Setting|Suggested value|
+## App Store, iTunes Store, and Book Store  
+Setting|Suggested value|  
 |---|---|
 |Block App Store|Block|
 |Block in-app purchases|Block|
-|Block explicit content in iTunes and the App Store|Block|
-|Block downloading iBook content flagged as erotica|Block|
-|Block Game Center|Block|  
+|Block explicit content in App Store and iTunes Store|Block|
+|Block downloading Apple Books content flagged as erotica|Block|  
 
-
-## Built-in apps
-Setting|Suggested value|
+## Built-in apps  
+Setting|Suggested value|  
 |---|---|
 |Block Camera|Block|
 |Block FaceTime|Block|
-|Block Siri|Block|
-|Block Siri from using profanity|Block|
-|Block Siri from searching for user-generated content|Block|
-|Block Spotlight from searching for results on the Internet|Block|
-|Block Apple News|Block|
-|Block iBooks Store|Block|
-|Block Messages app|Block|
-|Block Podcasts app|Block|
+|Block Game Center|Block|  
 |Block Apple Music|Block|
-|Block iTunes Radio|Block|
-|Block changes to Find My Friends app settings|Block|  
+|Block Messages app|Block|
+|Block Apple Books|Block|  
 
-## Cloud and storage
+## Device restrictions  
+Setting name|Suggested value|
+|---|---|
+|Block changing device name|Block|
+|Block changing wallpaper|Block|
+|Block changing notification settings|Block|
+|Block changes to content and privacy restrictions|Block|
+|Block button that erases all content and settings|Block|  
+
+## iCloud
 |Setting|Suggested value|
 |---|---|
 |Block iCloud backup|Block|
 |Block syncing documents to iCloud|Block|
-|Block Photo Stream sync to iCloud|Block|
-|Require iCloud backups to be encrypted|Block| 
-|Block shared Photo Stream|Block|
-|Block iCloud Photo Library|Block|
-|Block Handoff|Block|  
+|Block iCloud Photo Library|Block|  
 
-## Safari
+## Lock screen and wallpaper
 Setting|Suggested value|
 |---|---|
-|Block Safari|Not configured|  
+|Block notifications on lock screen|Block|
+|Block access to Wallet from lock screen|Block|
+|Set device lock screen image|A .jpg or .png file, 960 KB max|
+|Set device home screen image|A .jpg or .png file, 960 KB max|  
 
-## Wireless and connectivity
+## Passcode, Touch ID, and Face ID  
 Setting|Suggested value|
-|---|---|
-|Block changing bluetooth settings|Block|  
+|---|---|  
+|Require passcode|Not Configured|
+|Block changing passcode|Block|
+|Number of failed passcode attempts before wiping device|Not Configured|
+|Block Touch ID and Face ID|Block|
+
+## Siri and search 
+Setting|Suggested value|
+|---|---|   
+|Block Siri|Block|  
 
 ## Reset default settings
 To restore all settings to their default values, click **Reset to suggested defaults**. 
