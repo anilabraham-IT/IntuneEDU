@@ -47,7 +47,7 @@ Many settings in Intune for Education are configured to **Block** or **Allow**. 
 * Allow the device user (student or teacher) to customize the setting from their device.  
 
 ## App Store, iTunes Store, and Book Store   
-Setting|What it does|
+Setting|Description|
 |---|---|
 |Block App Store|Block students from accessing the App Store on school devices.|
 |Require password to access App Store|Require the student to enter a password before they can access the App Store.|
@@ -58,7 +58,7 @@ Setting|What it does|
 |Block apps by age rating|Block students from downloading apps that don't meet the selected age rating.| 
 
 ## Built-in apps  
-|Setting|What it does|
+|Setting|Description|
 |---|---|
 |Block Camera|Block use of the camera on the device.|
 |Block FaceTime|Blocks use of the FaceTime app on the device.|
@@ -73,7 +73,7 @@ Setting|What it does|
 |Block changes to Find My Friends settings|Block students from changing settings for the Find My Friends app.| 
   
 ## Device restrictions  
-|Setting|What it does|
+|Setting|Description|
 |---|---|  
 |Block screenshots and screen recordings|Block students from capturing the contents of the screen as an image.|  
 |Block changing device name|Block students from changing the name of the device.|
@@ -83,27 +83,27 @@ Setting|What it does|
  |Block changes to content and privacy restrictions|Block students from changing restrictions (parental controls) and Screen Time settings on the device.|
 |Block manually installing configuration profiles |Block students from manually installing additional configuration profiles on the device.|
 |Block button that erases all content and settings|Block students from erasing all content and settings on the device. The erase button becomes unavailable and can't be selected. |  
-|Block untrusted TLS certificates|Blocks untrusted Transport Layer Security (TSL) certificates on the device.|  
+|Block untrusted TLS certificates|Block untrusted Transport Layer Security (TSL) certificates on the device.|  
 |Block trusting apps from enterprise developers|Block students from selecting **Trust Enterprise Developer** in **Settings** > **General** > **Profiles & Device Management.** When blocked, apps from universal provisioning profiles can't be installed. These types of apps are typically not from the App Store, and are often developed by your organization. This restriction doesn't stop apps that are downloaded from your organization's developer account, and then assigned from Intune for Education. It also won't revoke any trust that has already been granted.|
 |Block changes to enterprise developer trust settings​|Block students from changing the app installation settings you've defined.| 
 |Block changes to device account settings​|Block students from changing account-specific settings in the Settings app. Students can't create new device accounts or change their user name, password, or other settings associated with their account.|   
 |Block remote screen observation through Classroom app​ |Block teachers from observing student screens, without the student's knowledge, through the Classroom app.|  
 |Block unprompted screen observation through Classroom app​|Block teachers from observing student screens, without the student's knowledge, through the Classroom app.|  
-|Allow Activation Lock|Enables Activation Lock on supervised devices when students and teachers turn on Find My Phone. |  **Note for Katelynn: I added the bit about Find My Phone. Is this accurate for supervised devices? Or is Find My Phone automatically turned on already?**
+|Allow Activation Lock|Enables Activation Lock on supervised devices when students and teachers turn on Find My Phone. |  
 
 ## iCloud  
-|Setting|What it does|  
+|Setting|Description|  
 |---|---|  
 |Block iCloud backup|Block students from backing up devices to iCloud.|  
 |Block syncing documents to iCloud|Block documents from syncing to an iCloud storage space.|  
 |Require iCloud backups to be encrypted|Require any device backups to be encrypted.|  
 |Block iCloud Photo Library|Block students from storing photos and videos in the cloud. Any photos from iCloud Photo Library that are not fully downloaded to the device are removed from the device. |  **From LN: Is the last sentence still accurate?**
-|Block My Photo Stream|Block students from enabling My Photo Stream. My Photo Stream is an iOS feature that syncs device photos to iCloud. Students can then view the photos from any device that has access to the iCloud account.|  **LN: Is this accurate Katelynn?**
+|Block My Photo Stream|Block students from enabling My Photo Stream. My Photo Stream is an iOS feature that syncs device photos to iCloud. Students can then view the photos from any device that has access to the iCloud account.|  
 |Block Shared Albums|Block students from using the Photo app's Shared Album feature. Shared Album lets students upload and share photos to a designated album in the cloud.| 
 |Block Handoff|Block students from continuing work they started on an iOS device, on another iOS device.|  
 
 ## Keyboard and dictionary  
-|Setting|What it does|  
+|Setting|Description|  
 |---|---|  
 |Block keyboard spell-check|Block use of the device spell checker.|
 |Block keyboard shortcuts|Block use of  keyboard shortcuts.|
@@ -113,7 +113,7 @@ Setting|What it does|
 |Block word auto-correction|Block the device from automatically correcting misspelled words.|
 
 ## Lock screen and wallpaper  
-|Setting|What it does|
+|Setting|Description|
 |---|---|
 |Block notifications on lock screen|Block students from viewing notifications when the device is locked.|
 |Block Siri while device is locked|Block students from using voice assistance when the device is locked.|
@@ -132,23 +132,23 @@ This section contains the settings for:
 * Wi-Fi profiles   
  
 ### Wireless connections  
-|Setting|What it does|
+|Setting|Description|
 |---|---|
 |Block changing Bluetooth settings|Block students from changing Bluetooth settings on the device.| 
 |Block Personal Hotspot|Block students from using the device as a personal hotspot.|
 |Block AirDrop|Block the use of the AirDrop feature. Students will not be able to exchange content with nearby devices.|
 
 ### Wi-Fi profiles   
-|Setting|What it does|
+|Setting|Description|
 |---|---|
-|Select from the list of Wi-Fi profiles to assign one or more profiles to the group.|  
+|Select iOS Wi-Fi profiles to assign them to this group.|A list of Wi-Fi profiles that you've created appear within this section, and are ready to assign. Visible details include the **Profile name**, **Network name (SSID)**, **Security type**, and **Description**.  
 
 ## Passcode, Touch ID, and Face ID  
-Setting|What it does|
+Setting|Description|
 |---|---|  
 |Require passcode|Require students to enter a passcode to unlock the device.|
 |Block changing passcode|Block students from changing, adding, or removing the device passcode. |
-|Minutes of inactivity before the screen locks|SAfter the device remains idle for too long, its screen locks. To configure this setting, enter the maximum number of minutes that the device can be idle.|
+|Minutes of inactivity before the screen locks|After the device remains idle for too long, its screen locks. To configure this setting, enter the maximum number of minutes that the device can be idle.|
 |Minutes to wait before requiring passcode on lock screen|After the device remains idle for too long, the user must re-enter the device password to regain access. To configure this setting, enter the maximum number of minutes that the device can be idle.|
 |Number of failed passcode attempts before wiping device|When someone exceeds the allowed number of failed sign-in attempts, the device is wiped and returned to factory state. To configure this setting, enter the maximum number of sign-in attempts allowed.|
 |Block Touch ID and Face ID|Block students from using a fingerprint or facial recognition to unlock devices.|  
@@ -156,7 +156,7 @@ Setting|What it does|
 
 
 ## Safari   
-|Setting|What it does|  
+|Setting|Description|  
 |---|---|  
 |Block Safari|Block the Safari browser on the device.|  
 |Block AutoFill|Block students from changing AutoFill settings in the browser.|  
@@ -165,7 +165,7 @@ Setting|What it does|
 |Require fraudulent website warnings|Show fraud warnings in the browser.|  
 
 ## Siri and search  
-|Setting|What it does|  
+|Setting|Description|  
 |---|---| 
 |Block Siri|Block students from using Siri, the iOS voice assistant.|
 |Block Siri profanity filter|Block Siri from dictating or speaking profane language.|
@@ -173,7 +173,7 @@ Setting|What it does|
 |Block Spotlight from returning Internet search results|Block Spotlight search from connecting the Internet to provide further results.|  
 
 ## Update restrictions  
-|Setting|What it does|
+|Setting|Description|
 |---|---|
 |Prevent devices from updating specific times|Stop device updates according to your day and time selections.|  
 
