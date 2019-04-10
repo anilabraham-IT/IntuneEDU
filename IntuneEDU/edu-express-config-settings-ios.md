@@ -34,7 +34,7 @@ Express configuration is preset with iOS setting suggestions to help you quickly
 For the complete list of settings and descriptions, see [All iOS settings in Intune for Education](all-edu-settings-ios.md). 
 
 > [!IMPORTANT]
-> If iOS configurations are disabled when you launch express configuration, check to make sure you've set up both your MDM Apple Push certificate and DEP token. If you have both of these, make sure that neither has expired. For more information about setting up iOS device management see [Set up iOS device management](setup-ios-device-management.md)
+> If iOS configurations are disabled when you launch express configuration, check to make sure you've set up both your MDM Apple Push certificate and DEP token. If you have both of these, make sure that neither has expired. For more information about setting up iOS device management, see [Set up iOS device management](setup-ios-device-management.md)
 
 
 ## App Store, iTunes Store, and Book Store  
