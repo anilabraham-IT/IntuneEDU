@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 07/23/2018
+ms.date: 04/12/2019
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -30,42 +30,53 @@ searchScope:
 ---
 
 # All Devices group presets for Windows 10
-After you sign up for an account, Intune for Education pre-sets some of the settings in the All Devices group. These settings will help you get a head start at managing Windows 10 devices in the classroom. To adjust settings, go to the Intune for Education portal > **Groups** > **All Devices** > **Windows device settings**.  
+After you sign up for an account, Intune for Education presets some of the settings in the All Devices group. These settings help you get a head start at managing Windows 10 devices in the classroom. To adjust the settings, go to the Intune for Education portal > **Groups** > **All Devices** > **Windows device settings**.  
 
 For a list and descriptions of all Windows 10 device settings, see [Windows 10 device settings](all-edu-settings-windows.md).  
 
 |Category|Setting|Preset value|
 |---|---|---|
-|Windows Defender|Block user access to Windows Defender settings|Enabled
-|Windows Defender|Real-time monitoring|Enabled
-|Windows Defender|Behavior monitoring|Enabled
-|Windows Defender|Prompt users for sample submission|Never send data
-|Windows Defender|Type of system scan to perform|Quick scan|
-|Windows Defender|Daily quick scan time|2 AM|
-|Windows Defender|Scan all downloaded files|Enabled|
-|Windows Defender|Scan scripts run in Microsoft web browsers|Enabled|
-|Windows Defender|Scan removable drives during full scan|Enabled|
-|Windows Defender|Scan files opened over the network|Enabled|
-|Windows Defender|Scan remote folders during full scan|Enabled|
-|Windows Defender|Scan archive files|Enabled|
-|Windows Defender|Scan incoming email|Enabled|
-|Windows Defender|Scan file and program activity|Monitor all files|
-|Windows Defender|Days before quarantined malware is removed|0|
-|Windows Defender|Set update frequency|8 hours|
-|Windows Defender|Enable cloud-based protection|Enabled|
-|Microsoft Store|Require Microsoft Store for Education apps to be installed from the private store|Require|
-|Microsoft Store|Trusted apps|Block|  
-|Microsoft Edge|Block developer tools|Block|
-|Microsoft Edge|Block Cortana|Block|
-|Basic device|Block manual unenrollment|Block|
-|Basic device|Block adding provisioning packages|Block|
-|Basic device|Block removing provisioning packages|Block|
-|Device update|Branch readiness level|Semi-Annual Channel (Targeted)
-|Device update|Pre-release features|Not allowed
-|Device update|Delivery optimization mode|HTTP blended with peering NAT |
-|Device update|Updates and maintenance period|Automatically install and reboot without end-user control|
-|Shared device|Optimize devices for shared use|Enabled|  
+|Apps|Require Microsoft Store for Education apps to be installed from the private store|Require|
+|Apps|Trusted apps|Block|  
+|Apps|Untrusted apps|Block| 
+|Enrollment controls|Block manual unenrollment|Block|
+|Enrollment controls|Block Autopilot Reset|Enable|
+|Enrollment controls|Block adding provisioning packages|Block|
+|Enrollment controls|Block removing provisioning packages|Block|
+|Microsoft Edge|Block untrusted browser extensions |Block|
+|Microsoft Edge|Block overriding security warnings |Block|
+|Microsoft Edge|Use cookies|User-defined
+|Network and connectivity|Block Bluetooth Swift Pair notifications |Block
+|Security|Block user access to Windows Defender settings|Enable
+|Security|Enable real-time monitoring|Enable
+|Security|Enable behavior monitoring|Enable
+|Security|Prompt users to submit suspicious files to Microsoft|Never send data
+|Security|Type of system scan to perform|Quick scan|
+|Security|Daily quick scan time|2 AM|
+|Security|Scan all downloaded files|Enable|
+|Security|Scan scripts run in Microsoft web browsers|Enable|
+|Security|Scan removable drives during full scan|Enable|
+|Security|Scan files opened over the network|Enable|
+|Security|Scan remote folders during full scan|Enable|
+|Security|Scan archive files|Enable|
+|Security|Scan incoming email|Enable|
+|Security|Scan for malware when files or programs are opened|Monitor all files|
+|Security|Days before quarantined malware is removed|0|
+|Security|Set anti-malware update frequency|8 hours|
+|Security|Enable cloud-delivered protection|Enable|
+|Security|Enable Network Inspection Service|Enable|
+|Updates and upgrade |Branch readiness level|Semi-Annual Channel|
+|Updates and upgrade |Configure how and when updates are installed|Automatically install and reboot without end-user control| 
+|Updates and upgrade |Days to defer feature updates after they become available |0|
+|Updates and upgrade |Days to defer quality updates after they become available  |0|
+|Updates and upgrade |Delivery Optimization mode|HTTP with peering NAT |
+|Updates and upgrade |Switch out of S Mode|Keep in S Mode|
+|User experience|Block Cortana|Block|
+|User experience|Send diagnostic data|Basic|
+|User experience|Block Windows Spotlight|Block|  
+
 
 ## Next steps
+For the full list of Windows 10 settings available in Intune for Education, see [All Windows 10 settings](all-edu-settings-windows.md).  
 
-- [Find out more about the full Windows 10 settings management experience available in Intune](https://docs.microsoft.com/intune/deploy-use/windows-10-policy-settings-in-microsoft-intune)
+Custom settings are available in Intune in the Azure portal. For more information, see [Use custom settings for Windows 10 devices](https://docs.microsoft.com/intune/custom-settings-windows-10).  
