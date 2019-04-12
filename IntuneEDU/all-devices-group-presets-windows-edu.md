@@ -79,4 +79,4 @@ For a list and descriptions of all Windows 10 device settings, see [Windows 10 d
 ## Next steps
 For the full list of Windows 10 settings available in Intune for Education, see [All Windows 10 settings](all-edu-settings-windows.md).  
 
-Custom settings are available in Intune in the Azure portal. For more information, see [Use custom settings for Windows 10 devices](custom-settings-windows-10.md#find-the-policies-you-can-configure).
+Custom settings are available in Intune in the Azure portal. For more information, see [Use custom settings for Windows 10 devices](https://docs.microsoft.com/intune/custom-settings-windows-10).  
