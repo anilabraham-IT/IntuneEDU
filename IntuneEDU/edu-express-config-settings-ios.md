@@ -29,12 +29,12 @@ searchScope:
 
 ---
 # Default iOS settings in Express Configuration
-Express configuration is preset with iOS setting suggestions to help you quickly set up a group of devices or users. Intune for Education chooses settings that are both Microsoft-recommended and best for school environments. Make changes to fit your school's rules and policies, or click straight through the settings page to apply our recommendations. 
+Express Configuration is preset with iOS setting suggestions to help you quickly set up a group of devices or users. Intune for Education chooses settings that are both Microsoft-recommended and best for school environments. Make changes to fit your school's rules and policies, or click straight through the settings page to apply our recommendations. 
 
 For the complete list of settings and descriptions, see [All iOS settings in Intune for Education](all-edu-settings-ios.md). 
 
 > [!IMPORTANT]
-> If iOS configurations are disabled when you launch express configuration, check to make sure you've set up both your MDM Apple Push certificate and DEP token. If you have both of these, make sure that neither has expired. For more information about setting up iOS device management, see [Set up iOS device management](setup-ios-device-management.md)
+> If iOS configurations are disabled when you launch Express Configuration, check to make sure you've set up both your MDM Apple Push certificate and DEP token. If you have both of these, make sure that neither has expired. For more information about setting up iOS device management, see [Set up iOS device management](setup-ios-device-management.md)
 
 
 ## App Store, iTunes Store, and Book Store  
@@ -76,15 +76,15 @@ Setting|Suggested value|
 |---|---|
 |Block notifications on lock screen|Block|
 |Block access to Wallet from lock screen|Block|
-|Set device lock screen image|A .jpg or .png file, 960 KB max|
-|Set device home screen image|A .jpg or .png file, 960 KB max|  
+|Set device lock screen image|A .jpg or .png file; maximum size 960 KB|
+|Set device home screen image|A .jpg or .png file; maximum size 960 KB|  
 
 ## Passcode, Touch ID, and Face ID  
 Setting|Suggested value|
 |---|---|  
-|Require passcode|Not Configured|
+|Require passcode|Not configured|
 |Block changing passcode|Block|
-|Number of failed passcode attempts before wiping device|Not Configured|
+|Number of failed passcode attempts before wiping device|Not configured|
 |Block Touch ID and Face ID|Block|
 
 ## Siri and search 
