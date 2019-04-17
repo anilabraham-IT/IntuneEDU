@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 02/05/2019
+ms.date: 04/18/2019
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -116,14 +116,14 @@ Setting|Description|
 |Setting|Description|
 |---|---|
 |Block notifications on lock screen|Block students from viewing notifications when the device is locked.|
-|Block Siri while device is locked|Block students from using voice assistance when the device is locked.|
+|Block Siri while device is locked|Block students from using Siri, the iOS virtual assistant, when the device is locked.|
 |Block access to Control Center from lock screen|Block students from accessing the Control Center app when the device is locked.|
 |Block access to Wallet from lock screen|Block students from accessing the Wallet app when the device is locked.|
 |Block Today View on lock screen|Block students from seeing the Today Tiew when the device is locked.|
-|Asset tag information|Applies your specified tag to all devices in a group. For example, **Owned by Contoso school district.**|
-|Lock screen footnote|Applies your note or instruction on the lock screen so that if the device is lost and found, it can be returned accordingly. For example, "If found, call the Contoso school district at 555-555-5555."
-**|Set device lock screen image| Choose a custom image to appear in the background on the device's lock screen.|** 
-**|Set device home screen image| Choose a custom image to appear as the wallpaper on the device's home screen.|**
+|Asset tag information|Apply a specific tag to all devices in a group. For example, **Owned by Contoso school district.** The tag appears on the device lock screen.| 
+|Lock screen footnote|Applies your note or instruction on the lock screen so that if the device is lost and found, it can be returned accordingly. For example, **If found, call the Contoso school district at 555-555-5555.**
+|Set device lock screen image| Choose a custom image to appear as the background on the device's lock screen.|
+|Set device home screen image| Choose a custom image to appear as the background on the device's home screen.| 
 
 
 ## Network and connectivity
@@ -150,7 +150,7 @@ Setting|Description|
 |Block changing passcode|Block students from changing, adding, or removing the device passcode. |
 |Minutes of inactivity before the screen locks|After the device remains idle for too long, its screen locks. To configure this setting, enter the maximum number of minutes that the device can be idle.|
 |Minutes to wait before requiring passcode on lock screen|After the device remains idle for too long, the user must re-enter the device password to regain access. To configure this setting, enter the maximum number of minutes that the device can be idle.|
-|Number of failed passcode attempts before wiping device|When someone exceeds the allowed number of failed sign-in attempts, the device is wiped and returned to factory state. To configure this setting, enter the maximum number of sign-in attempts allowed.|
+|Number of failed passcode attempts before wiping device|When someone exceeds the allowed number of sign-in attempts, the device is wiped and returned to factory state. To configure this setting, enter the maximum number of sign-in attempts allowed.|  
 |Block Touch ID and Face ID|Block students from using a fingerprint or facial recognition to unlock devices.|  
 |Block changing Touch ID and Face ID settings|Block students from changing, adding, or removing TouchID and Face ID settings.| 
 
