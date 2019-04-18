@@ -84,12 +84,12 @@ Setting|Description|
 |Block manually installing configuration profiles |Block students from manually installing additional configuration profiles on the device.|
 |Block button that erases all content and settings|Block students from erasing all content and settings on the device. The erase button becomes unavailable and can't be selected. |  
 |Block untrusted TLS certificates|Block untrusted Transport Layer Security (TSL) certificates on the device.|  
-|Block trusting apps from enterprise developers|Block students from selecting **Trust Enterprise Developer** in **Settings** > **General** > **Profiles & Device Management.** When blocked, apps from universal provisioning profiles can't be installed. These types of apps are typically not from the App Store, and are often developed by your organization. This restriction doesn't stop apps that are downloaded from your organization's developer account, and then assigned from Intune for Education. It also won't revoke any trust that has already been granted.|
-|Block changes to enterprise developer trust settings​|Block students from changing the app installation settings you've defined.| 
+|Block trusting apps from enterprise developers|Block use of the **Trust Enterprise Developer** button. When blocked, students can't trust and install apps from new enterprise authors. Students won't lose access to their exisitng enterprise apps. They'll also still be able to receive enterprise apps that are pushed through Intune. If you don't block this setting, students can trust and download apps from anyone.|
+|Block changes to enterprise developer trust settings​|Block students from changing the certificate trust and app installation settings.| 
 |Block changes to device account settings​|Block students from changing account-specific settings in the Settings app. Students can't create new device accounts or change their user name, password, or other settings associated with their account.|   
-|Block remote screen observation through Classroom app​ |Block teachers from observing student screens, without the student's knowledge, through the Classroom app.|  
-|Block unprompted screen observation through Classroom app​|Block teachers from observing student screens, without the student's knowledge, through the Classroom app.|  
-|Allow Activation Lock|Enables Activation Lock on supervised devices when students and teachers turn on Find My Phone. |  
+|Block remote screen observation through Classroom app​ |Block teachers from using the Classroom app to view their students' screens.|  
+|Block unprompted screen observation through Classroom app​|Block teachers from using the Classroom app to view their students'screen, without student notification and approval.|  
+|Allow Activation Lock|Enables Activation Lock on supervised devices when students and teachers turn on Find My iPhone. Activation Lock is an iOS feature that prevents people from reactivating a lost or stolen phone. When Activation Lock is on, the device user's Apple ID password is required to turn off Find My iPhone, erase the device, or reactivate the device.  |  
 
 ## iCloud  
 |Setting|Description|  
@@ -97,9 +97,9 @@ Setting|Description|
 |Block iCloud backup|Block students from backing up devices to iCloud.|  
 |Block syncing documents to iCloud|Block documents from syncing to an iCloud storage space.|  
 |Require iCloud backups to be encrypted|Require any device backups to be encrypted.|  
-|Block iCloud Photo Library|Block students from storing photos and videos in the cloud. Any photos from iCloud Photo Library that are not fully downloaded to the device are removed from the device. |  **From LN: Is the last sentence still accurate?**
-|Block My Photo Stream|Block students from enabling My Photo Stream. My Photo Stream is an iOS feature that syncs device photos to iCloud. Students can then view the photos from any device that has access to the iCloud account.|  
-|Block Shared Albums|Block students from using the Photo app's Shared Album feature. Shared Album lets students upload and share photos to a designated album in the cloud.| 
+|Block iCloud Photo Library|Block students from storing photos and videos in the cloud. Any photos that are not fully downloaded from iCloud Photo Library are removed from local storage. | 
+|Block My Photo Stream|Block students from enabling My Photo Stream. My Photo Stream is an iOS feature that syncs recent (within the last 30 days) device photos to iCloud. Students can then view the photo stream on any device that has access to the iCloud account.|  
+|Block Shared Albums|Block students from subscribing to or publishing shared albums in the Photos app.| 
 |Block Handoff|Block students from continuing work they started on an iOS device, on another iOS device.|  
 
 ## Keyboard and dictionary  
@@ -122,8 +122,8 @@ Setting|Description|
 |Block Today View on lock screen|Block students from seeing the Today Tiew when the device is locked.|
 |Asset tag information|Apply a specific tag to all devices in a group. For example, **Owned by Contoso school district.** The tag appears on the device lock screen.| 
 |Lock screen footnote|Applies your note or instruction on the lock screen so that if the device is lost and found, it can be returned accordingly. For example, **If found, call the Contoso school district at 555-555-5555.**
-|Set device lock screen image| Choose a custom image to appear as the background on the device's lock screen.|
-|Set device home screen image| Choose a custom image to appear as the background on the device's home screen.| 
+|Set device lock screen image| Choose a custom image to appear as the wallpaper for the device's lock screen.|
+|Set device home screen image| Choose a custom image to appear as the wallpaper for the device's home screen.| 
 
 
 ## Network and connectivity
@@ -150,7 +150,7 @@ Setting|Description|
 |Block changing passcode|Block students from changing, adding, or removing the device passcode. |
 |Minutes of inactivity before the screen locks|After the device remains idle for too long, its screen locks. To configure this setting, enter the maximum number of minutes that the device can be idle.|
 |Minutes to wait before requiring passcode on lock screen|After the device remains idle for too long, the user must re-enter the device password to regain access. To configure this setting, enter the maximum number of minutes that the device can be idle.|
-|Number of failed passcode attempts before wiping device|When someone exceeds the allowed number of sign-in attempts, the device is wiped and returned to factory state. To configure this setting, enter the maximum number of sign-in attempts allowed.|  
+|Number of failed passcode attempts before wiping device|When someone exceeds the allowed number of sign-in attempts, the device erases all content and settings from the device, such as personal data, iOS software, email accounts, system and app settings, downloaded apps, and media. The device is restored to the way it was when it was first turned on. To configure this setting, enter the maximum number of sign-in attempts allowed.|  
 |Block Touch ID and Face ID|Block students from using a fingerprint or facial recognition to unlock devices.|  
 |Block changing Touch ID and Face ID settings|Block students from changing, adding, or removing TouchID and Face ID settings.| 
 
