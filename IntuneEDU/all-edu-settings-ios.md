@@ -84,7 +84,7 @@ Many settings in Intune for Education are configured to **Block** or **Allow**. 
 |Block manually installing configuration profiles |Block students from manually installing additional configuration profiles on the device.|
 |Block button that erases all content and settings|Block students from erasing all content and settings on the device. The erase button becomes unavailable and can't be selected. |  
 |Block untrusted TLS certificates|Block untrusted Transport Layer Security (TSL) certificates on the device.|  
-|Block trusting apps from enterprise developers|Block use of the **Trust Enterprise Developer** button. When blocked, students can't trust and install apps from new enterprise authors. Students won't lose access to their exisitng enterprise apps. They'll also still be able to receive enterprise apps that are pushed through Intune. If you don't block this setting, students can trust and download apps from anyone.|
+|Block trusting apps from enterprise developers|Block use of the **Trust Enterprise Developer** button. When blocked, students can't trust and install apps from new enterprise authors. Students won't lose access to their existing enterprise apps. They can also still receive enterprise apps that are pushed through Intune. If you don't block this setting, students can trust and download apps from anyone.|
 |Block changes to enterprise developer trust settings​|Block students from changing the certificate trust and app installation settings.| 
 |Block changes to device account settings​|Block students from changing account-specific settings in the Settings app. Students can't create new device accounts or change their user name, password, or other settings associated with their account.|   
 |Block remote screen observation through Classroom app​ |Block teachers from using the Classroom app to view their students' screens.|  
@@ -97,7 +97,7 @@ Many settings in Intune for Education are configured to **Block** or **Allow**. 
 |Block iCloud backup|Block students from backing up devices to iCloud.|  
 |Block syncing documents to iCloud|Block documents from syncing to an iCloud storage space.|  
 |Require iCloud backups to be encrypted|Require any device backups to be encrypted.|  
-|Block iCloud Photo Library|Block students from storing photos and videos in the cloud. Any photos that are not fully downloaded from iCloud Photo Library are removed from local storage. | 
+|Block iCloud Photo Library|Block students from storing photos and videos in the cloud. Photos that aren't fully downloaded from iCloud Photo Library are removed from local storage. | 
 |Block My Photo Stream|Block students from enabling My Photo Stream. My Photo Stream is an iOS feature that syncs recent (within the last 30 days) device photos to iCloud. Students can then view the photo stream on any device that has access to the iCloud account.|  
 |Block Shared Albums|Block students from subscribing to or publishing shared albums in the Photos app.| 
 |Block Handoff|Block students from continuing work they started on an iOS device, on another iOS device.|  
@@ -119,7 +119,7 @@ Many settings in Intune for Education are configured to **Block** or **Allow**. 
 |Block Siri while device is locked|Block students from using Siri, the iOS virtual assistant, when the device is locked.|
 |Block access to Control Center from lock screen|Block students from accessing the Control Center app when the device is locked.|
 |Block access to Wallet from lock screen|Block students from accessing the Wallet app when the device is locked.|
-|Block Today View on lock screen|Block students from seeing the Today Tiew when the device is locked.|
+|Block Today View on lock screen|Block students from seeing the Today View when the device is locked.|
 |Asset tag information|Apply a specific tag to all devices in a group. For example, **Owned by Contoso school district.** The tag appears on the device lock screen.| 
 |Lock screen footnote|Applies your note or instruction on the lock screen so that if the device is lost and found, it can be returned accordingly. For example, **If found, call the Contoso school district at 555-555-5555.**
 |Set device lock screen image| Choose a custom image to appear as the wallpaper for the device's lock screen.|
@@ -136,7 +136,7 @@ This section contains the settings for:
 |---|---|
 |Block changing Bluetooth settings|Block students from changing Bluetooth settings on the device.| 
 |Block Personal Hotspot|Block students from using the device as a personal hotspot.|
-|Block AirDrop|Block the use of the AirDrop feature. Students will not be able to exchange content with nearby devices.|
+|Block AirDrop|Block the use of the AirDrop feature. Students won't be able to exchange content with nearby devices.|
 
 ### Wi-Fi profiles   
 |Setting|Description|
