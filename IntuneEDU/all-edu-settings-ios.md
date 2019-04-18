@@ -36,7 +36,7 @@ searchScope:
 
 This article lists and describes all iOS device settings in Intune for Education. To view and edit these settings in the portal, click **Groups** >**Settings** > **iOS Device Settings**.   
 
-  ![Screenshot of the All iOS Devices, Groups page in Intune for Education. Highlights the Settings tab and shows the iOS Device Settings category is expanded to show all 12 subcategories of settings. Each setting is collapsed.](./media/edu-ios-1901-device-settings.png)   
+  ![Screenshot of the All iOS Devices, Groups page in Intune for Education. Highlights the Settings tab and shows the iOS Device Settings category is expanded to show all 12 subcategories of settings. Each setting is collapsed.](./media/edu-ios-1904-device-settings.png)   
 
 ## Apply settings to groups  
 Apply [group settings](what-are-groups.md) to establish access and security boundaries on devices throughout your school. You can assign the same settings across all groups in your school; or you can customize the classroom experience and apply settings to individual groups.
@@ -47,7 +47,7 @@ Many settings in Intune for Education are configured to **Block** or **Allow**. 
 * Allow the device user (student or teacher) to customize the setting from their device.  
 
 ## App Store, iTunes Store, and Book Store   
-Setting|Description|
+|Setting|Description|
 |---|---|
 |Block App Store|Block students from accessing the App Store on school devices.|
 |Require password to access App Store|Require the student to enter a password before they can access the App Store.|
@@ -64,8 +64,8 @@ Setting|Description|
 |Block FaceTime|Blocks use of the FaceTime app on the device.|
 |Block Game Center|Block use of the Game Center app on devices.|
 |Block adding friends in Game Center|Block students from adding friends in the Game Center app.|
-|Block Apple Music||
-|Block Radio in Apple Music||
+|Block Apple Music|Block use of the music streaming component of the Apple Music app on the device. |
+|Block Radio in Apple Music|Block use of Radio in the Apple Music app on the device.|
 |Block Messages|Block use of the Messages app on the device.|
 |Block Apple News|Block use of the Apple News app on the device.|
 |Block Apple Books|Block students from browsing and purchasing books in the Book Store.|
@@ -144,7 +144,7 @@ This section contains the settings for:
 |Select iOS Wi-Fi profiles to assign them to this group.|A list of Wi-Fi profiles that you've created appear within this section, and are ready to assign. Visible details include the **Profile name**, **Network name (SSID)**, **Security type**, and **Description**.  
 
 ## Passcode, Touch ID, and Face ID  
-Setting|Description|
+|Setting|Description|
 |---|---|  
 |Require passcode|Require students to enter a passcode to unlock the device.|
 |Block changing passcode|Block students from changing, adding, or removing the device passcode. |
