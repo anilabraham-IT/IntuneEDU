@@ -43,5 +43,8 @@ To assist in your readiness and planning, this page lists Intune for Education u
 ### Distinguish between online and offline-licensed Microsoft Store for Education apps  
 You'll be able to see if a Microsoft Store for Education app has an online or offline license. Intune for Education will show the license type on the app's details page, making it easier for you to manage and deploy apps to the correct groups.  
 
+### New iOS settings  
+We're adding new settings to give you more control over the iOS Classroom app.  
+
 ## See also  
 See [What’s new in Intune for Education](whats-new-in-edu.md) for details about recent developments.  
