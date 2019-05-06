@@ -46,5 +46,9 @@ You'll be able to see if a Microsoft Store for Education app has an online or of
 ### New iOS settings  
 We're adding new settings to give you more control over the iOS Classroom app.  
 
+### Apply an iOS device naming template  
+We've added new naming settings to help you group and identify your iOS devices. During iOS enrollment and MDM server token setup, Intune for Education will automatically name each of your devices with their unique device serial number. You can then add a custom name, such as *Contoso* or *Math1*, to the prefix. If you customize the name, the device serial number is attached to the end of it. For example: *Contoso012a345b67c8*  
+
+
 ## See also  
 See [What’s new in Intune for Education](whats-new-in-edu.md) for details about recent developments.  
