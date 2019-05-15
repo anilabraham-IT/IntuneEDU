@@ -41,5 +41,4 @@ To assist in your readiness and planning, this page lists Intune for Education u
 <!-- 1906 start-->  
 We don't have any features to share with you. Check back often for updates.  
 
-## See also  
 See [What’s new in Intune for Education](whats-new-in-edu.md) for details about recent developments.  
