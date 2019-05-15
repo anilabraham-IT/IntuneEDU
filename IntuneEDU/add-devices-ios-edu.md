@@ -53,7 +53,7 @@ During initial device setup, devices enroll with the following configurations:
 * Blocked from syncing or pairing with other devices
 * Locked enrollment, meaning users can't change management settings on their devices  
 
-Intune for Education applies a naming scheme to devices that you enroll with an MDM server token. By default, devices are named with their device serial number. You'll have the option to add on a custom device name when you set up your MDM server token.  
+Intune for Education applies a naming scheme to devices that you enroll with an MDM server token. By default, devices are named with their device serial number. You can also add on a custom device name when you set up your MDM server token.  
 
 The following Setup Assistant settings are hidden during enrollment:
 * Passcode setup
@@ -71,7 +71,7 @@ The following Setup Assistant setting is shown during enrollment:
 * Terms and Conditions
 
 ### What is Setup Assistant?
-The first time that you turn on your device, Intune for Education launches the iOS out-of-the-box experience, called *Setup Assistant*. Setup Assistant walks you through a series of screens and prepares your device for school use.  
+The first time that you turn on your device, Intune for Education launches the iOS out-of-box experience, called *Setup Assistant*. Setup Assistant walks you through a series of screens and prepares your device for school use.  
 
 ## Enroll a device
 
@@ -84,7 +84,7 @@ Walk through the following steps to complete device enrollment.
 5. Agree to the **Terms and Conditions**. Then decide if you want to send diagnostic information to Apple.  
 
 ## Next steps
-Now that devices are setup and ready for school use, learn how to update, monitor, and troubleshoot them.   
+Now that devices are set up and ready for school use, learn how to update, monitor, and troubleshoot them.   
 * Add more [free](add-apps-ios.md) and [VPP](add-vpp-apps-ios.md) iOS apps throughout the school year
 * Assign [group admins](group-admin-delegate.md) to help you manage classroom settings within your school or across the district
 * Learn how [settings inheritance](settings-inheritance.md) affects new groups

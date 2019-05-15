@@ -116,7 +116,7 @@ Intune for Education creates and applies an iOS enrollment profile to each MDM s
 
 All iOS devices added to Intune for Education are set to supervised mode. As an admin, supervised mode allows you more control over your school's devices. For example, you can push new apps or app updates silently to a device. For a complete list of supervised-only settings, see the article, [Configurations requiring supervision](https://docs.microsoft.com/intune/device-restrictions-ios#configurations-requiring-supervision).  
 
-Intune for Education applies a naming scheme to devices that you enroll with an MDM server token. The name will help you identify and group individual devices. By default, devices are named with their device serial number. You'll have the option to add on a custom device name when you set up your MDM server token.  
+Intune for Education applies a naming scheme to devices that you enroll with an MDM server token. The name will help you identify and group individual devices. By default, devices are named with their device serial number. You can also add on a custom device name when you set up your MDM server token.  
 
 For more details about enrollment profiles, view the [list of settings configured](add-devices-ios-edu.md#preconfigured-settings) during enrollment.  
 
