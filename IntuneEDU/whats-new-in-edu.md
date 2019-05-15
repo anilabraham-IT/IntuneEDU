@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 04/19/2019
+ms.date: 05/16/2019
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -30,6 +30,22 @@ searchScope:
 ---
 # What's new in Intune for Education
 Learn what’s new in Intune for Education. Find out about upcoming changes, product notices, and features from previous releases.
+
+## May 2019   
+
+### Distinguish between online and offline-licensed Microsoft Store for Education apps  
+
+You'll be able to see if a Microsoft Store for Education app has an online or offline license. Intune for Education will show the license type on the app's details page, making it easier for you to manage and deploy apps to the correct groups. Apps with online licenses begin installing after a user signs in to a device and require a connection to Microsoft Store to use. Apps with offline licenses install without the need for user sign-in and don't require a connection to Microsoft Store to use.  
+
+### New iOS settings  
+
+New settings have been added to give you more control over the iOS Classroom app.  
+
+### Apply an iOS device naming template  
+
+We've added new naming settings to help you group and identify your iOS devices. During iOS enrollment and MDM server token setup, Intune for Education will automatically name each of your devices with their unique device serial number. You can then add a custom name, such as Contoso or Math1, to the prefix. If you customize the name, the device serial number is attached to the end of it. For example: Contoso012a345b67c8 
+
+
 
 ## April 2019  
 

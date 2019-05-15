@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 07/23/2018
+ms.date: 05/16/2019
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -40,19 +40,20 @@ Devices are ready to power on and enroll in management after you:
 > [!NOTE]
 > Make sure your devices are connected to the Internet and your account has enough Intune for Education device licenses to complete setup. Find out more about licensing in [Assign licenses to users](https://docs.microsoft.com/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-4).
 
-## Pre-configured enrollment profile
+## Preconfigured enrollment profile  
 Intune for Education creates and assigns each synced device a school-optimized enrollment profile.  
 
 Enrollment profiles are configured to tell the device how to set itself up and enroll in management. Intune configures the settings to help speed up your enrollment.  When you power on the device, the enrollment profile immediately begins setting up your device.
 
-## List of preconfigured settings
+## Preconfigured settings  
 During initial device setup, devices enroll with the following configurations:
 
 * No user affinity
 * Supervised mode enabled
 * Blocked from syncing or pairing with other devices
-* Locked enrollment, meaning users can't change management settings on their devices
+* Locked enrollment, meaning users can't change management settings on their devices  
 
+Intune for Education applies a naming scheme to devices that you enroll with an MDM server token. By default, devices are named with their device serial number. You'll have the option to add on a custom device name when you set up your MDM server token.  
 
 The following Setup Assistant settings are hidden during enrollment:
 * Passcode setup
@@ -63,7 +64,8 @@ The following Setup Assistant settings are hidden during enrollment:
 * Apple Pay setup
 * Display Zoom options
 * Siri setup
-* Diagnostics Data options
+* Diagnostics Data options  
+
 
 The following Setup Assistant setting is shown during enrollment:
 * Terms and Conditions
