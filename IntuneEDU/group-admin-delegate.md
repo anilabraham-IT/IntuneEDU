@@ -45,7 +45,7 @@ Delegated group admins have permission to manage school devices and apps. Admin 
 - Take remote actions on devices, including resetting to factory settings, rebooting, locking an unlocked device, and forcing a sync.
 
 > [!TIP]
-> Modifying admin permissions is an advanced task. If you want to change the permissions or create a custom set of permissions, then you need to go to [the full management experience in Intune](group-admin-delegate.md#find-out-more). These permissions comprise the built-in School Administrator role in Intune. 
+> Modifying admin permissions is an advanced task. If you want to change the permissions or create a custom set of permissions, then you need to go to [the full management experience in Intune](https://docs.microsoft.com/intune/role-based-access-control). These permissions comprise the built-in School Administrator role in Intune. 
 
 ## Assign an admin group
 
@@ -57,6 +57,6 @@ Delegated group admins have permission to manage school devices and apps. Admin 
 
 ## Remove an admin group
 1. From the Intune for Education dashboard, click **Groups**.
-2. Choose a group. This group will be the one your remove an admin group from managing.
+2. Choose a group. This group will be the one you remove an admin group from managing.
 3. Click the **Admins** tab.
 4. Select one or more groups from the list of admins. Then click **Remove Admins**.  
