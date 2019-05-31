@@ -41,7 +41,7 @@ To assist in your readiness and planning, this page lists Intune for Education u
 <!-- 1906 start-->  
 ## Intune for Education in the Azure portal
 
-### Bulk actions
+### Perform bulk actions
 You’ll be able to perform certain remote actions on up to 100 devices at a time. To make a bulk selection, you can manually choose devices from the devices list, or hold down the **Ctrl** or **Command** key to select multiple devices at once. Intune for Education will support the bulk functionality for the following device actions:
 
 * Restart  
