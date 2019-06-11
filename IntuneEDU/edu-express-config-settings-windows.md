@@ -41,7 +41,7 @@ For the complete list of settings and descriptions, see [All Windows 10 settings
 |---|---|
 |Block adding and signing in with personal Microsoft accounts |Block students and teachers from adding and signing in to personal Microsoft accounts on the device. Personal Microsoft accounts refer to accounts that use a Microsoft domain name, but aren't in your school's Azure Active Directory tenant.|  
 |Block adding and signing in with non-Microsoft accounts|Block students and teachers from adding and signing in to non-Microsoft accounts, such as Google, Yahoo, and iCloud. Use this setting to force users to only use their Microsoft accounts for email.|
-|Configure preferred Azure Active Directory tenant domain|Configure your school's domain name so that users can sign in to Windows without it. For example, instead of signing in with the username *alain@contoso.com*, a student would only need to sign in with *alain*. When configured, this setting prepopulates your tenant domain name, but you can still edit it.|   
+|Configure preferred Azure Active Directory tenant domain|Configure your school's domain name so that users can sign in to Windows without it. For example, instead of signing in with the username *alain\@contoso.com*, a student would only need to sign in with *alain*. When configured, this setting prepopulates your tenant domain name, but you can still edit it.|   
 
 ## Apps   
 |Setting|What it does|  
