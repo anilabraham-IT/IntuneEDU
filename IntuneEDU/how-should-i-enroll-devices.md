@@ -37,7 +37,7 @@ Learn how to enroll devices under Intune for Education management. To choose the
 * Number of staff available to help.  
 Read on to determine the best way to enroll devices in your school.  
 
-## When to use Windows Autopilot vs Set up School PCs  
+## When to use Set up School PCs vs Windows Autopilot  
 The following table describes when to use the Set up School PCs app and Windows Autopilot for initial device setup. Use the **Points to consider** column to consider your own school's environment and setup needs.  
 
 |Points to consider| Set up School Pcs |Windows Autopilot  |
