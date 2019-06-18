@@ -33,8 +33,8 @@ searchScope:
 
 After you've set up Intune for Education with your information — such as student records, apps, and settings for devices — connect the devices to Intune for Education. For new Windows 10 devices, a connection is established during initial device setup.
 
-## Using Windows Autopilot vs Set up School PCs  
-The following table describes when to use the Set up School PCs app and Windows Autopilot for initial device setup. Use the **Points to consider** column to consider your own school's environment and setup needs.    
+## When to use Windows Autopilot vs Set up School PCs  
+The following table describes when to use the Set up School PCs app and Windows Autopilot for initial device setup. Use the **Points to consider** column to consider your own school's environment and setup needs.  
 
 |Points to consider  |Windows Autopilot  |Set up School Pcs|
 |---------|---------|---------|  
