@@ -33,9 +33,15 @@ searchScope:
 
 After you've set up Intune for Education with your information — such as student records, apps, and settings for devices — connect the devices to Intune for Education. For new Windows 10 devices, a connection is established during initial device setup.   
 
-
 ## Set up devices with Windows Autopilot
 [Windows Autopilot](https://docs.microsoft.com/intune/enrollment-autopilot) is compatible with Intune for Education, but it has to be set up in Intune in the Azure portal. To set up your devices with Autopilot, go to [Intune](https://portal.azure.com) > Device enrollment > Windows enrollment > Devices.  
+
+## Set up devices with Set up School PCs app
+Add Windows devices to Intune through the Set up School PCs app. The app walks you through how to configure and save a single device profile that you can distribute to multiple PCs. A USB drive is used to save and download the profile to each device during device setup. 
+
+For more information about the app, see the [What is Set up School PCs?](https://docs.microsoft.com/education/windows/use-set-up-school-pcs-app) article. 
+
+   ![Example screenshot of the Set up School PC app, start screen.](./media/Set_up_School_PC.png)  
 
 ## Before you begin
 During setup, devices must have access to the Internet. 
@@ -77,11 +83,11 @@ Complete the following steps to add your Windows 10 devices to Intune for Educat
 
 9. Select **Accept** to finish device setup. It might take a few minutes to complete setup, so feel free to begin setup on another device.  
 
-## Set up devices with Set up School PCs app
-Add Windows devices to Intune through the Set up School PCs app. The app walks you through how to configure and save a single device profile that you can distribute to multiple PCs. A USB drive is used to save and download the profile to each device during device setup. 
-
-For more information about the app, see the [What is Set up School PCs?](https://docs.microsoft.com/education/windows/use-set-up-school-pcs-app) article. 
-
-   ![Example screenshot of the Set up School PC app, start screen.](./media/Set_up_School_PC.png)  
+## Next steps
+Now that devices are set up and ready for school use, learn how to update, monitor, and troubleshoot them.   
+* Assign [group admins](group-admin-delegate.md) to help you manage classroom settings within your school or across the district
+* Review all [Windows settings](all-edu-settings-windows.md) that you can adjust
+* Learn how [settings inheritance](settings-inheritance.md) affects new groups
+* Review [reports](what-are-reports.md) to pinpoint and troubleshoot errors  
 
  
