@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Add devices
+title: Enroll Windows 10 devices
 titleSuffix: Intune for Education
 description: Learn how to set up Windows 10 devices for Intune for Education.
 keywords:
@@ -29,7 +29,7 @@ searchScope:
 
 ---
 
-# Add Windows devices
+# Enroll Windows 10 devices
 
 After you've set up Intune for Education with your information — such as student records, apps, and settings for devices — connect the devices to Intune for Education. For new Windows 10 devices, a connection is established during initial device setup.   
 
@@ -47,7 +47,7 @@ The following table describes when to use Set up School PCs, Windows Autopilot, 
 |OEMs/Partners|Not applicable.  |Requires registration of device IDs for the Windows Autopilot service by a partner (CSP) or OEM provider. |
 |Existing on premises configuration| Supported with Windows Configuration Designer only. | Supports Hybrid AD join; device must be on same network as Active Directory Domain Controller.|  
 ### Setting up devices with Windows Autopilot
-[Windows Autopilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot-requirements) is compatible with Intune for Education, but it has to be set up in Intune in the Azure portal. To set up your devices with Autopilot, go to [Intune](https://portal.azure.com) > **Device enrollment** > **Windows enrollment** > **Devices**.   
+ To set up your devices with [Autopilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot-requirements), go to [Intune](https://devicemanagement.microsoft.com) > **Device enrollment** > **Windows enrollment** > **Devices**.   
 
 ### Setting up devices with Set up School PCs app
 Add Windows devices to Intune through the Set up School PCs app. The app walks you through how to configure and save a single device profile that you can distribute to multiple PCs. A USB drive is used to save and download the profile to each device during device setup. 
