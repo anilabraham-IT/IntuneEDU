@@ -41,8 +41,6 @@ Add Windows devices to Intune through the Set up School PCs app. The app walks y
 
 For more information about the app, see the [What is Set up School PCs?](https://docs.microsoft.com/education/windows/use-set-up-school-pcs-app) article. 
 
-   ![Example screenshot of the Set up School PC app, start screen.](./media/Set_up_School_PC.png)  
-
 ## Before you begin
 During setup, devices must have access to the Internet. 
 
