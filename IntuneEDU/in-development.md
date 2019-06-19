@@ -39,19 +39,6 @@ To assist in your readiness and planning, this page lists Intune for Education u
 > These items reflect Microsoft’s current expectations about Intune for Education capabilities coming in a future release. Dates and individual features may change. Not all items in development have a feature description on this page.   
 
 <!-- 1906 start-->  
-
-## Perform bulk actions  
-You’ll be able to perform certain remote actions on up to 100 devices at a time. To make a bulk selection, you can manually choose devices from the devices list, or hold down the **Ctrl** or **Command** key to select multiple devices at once. Intune for Education will support the bulk functionality for the following device actions:  
-
-* Restart  
-* Factory reset  
-* Sync  
-* Autopilot Reset  
-* Delete   
-
-## Easier migration to Intune for Education licenses  
-Currently, after you sign up for Intune for Education, Intune automatically configures some settings in the All devices group with values that are recommended for schools. In the future, when you add Intune for Education to a tenant that already has an Intune subscription, you'll see the recommended policies, but Intune won't assign them automatically. This change will ensure that no unwanted changes are made to your existing environment.  
-
-## Next steps   
+We don't have any features to share with you. Check back often for updates.   
 
 See [What’s new in Intune for Education](whats-new-in-edu.md) for details about recent developments.  
