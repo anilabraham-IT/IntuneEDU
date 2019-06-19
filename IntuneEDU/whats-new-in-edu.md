@@ -52,7 +52,7 @@ Intune for Education will support the bulk functionality for the following devic
 After you sign up for Intune for Education, Intune automatically configures some settings in the All devices group with values that are recommended for schools. Now when you add Intune for Education to a tenant that already has an Intune subscription, you'll see the recommended policies, but Intune won't assign them automatically. This change will ensure that no unwanted changes are made to your existing environment.  
 
 ### New deployment documentation  
-In the [enrollment section](https://docs.microsoft.com/intune-education/add-devices-windows) of our documentation, you'll find new information to help you compare Set up School PCs and Windows Autopilot based on your school’s environment and setup needs. Use this information to decide when to use each (or both) option for device setup. 
+In the [enrollment section](https://docs.microsoft.com/intune-education/add-devices-windows) of our documentation, you'll find new information to help you compare Set up School PCs and Windows Autopilot based on your school’s environment and setup needs. Use this information to decide when to use each option, or both, for device setup. 
 
 ## May 2019   
 
