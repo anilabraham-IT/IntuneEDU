@@ -31,6 +31,32 @@ searchScope:
 # What's new in Intune for Education
 Learn what’s new in Intune for Education. Find out about upcoming changes, product notices, and features from previous releases.
 
+## June 2019  
+
+### Perform bulk actions 
+Perform certain remote actions on up to 100 devices at a time.  To make a bulk selection, you can manually choose devices from the devices list, or hold down the **Ctrl** or **Command** key to select multiple devices at once. 
+ 
+ ![Example image of multiple devices selected, and bulk restart confirmation.](./media/1906-remote-bulk.png)  
+
+Intune for Education will support the bulk functionality for the following device actions:  
+
+* Restart  
+* Factory reset  
+* Sync  
+* Autopilot Reset  
+* Delete   
+
+ ![Example image of bulk sync confirmation.](./media/1906-remote-bulk-selection.png)  
+
+### Easier migration to Intune for Education licenses  
+After you sign up for Intune for Education, Intune automatically configures some settings in the All devices group with values that are recommended for schools. Now when you add Intune for Education to a tenant that already has an Intune subscription, you'll see the recommended policies, but Intune won't assign them automatically. This change will ensure that no unwanted changes are made to your existing environment.  
+
+### New permissions for assigned group admins  
+Intune's built-in School Administrator role now has create, read, update, and delete (CRUD) permissions for Managed Apps. This update means that if you're assigned as a group admin in Intune for Education, you can now create, view, update, and delete the iOS MDM Push Certificate, iOS MDM server tokens, and iOS VPP tokens along with [all of the existing permissions you have](https://docs.microsoft.com/intune-education/group-admin-delegate#group-admin-permissions). To take any of these actions, go to **Tenant settings** > **iOS Device Management**.  
+
+### New deployment documentation  
+In the [enrollment section](https://docs.microsoft.com/intune-education/add-devices-windows) of our documentation, you'll find new information to help you compare Set up School PCs and Windows Autopilot based on your school’s environment and setup needs. Use this information to decide when to use each option, or both, for device setup. 
+
 ## May 2019   
 
 ### Distinguish between online and offline-licensed Microsoft Store for Education apps  
