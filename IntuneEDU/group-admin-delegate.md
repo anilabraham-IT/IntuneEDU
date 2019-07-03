@@ -36,14 +36,14 @@ Unlike IT staff, admin groups only manage the groups you assign to them. When yo
 
 ## Group admin permissions 
 
-Groups admins are assigned in Intune for Education and have permission to manage school devices and apps. Group admins can:  
+Group admins are assigned in Intune for Education and have permission to manage school devices and apps. Group admins can:  
 
 - View information about devices, users, and apps.
 - Assign, create, delete, view, and update device and user settings.
 - Assign, create, delete, view, and update apps.
 - View reports.
 - Take remote actions on devices, including resetting to factory settings, rebooting, locking an unlocked device, and forcing a sync.  
-- Create, delete, view, and update the iOS MDM Push Certificate, iOS MDM server tokens, and iOS VPP tokens.  
+- Create, delete, view, and update the iOS MDM Push Certificate, iOS MDM server tokens, and iOS VPP tokens.   
 
 > [!TIP]
 > Modifying admin permissions is an advanced task. If you want to change the permissions or create a custom set of permissions, then you need to go to [the full management experience in Intune](https://docs.microsoft.com/intune/role-based-access-control). These permissions comprise the built-in School Administrator role in Intune. 
