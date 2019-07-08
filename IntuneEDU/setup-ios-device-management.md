@@ -114,7 +114,7 @@ MDM server tokens expire every 365 days. The token is needed to view and manage 
 ### Device enrollment profile
 Intune for Education creates and applies an iOS enrollment profile to each MDM server token you configure.
 
-All iOS devices added to Intune for Education are set to supervised mode. As an admin, supervised mode allows you more control over your school's devices. For example, you can push new apps or app updates silently to a device. For a complete list of supervised-only settings, see the article, [Configurations requiring supervision](https://docs.microsoft.com/intune/device-restrictions-ios#configurations-requiring-supervision).  
+All iOS devices added to Intune for Education are set to supervised mode. As an admin, supervised mode allows you more control over your school's devices. For example, you can push new apps or app updates silently to a device. For a complete list of supervised-only settings, see the article, [Configurations requiring supervision](/intune/device-restrictions-ios#settings-that-require-supervised-mode).
 
 Intune for Education applies a naming scheme to devices that you enroll with an MDM server token. The name will help you identify and group individual devices. By default, devices are named with their device serial number. You can also add on a custom device name when you set up your MDM server token.  
 
