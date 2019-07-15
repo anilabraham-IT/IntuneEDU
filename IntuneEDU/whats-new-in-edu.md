@@ -31,6 +31,21 @@ searchScope:
 # What's new in Intune for Education
 Learn what’s new in Intune for Education. Find out about upcoming changes, product notices, and features from previous releases.
 
+
+## July 2019  
+
+### Perform bulk rename  
+Rename up to 100 devices at a time. To make a bulk selection, you can manually choose devices from the devices list, or hold down the **Ctrl** or **Command** key to select multiple devices at once.  
+
+You can then apply a naming template to the group of selected devices, which includes a custom prefix appended by a unique identifier. The unique identifier can be a serial number, a counter, or a Wi-Fi MAC address.  
+
+ 
+ ![Screenshot of Devices page, bulk rename, with counter identifier selected.](./media/edu-bulk-rename-1907.png)  
+
+
+ ![Screenshot of Devices page, bulk rename in progress, with serial number selected.](./media/edu-bulk-rename-1907-01.png)  
+
+
 ## June 2019  
 
 ### Perform bulk actions 
