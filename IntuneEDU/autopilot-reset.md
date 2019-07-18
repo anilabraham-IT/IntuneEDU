@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 07/10/2019
+ms.date: 07/17/2019
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -35,7 +35,7 @@ You can Autopilot Reset a device locally or remotely from the Intune for Educati
 
 Using the Intune for Education portal, you avoid the need for IT staff to visit each device to start the process. From the portal, you can reset a single device or do a bulk reset for all devices in a group. Resetting all devices in a group lets you quickly wipe and reconfigure student devices to prepare them for the new school year.  
 
-After a reset, the original settings are applied to the device and then it syncs with Intune to get the latest policies.  
+After a reset, the original settings are applied to the device and then it syncs with Intune to get the latest policies. When Autopilot reset is used on a device, the device's primary user will be removed. The next user who signs in after the reset will be set as the primary user.   
 
 ## Requirements
 Using Autopilot Reset locally is only available for devices running Windows 10 version 1709 or later.
