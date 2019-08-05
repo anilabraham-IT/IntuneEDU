@@ -50,7 +50,7 @@ The following table describes when to use Set up School PCs, Windows Autopilot, 
  To set up your devices with [Autopilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot-requirements), go to [Intune](https://devicemanagement.microsoft.com) > **Device enrollment** > **Windows enrollment** > **Devices**.   
 
 ### Setting up devices with Set up School PCs app
-Add Windows devices to Intune through the Set up School PCs app. The app walks you through creating a configuration profile with settings and apps, save it to a USB drive and use the USB to distribute the profile to multiple PCs during device setup. 
+Add Windows devices to Intune through the Set up School PCs app. The app walks you through creating a configuration profile with settings and apps, saving it to a USB drive and using the USB to distribute the profile to multiple PCs during device setup. 
 
 For more information about the app, see the [What is Set up School PCs?](https://docs.microsoft.com/education/windows/use-set-up-school-pcs-app) article. 
 
