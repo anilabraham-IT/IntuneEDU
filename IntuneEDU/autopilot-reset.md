@@ -42,7 +42,7 @@ Using Autopilot Reset locally is only available for devices running Windows 10 v
 Using Autopilot Reset remotely is only available for devices running Windows 10 build 17672 or later.
 
 ## Use Autopilot Reset locally
-If you need to wipe a single device, you can do so directly on the device. On the device, press CTRL+WIN+R.  
+If you need to wipe a single device, you can do so directly on the device. On the device, press CTRL+WIN+R. After pressing Ctrl+WIN+R, you’ll have to authenticate with admin credentials in order to trigger the reset.
 
 ## Use Autopilot Reset remotely for a single device
 1. In Intune for Education, choose **Groups** > choose a device group.
