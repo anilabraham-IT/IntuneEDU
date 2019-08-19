@@ -34,9 +34,9 @@ Learn what’s new in Intune for Education. Find out about upcoming changes, pro
 ## August 2019  
 
 ### New admin view added to Groups page for easier admin delegation
-See, add, and remove a group's admins from a single view. Go to the **Groups** > **Admins** tab and select **Admins of this group.** You'll see a list of all group members with admin permissions. From there you can add or remove group members.  
+We've added a new view so that you can more easily see, add, and remove the groups your admins manage. Go to the **Groups** page and after choosing a group, select **Admins** > **Managed by this group**. From there you can add or remove groups.  
 
-![Screenshot of Groups page, Admin tab, highlighting "Admins of this group" button.](./media/admin-view-1908-intune-edu.png)  
+![Screenshot of Groups page, Admin tab, highlighting "Managed by this group" button.](./media/admin-view-1908-intune-edu.png)  
 
 ## July 2019  
 
