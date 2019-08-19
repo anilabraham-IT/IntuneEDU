@@ -43,7 +43,7 @@ You can then apply a naming template to the group of selected devices, which inc
  ![Screenshot of Devices page, bulk rename, with counter identifier selected.](./media/edu-bulk-rename-1907.png)  
 
 
- ![Screenshot of Devices page, bulk rename in progress, with serial number selected.](./media/edu-bulk-rename-1907-01.png)  
+ ![Screenshot of Devices page, bulk rename in progress, with serial number selected.](./media/edu-bulk-rename-1907-01.png)   
 
 
 ## June 2019  
@@ -74,7 +74,7 @@ In the [enrollment section](https://docs.microsoft.com/intune-education/add-devi
 
 ## May 2019   
 
-### Distinguish between online and offline-licensed Microsoft Store for Education apps  
+### Distinguish between online and offline-licensed Microsoft Store for Education apps   
 
 You'll be able to see if a Microsoft Store for Education app has an online or offline license. Intune for Education will show the license type in Express Configuration and on the app's details page, making it easier for you to manage and deploy apps to the correct groups. Apps with online licenses begin installing after a user signs in to a device and require a connection to Microsoft Store to use. Apps with offline licenses install without the need for user sign-in and don't require a connection to Microsoft Store to use.  
 
