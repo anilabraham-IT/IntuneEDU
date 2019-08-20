@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 07/18/2019
+ms.date: 08/19/2019
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -31,6 +31,12 @@ searchScope:
 # What's new in Intune for Education
 Learn what’s new in Intune for Education. Find out about upcoming changes, product notices, and features from previous releases.
 
+## August 2019  
+
+### New admin view added to Groups page for easier admin delegation
+We've added a new view so that you can more easily see, add, and remove the groups your admins manage. Go to the **Groups** page and after choosing a group, select **Admins** > **Managed by this group**. From there you can add or remove groups.  
+
+![Screenshot of Groups page, Admin tab, highlighting "Managed by this group" button.](./media/admin-view-1908-intune-edu.png)  
 
 ## July 2019  
 
