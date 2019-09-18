@@ -46,10 +46,10 @@ Rename up to 100 devices at a time. To make a bulk selection, you can manually c
 You can then apply a naming template to the group of selected devices, which includes a custom prefix appended by a unique identifier. The unique identifier can be a serial number, a counter, or a Wi-Fi MAC address.  
 
  
- ![Screenshot of Devices page, bulk rename, with counter identifier selected.](./media/edu-bulk-rename-1907.png)  
+ [![Screenshot of Devices page, bulk rename, with counter identifier selected.](./media/edu-bulk-rename-1907.png)](./media/edu-bulk-rename-1907.png#lightbox)  
 
 
- ![Screenshot of Devices page, bulk rename in progress, with serial number selected.](./media/edu-bulk-rename-1907-01.png)   
+ [![Screenshot of Devices page, bulk rename in progress, with serial number selected.](./media/edu-bulk-rename-1907-01.png)](./media/edu-bulk-rename-1907-01.png#lightbox)   
 
 
 ## June 2019  
@@ -57,7 +57,7 @@ You can then apply a naming template to the group of selected devices, which inc
 ### Perform bulk actions 
 Perform certain remote actions on up to 100 devices at a time.  To make a bulk selection, you can manually choose devices from the devices list, or hold down the **Ctrl** or **Command** key to select multiple devices at once. 
  
- ![Example image of multiple devices selected, and bulk restart confirmation.](./media/1906-remote-bulk.png)  
+ [![Example image of multiple devices selected, and bulk restart confirmation.](./media/1906-remote-bulk.png)](./media/1906-remote-bulk.png#lightbox)  
 
 Intune for Education will support the bulk functionality for the following device actions:  
 
@@ -67,7 +67,7 @@ Intune for Education will support the bulk functionality for the following devic
 * Autopilot Reset  
 * Delete   
 
- ![Example image of bulk sync confirmation.](./media/1906-remote-bulk-selection.png)  
+ [![Example image of bulk sync confirmation.](./media/1906-remote-bulk-selection.png)](./media/1906-remote-bulk-selection.png#lightbox)
 
 ### Easier migration to Intune for Education licenses  
 After you sign up for Intune for Education, Intune automatically configures some settings in the All devices group with values that are recommended for schools. Now when you add Intune for Education to a tenant that already has an Intune subscription, you'll see the recommended policies, but Intune won't assign them automatically. This change will ensure that no unwanted changes are made to your existing environment.  
@@ -111,7 +111,7 @@ There are several new Windows 10 device settings. Here's just a few of the setti
 ### Set custom wallpaper and lock screen images for your iOS devices  
 You can now use Intune for Education to set custom wallpaper and lock screen images on school devices. To upload your images, go to **Groups** > **iOS Device Settings** > **Wallpaper and lock screen images**.  
 
-   ![A screenshot of the iOS Device Settings, custom wallpaper and lock screen images.](./media/ios-1901-custom-image-settings.png)  
+   [![A screenshot of the iOS Device Settings, custom wallpaper and lock screen images.](./media/ios-1901-custom-image-settings.png)](./media/ios-1901-custom-image-settings.png#lightbox)  
 
 
 ## January 2019  
