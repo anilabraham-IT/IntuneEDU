@@ -55,7 +55,7 @@ You can then apply a naming template to the group of selected devices, which inc
 ## June 2019  
 
 ### Perform bulk actions 
-Perform certain remote actions on up to 100 devices at a time.  To make a bulk selection, you can manually choose devices from the devices list, or hold down the **Ctrl** or **Command** key to select multiple devices at once. 
+Perform certain remote actions on up to 100 devices at a time.  To make a bulk selection, you can manually choose devices from the devices list, or hold down the **Ctrl** or **Command** key to select multiple devices at once.  
  
  [![Example image of multiple devices selected, and bulk restart confirmation.](./media/1906-remote-bulk.png)](./media/1906-remote-bulk.png#lightbox)  
 
