@@ -36,7 +36,7 @@ If you're in a different location than a device or its user, and need to help th
 
 ## Remote actions for devices  
 
-![Example screenshot showing Intune for Education's 7 remote actions.](./media/1812_Intune_EDU_Manage_Remote.png)  
+[![Example screenshot showing Intune for Education's 7 remote actions.](./media/1812_Intune_EDU_Manage_Remote.png)](./media/1812_Intune_EDU_Manage_Remote.png#lightbox)  
 
 From the dashboard, go to **Devices**. Select the device that you want to manage. At the bottom of the page, select any of the following actions:
 
@@ -49,11 +49,11 @@ From the dashboard, go to **Devices**. Select the device that you want to manage
 
 You can perform remote actions on a single device or in bulk on up to 100 devices at a time. To make a bulk selection, manually select devices from the devices list, or hold the Control or Command key to select multiple devices at once. 
 
-![Example screenshot showing several devices selected, with bulk action confirmation.](./media/bulk-selection-1909-intune-edu.png)   
+[![Example screenshot showing several devices selected, with bulk action confirmation.](./media/bulk-selection-1909-intune-edu.png)](./media/bulk-selection-1909-intune-edu-expanded.png#lightbox)   
 
 To rename a group of devices, apply a naming template to them. Each device will be renamed with a custom prefix that's appended by a unique identifier, such as a serial number, a counter, or a Wi-Fi Mac address.  
 
-![Example screenshot showing devices selected and rename devices blade and settings.](./media/bulk-rename-1909-intune-edu.png)   
+[![Example screenshot showing devices selected and rename devices blade and settings.](./media/bulk-rename-1909-intune-edu-expanded.png)](./media/bulk-rename-1909-intune-edu-expanded.png#lightbox)   
 
 ## Remote actions for users  
 
