@@ -8,7 +8,7 @@ keywords:
 author: lenewsad  
 ms.author: lanewsad   
 manager: dougeby
-ms.date: 06/03/2019 
+ms.date: 09/25/2019 
 ms.topic: conceptual
 ms.prod:
 ms.service: microsoft-intune
@@ -38,7 +38,27 @@ To assist in your readiness and planning, this page lists Intune for Education u
 > [!Note]
 > These items reflect Microsoft’s current expectations about Intune for Education capabilities coming in a future release. Dates and individual features may change. Not all items in development have a feature description on this page.   
 
-<!-- 1906 start-->  
-We don't have any features to share with you. Check back often for updates.   
+<!-- 1910 start-->  
+## View Win32 Apps from Intune for Education portal
+You'll be able to view the Win32 apps that are configured in your Intune tenant, and manage the app's group assignments, from the the Intune for Education portal.  
+ 
+ 
+## New settings for Take A Test, local guest accounts  
+You'll be able configure settings for Take a Test profiles that use local guest accounts. Students will be able to launch a secure assessment by clicking a button on the Windows sign-in screen. For more information about Take a Test, see [Take tests in Windows 10](https://docs.microsoft.com/education/windows/take-tests-in-windows-10). 
+ 
+ ## Changes to education presets  
+After you sign up for Intune for Education, Intune preconfigures some settings in the All devices group. We’re making changes to these presets based on customer feedback. These changes include:
+
+* By default, enrollment of personal Windows device will be blocked to ensure personal devices are not accidently enrolled in Intune.  
+* By default, local Autopilot Reset will be disabled.  
+ 
+## Manage Windows Autopilot
+From the Intune for Education portal, you'll be able to:
+
+* Configure Autopilot deployment profiles.
+* Create dynamic groups for Autopilot-registered devices based on group tags. 
+* Monitor and review device deployments.
+
+For more information about Windows Autopilot, see [Overview of Windows Autopilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot).  
 
 See [What’s new in Intune for Education](whats-new-in-edu.md) for details about recent developments.  
