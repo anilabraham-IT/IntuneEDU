@@ -44,7 +44,7 @@ You'll be able see the Win32 apps that are configured in your tenant, and manage
  
  
 ## Configure Take A Test for local guest accounts  
-More configuration options will be available for Take a Test profiles that use the local guest account. Students will be able to launch a secure assessment by clicking a button on the Windows sign-in screen, rather than entering a password. For more information about Take a Test, see [Take tests in Windows 10](https://docs.microsoft.com/education/windows/take-tests-in-windows-10).  
+More configuration options will be available for Take a Test profiles. There will be a local guest account option, so students can click a button on the Windows sign-in screen to launch a secure assessment, and skip entering a password. For more information about Take a Test, see [Take tests in Windows 10](https://docs.microsoft.com/education/windows/take-tests-in-windows-10).  
  
  ## Changes to education presets  
 After you sign up for Intune for Education, Intune preconfigures some settings in the All devices group. We’re making changes to these presets based on customer feedback. These changes include:
