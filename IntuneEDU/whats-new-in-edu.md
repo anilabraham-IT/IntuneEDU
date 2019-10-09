@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 08/19/2019
+ms.date: 10/09/2019
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -32,6 +32,9 @@ searchScope:
 Learn what’s new in Intune for Education. Find out about upcoming changes, product notices, and features from previous releases.
 
 ## August 2019  
+
+### Office 365 ProPlus deployed to all Windows 10 devices
+When you deploy Office 365 for Windows, all targeted devices, including those in S mode, will receive Office 365 ProPlus. Before this change, devices in S mode received a different version of Office 365 from the Microsoft Store for Education.  
 
 ### New admin view added to Groups page for easier admin delegation
 We've added a new view so that you can more easily see, add, and remove the groups your admins manage. Go to the **Groups** page and after choosing a group, select **Admins** > **Managed by this group**. From there you can add or remove groups.  
