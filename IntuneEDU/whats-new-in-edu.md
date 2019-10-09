@@ -33,7 +33,7 @@ Learn what’s new in Intune for Education. Find out about upcoming changes, pro
 
 ## August 2019  
 
-### Office 365 ProPlus deployed to all Windows 10 devices
+### Change to Office 365 deployment
 When you deploy Office 365 for Windows, all targeted devices, including those in S mode, will receive Office 365 ProPlus. Before this change, devices in S mode received a different version of Office 365 from the Microsoft Store for Education.  
 
 ### New admin view added to Groups page for easier admin delegation
