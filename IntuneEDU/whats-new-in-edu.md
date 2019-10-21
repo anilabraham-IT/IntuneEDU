@@ -37,12 +37,12 @@ Learn what’s new in Intune for Education. Find out about upcoming changes, pro
 Yuo can now see the Win32 apps that are configured in your tenant, and manage the apps' group assignments, from the Intune for Education portal. 
 
 ### Configure Take A Test for local guest accounts  
-More configuration options are available for Take a Test profiles. There's now a local guest account option so students can click a button on the Windows sign-in screen to launch a secure assessment, and skip entering a password. For more information about Take a Test, see [Take tests in Windows 10](https://docs.microsoft.com/education/windows/take-tests-in-windows-10) and [Add a Take a Test profile](take-a-test-profiles.md) in Intune for Education.  
+New configuration options are available for Take a Test profiles. There's now a local guest account option, so students can click a button on the Windows sign-in screen to launch a secure assessment, and skip entering a password. For more information about Take a Test, see [Take tests in Windows 10](https://docs.microsoft.com/education/windows/take-tests-in-windows-10) and [Add a Take a Test profile](take-a-test-profiles.md) in Intune for Education.  
 
 ### Changes to education presets  
 After you sign up for Intune for Education, Intune preconfigures some settings in the All devices group. We’ve made changes to these presets based on customer feedback. These changes include:
 
-* By default, enrollment of personal Windows device will be blocked to ensure personal devices are not accidentally enrolled in Intune.  
+* By default, enrollment of personal Windows devices will be blocked to ensure personal devices are not accidentally enrolled in Intune.  
 * By default, local Autopilot Reset will be disabled.  
 
 ### Manage Windows Autopilot  
