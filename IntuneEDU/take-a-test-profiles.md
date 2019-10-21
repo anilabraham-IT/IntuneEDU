@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 07/23/2018
+ms.date: 10/21/2019
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -31,19 +31,16 @@ searchScope:
 
 # Add a Take a Test profile in Intune for Education
 
-The Take a Test app lets you securely administer online tests on your classroom's Windows 10 devices.  Students use the credentials you provide for them to sign in to the test profile. Then they click the assessment URL to launch the test. 
+The Take a Test app lets you securely administer online tests on your classroom's Windows 10 devices. The test link appears as a tile at the bottom of the device’s sign-in screen. Students click the tile to launch the test. 
  
 This article describes how to:
 * Create a Take a Test profile.
 * Assign the profile to students in your school.  
 
-> [!NOTE]
-> Create an exclusive user for Take a Test purposes. Assign your Take a Test profile to this user so that you don't impact student or teacher devices. Learn how to assign a user in the Windows 10 for Education, [Set up Take a Test on multiple PCs](https://technet.microsoft.com/edu/windows/take-a-test-multiple-pcs) article.
-
 ## Take a Test features
 When a student launches a test, their desktop locks. The Take a Test app opens in a new window. Take a Test clears the system's clipboard so that students can't copy and paste content.
 
-While a test is active, test takers cannot:
+When a test is active, test takers can't:
 
 * Visit other websites.
 * Open or access other apps.
@@ -60,22 +57,29 @@ Some device features--such as narrator--and other assistive technology are still
 
 
 ## Take a Test profile setup
-Set up a profile in Intune for Education. Before you begin, we recommend that you create a dedicated user account used solely for assessments. Users will sign in to this account to access tests. 
+Follow these steps to set up a profile in Intune for Education.  
 
 1. From Intune for Education dashboard, click **Take a Test profiles**.    
-![List of options in the sidebar](./media/dashboard-002-left-sidebar-list.png)  
-2.  Click Add Take a Test profile.  
- ![Select Add a Take A Test profile button in the left-hand side](./media/takeatest-001-new-profile.png)  
-3. Enter a descriptive name for the test.  
-4 Enter the Assessment URL.  
- ![Take a test profile window](./media/takeatest-002-new-profile-edit-window.png)  
-5. Configure the rest of the test settings:    
-    a. Allow screen capture  
-    b. Require PCs to have a printer installed  
+
+    ![Screenshot of the Intune side bar, highlighting Take a Test option.](./media/take-a-test-1910-01.png)   
+1.  Click Add Take a Test profile.  
+    ![Screenshot of Take A Test page, highlighting "Add Take a Test profile" button.](./media/take-a-test-1910-02.png)
+1. Enter a descriptive name for your Take a Test profile. Students won’t see the profile name. It only appears in Intune.   
+4 Enter the name of the local guest account used for testing. The name is shown on the local guest account tile on the device’s sign-in screen. Students click the tile to launch the test.  
+1. Enter the Assessment URL.   
+
+   ![Screenshot of settings, highlighting three required fields](./media/take-a-test-1910-03.png)  
+1. Optionally, enter a description for the Take a Test profile. Students won’t see the profile description. It only appears in Intune.  
+2. Configure the rest of the test settings.    
+    a. Require printer connection: Students can only access the Take a Test app from devices that are connected to a printer. This setting also makes the app’s print button available to students.  
+    b. Allow screen capture: Students and teachers can use screen capture and screen recording tools in the Take a Test.  
     c. Allow text suggestions   
-6. Select an account from your list of existing users. Students will use the account's username and password to sign in to the appropriate assessment.  
+3. Select an account from your list of existing users. Students will use the account's username and password to sign in to the appropriate assessment.  
 
 To view the details of any profile, select it from the left side of the page. Then click the **Account** tab.  
+
+ ![Screenshot showing a profile's details, highlighting the selected profile and the Account button.](./media/take-a-test-1910-04.png)  
+
 
 ## Assign or change groups
 Assign groups of students that require access to the test profile. Follow these steps to make edits to group assignments too.
@@ -85,11 +89,7 @@ Assign groups of students that require access to the test profile. Follow these 
 4. To remove a group from the assignment, select the group from the **Groups assigned** menu. Then click **Remove Groups**.
 5. Click **Ok** to submit your changes.
 
-## Delete Take a Test profile  
-When you delete a Take a Test profile, it becomes a typical user account. Students are still able to sign in to the account with its existing credentials, but the URL assessment link is removed from the account. Signing into the account will also no longer lock student devices.
-
-1. From the **Take a Test profiles** page, choose the profile you want to delete.
-2. Click **Delete Take a Test profile**.
-3. Click **Delete** to confirm your action.
+> [!NOTE]
+>  Intune for Education used to offer the ability to configure a Take a Test profile by specifying an Azure AD account as the test-taking account. If you already have Take a Test profiles configured in this way, you can still view the profile and assign it to groups, but you can't edit the profile in Intune for Education. To edit the profile, visit Intune in the Azure portal.  
 
 To find out more about Take a Test on your devices, see [Take a Test in Windows 10](https://technet.microsoft.com/edu/windows/take-tests-in-windows-10).
