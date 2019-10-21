@@ -68,7 +68,7 @@ Follow these steps to set up a profile in Intune for Education.
 4. Enter the name of the local guest account used for testing. The name is shown on the local guest account tile on the device’s sign-in screen. Students click the tile to launch the test.  
 5. Enter the assessment URL.   
 
-   ![Screenshot of settings, highlighting three required fields](./media/take-a-test-1910-03.png)  
+   [![Screenshot of settings, highlighting three required fields](./media/take-a-test-1910-03.png)](./media/take-a-test-1910-03.png#lightbox)   
 6. Optionally, enter a description for the Take a Test profile. Students won’t see the profile description. It only appears in Intune.  
 7. Configure the rest of the test settings.    
     a. Require printer connection: Students can only access the Take a Test app from devices that are connected to a printer. This setting also makes the app’s print button available to students.  
