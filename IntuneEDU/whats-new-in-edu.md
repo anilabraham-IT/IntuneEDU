@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 10/09/2019
+ms.date: 10/21/2019
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -29,7 +29,38 @@ searchScope:
 
 ---
 # What's new in Intune for Education
-Learn what’s new in Intune for Education. Find out about upcoming changes, product notices, and features from previous releases.
+Learn what’s new in Intune for Education. Find out about upcoming changes, product notices, and features from previous releases.  
+
+## October 2019  
+
+### View Win32 Apps from Intune for Education portal  
+You can now see the Win32 apps that are configured in your tenant, and manage the apps' group assignments, from the Intune for Education portal. 
+
+### Configure Take A Test for local guest accounts  
+New configuration options are available for Take a Test profiles. There's now a local guest account option, so students can click a button on the Windows sign-in screen to launch a secure assessment, and skip entering a password. For more information about Take a Test, see [Take tests in Windows 10](https://docs.microsoft.com/education/windows/take-tests-in-windows-10) and [Add a Take a Test profile](take-a-test-profiles.md) in Intune for Education.  
+
+### Changes to education presets  
+After you sign up for Intune for Education, Intune preconfigures some settings in the All devices group. We’ve made changes to these presets based on customer feedback. These changes include:
+
+* By default, enrollment of personal Windows devices will be blocked to ensure personal devices are not accidentally enrolled in Intune.  
+* By default, local Autopilot Reset will be disabled.  
+
+### Manage Windows Autopilot  
+From the Intune for Education portal, you can:  
+
+* Configure Autopilot deployment profiles.  
+* Create dynamic groups for Autopilot-registered devices based on group tags.  
+* Monitor and review device deployments.  
+
+![Screenshot of All Devices group, Enrollment settings, highlighting Windows Autopilot section.](./media/windows-autopilot-1910.png)  
+
+![Screenshot of Groups page, Create group, highlighting dynamic group, group tags settings.](./media/dynamic-groups-1910.png)  
+
+![Screenshot of Reports, showing a table of available reports you can view.](./media/autopilot-deployment-report-1910.png)  
+
+
+For more information about Windows Autopilot, see [Overview of Windows Autopilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot).  
+
 
 ## August 2019  
 
