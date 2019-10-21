@@ -34,7 +34,7 @@ Learn what’s new in Intune for Education. Find out about upcoming changes, pro
 ## October 2019  
 
 ### View Win32 Apps from Intune for Education portal  
-Yuo can now see the Win32 apps that are configured in your tenant, and manage the apps' group assignments, from the Intune for Education portal. 
+You can now see the Win32 apps that are configured in your tenant, and manage the apps' group assignments, from the Intune for Education portal. 
 
 ### Configure Take A Test for local guest accounts  
 New configuration options are available for Take a Test profiles. There's now a local guest account option, so students can click a button on the Windows sign-in screen to launch a secure assessment, and skip entering a password. For more information about Take a Test, see [Take tests in Windows 10](https://docs.microsoft.com/education/windows/take-tests-in-windows-10) and [Add a Take a Test profile](take-a-test-profiles.md) in Intune for Education.  
