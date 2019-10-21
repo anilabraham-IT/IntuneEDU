@@ -59,14 +59,14 @@ Some device features--such as narrator--and other assistive technology are still
 ## Take a Test profile setup
 Follow these steps to set up a profile in Intune for Education.  
 
-1. From Intune for Education dashboard, click **Take a Test profiles**.    
+1. From Intune for Education dashboard, select **Take a Test profiles**.    
 
     ![Screenshot of the Intune side bar, highlighting Take a Test option.](./media/take-a-test-1910-01.png)   
-2.  Click Add Take a Test profile.  
+2.  Select **Add Take a Test profile**.  
     ![Screenshot of Take A Test page, highlighting "Add Take a Test profile" button.](./media/take-a-test-1910-02.png)
 3. Enter a descriptive name for your Take a Test profile. Students won’t see the profile name. It only appears in Intune.   
 4. Enter the name of the local guest account used for testing. The name is shown on the local guest account tile on the device’s sign-in screen. Students click the tile to launch the test.  
-5. Enter the Assessment URL.   
+5. Enter the assessment URL.   
 
    ![Screenshot of settings, highlighting three required fields](./media/take-a-test-1910-03.png)  
 6. Optionally, enter a description for the Take a Test profile. Students won’t see the profile description. It only appears in Intune.  
@@ -75,18 +75,18 @@ Follow these steps to set up a profile in Intune for Education.
     b. Allow screen capture: Students and teachers can use screen capture and screen recording tools in the Take a Test app. Teachers can use these tools to see what students are doing in the app.  
     c. Allow text suggestions   
 
-To view the details of any profile, select it from the left side of the page. Then click the **Account** tab.  
+To view the details of any profile, select it from the left side of the page. Then select the **Account** tab.  
 
  ![Screenshot showing a profile's details, highlighting the selected profile and the Account button.](./media/take-a-test-1910-04.png)  
 
 
 ## Assign or change groups
 Assign groups of students that require access to the test profile. Follow these steps to make edits to group assignments too.
-1. From the **Take a Test profiles** page, click the **Groups** tab. 
-2. Click **Change group assignments**. 
-3. Select one or more groups from the **All Groups** menu. Then click **Add Groups**. 
-4. To remove a group from the assignment, select the group from the **Groups assigned** menu. Then click **Remove Groups**.
-5. Click **Ok** to submit your changes.
+1. From the **Take a Test profiles** page, select the **Groups** tab. 
+2. Select **Change group assignments**. 
+3. Select one or more groups from the **All Groups** menu. Then select **Add Groups**. 
+4. To remove a group from the assignment, select the group from the **Groups assigned** menu. Then select **Remove Groups**.
+5. Select **Ok** to submit your changes.
 
 > [!NOTE]
 >  Intune for Education used to offer the ability to configure a Take a Test profile by specifying an Azure AD account as the test-taking account. If you already have Take a Test profiles configured in this way, you can still view the profile and assign it to groups, but you can't edit the profile in Intune for Education. To edit the profile, visit Intune in the Azure portal.  
