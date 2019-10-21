@@ -62,19 +62,18 @@ Follow these steps to set up a profile in Intune for Education.
 1. From Intune for Education dashboard, click **Take a Test profiles**.    
 
     ![Screenshot of the Intune side bar, highlighting Take a Test option.](./media/take-a-test-1910-01.png)   
-1.  Click Add Take a Test profile.  
+2.  Click Add Take a Test profile.  
     ![Screenshot of Take A Test page, highlighting "Add Take a Test profile" button.](./media/take-a-test-1910-02.png)
-1. Enter a descriptive name for your Take a Test profile. Students won’t see the profile name. It only appears in Intune.   
-4 Enter the name of the local guest account used for testing. The name is shown on the local guest account tile on the device’s sign-in screen. Students click the tile to launch the test.  
-1. Enter the Assessment URL.   
+3. Enter a descriptive name for your Take a Test profile. Students won’t see the profile name. It only appears in Intune.   
+4. Enter the name of the local guest account used for testing. The name is shown on the local guest account tile on the device’s sign-in screen. Students click the tile to launch the test.  
+5. Enter the Assessment URL.   
 
    ![Screenshot of settings, highlighting three required fields](./media/take-a-test-1910-03.png)  
-1. Optionally, enter a description for the Take a Test profile. Students won’t see the profile description. It only appears in Intune.  
-2. Configure the rest of the test settings.    
+6. Optionally, enter a description for the Take a Test profile. Students won’t see the profile description. It only appears in Intune.  
+7. Configure the rest of the test settings.    
     a. Require printer connection: Students can only access the Take a Test app from devices that are connected to a printer. This setting also makes the app’s print button available to students.  
-    b. Allow screen capture: Students and teachers can use screen capture and screen recording tools in the Take a Test.  
+    b. Allow screen capture: Students and teachers can use screen capture and screen recording tools in the Take a Test app. Teachers can use these tools to see what students are doing in the app.  
     c. Allow text suggestions   
-3. Select an account from your list of existing users. Students will use the account's username and password to sign in to the appropriate assessment.  
 
 To view the details of any profile, select it from the left side of the page. Then click the **Account** tab.  
 
