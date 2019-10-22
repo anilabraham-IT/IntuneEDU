@@ -40,15 +40,17 @@ Always up-to-date: Custom images and provisioning packages on USBs can quickly b
 
 Easy reset: Initiate a remote Windows Autopilot Reset from Intune for Education to quickly reset student PCs that are having issues. During a reset, all apps, settings, and user data are removed, while the devices remain enrolled in Azure AD and Intune. After wiping, student PCs automatically receive the latest Intune policies to get them ready for the classroom again. 
 
+   ![A graphic titled "3 Steps to classroom-ready with Windows Autopilot for Edu." Shows the high-level steps to set up devices, from hardware vendor to first day of class.](./media/windows-autopilot-graphic-1910.png) 
+
 ## Autopilot deployment in user-driven mode  
-Intune for Education supports Windows Autopilot deployment profiles in user-driven mode. User-driven mode simplifies the out-of-the-box (OOBE) experience so that students and teachers can easily configure their devices. During setup, they'll walk through a series of screens with these instructions:      
+Intune for Education supports Windows Autopilot deployment profiles in user-driven mode. User-driven mode simplifies the out-of-the-box (OOBE) experience so that students and teachers can easily configure their devices. During setup, they're walked through a series of screens that instruct them to:      
    
-1. Plug in your device and turn it on.  
+1. Plug in device and turn it on.  
 2. Choose a language.  
 3. Choose a keyboard.  
 4. Optionally, choose a second keyboard.  
-5. Connect to a Wi-Fi network with internet access. You can also connect to a wired network.   
-6. Type in your school’s username, then password.  
+5. Connect to a Wi-Fi network with internet access, or connect to a wired network.   
+6. Type in school’s username and password.  
 
 When they get to the enrollment status page, the device will lock until setup is complete.    
 
@@ -76,27 +78,36 @@ Some factors, such as network and number of devices, could affect or delay your 
 ## Configure Autopilot deployment profiles  
 Complete these steps to configure an Autopilot deployment profile for a group. We recommend that you first configure a default Autopilot deployment profile with standard user permissions. Then assign it to the all devices group. From there, you can configure additional deployment profiles with administrator permissions, and assign them to other device groups as needed.  
 
-1. From the menu on the left, navigate to **Groups** > **All Devices**. 
-2. Under Settings, go to **Windows Device Settings** > **Enrollment** > **Windows Autopilot**. 
-3. For **Configure Autopilot deployment profile for devices**, select **User-driven**.  
+1. From the menu on the left, go to **Groups** > **All Devices**. 
+2. Under **Settings**, go to **Windows Device Settings** > **Enrollment** > **Windows Autopilot**. 
 
-1. By default, a standard user account type is selected. If you want all users in your tenant to be admins on their devices, select **Administrator**.
-    * (Optional) If only some of your users need to have admin permissions, create a group just for them. Then configure a separate deployment profile to assign to them. For example, if you want your staff to have admin privileges, create a group that's made up of your staff’s devices. Then assign a deployment profile that has an administrator user account type.
+   ![Screenshot of All Devices group, Enrollment settings, highlighting Windows Autopilot section.](./media/enrollment-autopilot-settings-1910.png)  
+
+3. Next to **Configure Autopilot deployment profile for devices**, select **User-driven**. After you select this option, the user account type appears.   
+
+   ![Screenshot of All Devices group, Windows Autopilot settings, with user-driven mode and standard user account selected.](./media/user-driven-deployment-1910.png)  
+
+
+4. By default, a standard user account type is selected. If you want all users in your tenant to be admins on their devices, select **Administrator** instead.    
+    * If only some of your users need to have admin permissions, create a group just for them. Then configure a separate deployment profile to assign to them. For example, if you want your staff to have admin privileges, create a group that's made up of your staff’s devices. Then assign a deployment profile that has an administrator user account type.
 
 ## Create dynamic group with group tag  
-Create a dynamic group to quickly group Autopilot-registered devices. Setting a group tag rule will automatically create and populate a group with devices that you tagged during Autopilot registration. This feature eliminates the need for you to select and group devices one-by-one.   
+Create a dynamic group to quickly group Autopilot-registered devices. Setting a group tag rule will automatically create and populate a group with devices that you tagged during Autopilot registration. This feature eliminates the need for you to select and group devices one-by-one.    
 
 Group tags are assigned to devices during Windows Autopilot registration. Make sure you communicate with your Microsoft partner about the tags you want to add before registration begins.  
 
+   ![Screenshot of Groups page, Create group, highlighting dynamic group settings.](./media/dynamic-group-tag-1910.png) 
+
 1. Go to **Groups** > **Create group**.  
-1. Name your group.
+2. Name your group.
 2. Under **Group type**, select **Dynamic**. 
-3. For the remaining options on the screen:
-    a. Choose **Windows**. 
-    b. Choose **Device group tag starts with**.
-4. Type in the name of the group tag. For example, Contoso Teachers.
-5. Select **Create group**. All of your Autopilot-registered devices that have the group tag will be added to the new group. 
-6. Next, go to **Settings** > **Windows Device Settings** > **Enrollment** > **Windows Autopilot** to assign a deployment profile to the group.
+3. Under **Rules**:  
+    a. Select **Devices**.  
+    b. Select **Windows**.  
+    c. Select **Device group tag starts with**.  
+    d. Type in the name of the group tag. In this example, the tag is *Contoso Teachers*.  
+4. Select **Create group**. All Autopilot-registered devices with the specified group tag will be added to your new group. 
+5. Next, go to **Settings** > **Windows Device Settings** > **Enrollment** > **Windows Autopilot** to assign a deployment profile to your group.  
 
 ## Configure settings and apps  
 If each device in your school is assigned to a single user, we recommend that you:  
