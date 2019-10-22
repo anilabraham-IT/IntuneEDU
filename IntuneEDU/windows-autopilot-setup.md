@@ -109,7 +109,7 @@ You can configure settings and apps under the default groups created by SDS. You
 If the devices in your school are shared by all students, they'll most likely have similar settings and apps. Configure all common settings and apps under the all devices group. Configure other apps and settings in the device groups where they apply.  
 
 ## Distribute devices  
-After you’re done with the configuration, and devices are delivered to each school, distribute them to students and teachers. They can set up the devices at home or at school, as long as there is a reliable network. For a brief overview of what the OOBE is like, see [User-driven mode](#user-driven-mode).    
+After you’re done with the configuration, and devices are delivered to each school, distribute them to students and teachers. They can set up the devices at home or at school, as long as there is a reliable network. For a brief overview of what the OOBE is like, see [User-driven mode](#autopilot-deployment-in-user-driven-mode ).    
 
 ## Monitor devices  
  Go to **Reports** > **Autopilot deployment report** to monitor the enrollment status of your school's devices.  
@@ -117,7 +117,7 @@ After you’re done with the configuration, and devices are delivered to each sc
 Use the report to quickly identify failed enrollments. To see more details or troubleshoot a failed enrollment, click on the device name. You’ll go to the **Device details page** > **Windows Autopilot details**.    
 
 ## Troubleshoot devices  
-If you experience a problem anytime during Windows Autopilot setup, see [Troubleshooting Windows Autopilot](https://docs.microsoft.com/en-us/windows/deployment/windows-autopilot/troubleshooting).  
+If you experience a problem anytime during Windows Autopilot setup, see [Troubleshooting Windows Autopilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/troubleshooting).  
 
 ## Windows Autopilot Reset  
 When a device experiences issues during the school year, you can use Autopilot Reset to reset it to a healthy state. A reset can also be done on a group of devices. For more information about this feature, including how to use it in Intune for Education, see [Autopilot Reset](autopilot-reset.md).   
