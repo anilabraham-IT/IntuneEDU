@@ -30,19 +30,19 @@ searchScope:
 ---
 
 # Set up devices with Windows Autopilot and Intune for Education   
+
+
 Windows Autopilot is a cloud-based provisioning technology that's used in schools to set up and pre-configure new devices, getting them ready for productive use during the school year. Windows Autopilot was designed with school IT departments in mind and provides:   
 
-<img alt="icon" src="./media/laptop-icon.png" width="45">   Easy device setup: Students power on their devices, connect them to the internet, and sign in. Windows Autopilot automatically configures each device from the cloud and gets them ready for the classroom.  
+* Easy device setup: Students power on their devices, connect them to the internet, and sign in. Windows Autopilot automatically configures each device from the cloud and gets them ready for the classroom.  
 
-<img alt="icon" src="./media/time-money-icon.png" width="45"> Time and cost savings in large-scale deployments: Students and teachers can provision devices themselves. IT departments no longer need to set up provisioning in large warehouses and hire a fleet of technicians to set up student PCs.  
+* Time and cost savings in large-scale deployments: Students and teachers can provision devices themselves. IT departments no longer need to set up provisioning in large warehouses and hire a fleet of technicians to set up student PCs.  
 
-<img alt="icon" src="./media/cloud-icon.png" width="45"> Always up-to-date: Custom images and provisioning packages on USBs can quickly become outdated. With Windows Autopilot, student PCs always get configured with the latest Intune policies and apps.  
+* Always up-to-date: Custom images and provisioning packages on USBs can quickly become outdated. With Windows Autopilot, student PCs always get configured with the latest Intune policies and apps.  
 
-<img alt="icon" src="./media/loading-laptop-icon.png" width="45"> Easy reset: Initiate a remote Windows Autopilot Reset from Intune for Education to quickly reset student PCs that are having issues. During a reset, all apps, settings, and user data are removed, while the devices remain enrolled in Azure AD and Intune. After wiping, student PCs automatically receive the latest Intune policies to get them ready for the classroom again.   
+* Easy reset: Initiate a remote Windows Autopilot Reset from Intune for Education to quickly reset student PCs that are having issues. During a reset, all apps, settings, and user data are removed, while the devices remain enrolled in Azure AD and Intune. After wiping, student PCs automatically receive the latest Intune policies to get them ready for the classroom again.  
 
-
-   
-   ![A graphic titled "3 Steps to classroom-ready with Windows Autopilot for Edu." Shows the high-level steps to set up devices, from hardware vendor to first day of class.](./media/windows-autopilot-graphic-1910.png)  
+  ![A graphic titled "3 Steps to classroom-ready with Windows Autopilot for Edu." Shows the high-level steps to set up devices, from hardware vendor to first day of class.](./media/windows-autopilot-graphic-1910.png) 
 
 ## Autopilot deployment in user-driven mode  
 Intune for Education supports Windows Autopilot deployment profiles in user-driven mode. User-driven mode simplifies the out-of-the-box (OOBE) experience so that students and teachers can easily configure their devices. During setup, they're walked through a series of screens that instruct them to:      
