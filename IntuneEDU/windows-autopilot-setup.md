@@ -42,7 +42,7 @@ Windows Autopilot is a cloud-based provisioning technology that's used in school
 
 * Easy reset: Initiate a remote Windows Autopilot Reset from Intune for Education to quickly reset student PCs that are having issues. During a reset, all apps, settings, and user data are removed, while the devices remain enrolled in Azure AD and Intune. After wiping, student PCs automatically receive the latest Intune policies to get them ready for the classroom again.  
 
-  ![A graphic titled "3 Steps to classroom-ready with Windows Autopilot for Edu." Shows the high-level steps to set up devices, from hardware vendor to first day of class.](./media/windows-autopilot-graphic-1910.png) 
+     ![A graphic titled "3 Steps to classroom-ready with Windows Autopilot for Edu." Shows the high-level steps to set up devices, from hardware vendor to first day of class.](./media/windows-autopilot-graphic-1910.png) 
 
 ## Autopilot deployment in user-driven mode  
 Intune for Education supports Windows Autopilot deployment profiles in user-driven mode. User-driven mode simplifies the out-of-the-box (OOBE) experience so that students and teachers can easily configure their devices. During setup, they're walked through a series of screens that instruct them to:      
@@ -61,7 +61,7 @@ Complete these requirements before you begin Windows Autopilot setup in Intune f
 
 1. Meet Windows Autopilot requirements: Make sure your school and devices meet [the software, networking, licensing, and configuration requirements](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot-requirements) for Windows Autopilot.      
 
-2. Determine user permissions: During registration, a [Microsoft partner](https://partner.microsoft.com/) will assign group tags to your devices. If you require different user permissions on different devices, instruct your partner to split the devices in to two group tags, according to permissions. Provide names for each group. For example, if teachers get admin permissions on devices and students don't,you could name one group *Contoso Teachers*, and name another *Contoso Students*.    
+2. Determine user permissions: During registration, a [Microsoft partner](https://partner.microsoft.com/) will assign group tags to your devices. If you require different user permissions on different devices, instruct your partner to split the devices in to two group tags, according to permissions. Provide names for each group. For example, if teachers get admin permissions on devices and students don't, you could name one group *Contoso Teachers*, and name another *Contoso Students*.    
 
 3. Order and register your devices: After you or the Microsoft partner orders the devices from the OEM provider, register the devices for the Autopilot deployment service. We recommend that you connect with a partner through [Microsoft Partner Center](https://partner.microsoft.com) and work with them to register the devices. The partner will obtain a CSV with the devices’ information from the OEM and then upload it to Partner Center. For detailed registration instructions, see [Adding devices to Windows Autopilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/add-devices). 
 
@@ -93,7 +93,7 @@ Complete these steps to configure an Autopilot deployment profile for a group. W
 4. By default, a **Standard** user account type is selected. If you want all users in your tenant to be admins on their devices, select **Administrator** instead.    
     * If only some of your users need to have admin permissions, create a group and deployment profile just for them. For example, if you want your staff to have admin privileges, create a group that's made up of your staff’s devices. Then complete steps 2 through 4 in this section to create a deployment profile that has an administrator user account type.
 
-## Create dynamic group based on group tah
+## Create dynamic group based on group tag  
 Create a dynamic group to quickly group Autopilot-registered devices. Setting a group tag rule will automatically create and populate a group with devices that you tagged during Autopilot registration. This feature eliminates the need for you to select and group devices one-by-one.    
 
 Group tags are assigned to devices during Windows Autopilot registration. Make sure you communicate with your Microsoft partner about your need for group tags before registration begins.  
@@ -137,7 +137,7 @@ When a device experiences issues during the school year, you can use Autopilot R
 
  
 ## Next steps  
-Find out about the newest Autopilot features and other changes in Intune for Education. See [What's new](whats-new-in-edu.md) for a monthly summary of of all new features in Intune for Education.     
+Find out about the newest Autopilot features and other changes in Intune for Education. See [What's new](whats-new-in-edu.md) for a monthly summary of all new features in Intune for Education.     
 
 Make [changes to your groups](edu-device-remote-actions.md) and use [remote actions](edu-device-remote-actions.md) in Intune for Education.
 
