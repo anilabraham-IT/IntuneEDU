@@ -22,7 +22,7 @@ searchScope:
 #ROBOTS:
 #audience:
 #ms.devlang:
-#ms.reviewer: rashok
+#ms.reviewer: madakeva
 #ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom: intune-education
