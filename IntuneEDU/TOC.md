@@ -15,7 +15,9 @@
 ## [Enroll Windows 10 devices](add-devices-windows.md)
 ## [Add device enrollment managers](add-enrollment-managers.md)
 ## [Windows 10 device group presets](all-devices-group-presets-windows-edu.md)
-## [Autopilot Reset](autopilot-reset.md)
+## Windows Autopilot
+### [Set up devices with Autopilot](windows-autopilot-setup.md)
+### [Autopilot Reset](autopilot-reset.md)
 # Add iOS devices
 ## [Set up iOS device management](setup-ios-device-management.md)
 ## [Enroll iOS devices](add-devices-ios-edu.md)

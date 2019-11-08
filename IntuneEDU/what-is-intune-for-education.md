@@ -22,7 +22,7 @@ searchScope:
 #ROBOTS:
 #audience:
 #ms.devlang:
-#ms.reviewer: travisj
+#ms.reviewer: elcox
 #ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom: intune-education
@@ -76,7 +76,7 @@ You'll have access to other Microsoft management tools such as:
 * [Microsoft School Data Sync](https://sds.microsoft.com)
 * [Office 365 for  Education](https://support.office.com/article/Get-started-with-Office-365-Education-AB02ABE5-A1EE-458C-B749-5B44416CCF14)
 
-Use Intune for Education with [Microsoft Education](https://docs.microsoft.com/education/#pivot=itpro) tools such as:
+Use Intune for Education with [Microsoft Education](https://docs.microsoft.com/education/itadmins) tools such as:
 
 - [Office 365 for Education](https://support.office.com/article/Set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa)
 - [Windows 10 for Education](https://docs.microsoft.com/education/windows)
