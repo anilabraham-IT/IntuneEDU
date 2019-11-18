@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 10/21/2019
+ms.date: 11/18/2019
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -30,6 +30,19 @@ searchScope:
 ---
 # What's new in Intune for Education
 Learn what’s new in Intune for Education. Find out about upcoming changes, product notices, and features from previous releases.  
+
+## November 2019  
+
+### Configure power and sleep settings  
+Control power and sleep settings for Windows devices. For idles devices, you can configure when to: 
+
+* Turn off the display
+* Put the devices to sleep
+* Put the devices in hibernation  
+
+### Manage VPP token restrictions  
+You can now choose which admins have access to select VPP tokens. To manage VPP token restrictions, go to **Groups** > **Admins**.  
+
 
 ## October 2019  
 
