@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 10/21/2019
+ms.date: 11/18/2019
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -30,6 +30,21 @@ searchScope:
 ---
 # What's new in Intune for Education
 Learn what’s new in Intune for Education. Find out about upcoming changes, product notices, and features from previous releases.  
+
+## November 2019  
+
+### Configure power and sleep settings  
+Control power and sleep settings for idle Windows devices. You can configure when to: 
+
+* Turn off the display
+* Put the devices to sleep
+* Put the devices in hibernation  
+
+### Manage VPP token restrictions  
+You can now restrict admins from accessing selected apps. To add and manage restricted VPP tokens, go to **Groups** > **Admins** > **Restrict app access for admins**.  
+
+[![Screenshot of All Devices group, Admin tab, restrict app access settings.](./media/manage-admin-tokens-1911.png)](./media/manage-admin-tokens-1911.png#lightbox)  
+
 
 ## October 2019  
 
