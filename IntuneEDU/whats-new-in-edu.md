@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 11/18/2019
+ms.date: 11/22/2019
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -32,6 +32,16 @@ searchScope:
 Learn what’s new in Intune for Education. Find out about upcoming changes, product notices, and features from previous releases.  
 
 ## November 2019  
+### New permissions for group admins <!-- 5621805 WNready -->  
+Users assigned as group admins can now:  
+
+* Sync Windows Autopilot devices
+* Manage Autopilot device and user assignments
+* Manage Autopilot deployment profile assignments
+* Manage Apple user-initiated enrollment profile assignments  
+
+To delegate admin permissions in your organization, go to Intune for Education > **Groups** > **Admins**.  Users who are assigned Intune's built-in school administrator role also have these permissions. To assign the school admin role or modify permissions, go to the Device Management admin center > **Tenant administration** > **Roles**. For a list of all group admin/school administrator permissions, see [Assign group admins](https://docs.microsoft.com/intune-education/group-admin-delegate).   
+
 
 ### Configure power and sleep settings  
 Control power and sleep settings for idle Windows devices. You can configure when to: 
