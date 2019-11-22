@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 06/20/2019
+ms.date: 11/22/2019
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -44,6 +44,11 @@ Group admins are assigned in Intune for Education and have permission to manage 
 - View reports.
 - Take remote actions on devices, including resetting to factory settings, rebooting, locking an unlocked device, and forcing a sync.  
 - Create, delete, view, and update the iOS MDM Push Certificate, iOS MDM server tokens, and iOS VPP tokens.   
+- Assign and delete an Apple user-initiated enrollment profile.  
+- Assign and delete Windows Autopilot deployment profiles.  
+- Initiate a sync on devices registered with the Windows Autopilot service.   
+- Assign users to devices registered with the Windows Autopilot service.  
+- Delete devices registered with the Windows Autopilot service.  
 
 > [!TIP]
 > Modifying admin permissions is an advanced task. If you want to change the permissions or create a custom set of permissions, then you need to go to [the full management experience in Intune](https://docs.microsoft.com/intune/role-based-access-control). These permissions comprise the built-in School Administrator role in Intune. 
