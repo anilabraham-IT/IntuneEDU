@@ -33,7 +33,7 @@ searchScope:
 You can use Autopilot Reset to remove personal files, apps, and settings from your devices. The devices remain enrolled in Intune and are returned to a fully-configured or known IT-approved state.
 You can Autopilot Reset a device locally or remotely from the Intune for Education portal.  
 
-Using the Intune for Education portal, you avoid the need for IT staff to visit each device to start the process. From the portal, you an wipe a device and then reconfigure it to prepare it for a new student or classroom.  
+Using the Intune for Education portal, you avoid the need for IT staff to visit each device to start the process. From the portal, you can wipe a device and then reconfigure it to prepare it for a new student or classroom.  
 
 After a reset, the original settings are applied to the device and then it syncs with Intune to get the latest policies. When Autopilot reset is used on a device, the device's primary user will be removed. The next user who signs in after the reset will be set as the primary user.   
 
