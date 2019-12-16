@@ -33,7 +33,7 @@ searchScope:
 After you sign up for an account, Intune for Education presets some of the settings in the All Devices group. These settings help you get a head start at managing Windows 10 devices in the classroom. To adjust the settings, go to Intune for Education > **Groups** > **All Devices** > **Windows device settings**.  
 
 > [!NOTE]
-> If you already have an Intune subscription and then add on Intune for Education, the presets won't be automatically assigned. You will be able to see the recommended presets and decide if you want to apply them to your tenant. This behavior is intentional and prevents unwanted changes to your environment.      
+> These presets are applied automatically for new tenants. If your school is already set up in Intune and then you sign up for Intune for Education, these presets won't be applied automatically. This behavior is intentional and prevents unwanted changes to your existing environment. You can, however, see the recommended presets and decide if you want to apply them yourself.       
 
 For a list and descriptions of all Windows 10 device settings, see [Windows 10 device settings](all-edu-settings-windows.md).  
 
