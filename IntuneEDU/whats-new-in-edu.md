@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 11/22/2019
+ms.date: 12/16/2019
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -30,6 +30,14 @@ searchScope:
 ---
 # What's new in Intune for Education
 Learn what’s new in Intune for Education. Find out about upcoming changes, product notices, and features from previous releases.  
+
+## December 2019
+### Configure new Microsoft Edge browser  
+You can now configure and deploy the new Microsoft Edge browser from Intune for Education. Some of the settings you'll find apply to both the old and new Edge browser. Other settings, such as the following, only work for the new browser: 
+* Configure blocked URLs list  
+* Require Safe Search 
+* Require YouTube restricted mode  
+
 
 ## November 2019  
 ### New permissions for group admins <!-- 5621805 WNready -->  
