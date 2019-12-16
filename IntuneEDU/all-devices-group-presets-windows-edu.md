@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 04/12/2019
+ms.date: 12/16/2019
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -30,7 +30,10 @@ searchScope:
 ---
 
 # All Devices group presets for Windows 10
-After you sign up for an account, Intune for Education presets some of the settings in the All Devices group. These settings help you get a head start at managing Windows 10 devices in the classroom. To adjust the settings, go to the Intune for Education portal > **Groups** > **All Devices** > **Windows device settings**.  
+After you sign up for an account, Intune for Education presets some of the settings in the All Devices group. These settings help you get a head start at managing Windows 10 devices in the classroom. To adjust the settings, go to Intune for Education > **Groups** > **All Devices** > **Windows device settings**.  
+
+> [!NOTE]
+> If you already have an Intune subscription and then add on Intune for Education, the presets won't be automatically assigned. You will be able to see the recommended presets and decide if you want to apply them to your tenant. This behavior is intentional and prevents unwanted changes to your environment.      
 
 For a list and descriptions of all Windows 10 device settings, see [Windows 10 device settings](all-edu-settings-windows.md).  
 
@@ -40,7 +43,7 @@ For a list and descriptions of all Windows 10 device settings, see [Windows 10 d
 |Apps|Trusted apps|Block|  
 |Apps|Untrusted apps|Block| 
 |Enrollment controls|Block manual unenrollment|Block|
-|Enrollment controls|Block Autopilot Reset|Enable|
+|Enrollment controls|Block Autopilot Reset|Disable|
 |Enrollment controls|Block adding provisioning packages|Block|
 |Enrollment controls|Block removing provisioning packages|Block|
 |Microsoft Edge|Block untrusted browser extensions |Block|
@@ -75,6 +78,9 @@ For a list and descriptions of all Windows 10 device settings, see [Windows 10 d
 |User experience|Send diagnostic data|Basic|
 |User experience|Block Windows Spotlight|Block|  
 
+You can also enable automatic enrollment in Intune for Education. Automatic enrollment connects Azure Active Directory and Intune so that when a user signs in with their school account, their device will automatically start the enrollment process. To learn more about Windows 10 automatic enrollment, see Enable Automatic Enrollment. 
+ 
+By default, Intune for Education blocks users from enrolling their personal Windows devices. This default ensures that personal devices aren't accidentally enrolled.  
 
 ## Next steps
 For the full list of Windows 10 settings available in Intune for Education, see [All Windows 10 settings](all-edu-settings-windows.md).  
