@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 12/16/2019
+ms.date: 12/17/2019
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -78,7 +78,7 @@ For a list and descriptions of all Windows 10 device settings, see [Windows 10 d
 |User experience|Send diagnostic data|Basic|
 |User experience|Block Windows Spotlight|Block|  
 
-You can also enable automatic enrollment in Intune for Education. Automatic enrollment connects Azure Active Directory and Intune so that when a user signs in with their school account, their device will automatically start the enrollment process. To learn more about Windows 10 automatic enrollment, see Enable Automatic Enrollment. 
+By default, Intune for Education is set up to automatically enroll Windows 10 devices. Automatic enrollment connects Azure Active Directory and Intune so that when a user signs in with their school account, their device will automatically enroll with Intune. To learn more about Windows 10 automatic enrollment, see [Enable Windows 10 automatic enrollment](https://docs.microsoft.com/intune/enrollment/windows-enroll#enable-windows-10-automatic-enrollment). 
  
 By default, Intune for Education blocks users from enrolling their personal Windows devices. This default ensures that personal devices aren't accidentally enrolled.  
 
