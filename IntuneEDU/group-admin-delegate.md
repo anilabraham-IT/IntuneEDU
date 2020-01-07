@@ -33,7 +33,7 @@ searchScope:
 
 Give admin permissions to a group of qualified individuals at your school to help reduce the risk of unauthorized or accidental changes in Intune for Education. People assigned as admins can sign in to Intune for Education and manage user and device groups. They can only see and make changes to the groups you assign them.  
 
-Group admins are assigned in Intune for Education and have permission to manage school devices and apps. Group admins can:  
+Group admins can:  
 
 - View information about devices, users, and apps.
 - Assign, create, delete, view, and update device and user settings.
@@ -102,14 +102,14 @@ Complete these steps to remove a device or user group from a group of admins.
 If you're in a school district that has iOS devices at multiple locations, it’s a good idea to restrict VPP token access to select admins. These tokens will only be accessible to admins if the token has been added to their group's restricted token list.       
 
 1. From the dashboard, select **Groups**.  
-2. Choose a group.  
-3. Select the **Admins** tab. To view admins of the current group, select **Admins of this group**. To view groups that this group can manage, select **Managed by this group**. 
+2. Choose a group.   
+3. Select the **Admins** tab. To view admins of the current group, select **Admins of this group**. To view groups that this group can manage, select **Managed by this group**.  
 4. Choose an admin group from the list. Two additional lists appear:  
-    * The top list shows all restricted VPP tokens. These tokens and their associated apps can only be accessed by the selected group. 
+    * The top list shows all restricted VPP tokens. These tokens and their associated apps can only be accessed by the selected group.  
     * The bottom list shows all unrestricted VPP tokens. These tokens and their associated apps can be accessed by anyone with admin permissions.  
-5. To add a token to the group's restricted list:  
-    a. Use the search bar to find a token. Select the token from the search results.  
-    b. Choose a token from the unrestricted list and then select **Restrict to these admins**. 
-6. Select **Save**.   
+1. To add a token to the group's restricted list you can either:  
+    * Use the search bar to find a token. Select the token from the search results.  
+    * Choose a token from the unrestricted list and then select **Restrict to these admins**.  
+1. Select **Save**.   
 
-Now that you've added the token to the group's restricted list, only these admins can see and manage the token and its associated apps. Repeat these steps for each group to restrict all VPP tokens to their respective admins.  
+Now that the token is a part of the admins' restricted list, only these admins can see and manage the token and its associated apps. Repeat these steps for each group to restrict all VPP tokens to their respective admins.  
