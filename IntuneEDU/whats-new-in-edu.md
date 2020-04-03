@@ -41,7 +41,7 @@ On the **Devices** page, you can search, filter, and sort your device list by pa
 
 [![Screenshot of Devices page, highlighting new search bar, filters, and sort parameters.](./media/intune-education-search-parameters-2003.png)](./media/intune-education-search-parameters-2003.png#lightbox)  
 
-### Perform bulk actions with new device search blade
+### Perform new bulk actions 
 
 Perform remote actions on up to 2,000 devices at a time.  The remote actions that support bulk selection include: 
  
