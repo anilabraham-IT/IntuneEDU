@@ -31,19 +31,19 @@ searchScope:
 # What's new in Intune for Education
 Learn what's new in Intune for Education. Find out about upcoming changes, product notices, and features from previous releases.  
 
-## March 2020  
+## April 2020  
 
 ### Streamlined deployment of new Microsoft Edge browser
-You can now deploy the Microsoft Edge browser from Intune for Education. Go to **Apps** to assign and deploy it to students and teachers.  
+You can now deploy the Microsoft Edge browser from Intune for Education. The app is already available in your app inventory. Simply assign it to students and teachers to deploy it throughout your school. 
 
 ### Search and filter your device list  
 On the **Devices** page, you can search, filter, and sort your device list by parameters such as device name, device manufacturer, operating system, and last check-in time.  
 
 [![Screenshot of Devices page, highlighting new search bar, filters, and sort parameters.](./media/intune-education-search-parameters-2003.png)](./media/intune-education-search-parameters-2003.png#lightbox)  
 
-### Perform new bulk actions 
+### Perform remote actions with bulk selection 
 
-Perform remote actions on up to 2,000 devices at a time.  The remote actions that support bulk selection include: 
+Perform remote actions in bulk, on up to 2,000 devices at a time.  The remote actions that support bulk selection include: 
  
 * Sync
 * Restart
