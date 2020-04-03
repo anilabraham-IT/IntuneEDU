@@ -58,7 +58,7 @@ Perform remote actions on up to 2,000 devices at a time.  The remote actions tha
 * Select the checkbox at the top of the list, next to **Device name**, to select all visible devices at once   
 
 ### Block app removal on iOS devices  
-Use the **Block app removal** setting to block users from removing apps from their iOS devices. 
+Use the **Block app removal** setting to block users from removing apps from their iOS devices. Go to **Groups** > **Settings** > **iOS Device Settings** > **Device restrictions** to configure the setting. 
 
 ### Block all forms of Windows PowerShell   
 Now when you use Intune for Education to block Windows PowerShell from students and teachers, the setting will block both Windows PowerShell and Windows PowerShell ISE.  
