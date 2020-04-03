@@ -39,7 +39,7 @@ You can now deploy the Microsoft Edge browser from Intune for Education. Go to *
 ### Search and filter your device list  
 On the **Devices** page, you can search, filter, and sort your device list by parameters such as device name, device manufacturer, operating system, and last check-in time.  
 
-[![Screenshot of Devices page, highlighting new search bar, filters, and sort parameters.](./media/intune-education-search-parameters-2003.png)](./media/intune-eduxation-search-parameters-2003.png#lightbox)  
+[![Screenshot of Devices page, highlighting new search bar, filters, and sort parameters.](./media/intune-education-search-parameters-2003.png)](./media/intune-education-search-parameters-2003.png#lightbox)  
 
 ### Perform bulk actions with new device search blade
 
@@ -61,7 +61,7 @@ Perform remote actions on up to 2,000 devices at a time.  The remote actions tha
 Use the **Block app removal** setting to block users from removing apps from their iOS devices. 
 
 ### Block all forms of Windows PowerShell   
-Noew when you use Intune for Education to block Windows PowerShell from students and teachers, the setting will block both Windows PowerShell and Windows PowerShell ISE.  
+Now when you use Intune for Education to block Windows PowerShell from students and teachers, the setting will block both Windows PowerShell and Windows PowerShell ISE.  
 
 ### New documentation on remote assistance options 
 In response to Covid-19, some schools have switched to remote learning. To help you provide remote assistance to your students and teachers, see our [new documentation and guidance about remote assistance options for cloud-managed devices](https://go.microsoft.com/fwlink/?linkid=2125805). Also, check out our [Remote Learning Deployment Reference](https://go.microsoft.com/fwlink/?linkid=2125902) if you're looking to get started with remote learning.   
