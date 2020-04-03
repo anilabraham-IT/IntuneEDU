@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 12/16/2019
+ms.date: 04/03/2020
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -29,7 +29,42 @@ searchScope:
 
 ---
 # What's new in Intune for Education
-Learn what’s new in Intune for Education. Find out about upcoming changes, product notices, and features from previous releases.  
+Learn what's new in Intune for Education. Find out about upcoming changes, product notices, and features from previous releases.  
+
+## April 2020  
+
+### Streamlined deployment of new Microsoft Edge browser
+You can now deploy the Microsoft Edge browser from Intune for Education. The app is already available in your app inventory. Simply assign it to students and teachers to deploy it throughout your school. 
+
+### Search and filter your device list  
+On the **Devices** page, you can search, filter, and sort your device list by parameters such as device name, device manufacturer, operating system, and last check-in time.  
+
+[![Screenshot of Devices page, highlighting new search bar, filters, and sort parameters.](./media/intune-education-search-parameters-2003.png)](./media/intune-education-search-parameters-2003.png#lightbox)  
+
+### Perform remote actions with bulk selection 
+
+Perform remote actions in bulk, on up to 2,000 devices at a time.  The remote actions that support bulk selection include: 
+ 
+* Sync
+* Restart
+* Rename
+* Autopilot Reset
+* Factory reset
+* Delete
+
+ To make a bulk selection, go to **Devices** and either:
+
+* Select each applicable device from the list  
+* Select the checkbox at the top of the list, next to **Device name**, to select all visible devices at once   
+
+### Block app removal on iOS devices  
+Use the **Block app removal** setting to block users from removing apps from their iOS devices. Go to **Groups** > **Settings** > **iOS Device Settings** > **Device restrictions** to configure the setting. 
+
+### Block all forms of Windows PowerShell   
+Now when you use Intune for Education to block Windows PowerShell from students and teachers, the setting will block both Windows PowerShell and Windows PowerShell ISE.  
+
+### New documentation on remote assistance options 
+In response to Covid-19, some schools have switched to remote learning. To help you provide remote assistance to your students and teachers, see our [new documentation and guidance about remote assistance options for cloud-managed devices](https://go.microsoft.com/fwlink/?linkid=2125805). Also, check out our [Remote Learning Deployment Reference](https://go.microsoft.com/fwlink/?linkid=2125902) if you're looking to get started with remote learning.   
 
 ## December 2019
 ### Configure new Microsoft Edge browser  
@@ -73,7 +108,7 @@ You can now see the Win32 apps that are configured in your tenant, and manage th
 New configuration options are available for Take a Test profiles. There's now a local guest account option, so students can click a button on the Windows sign-in screen to launch a secure assessment, and skip entering a password. For more information about Take a Test, see [Take tests in Windows 10](https://docs.microsoft.com/education/windows/take-tests-in-windows-10) and [Add a Take a Test profile](take-a-test-profiles.md) in Intune for Education.  
 
 ### Changes to education presets  
-After you sign up for Intune for Education, Intune preconfigures some settings in the All devices group. We’ve made changes to these presets based on customer feedback. These changes include:
+After you sign up for Intune for Education, Intune preconfigures some settings in the All devices group. We've made changes to these presets based on customer feedback. These changes include:
 
 * By default, enrollment of personal Windows devices will be blocked to ensure personal devices are not accidentally enrolled in Intune.  
 * By default, local Autopilot Reset will be disabled.  
@@ -143,7 +178,7 @@ After you sign up for Intune for Education, Intune automatically configures some
 Intune's built-in School Administrator role now has create, read, update, and delete (CRUD) permissions for Managed Apps. This update means that if you're assigned as a group admin in Intune for Education, you can now create, view, update, and delete the iOS MDM Push Certificate, iOS MDM server tokens, and iOS VPP tokens along with [all of the existing permissions you have](https://docs.microsoft.com/intune-education/group-admin-delegate#group-admin-permissions). To take any of these actions, go to **Tenant settings** > **iOS Device Management**.  
 
 ### New deployment documentation  
-In the [enrollment section](https://docs.microsoft.com/intune-education/add-devices-windows) of our documentation, you'll find new information to help you compare Set up School PCs and Windows Autopilot based on your school’s environment and setup needs. Use this information to decide when to use each option, or both, for device setup. 
+In the [enrollment section](https://docs.microsoft.com/intune-education/add-devices-windows) of our documentation, you'll find new information to help you compare Set up School PCs and Windows Autopilot based on your school's environment and setup needs. Use this information to decide when to use each option, or both, for device setup. 
 
 ## May 2019   
 
