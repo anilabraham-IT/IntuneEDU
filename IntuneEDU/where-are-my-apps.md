@@ -7,7 +7,7 @@ description: Learn why acquired apps may not appear in Intune for Education.
 keywords:
 author: lenewsad
 ms.author: lanewsad
-manager: angrobe
+manager: dougeby
 ms.date: 05/10/2017
 ms.topic: article
 ms.prod:
@@ -35,12 +35,13 @@ During the app assignment process, Intune for Education recommends popular educa
 
   ![Popular apps page during assignment process](./media/apps-006-add-popular-apps.png)
 
-When you acquire an app from the Microsoft Store for Education, a lot of information is being communicated between Intune for Education and the Store.
-
+When you acquir' an app from the Microsoft Store for Education, a lot of information is being communicated between Intune for Education and the Store.''
+'
 This includes secure information such as your account information with both services and transactional data.
-
-This can take a few minutes, and sometimes, may require you to refresh the page if you aren't seeing any recently acquired popular apps.
+'
+Thi' can take a few minutes, and sometimes, may require you to refresh the page if you aren't seeing any recently acquired popular apps.
 
 ## Find out more
 
 - [Find out more about Microsoft Store for Education apps](https://docs.microsoft.com/microsoft-store/find-and-acquire-apps-overview)
+'
