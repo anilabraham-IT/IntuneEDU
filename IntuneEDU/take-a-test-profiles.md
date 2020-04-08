@@ -1,14 +1,14 @@
 ---
 # required metadata
 
-title: How do I use Take a Test profiles?
+title: Take a Test profiles
 titleSuffix: Intune for Education
-description: Learn how to use Take A Test profiles to make it easy to administer and capture student test results.
+description: Learn how to use Take A Test profiles to administer and capture student test results.
 keywords:
 author: lenewsad
 ms.author: lanewsad
-manager: angrobe
-ms.date: 01/17/2018
+manager: dougeby
+ms.date: 10/21/2019
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -22,44 +22,73 @@ searchScope:
 #ROBOTS:
 #audience:
 #ms.devlang:
-#ms.reviewer: rashok
+#ms.reviewer: elcox
 #ms.suite: ems
-#ms.tgt_pltfrm:
+#ms.tgt_pltfrm: 
 #ms.custom: intune-education
 
 ---
 
-# How do I use Take a Test profiles?
+# Add a Take a Test profile in Intune for Education
 
-_Take a Test profiles_ are designed to make it easy for you to administer formative and summative assessments through your Windows 10 devices. Take a test creates the right environment for taking a test:
+The Take a Test app lets you securely administer online tests on your classroom's Windows 10 devices. The test link appears as a tile at the bottom of the device’s sign-in screen. Students click the tile to launch the test. 
+ 
+This article describes how to:
+* Create a Take a Test profile.
+* Assign the profile to students in your school.  
 
-- Take a Test shows just the test and nothing else.
-- Take a Test clears the clipboard.
-- Students aren’t able to go to other websites.
-- Students can’t open or access other apps.
-- Students can't share, print, or record their screens.
-- Students can’t change settings, extend their display, see notifications, get updates, or use autofill features.
-- Cortana is turned off.
+## Take a Test features
+When a student launches a test, their desktop locks. The Take a Test app opens in a new window. Take a Test clears the system's clipboard so that students can't copy and paste content.
+
+When a test is active, test takers can't:
+
+* Visit other websites.
+* Open or access other apps.
+* Change settings.
+* Extend the display.  
+* See notifications.
+* Receive app and OS updates.
+* Receive text suggestions.
+* Use Cortana.
+* Share, print, or record device screens, unless allowed by school or IT administrator.
+
+### How is assistive technology affected?
+Some device features--such as narrator--and other assistive technology are still fully functional while taking a test. For a list of the apps features, see [Take a Test app technical reference](https://docs.microsoft.com/education/windows/take-a-test-app-technical).
+
+
+## Take a Test profile setup
+Follow these steps to set up a profile in Intune for Education.  
+
+1. From Intune for Education dashboard, select **Take a Test profiles**.    
+
+    ![Screenshot of the Intune side bar, highlighting Take a Test option.](./media/take-a-test-1910-01.png)   
+2.  Select **Add Take a Test profile**.  
+    ![Screenshot of Take A Test page, highlighting "Add Take a Test profile" button.](./media/take-a-test-1910-02.png)
+3. Enter a descriptive name for your Take a Test profile. Students won’t see the profile name. It only appears in Intune.   
+4. Enter the name of the local guest account used for testing. The name is shown on the local guest account tile on the device’s sign-in screen. Students click the tile to launch the test.  
+5. Enter the assessment URL.   
+
+   [![Screenshot of settings, highlighting three required fields](./media/take-a-test-1910-03.png)](./media/take-a-test-1910-03.png#lightbox)   
+6. Optionally, enter a description for the Take a Test profile. Students won’t see the profile description. It only appears in Intune.  
+7. Configure the rest of the test settings.    
+    a. Require printer connection: Students can only access the Take a Test app from devices that are connected to a printer. This setting also makes the app’s print button available to students.  
+    b. Allow screen capture: Students and teachers can use screen capture and screen recording tools in the Take a Test app. Teachers can use these tools to see what students are doing in the app.  
+    c. Allow text suggestions   
+
+To view the details of any profile, select it from the left side of the page. Then select the **Account** tab.  
+
+ ![Screenshot showing a profile's details, highlighting the selected profile and the Account button.](./media/take-a-test-1910-04.png)  
+
+
+## Assign or change groups
+Assign groups of students that require access to the test profile. Follow these steps to make edits to group assignments too.
+1. From the **Take a Test profiles** page, select the **Groups** tab. 
+2. Select **Change group assignments**. 
+3. Select one or more groups from the **All Groups** menu. Then select **Add Groups**. 
+4. To remove a group from the assignment, select the group from the **Groups assigned** menu. Then select **Remove Groups**.
+5. Select **Ok** to submit your changes.
 
 > [!NOTE]
-> You will need to create a Take a Test user before you can assign the Take a Test profile. Find out how to assign these users in the [Windows 10 for Education docs](https://technet.microsoft.com/edu/windows/take-a-test-multiple-pcs).
+>  Intune for Education used to offer the ability to configure a Take a Test profile by specifying an Azure AD account as the test-taking account. If you already have Take a Test profiles configured in this way, you can still view the profile and assign it to groups, but you can't edit the profile in Intune for Education. To edit the profile, visit Intune in the Azure portal.  
 
-You can set up Take a Test profiles by selecting **Take a Test profiles** from the choices in the sidebar.
-
-  ![List of options in the sidebar](./media/dashboard-002-left-sidebar-list.png)
-
-Select **Add Take a Test profile** to proceed.
-
-  ![Select Add a Take A Test profile button in the left hand side](./media/takeatest-001-new-profile.png)
-
-You'll need to provide a **Name for this profile**, the **Assessment URL**, and to decide whether to allow **Screen capture**, **Text suggestions**, or **Printing**.
-
-  ![Take a test profile window](./media/takeatest-002-new-profile-edit-window.png)
-
-Once a Take a Test profile has been created, you can view the details about it when you select its name from the list of Take a Test profiles.
-
-  ![Take a test profile info window after creation](./media/takeatest-003-profile-details.png)
-
-## Find out more
-
-- [Find out more about Take a Test](https://technet.microsoft.com/edu/windows/take-tests-in-windows-10)
+To find out more about Take a Test on your devices, see [Take a Test in Windows 10](https://technet.microsoft.com/edu/windows/take-tests-in-windows-10).
