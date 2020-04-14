@@ -1,11 +1,11 @@
 ---
 # required metadata
 
-title: Remote assistance for mobile devices managed by Intune for Education
+title: Remote assistance options for mobile devices managed by Intune for Education
 description: There are four different options to remotely assist students and teachers with their mobile devices when you can't be there in person.
 keywords:
 author: lenewsad
-ms.author: lenewsad
+ms.author: lanewsad
 manager: dougeby
 ms.date: 04/14/2020
 ms.topic: conceptual
@@ -32,7 +32,7 @@ There are four options available to help you remotely assist students and teache
 
 - [Microsoft Teams](https://products.office.com/microsoft-teams/) is the hub for teamwork where you can chat, meet, and collaborate no matter where you are.
 - [Quick Assist](https://support.microsoft.com/help/4027243/windows-10-solve-pc-problems-with-quick-assist) is a Windows 10 application that lets two people share a device over a remote connection.
-- [TeamViewer](https://www.teamviewer.com/) is a third-party program that you purchase separately. It provides a comprehensive set of remote access and support capabilities. The Intune and [TeamViewer integration](teamviewer-support.md) enables remote support using TeamViewer and the connector is managed directly in Intune.
+- [TeamViewer](https://www.teamviewer.com/) is a third-party program that you purchase separately. It provides a comprehensive set of remote access and support capabilities. The Intune and [TeamViewer integration](https://docs.microsoft.com/mem/intune/remote-actions/teamviewer-support) enables remote support using TeamViewer, and the connector is managed directly in Intune.
 - [Remote control](https://docs.microsoft.com/configmgr/core/clients/manage/remote-control/introduction-to-remote-control) is included in Microsoft Endpoint Configuration Manager. It's used to remotely administer, provide assistance, or view any workgroup computer and domain-joined computer. 
 
 | Features, platforms, licensing | **Teams** | Quick Assist | TeamViewer (Intune) | Remote control (ConfigMgr) |
@@ -52,4 +52,4 @@ There are four options available to help you remotely assist students and teache
 | Requires device to be co-managed by Configuration Manager and Intune ||||![Checkmark](./media/checkmark.png)|
 | Requires additional licensing\* |![Checkmark](./media/checkmark.png)||![Checkmark](./media/checkmark.png)|![Checkmark](./media/checkmark.png)|
 
-\* Teams requires Office 365 or Microsoft 365 licensing. Use of TeamViewer and Intune requires licensing from both TeamViewer and Intune. Remote control is a feature of Configuration Manager and requires Configuration Manager licensing.
+\* Teams requires Office 365 or Microsoft 365 licensing. Use of TeamViewer and Intune requires licensing from both TeamViewer and Intune. Remote control is a feature of Configuration Manager and requires Configuration Manager licensing.  
