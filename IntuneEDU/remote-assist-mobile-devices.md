@@ -1,8 +1,8 @@
 ---
 # required metadata
 
-title: Remote assistance options for mobile devices managed by Intune for Education
-description: There are four different options to remotely assist students and teachers with their mobile devices when you can't be there in person.
+title: Remote assistance for managed devices - Intune for Education
+description: There are four different options to remotely help students and teachers with their mobile devices when you can't be there in person.
 keywords:
 author: lenewsad
 ms.author: lanewsad
@@ -28,7 +28,7 @@ ms.custom: intune-education
 
 # Remote assistance for devices managed by Intune for Education  
 
-There are four options available to help you remotely assist students and teachers with their managed devices.  
+There are four options available to help you remotely help students and teachers with their managed devices.  
 
 - [Microsoft Teams](https://products.office.com/microsoft-teams/) is the hub for teamwork where you can chat, meet, and collaborate no matter where you are.
 - [Quick Assist](https://support.microsoft.com/help/4027243/windows-10-solve-pc-problems-with-quick-assist) is a Windows 10 application that lets two people share a device over a remote connection.
