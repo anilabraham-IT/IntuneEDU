@@ -71,7 +71,7 @@ Intune for Education works with shared devices, and supports the management of m
 ## Compatible resources and tools
 
 You'll have access to other Microsoft management tools such as:
-* Microsoft Intune in the Azure portal, the [full device, app, and user management experience](https://docs.microsoft.com/intune/understand-explore/introduction-to-microsoft-intune)
+* Microsoft Intune in the Azure portal, the [full device, app, and user management experience](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune)
 * Microsoft Azure Active Directory (Azure AD), [the identity and access management system](https://docs.microsoft.com/azure/active-directory/active-directory-administer)
 * [Microsoft School Data Sync](https://sds.microsoft.com)
 * [Office 365 for  Education](https://support.office.com/article/Get-started-with-Office-365-Education-AB02ABE5-A1EE-458C-B749-5B44416CCF14)
