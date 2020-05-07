@@ -336,4 +336,4 @@ We have launched the Intune for Education portal. Intune for Education is a stre
 ## Next steps
 
 - [Find out more about Intune for Education](what-is-intune-for-education.md)
-- [Find out more about the full device management experience with Intune](https://docs.microsoft.com/intune/understand-explore/introduction-to-microsoft-intune)
+- [Find out more about the full device management experience with Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune)

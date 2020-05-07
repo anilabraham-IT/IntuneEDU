@@ -52,7 +52,7 @@ Students and teachers in your school will be able to securely access school webs
 Before beginning, make sure you have:  
 * An internet connection.
 * Your Apple School Manager account credentials.
-* Intune for Education device licenses. Find out more about the device licenses in the [Intune licenses docs](https://docs.microsoft.com/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-4).  
+* Intune for Education device licenses. Find out more about the device licenses in the [Intune licenses docs](https://docs.microsoft.com/mem/intune/fundamentals/licenses).  
 
 > [!IMPORTANT]
 > Intune for Education only supports iOS device enrollment for devices bought through Apple DEP. For more information about Apple School Manager, see the [Apple education support site](https://support.apple.com/education).  
