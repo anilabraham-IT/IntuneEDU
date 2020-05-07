@@ -58,4 +58,4 @@ However, you know that for an upcoming assignment, *12th Grade AP Computer Scien
 If a setting can't be resolved, it will appear in the Settings error report. For more information about reports, see [View and download reports](what-are-reports.md).  
 
 ## Next steps  
-Find out more about the [full groups experience in Intune](https://docs.microsoft.com/intune/deploy-use/use-groups-to-manage-users-and-devices-with-microsoft-intune).
+Find out more about the [full groups experience in Intune](https://docs.microsoft.com/mem/intune/fundamentals/groups-add).

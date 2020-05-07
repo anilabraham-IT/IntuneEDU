@@ -38,7 +38,7 @@ Devices are ready to power on and enroll in management after you:
 * [Sync your Apple MDM Server tokens](setup-ios-device-management.md#sync-managed-devices) with Intune for Education and see a list of ready-to-enroll devices.  
 
 > [!NOTE]
-> Make sure your devices are connected to the Internet and your account has enough Intune for Education device licenses to complete setup. Find out more about licensing in [Assign licenses to users](https://docs.microsoft.com/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-4).
+> Make sure your devices are connected to the Internet and your account has enough Intune for Education device licenses to complete setup. Find out more about licensing in [Assign licenses to users](https://docs.microsoft.com/mem/intune/fundamentals/licenses-assign).
 
 ## Preconfigured enrollment profile  
 Intune for Education creates and assigns each synced device a school-optimized enrollment profile.  
