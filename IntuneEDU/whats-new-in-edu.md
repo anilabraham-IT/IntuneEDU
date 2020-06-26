@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 06/25/2020
+ms.date: 06/26/2020
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -31,6 +31,8 @@ searchScope:
 # What's new in Intune for Education
 Learn what's new in Intune for Education. Find out about upcoming changes, product notices, and features from previous releases.  
 
+[Tell us how we're doing](https://go.microsoft.com/fwlink/?linkid=2133879). We're always looking to improve Intune for Education and would love to hear what you think of the changes this month and how we can improve. 
+
 ## June 2020
 
 ### Accessibility and performance improvements  
@@ -46,8 +48,6 @@ Use the new **Configure time zone** setting to deploy devices with the time zone
 
 [![Screenshot of Groups > Windows device settings page, highlighting new "Configure time zone" setting.](./media/intune-for-education-set-time-zone.png)](./media/intune-for-education-set-time-zone.png#lightbox) 
 
-
-[Tell us how we're doing](https://go.microsoft.com/fwlink/?linkid=2133879). We're always looking to improve Intune for Education and would love to hear what you think of the changes this month and how we can improve. 
 
 ## April 2020  
 
