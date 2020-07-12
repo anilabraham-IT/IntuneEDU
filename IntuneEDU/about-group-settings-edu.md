@@ -72,4 +72,4 @@ For example, Esperanza is a member of the *6th Grade* group and is also a member
 ## Next steps
 [Create user and device groups](what-are-groups.md) in Intune for Education so that you can start configuring their settings.  
 
-[Find out more about how to protect apps and data with the full management experience in Intune](https://docs.microsoft.com/intune/deploy-use/protect-apps-and-data-with-microsoft-intune)
+[Find out more about how to protect apps and data with the full management experience in Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune)

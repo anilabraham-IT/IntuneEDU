@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 04/03/2020
+ms.date: 06/26/2020
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -30,6 +30,24 @@ searchScope:
 ---
 # What's new in Intune for Education
 Learn what's new in Intune for Education. Find out about upcoming changes, product notices, and features from previous releases.  
+
+[Tell us how we're doing](https://go.microsoft.com/fwlink/?linkid=2133879). We're always looking to improve Intune for Education and would love to hear what you think of the changes this month and how we can improve. 
+
+## June 2020
+
+### Accessibility and performance improvements  
+
+Several updates have been made to improve accessibility and performance in Intune for Education. Updates include:
+
+* Improved navigation to make it easier to move between key areas in Intune for Education.
+* Increased zoom in/zoom out capability so that you can zoom in even closer on a screen while in Intune for Education. This improvement was made to increase readability and make the portal more accessible to people with visual impairments.  
+
+### Configure a time zone on devices
+
+Use the new **Configure time zone** setting to deploy devices with the time zone of your choice. Go to **Groups** > **Windows devices settings** > **User experience** > **Device restrictions** to configure the setting.  
+
+[![Screenshot of Groups > Windows device settings page, highlighting new "Configure time zone" setting.](./media/intune-for-education-set-time-zone.png)](./media/intune-for-education-set-time-zone.png#lightbox) 
+
 
 ## April 2020  
 
@@ -336,4 +354,4 @@ We have launched the Intune for Education portal. Intune for Education is a stre
 ## Next steps
 
 - [Find out more about Intune for Education](what-is-intune-for-education.md)
-- [Find out more about the full device management experience with Intune](https://docs.microsoft.com/intune/understand-explore/introduction-to-microsoft-intune)
+- [Find out more about the full device management experience with Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune)
