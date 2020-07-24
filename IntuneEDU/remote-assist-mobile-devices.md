@@ -10,7 +10,7 @@ manager: dougeby
 ms.date: 04/14/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
-ms.subservice: remote-actions
+ms.subservice: education
 ms.localizationpriority: high
 ms.technology:
 ms.assetid: 
