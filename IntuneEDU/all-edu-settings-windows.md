@@ -12,6 +12,7 @@ ms.date: 01/10/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
+ms.subservice: education
 ms.technology:
 ms.assetid: 2221009e-68cf-4171-8118-0d750b0f35f1
 searchScope:
@@ -333,4 +334,4 @@ Configure the user experience settings for:
 ## Next steps  
 Configure your group, app, and device settings in the Intune for Education portal. If you haven't yet done it, go to [express configuration](edu-express-config-settings-windows.md) and set up your school with Microsoft-recommended settings.  
 
-Need help with managing devices? [Assign group admins](group-admin-delegate.md) in your school to help you manage device settings.  You can also [find out more about the full Windows 10 settings management experience](https://docs.microsoft.com/intune/deploy-use/windows-10-policy-settings-in-microsoft-intune) available in Intune.  
+Need help with managing devices? [Assign group admins](group-admin-delegate.md) in your school to help you manage device settings.  You can also [find out more about the full Windows 10 settings management experience](https://docs.microsoft.com/mem/intune/configuration/administrative-templates-windows) available in Intune.  

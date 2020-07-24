@@ -12,6 +12,7 @@ ms.date: 07/23/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
+ms.subservice: education
 ms.technology:
 ms.assetid: a5922c35-261c-43db-9c7b-c5c93af9cbec
 searchScope:
@@ -61,4 +62,4 @@ View the Windows Defender device health status for every managed device in your 
 4. To download a report, click **Download report**. Intune for Education will download a report to your computer, as a comma-separated value (.csv) file. View and modiy the file in a spreadsheet app, such as [Microsoft Excel](https://support.office.com/article/Import-or-export-text-txt-or-csv-files-5250ac4c-663c-47ce-937b-339e391393ba).  
 
 ## Next steps  
-Find out more about the [full reporting experience in Intune](https://docs.microsoft.com/intune/deploy-use/understand-microsoft-intune-operations-by-using-reports) or about reporting [using Microsoft Graph](https://developer.microsoft.com/graph/docs/overview/overview).
+Find out more about the [full reporting experience in Intune](https://docs.microsoft.com/mem/intune/fundamentals/reports) or about reporting [using Microsoft Graph](https://developer.microsoft.com/graph/docs/overview/overview).

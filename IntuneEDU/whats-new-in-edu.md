@@ -8,10 +8,11 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 11/18/2019
+ms.date: 06/26/2020
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
+ms.subservice: education
 ms.technology:
 ms.assetid: 7d8dfd82-8cee-4874-85f6-edaf84e49c4c
 searchScope:
@@ -29,9 +30,80 @@ searchScope:
 
 ---
 # What's new in Intune for Education
-Learn what’s new in Intune for Education. Find out about upcoming changes, product notices, and features from previous releases.  
+Learn what's new in Intune for Education. Find out about upcoming changes, product notices, and features from previous releases.  
+
+[Tell us how we're doing](https://go.microsoft.com/fwlink/?linkid=2133879). We're always looking to improve Intune for Education and would love to hear what you think of the changes this month and how we can improve. 
+
+## June 2020
+
+### Accessibility and performance improvements  
+
+Several updates have been made to improve accessibility and performance in Intune for Education. Updates include:
+
+* Improved navigation to make it easier to move between key areas in Intune for Education.
+* Increased zoom in/zoom out capability so that you can zoom in even closer on a screen while in Intune for Education. This improvement was made to increase readability and make the portal more accessible to people with visual impairments.  
+
+### Configure a time zone on devices
+
+Use the new **Configure time zone** setting to deploy devices with the time zone of your choice. Go to **Groups** > **Windows devices settings** > **User experience** > **Device restrictions** to configure the setting.  
+
+[![Screenshot of Groups > Windows device settings page, highlighting new "Configure time zone" setting.](./media/intune-for-education-set-time-zone.png)](./media/intune-for-education-set-time-zone.png#lightbox) 
+
+
+## April 2020  
+
+### Streamlined deployment of new Microsoft Edge browser
+You can now deploy the Microsoft Edge browser from Intune for Education. The app is already available in your app inventory. Simply assign it to students and teachers to deploy it throughout your school. 
+
+### Search and filter your device list  
+On the **Devices** page, you can search, filter, and sort your device list by parameters such as device name, device manufacturer, operating system, and last check-in time.  
+
+[![Screenshot of Devices page, highlighting new search bar, filters, and sort parameters.](./media/intune-education-search-parameters-2003.png)](./media/intune-education-search-parameters-2003.png#lightbox)  
+
+### Perform remote actions with bulk selection 
+
+Perform remote actions in bulk, on up to 2,000 devices at a time.  The remote actions that support bulk selection include: 
+ 
+* Sync
+* Restart
+* Rename
+* Autopilot Reset
+* Factory reset
+* Delete
+
+ To make a bulk selection, go to **Devices** and either:
+
+* Select each applicable device from the list  
+* Select the checkbox at the top of the list, next to **Device name**, to select all visible devices at once   
+
+### Block app removal on iOS devices  
+Use the **Block app removal** setting to block users from removing apps from their iOS devices. Go to **Groups** > **Settings** > **iOS Device Settings** > **Device restrictions** to configure the setting. 
+
+### Block all forms of Windows PowerShell   
+Now when you use Intune for Education to block Windows PowerShell from students and teachers, the setting will block both Windows PowerShell and Windows PowerShell ISE.  
+
+### New documentation on remote assistance options 
+In response to Covid-19, some schools have switched to remote learning. To help you provide remote assistance to your students and teachers, see our [new documentation and guidance about remote assistance options for cloud-managed devices](https://go.microsoft.com/fwlink/?linkid=2125805). Also, check out our [Remote Learning Deployment Reference](https://go.microsoft.com/fwlink/?linkid=2125902) if you're looking to get started with remote learning.   
+
+## December 2019
+### Configure new Microsoft Edge browser  
+You can now configure and deploy the new Microsoft Edge browser from Intune for Education. Some of the settings you'll find apply to both the old and new Edge browser. Other settings, such as the following, only work for the new browser: 
+* Configure blocked URLs list  
+* Require Safe Search 
+* Require YouTube restricted mode  
+
 
 ## November 2019  
+### New permissions for group admins <!-- 5621805 WNready -->  
+Users assigned as group admins can now:  
+
+* Sync Windows Autopilot devices
+* Manage Autopilot device and user assignments
+* Manage Autopilot deployment profile assignments
+* Manage Apple user-initiated enrollment profile assignments  
+
+To delegate admin permissions in your organization, go to Intune for Education > **Groups** > **Admins**.  Users who are assigned Intune's built-in school administrator role also have these permissions. To assign the school admin role or modify permissions, go to the Device Management admin center > **Tenant administration** > **Roles**. For a list of all group admin/school administrator permissions, see [Assign group admins](https://docs.microsoft.com/intune-education/group-admin-delegate).   
+
 
 ### Configure power and sleep settings  
 Control power and sleep settings for idle Windows devices. You can configure when to: 
@@ -55,7 +127,7 @@ You can now see the Win32 apps that are configured in your tenant, and manage th
 New configuration options are available for Take a Test profiles. There's now a local guest account option, so students can click a button on the Windows sign-in screen to launch a secure assessment, and skip entering a password. For more information about Take a Test, see [Take tests in Windows 10](https://docs.microsoft.com/education/windows/take-tests-in-windows-10) and [Add a Take a Test profile](take-a-test-profiles.md) in Intune for Education.  
 
 ### Changes to education presets  
-After you sign up for Intune for Education, Intune preconfigures some settings in the All devices group. We’ve made changes to these presets based on customer feedback. These changes include:
+After you sign up for Intune for Education, Intune preconfigures some settings in the All devices group. We've made changes to these presets based on customer feedback. These changes include:
 
 * By default, enrollment of personal Windows devices will be blocked to ensure personal devices are not accidentally enrolled in Intune.  
 * By default, local Autopilot Reset will be disabled.  
@@ -125,7 +197,7 @@ After you sign up for Intune for Education, Intune automatically configures some
 Intune's built-in School Administrator role now has create, read, update, and delete (CRUD) permissions for Managed Apps. This update means that if you're assigned as a group admin in Intune for Education, you can now create, view, update, and delete the iOS MDM Push Certificate, iOS MDM server tokens, and iOS VPP tokens along with [all of the existing permissions you have](https://docs.microsoft.com/intune-education/group-admin-delegate#group-admin-permissions). To take any of these actions, go to **Tenant settings** > **iOS Device Management**.  
 
 ### New deployment documentation  
-In the [enrollment section](https://docs.microsoft.com/intune-education/add-devices-windows) of our documentation, you'll find new information to help you compare Set up School PCs and Windows Autopilot based on your school’s environment and setup needs. Use this information to decide when to use each option, or both, for device setup. 
+In the [enrollment section](https://docs.microsoft.com/intune-education/add-devices-windows) of our documentation, you'll find new information to help you compare Set up School PCs and Windows Autopilot based on your school's environment and setup needs. Use this information to decide when to use each option, or both, for device setup. 
 
 ## May 2019   
 
@@ -283,4 +355,4 @@ We have launched the Intune for Education portal. Intune for Education is a stre
 ## Next steps
 
 - [Find out more about Intune for Education](what-is-intune-for-education.md)
-- [Find out more about the full device management experience with Intune](https://docs.microsoft.com/intune/understand-explore/introduction-to-microsoft-intune)
+- [Find out more about the full device management experience with Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune)

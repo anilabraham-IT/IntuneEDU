@@ -8,10 +8,11 @@ keywords:
 author: lenewsad  
 ms.author: lanewsad   
 manager: dougeby
-ms.date: 09/25/2019 
+ms.date: 12/16/2019 
 ms.topic: conceptual
 ms.prod:
 ms.service: microsoft-intune
+ms.subservice: education
 ms.technology:
 ms.assetid: 
 
@@ -38,7 +39,7 @@ To assist in your readiness and planning, this page lists Intune for Education u
 > [!Note]
 > These items reflect Microsoft’s current expectations about Intune for Education capabilities coming in a future release. Dates and individual features may change. Not all items in development have a feature description on this page.   
 
-<!-- 1911 start-->
+<!-- 2006 start-->
 We don't have any features to share with you. Check back often for updates.  
 
 See [What’s new in Intune for Education](whats-new-in-edu.md) for details about recent developments.  

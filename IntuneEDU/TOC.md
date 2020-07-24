@@ -46,5 +46,6 @@
 ### [Windows device settings](all-edu-settings-windows.md)
 ### [iOS device settings](all-edu-settings-ios.md) 
 # Monitor and troubleshoot
+## [Remote assistance options](remote-assist-mobile-devices.md) 
 ## [Manage devices with remote actions](edu-device-remote-actions.md)
 ## [View and download reports](what-are-reports.md)

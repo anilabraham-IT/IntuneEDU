@@ -12,6 +12,7 @@ ms.date: 07/23/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
+ms.subservice: education
 ms.technology:
 ms.assetid: 24ab6547-aa65-428a-b184-06b806e95bd1
 searchScope:
@@ -52,7 +53,7 @@ Free apps are made available for purchase directly from the portal. However, the
 1. Sign in to the Intune for Education portal.
 2. Click **Apps**.
 3. From the app list, under **iOS Apps**, click **New app**.
-4. Select the country from where you're purchasing the app.
+4. Select the country/region from where you're purchasing the app.
 5. Type in the app's full or partial name. Intune returns a list of relevant results from the App Store. 
 6. Select the app. 
 7. A message appears that prompts you to complete your purchase through Apple School Manager. Click the link to go to Apple School Manager.
@@ -68,4 +69,3 @@ Apps appear in the app list, under **iOS Apps**. Click the app to view its:
 
 ## Reassign VPP-purchased licenses
 VPP-purchased apps can't be deleted from Intune for Education. However, you can remove a user from an assigned group, or remove the entire group from assignment.  
-
