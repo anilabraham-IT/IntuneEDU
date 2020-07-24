@@ -12,6 +12,7 @@ ms.date: 10/24/2019
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
+ms.subservice: education
 ms.technology:
 ms.assetid: 
 searchScope:
