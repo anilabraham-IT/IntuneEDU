@@ -12,6 +12,7 @@ ms.date: 07/23/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
+ms.subservice: education
 ms.technology:
 ms.assetid: 50bd115f-a167-456a-910d-8f31ec17a422
 searchScope:

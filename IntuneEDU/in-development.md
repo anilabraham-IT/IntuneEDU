@@ -12,6 +12,7 @@ ms.date: 12/16/2019
 ms.topic: conceptual
 ms.prod:
 ms.service: microsoft-intune
+ms.subservice: education
 ms.technology:
 ms.assetid: 
 
