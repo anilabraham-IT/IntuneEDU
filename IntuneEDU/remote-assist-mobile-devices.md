@@ -52,4 +52,4 @@ There are four options available to help you remotely help students and teachers
 | Requires device to be co-managed by Configuration Manager and Intune ||||![Checkmark](./media/checkmark.png)|
 | Requires additional licensing\* |![Checkmark](./media/checkmark.png)||![Checkmark](./media/checkmark.png)|![Checkmark](./media/checkmark.png)|
 
-\* Teams requires Office 365 or Microsoft 365 licensing. Use of TeamViewer and Intune requires licensing from both TeamViewer and Intune. Remote control is a feature of Configuration Manager and requires Configuration Manager licensing.  
+\* Teams requires Microsoft 365 licensing. Use of TeamViewer and Intune requires licensing from both TeamViewer and Intune. Remote control is a feature of Configuration Manager and requires Configuration Manager licensing.  

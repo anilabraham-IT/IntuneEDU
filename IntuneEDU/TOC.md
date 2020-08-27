@@ -30,7 +30,7 @@
 ## [Troubleshoot groups](troubleshoot-groups-intune-for-edu.md)
 # Manage apps
 ## Add apps to Intune for Education
-### [Office 365](install-office.md)
+### [Add Microsoft Office to Windows 10 devices](install-office.md)
 ### [Microsoft Store for Education](acquire-store-apps.md)
 ### [Popular school apps](add-popular-apps-edu.md)
 ### [Free iOS App Store apps](add-apps-ios.md)

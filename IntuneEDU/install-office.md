@@ -34,7 +34,7 @@ searchScope:
 
 Assign the Microsoft Office [web app](add-web-apps-edu.md) or [desktop app](add-desktop-apps-edu.md) to Windows 10 devices in Intune for Education.    
 ## Select during Express Configuration
-During [Express Configuration](Express-configuration-intune-edu.md), all Office desktop apps are available in a single app called "Office 365." Select it to assign students desktop versions of Word, Excel, PowerPoint, OneNote, and Skype for Business.  
+During [Express Configuration](Express-configuration-intune-edu.md), all Office desktop apps are available in a single app called Microsoft 365. Select it to assign students desktop versions of Word, Excel, PowerPoint, OneNote, and Skype for Business.  
 
 ## Office for Windows 10 S
 
@@ -42,5 +42,5 @@ Students on Windows 10 S devices, such as the [Surface Laptop](https://www.micro
 
 ## Next steps
 
-- [Find out more about getting started with Office 365 Education](https://support.office.com/article/Get-started-with-Office-365-Education-AB02ABE5-A1EE-458C-B749-5B44416CCF14)
+- [Get started with Microsoft 365 Education](https://support.office.com/article/Get-started-with-Office-365-Education-AB02ABE5-A1EE-458C-B749-5B44416CCF14)
 - [Find out more about Universal Windows Apps](https://docs.microsoft.com/windows/uwp/get-started/whats-a-uwp)
