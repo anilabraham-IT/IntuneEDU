@@ -32,7 +32,7 @@ searchScope:
 
 # Microsoft School Data Sync and Intune for Education
 
-Microsoft School Data Sync (SDS) is a free service in Office 365 Education that imports school records from your existing Student Information System (SIS). It creates online classrooms and groups for Microsoft Teams, Intune for Education, and third-party applications.  
+Microsoft School Data Sync (SDS) is a free service that imports school records from your existing Student Information System (SIS). It creates online classrooms and groups for Microsoft Teams, Intune for Education, and third-party applications.  
 
 Go to the School Data Sync documentation to [learn how to deploy SDS](https://support.office.com/article/Overview-of-School-Data-Sync-and-Classroom-f3d1147b-4ade-4905-8518-508e729f2e91). 
 

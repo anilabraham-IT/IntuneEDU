@@ -46,7 +46,7 @@ The Intune for Education portal is designed to include only the settings and wor
 If you're not already signed up with an Intune for Education account, learn [how to get started](https://docs.microsoft.com/intune/account-sign-up). The article is for system administrators who are ready to sign up their school for an Intune subscription. 
 
 ## Manually add users to you Intune subscription
-If you're not using the Microsoft School Data Sync (SDS) service to import student and teacher records, you must [manually add users to your Intune subscription](https://docs.microsoft.com/intune/users-add). Students and teachers can be added through the Azure portal or through the Office 365 portal. At the time of user setup, you'll also want to grant admin permissions. 
+If you're not using the Microsoft School Data Sync (SDS) service to import student and teacher records, you must [manually add users to your Intune subscription](https://docs.microsoft.com/intune/users-add). Students and teachers can be added through the Azure portal or through the Microsoft 365 portal. At the time of user setup, you'll also want to grant admin permissions. 
 
 ## Supported OS and browsers
 The full Intune management service supports many device operating systems. For school settings, like yours, we recommend using Intune for Education. Its portal is set up to specifically support Windows 10 and iOS school devices.  
@@ -75,11 +75,11 @@ You'll have access to other Microsoft management tools such as:
 * Microsoft Intune in the Azure portal, the [full device, app, and user management experience](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune)
 * Microsoft Azure Active Directory (Azure AD), [the identity and access management system](https://docs.microsoft.com/azure/active-directory/active-directory-administer)
 * [Microsoft School Data Sync](https://sds.microsoft.com)
-* [Office 365 for  Education](https://support.office.com/article/Get-started-with-Office-365-Education-AB02ABE5-A1EE-458C-B749-5B44416CCF14)
+* [Get started with Microsoft 365 Education](https://support.office.com/article/Get-started-with-Office-365-Education-AB02ABE5-A1EE-458C-B749-5B44416CCF14)
 
 Use Intune for Education with [Microsoft Education](https://docs.microsoft.com/education/itadmins) tools such as:
 
-- [Office 365 for Education](https://support.office.com/article/Set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa)
+- [Set up Microsoft 365 for business](https://support.office.com/article/Set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa)
 - [Windows 10 for Education](https://docs.microsoft.com/education/windows)
 - [Microsoft Store for Education](https://docs.microsoft.com/microsoft-store/index?toc=/microsoft-store/education/toc.json)
 - [Minecraft: Education Edition](https://docs.microsoft.com/education/windows/school-get-minecraft)
