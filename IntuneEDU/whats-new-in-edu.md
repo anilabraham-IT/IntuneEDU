@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 06/26/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -33,6 +33,11 @@ searchScope:
 Learn what's new in Intune for Education. Find out about upcoming changes, product notices, and features from previous releases.  
 
 [Tell us how we're doing](https://go.microsoft.com/fwlink/?linkid=2133879). We're always looking to improve Intune for Education and would love to hear what you think of the changes this month and how we can improve. 
+
+## August 2020
+
+Create longer names for Windows 10 devices running Windows 10, version 2004 or later
+You can now give a device a name that's up to 53 characters long.   
 
 ## June 2020
 
