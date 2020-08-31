@@ -12,6 +12,7 @@ ms.date: 09/26/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
+ms.subservice: education
 ms.technology:
 ms.assetid: 4b69b884-bed9-43f4-8507-c802228a8804
 searchScope:
@@ -31,7 +32,7 @@ searchScope:
 
 # What is settings inheritance?
 
-Settings are applied to groups. Since groups are set up as hierarchies, with one group above another, all settings applied to a group are inherited by its subgroups. Subgroups automatically take on the changes you make to the group above it. This action is called _inheritance_. Settings inheritance ia helpful when you want to apply settings to large groups of users and devices.  
+Settings are applied to groups. Since groups are set up as hierarchies, with one group above another, all settings applied to a group are inherited by its subgroups. Subgroups automatically take on the changes you make to the group above it. This action is called _inheritance_. Settings inheritance is helpful when you want to apply settings to large groups of users and devices.  
 
 
   ![A tree of groups of and subgroups.](./media/groups-002-inheritance.png)  
