@@ -36,9 +36,9 @@ Learn what's new in Intune for Education. Find out about upcoming changes, produ
 
 ## August 2020  
 
-### Remotely locate your iOS devices   
+### Remotely locate iOS devices   
 
-You can now use Intune for Education to locate lost or stolen iOS devices. Once you've marked a device as lost or stolen in Intune for Education, you'll be able to view its location. To see the new feature, go to **Devices** and then select a device > **Properties** > **Locate**.  
+You can now use Intune for Education to locate lost or stolen iOS devices. Once you've marked a device as lost in Intune for Education, you'll be able to view its location. To access the new feature, go to **Devices** and then select a device > **Properties** > **Locate**.    
 
 [![Screenshot of iOS location feature, highlighting the Properties and Locate options.](./media/ios-locate-intune-edu-2008.png)](./media/ios-locate-intune-edu-2008.png#lightbox) 
 
