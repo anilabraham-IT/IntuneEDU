@@ -34,10 +34,13 @@ Learn what's new in Intune for Education. Find out about upcoming changes, produ
 
 [Tell us how we're doing](https://go.microsoft.com/fwlink/?linkid=2133879). We're always looking to improve Intune for Education and would love to hear what you think of the changes this month and how we can improve. 
 
-## August 2020
+## August 2020  
 
-Create longer names for Windows 10 devices running Windows 10, version 2004 or later
-You can now give a device a name that's up to 53 characters long.   
+### Remotely locate your iOS devices   
+
+You can now use Intune for Education to locate lost or stolen iOS devices. Once you've marked a device as lost or stolen in Intune for Education, you'll be able to view its location. To see the new feature, go to **Devices** and then select a device > **Properties** > **Locate**.  
+
+[![Screenshot of iOS location feature, highlighting the Properties and Locate options.](./media/ios-locate-intune-edu-2008.png)](./media/ios-locate-intune-edu-2008.png#lightbox) 
 
 ## June 2020
 
