@@ -44,10 +44,10 @@ For more information about primary users, see [What is a primary user?](https://
  
 [![Screenshot of Devices > Device details > Properties section, highlighting "Primary user" setting and showing *Select primary user" pane.](./media/intune-education-primary-user-2009.png)](./media/intune-education-primary-user-2009.png#lightbox) 
 
-### View Bitlocker recovery key 
-Intune for Education now shows Bitlocker recovery key details for encrypted devices that have recovery keys escrowed to Azure AD. To see recovery keys, go to **Devices** > select a device > **Recovery keys**. 
+### View BitLocker recovery key 
+Intune for Education now shows BitLocker recovery key details for encrypted devices that have recovery keys escrowed to Azure AD. To see recovery keys, go to **Devices** > select a device > **Recovery keys**. 
 
-For more detailed information about managing BitLocker keys in Intune, see [Manage Bitlocker](https://docs.microsoft.com/mem/intune/protect/encrypt-devices#manage-bitlocker) in the Microsoft Intune docs. 
+For more detailed information about managing BitLocker keys in Intune, see [Manage BitLocker](https://docs.microsoft.com/mem/intune/protect/encrypt-devices#manage-bitlocker) in the Microsoft Intune docs. 
 
 [![Screenshot highlighting the Devices > Device details > Recovery keys table, which shows one recovery key for an example device.](./media/intune-education-bitlocker-2009.png)](./media/intune-education-bitlocker-2009.png#lightbox) 
 
