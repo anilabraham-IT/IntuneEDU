@@ -39,12 +39,17 @@ Learn what's new in Intune for Education. Find out about upcoming changes, produ
 
 View and edit the primary user of a Windows device directly from Intune for Education. The primary user is allowed to use self-service actions like reset, rename, and retire in the Company Portal. To add or change a primary user, go to **Devices** > select a device > **Properties**. Then select the hyperlinked text that's next to **Primary user**. 
 
-For more information about primary users, see [What is a primary user?](https://docs.microsoft.com/mem/intune/remote-actions/find-primary-user#what-is-the-primary-user) in the Microsoft Intune docs.  
+For more information about primary users, see [What is a primary user?](https://docs.microsoft.com/mem/intune/remote-actions/find-primary-user#what-is-the-primary-user) in the Microsoft Intune docs. 
+
+ 
+[![Screenshot of Devices > Device details > Properties section, highlighting "Primary user" setting and showing *Select primary user" pane.](./media/intune-education-primary-user-2009.png)](./media/intune-education-primary-user-2009.png#lightbox) 
 
 ### View Bitlocker recovery key 
-Intune for Education now lists Bitlocker recovery key details for encrypted devices that have recovery keys escrowed to Azure AD. To see recovery key details, go to **Devices** > select a device > **Recovery keys**. To learn Learn more here. 
+Intune for Education now shows Bitlocker recovery key details for encrypted devices that have recovery keys escrowed to Azure AD. To see recovery keys, go to **Devices** > select a device > **Recovery keys**. 
 
 For more detailed information about managing BitLocker keys in Intune, see [Manage Bitlocker](https://docs.microsoft.com/mem/intune/protect/encrypt-devices#manage-bitlocker) in the Microsoft Intune docs. 
+
+[![Screenshot highlighting the Devices > Device details > Recovery keys table, which shows one recovery key for an example device.](./media/intune-education-bitlocker-2009.png)](./media/intune-education-bitlocker-2009.png#lightbox) 
 
 
 ## August 2020
