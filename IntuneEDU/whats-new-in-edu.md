@@ -34,7 +34,7 @@ Learn what's new in Intune for Education. Find out about upcoming changes, produ
 
 [Tell us how we're doing](https://go.microsoft.com/fwlink/?linkid=2133879). We're always looking to improve Intune for Education and would love to hear what you think of the changes this month and how we can improve. 
 
-## Septemeber 2020
+## September 2020
 ### Change primary user for Windows devices 
 
 View and edit the primary user of a Windows device directly from Intune for Education. The primary user is allowed to use self-service actions like reset, rename, and retire in the Company Portal. To add or change a primary user, go to **Devices** > select a device > **Properties**. Then select the hyperlinked text that's next to **Primary user**. 
@@ -54,7 +54,7 @@ For more detailed information about managing BitLocker keys in Intune, see [Mana
 
 ## August 2020
 
-Create longer names for Windows 10 devices running Windows 10, version 2004 or later
+Create longer names for Windows 10 devices running Windows 10, version 2004 or later.
 You can now give a device a name that's up to 53 characters long.  
 
 ## June 2020
