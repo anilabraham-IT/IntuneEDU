@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 08/31/2020
+ms.date: 09/21/2020
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -34,13 +34,23 @@ Learn what's new in Intune for Education. Find out about upcoming changes, produ
 
 [Tell us how we're doing](https://go.microsoft.com/fwlink/?linkid=2133879). We're always looking to improve Intune for Education and would love to hear what you think of the changes this month and how we can improve. 
 
-## August 2020  
+## Septemeber 2020
+### Change primary user for Windows devices 
 
-### Remotely locate iOS devices   
+View and edit the primary user of a Windows device directly from Intune for Education. The primary user is allowed to use self-service actions like reset, rename, and retire in the Company Portal. To add or change a primary user, go to **Devices** > select a device > **Properties**. Then select the hyperlinked text that's next to **Primary user**. 
 
-You can now use Intune for Education to locate lost or stolen iOS devices. Once you've marked a device as lost in Intune for Education, you'll be able to view its location. To access the new feature, go to **Devices** and then select a device > **Properties** > **Locate**.    
+For more information about primary users, see [What is a primary user?](https://docs.microsoft.com/mem/intune/remote-actions/find-primary-user#what-is-the-primary-user) in the Microsoft Intune docs.  
 
-[![Screenshot of iOS location feature, highlighting the Properties and Locate options.](./media/ios-locate-intune-edu-2008.png)](./media/ios-locate-intune-edu-2008.png#lightbox) 
+### View Bitlocker recovery key 
+Intune for Education now lists Bitlocker recovery key details for encrypted devices that have recovery keys escrowed to Azure AD. To see recovery key details, go to **Devices** > select a device > **Recovery keys**. To learn Learn more here. 
+
+For more detailed information about managing BitLocker keys in Intune, see [Manage Bitlocker](https://docs.microsoft.com/mem/intune/protect/encrypt-devices#manage-bitlocker) in the Microsoft Intune docs. 
+
+
+## August 2020
+
+Create longer names for Windows 10 devices running Windows 10, version 2004 or later
+You can now give a device a name that's up to 53 characters long.  
 
 ## June 2020
 
