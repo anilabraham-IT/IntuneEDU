@@ -87,18 +87,25 @@ Configure settings related to Intune for Education device enrollment.
 ## Microsoft Edge  
 Configure settings that affect the Microsoft Edge browser experience and user data.
 
-### Browser experience  
+### Browser customization  
 |Setting|What it does|
 |---|---|
 |Configure homepages|Choose what page opens every time someone begins a new Microsoft Edge browser session.|
 |Configure new tab page|Choose what page opens every time someone opens a new tab in Microsoft Edge.|
 |Configure home button behavior|Choose what page appears when users click the home button in Microsoft Edge. You can also hide the home button.|
+|Default search engine|Select Bing, Yahoo, or Google as the default search engine for Microsoft Edge.|  
+|Configure blocked URLs list| Define a list of sites that your users can't load.|
+
+### Browser restrictions 
+|Setting|What it does|
+|---|---|
 |Block editing favorites|Block users from adding, importing, sorting, or editing the Favorites list.|
 |Block address bar suggestions|Block Microsoft Edge from suggesting possible search terms or previously visited websites as you type a URL or search term.|
-|Block search suggestions|Block Microsoft Edge from suggesting possible websites as you type a URL or search term.|
-|Block InPrivate browsing|Block users from using InPrivate browsing, which stops Microsoft Edge from saving data like browsing history and cookies.| 
 |Block browser extensions|Block users from using extensions to customize Microsoft Edge with added functionality from Microsoft and other sources.|
 |Block untrusted browser extensions|Block users from sideloading extensions to their Microsoft Edge browser. These extensions are installed from untrusted sources&ndash;not the Microsoft Store&ndash;and could be malware.|
+|Block search suggestions|Block Microsoft Edge from suggesting possible websites as you type a URL or search term.|
+|Block InPrivate browsing|Block users from using InPrivate browsing, which stops Microsoft Edge from saving data like browsing history and cookies.| 
+|Block Developer Tools|Block users from accessing Developer Tools. Microsoft Edge Developer Tools enable users to build and debug webpages|
 |Block printing from Microsoft Edge|Block users from printing browser content.|
 |Block First Run page|Block users from seeing the First Run page. Microsoft Edge First Run page appears when a user opens Microsoft Edge for the first time and after browser updates.|
 |Block pop-ups|Block websites from opening new windows.|
@@ -108,12 +115,10 @@ Configure settings that affect the Microsoft Edge browser experience and user da
 |Block access to about:flags page|Block access to the about:flags page, which contains experimental settings and features.|
 |Require intranet sites to be viewed in Internet Explorer|When set to **Block**, internal traffic is sent to Microsoft Edge instead of Internet Explorer.|
 |Block Prelaunch|Microsoft Edge Prelaunch opens Microsoft Edge as a background process during Windows startup. This action helps the performance of Microsoft Edge and minimizes the amount of time required to start it. However, running Microsoft Edge as a background process might make devices appear as *not compliant* in your secure assessments.| 
-|Default search engine|Select Bing, Yahoo, or Google as the default search engine for Microsoft Edge.|  
 
 ### User data  
 |Setting|What it does|
 |---|---|
-|Block Developer Tools|Block users from accessing Developer Tools. Microsoft Edge Developer Tools enable users to build and debug webpages|
 |Sync Microsoft Edge favorites with Internet Explorer|Sync all favorites from Microsoft Edge to Internet Explorer.| 
 |Clear browsing data upon exit|Automatically erase history, cookies, and cached files after closing Microsoft Edge.|
 |Use cookies|Cookies can store website settings or track user’s browsing behavior.|
@@ -156,6 +161,18 @@ Configure network and connectivity settings for:
 
 > [!NOTE]
 > Configure a WPA-2 Enterprise Wi-Fi network using the [full Wi-Fi profile management experience in Intune](https://docs.microsoft.com//intune/wi-fi-settings-import-windows-8-1). You can also use Intune to set up [SCEP](https://docs.microsoft.com/intune/certificates-scep-configure) and [PKI](https://docs.microsoft.com/intune/certficates-pfx-configure) integration.   
+
+
+## Power and sleep   
+Configure settings that affect when a device powers off or goes to sleep
+
+|Setting|What it does|
+|---|---|
+|Turn off device display after|Choose how many mintues of inactivity before device display turns off. Applys to devices plugged in and on battery. | 
+|Put device to sleep after|Choose how many mintues of inactivity before device transitions to sleep. Applys to devices plugged in and on battery.|  
+|Put device in hibernation after |Choose how many minutes of inactivity before device transitions to hibernate. Applys to devices plugged in and on battery.| 
+|Block changing power and sleep settings|Block users from changing power and sleep settings.|
+
 
 ## Printer   
 Configure settings to allow printer access from school devices.    
@@ -283,7 +300,6 @@ Configure the user experience settings for:
 |Block changing date and time settings|Block users from changing the device date and time settings.|
 |Block changing language settings|Block users from changing the device language.|
 |Block changing device region settings|Block users from changing region settings, such as country and language.|
-|Block changing power and sleep settings|Block users from changing power and sleep settings.|
 |Send diagnostic data|Define whether to collect and send anonymous usage data to Microsoft to help improve Windows.|  
 
 ### Lock screen and desktop  

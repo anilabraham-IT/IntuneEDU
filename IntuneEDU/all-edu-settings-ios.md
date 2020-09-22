@@ -78,6 +78,7 @@ Many settings in Intune for Education are configured to **Block** or **Allow**. 
 |---|---|  
 |Block screenshots and screen recordings|Block students from capturing the contents of the screen as an image.|  
 |Block changing device name|Block students from changing the name of the device.|
+|Block app removal|Block students from uninstalling apps on their device.|
 |Block changing wallpaper|Blocks students from changing the device lock screen and home screen image.|  
 |Block changing notification settings|Block students from changing the device notification settings.| 
 |Block changes to diagnostic data submission settings|Block students from changing if or how the device sends diagnostic data. |

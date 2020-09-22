@@ -30,7 +30,7 @@ searchScope:
 
 ---
 
-# Setup iOS device management 
+# Set up iOS device management 
 
 Before you can manage or assign iOS devices to students and teachers, you must set up iOS device management in Intune for Education. This setup requires that you add an MDM Push Certificate and configure at least one MDM Server Token (also known as a DEP token).  
 
@@ -56,7 +56,7 @@ Before beginning, make sure you have:
 * Intune for Education device licenses. Find out more about the device licenses in the [Intune licenses docs](https://docs.microsoft.com/mem/intune/fundamentals/licenses).  
 
 > [!IMPORTANT]
-> Intune for Education only supports iOS device enrollment for devices bought through Apple DEP. For more information about Apple School Manager, see the [Apple education support site](https://support.apple.com/education).  
+> Intune for Education only supports iOS device enrollment for devices bought through Apple Automated Device Enrollment. For more information about Automated Device enrollment and Apple School Manager, see the [Apple automated device enrollment support site](https://go.microsoft.com/fwlink/?linkid=2142075&clcid=0x409).  
 
 ## Add an MDM Push certificate
 An Apple MDM Push certificate sets up a secure connection between your Intune and Apple School Manager account. When connected, Intune can continually sync and manage your Apple devices and apps. 
