@@ -1,14 +1,14 @@
 ---
 # required metadata
 
-title: "Delegate admin permissions to groups"
+title: Assign group admins  
 titleSuffix: Intune for Education
-description: Learn how to manage roles for groups in Intune for Education.
+description: Learn how to assign admin permissions to groups in Intune for Education.
 keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 11/22/2019
+ms.date: 11/05/2020
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -30,14 +30,11 @@ searchScope:
 
 ---
 
-# Delegate admin permissions to groups
-You and your IT staff manage multiple groups of students, teachers, and administrators throughout your school.  
+# Assign admin permissions
 
-Unlike IT staff, admin groups only manage the groups you assign to them. When you give admin permissions to a group of qualified individuals, you help reduce the risk of unauthorized or accidental changes.  
+People assigned as admins in Intune for Education can manage user and device groups. It's important to only give these permissions to qualified individuals, to reduce the risk of unauthorized or accidental changes in Intune for Education. Users with admin permissions can only see and make changes to the groups you assign them.  
 
-## Group admin permissions 
-
-Group admins are assigned in Intune for Education and have permission to manage school devices and apps. Group admins can:  
+Group admins can:  
 
 - View information about devices, users, and apps.
 - Assign, create, delete, view, and update device and user settings.
@@ -51,19 +48,71 @@ Group admins are assigned in Intune for Education and have permission to manage 
 - Assign users to devices registered with the Windows Autopilot service.  
 - Delete devices registered with the Windows Autopilot service.  
 
-> [!TIP]
-> Modifying admin permissions is an advanced task. If you want to change the permissions or create a custom set of permissions, then you need to go to [the full management experience in Intune](https://docs.microsoft.com/intune/role-based-access-control). These permissions comprise the built-in School Administrator role in Intune. 
 
-## Assign an admin group
+### Building custom roles  
+All the permissions needed to use Intune for Education are included in the built-in School Admin role. If you want to build a custom role that allows access to Intune for Education, you can duplicate the built-in School Admin role and add/remove permissions to create the role you want.
 
-1. From the Intune for Education dashboard, click **Groups**.
-2. Choose a group. This group will be the one your admins manage.
-3. Click the **Admins** tab > **Add Admins**.
-4. Choose a group to give it admin permission to manage apps and settings.
-5. Click **Choose group**.
+To build a custom set of admin permissions, switch to the full management experience in Microsoft Intune and go to **Tenant administration** > **Roles**. For more information about role-based access, see [Role-based access control (RBAC) with Microsoft Intune](/mem/intune/fundamentals/role-based-access-control).  
 
-## Remove an admin group
-1. From the Intune for Education dashboard, click **Groups**.
-2. Choose a group. This group will be the one you remove an admin group from managing.
-3. Click the **Admins** tab.
-4. Select one or more groups from the list of admins. Then click **Remove Admins**.  
+## Assign group admins    
+There are two ways to assign group admins in Intune for Education:
+
+* Select a device or user group, and then add new group members as admins. 
+* Select an admin group, and then add a device or user group for the admins to manage.  
+
+### Add group members as admins   
+Complete these steps to add admins to a device or user group.  
+
+1. From the dashboard, select **Groups**.
+2. Choose a group.   
+3. Go to **Admins** > **Admins of this group**.  
+4. Select **Add admins**.
+5. Choose a group. 
+6. Select **Add groups**.   
+
+### Add a group to manage  
+Complete these steps to assign a device or user group to a group of admins.  
+
+1. Choose a group.  
+2. Go to **Admins** > **Managed by this group**.  
+3. Select **Add groups to manage**.  
+4. Choose a group.  
+5. Select **Add groups**.  
+
+## Remove admin permissions  
+
+To remove admin permissions from people in your school, you can either:  
+* Select a device or user group and remove the associated admins.  
+* Select an admin group and remove an associated device or user group.  
+
+### Remove admins  
+Complete these steps to remove a group of admins from a device or user group.   
+1. From the dashboard, select **Groups**.
+2. Choose a group. 
+3. Go to **Admins** > **Admins of this group**.
+4. Select one or more groups.   
+5. Select **Remove admins**.  
+
+### Remove device or user group  
+Complete these steps to remove a device or user group from a group of admins. 
+1. From the dashboard, select **Groups**.  
+2. Choose a group.  
+3. Go to **Admins** > **Managed by this group**.
+4. Select one or more groups.  
+5. Select **Remove groups**.  
+
+## Restrict iOS VPP token access
+If you're in a school district that has iOS devices at multiple locations, it’s a good idea to restrict VPP token access to select admins. These tokens will only be accessible to admins if the token has been added to their group's restricted token list.       
+
+1. From the dashboard, select **Groups**.  
+2. Choose a group.   
+3. To view admins of the current group, select **Admins of this group**. To view groups that this group can manage, select **Managed by this group**.  
+4. Select an admin group > the **More** ellipses icon > **Restrict admin access**. Two additional lists appear:  
+    * The top list shows all restricted VPP tokens. These tokens and their associated apps can only be accessed by the selected group.  
+    * The bottom list shows all unrestricted VPP tokens. These tokens and their associated apps can be accessed by anyone with admin permissions.  
+5. To add a token to the group's restricted list you can either:  
+    * Use the search bar to find a token. Select the token from the search results.  
+    * Find a token in the unrestricted list and select **Restrict to these admins**.  
+6. Select **Save**.   
+
+Now that the token is a part of the admins' restricted list, only these admins can see and manage the token and its associated apps. Repeat these steps for each group to restrict all VPP tokens to their respective admins.  
