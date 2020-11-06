@@ -58,7 +58,7 @@ There are two ways to assign group admins in Intune for Education:
 * Select a device or user group, and then add new group members as admins. 
 * Select an admin group, and then add a device or user group for the admins to manage.  
 
-### Add group members as admins:  
+### Add group members as admins   
 Complete these steps to add admins to a device or user group.  
 
 1. From the dashboard, select **Groups**.
