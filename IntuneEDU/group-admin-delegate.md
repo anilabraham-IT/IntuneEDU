@@ -31,7 +31,7 @@ searchScope:
 
 # Assign admin permissions
 
-People assigned as admins can sign in to Intune for Education and manage user and device groups. It's important to assign these permissions to qualified individuals to reduce the risk of unauthorized or accidental changes in Intune for Education. Users with admin permissions can only see and make changes to the groups you assign them.  
+People assigned as admins in Intune for Education can manage user and device groups. It's important to only give these permissions to qualified individuals, to reduce the risk of unauthorized or accidental changes in Intune for Education. Users with admin permissions can only see and make changes to the groups you assign them.  
 
 Group admins can:  
 
@@ -50,7 +50,7 @@ Group admins can:
 These permissions are part of the the built-in School Administrator role in Microsoft Intune. All the permissions needed to use Intune for Education are included in this role. 
 
 ### Building custom roles/permissions 
-To build a custom set of admin permissions, switch to the full management experience in Microsoft Intune and go to **Tenant administration** > **Roles**. From there, you can duplicate the School Admin role and then add/remove permissions to build the role you want. For more information about role-based access, see [Role-based access control (RBAC) with Microsoft Intune](https://docs.microsoft.com/intune/role-based-access-control).  
+To build a custom set of admin permissions, switch to the full management experience in Microsoft Intune and go to **Tenant administration** > **Roles**. From there, you can duplicate the School Admin role and then add/remove permissions to build the role you want. For more information about role-based access, see [Role-based access control (RBAC) with Microsoft Intune](memdocs/intune/fundamentals/role-based-access-control).  
 
 ## Assign group admins    
 There are two ways to assign group admins in Intune for Education:
