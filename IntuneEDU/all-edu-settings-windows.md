@@ -297,6 +297,7 @@ Configure the user experience settings for:
 |Block Cortana|Block Cortana, the digital assistant built into Windows 10 that can answer questions and perform tasks.|
 |Block location services|Block apps from using location services to access the device’s location.|  
 |Block ending tasks in Task Manager|Block users from using Task Manager to force a program, process, or task to close.|
+|Configure time zone|Choose what time zone to apply to devices.|
 |Block changing date and time settings|Block users from changing the device date and time settings.|
 |Block changing language settings|Block users from changing the device language.|
 |Block changing device region settings|Block users from changing region settings, such as country and language.|
