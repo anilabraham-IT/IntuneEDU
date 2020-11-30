@@ -32,7 +32,7 @@ searchScope:
 
 # Create groups  
 
-Create groups to manage users, apps, and devices that have similar management needs. Groups allow you to manage, assign, and apply changes in bulk, reducing the time you'd spend individually managing and troubleshooting devices. 
+Create groups to manage users, apps, and devices that have similar management needs. Groups enable you to view, manage, and apply changes to many objects at once, reducing the time and need to manage them individually.  
 
 ## Default groups  
 Out-of-the-box, Intune for Education comes with default groups that enable you to manage:  
