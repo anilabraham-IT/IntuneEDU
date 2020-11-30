@@ -3,7 +3,7 @@
 
 title: Create groups in Intune for Education
 titleSuffix: Intune for Education
-description: Learn how to manage groups of devices with Intune for Education.
+description: Learn how to manage groups and subgroups of devices in Intune for Education.
 keywords:
 author: lenewsad
 ms.author: lanewsad
@@ -30,9 +30,9 @@ searchScope:
 
 ---
 
-# Create groups in Intune for Education
+# Create groups  
 
-The group feature lets you manage users, apps, and devices that have similar management needs. With groups, you can reduce the time you spend individually managing and troubleshooting devices. 
+Create groups to manage users, apps, and devices that have similar management needs. Groups allow you to manage, assign, and apply changes in bulk, reducing the time you'd spend individually managing and troubleshooting devices. 
 
 ## Default groups  
 Out-of-the-box, Intune for Education comes with default groups that enable you to manage:  
