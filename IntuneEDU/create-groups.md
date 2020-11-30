@@ -30,9 +30,9 @@ searchScope:
 
 ---
 
-# Create groups in Intune
+# Create groups in Intune for Education
 
-The group feature in Intune lets you manage users, apps, and devices that have similar management needs. With groups, you can reduce the time you spend individually managing and troubleshooting devices. 
+The group feature lets you manage users, apps, and devices that have similar management needs. With groups, you can reduce the time you spend individually managing and troubleshooting devices. 
 
 ## Default groups  
 Out-of-the-box, Intune for Education comes with default groups that enable you to manage:  
@@ -102,7 +102,7 @@ Groups must be created one a time. During setup, you'll select to create a group
 5. At the bottom of the page, click **Create group**.
 
 ## Create a subgroup  
-Groups are set up in Intune as hierarchies. The parent group is the top of the hierarchy, and [any settings applied to this group are inherited by the groups under it](settings-inheritance.md). This concept is known as *settings inheritance*.  Setting inheritance makes it easier to apply settings to a large group of users and devices. 
+Groups are set up in Intune for Education as hierarchies. The parent group is the top of the hierarchy, and [any settings applied to this group are inherited by the groups under it](settings-inheritance.md). This concept is known as *settings inheritance*.  Setting inheritance makes it easier to apply settings to a large group of users and devices. 
 
 Subgroups can only be created *under* assigned groups. 
 
