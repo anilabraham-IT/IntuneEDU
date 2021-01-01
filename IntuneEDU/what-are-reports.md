@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 07/23/2018
+ms.date: 01/01/2021
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -30,7 +30,7 @@ ms.reviewer: elcox
 
 ---
 
-# View and download reports  
+# View and download reports
 
 View your current device, application, setting, and health inventory in Intune for Education. Download reports to review or share offline.
 
@@ -41,19 +41,31 @@ View all of your school's managed devices and device details. If a device is mal
 
    ![The device inventory report screen, showing a list of devices under Intune for Education management.](./media/reports-001-device-inventory.png)
 
+## Device actions
+View all remote device actions that were initiated on managed devices. This report provides details such as Restart, Factory Reset, Autopilot Reset, and Rename actions that were initiated by an admin.
+
+   ![The device action report screen, showing a list of devices under Intune for Education management.](./media/reports-002-device-actions.png)
+
 ## Application inventory
 View all apps installed on the managed devices in your school. This report provides details that will help you troubleshoot deployment problems. See important details such as the number of devices the app belongs to and the current version installed.  
  
- ![The application inventory report screen, showing a list of apps under Intune for Education management.](./media/reports-002-app-inventory.png)  
+   ![The application inventory report screen, showing a list of apps under Intune for Education management.](./media/reports-003-app-inventory.png)  
 
 ## Settings errors
 View a list of current setting errors and the groups affected. This report lists both the devices and users that have conflicting, unresolved settings.   
 
-   ![The settings errors report screen, showing a list of setting conflicts.](./media/reports-003-settings-error.png)
+   ![The settings errors report screen, showing a list of setting conflicts.](./media/reports-004-settings-error.png)
 
 ## Windows Defender
-View the Windows Defender device health status for every managed device in your school. This report lists a device health status to alert you to devices that are not fully secure. 
+View the Windows Defender device health status for every managed device in your school. This report lists a device health status to alert you to devices that are not fully secure.
 
+   ![The Windows Defender report screen, showing a list of devices reported by Windows Defender Antivirus.](./media/reports-005-windows-defender.png)
+   
+## Autopilot deployment
+View the Windows Autopilot report for your tenant. This report provides a list of managed Autopilot devices and current enrollment state.
+
+   ![The Windows Autopilot report, showing a list of devices under Intune for Education management.](./media/reports-006-autopilot-deplopyment.png)
+   
 ## Access your reports
 
 1. From the [Intune for Education dashboard](https://intuneeducation.portal.azure.com), click **Reports**.  
