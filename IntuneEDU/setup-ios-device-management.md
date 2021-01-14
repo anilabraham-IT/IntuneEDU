@@ -32,7 +32,7 @@ searchScope:
 
 # Set up iOS device management 
 
-Before you can manage or assign iOS devices to students and teachers, you must set up iOS device management in Intune for Education. This setup requires that you add an MDM Push Certificate and configure at least one MDM Server Token (also known as a DEP token).  
+Before you can manage or assign iOS devices to students and teachers, you must set up iOS device management in Intune for Education. Setup requires you to add an MDM Push Certificate and configure at least one enrollment program token (also known as an MDM server token or DEP token).  
 
   ![Screenshot of the Tenant Settings, iOS Device Management page, showing green circles with white checkmarks on the MDM Push Certificate, MDM Server token, and VPP token cards. Circles indicate that all are configured. User can Select the blue rectangular button that says "Manage" to edit or update configurations.](./media/set-up-ios-management-landing-1807.png)   
 
@@ -40,12 +40,12 @@ During setup, you'll connect your Intune for Education account with your Apple S
 
 This article describes how to:
 
-* Add an Apple MDM Push certificate.
-* Configure and sync an Apple MDM Server token.
-* Configure an Apple VPP token.
+* Add an Apple MDM push certificate.
+* Configure and sync an enrollment program token.
+* Configure an Apple VPP token.  
 
 ## What happens after I set up device management?
-After you've set up iOS device management, you'll be able to use Intune for Education to manage apps and settings on your iOS devices. You'll also have access to reports and actions so you can troubleshoot conflicts anywhere.  
+After you set up iOS device management, you can use Intune for Education to manage apps and settings on your iOS devices. You'll also have access to reports and actions so you can troubleshoot conflicts anywhere.  
 
 Students and teachers in your school will be able to securely access school websites and email.  
 
@@ -58,13 +58,13 @@ Before beginning, make sure you have:
 > [!IMPORTANT]
 > Intune for Education only supports iOS device enrollment for devices bought through Apple Automated Device Enrollment. For more information about Automated Device enrollment and Apple School Manager, see the [Apple automated device enrollment support site](https://go.microsoft.com/fwlink/?linkid=2142075&clcid=0x409).  
 
-## Add an MDM Push certificate
-An Apple MDM Push certificate sets up a secure connection between your Intune and Apple School Manager account. When connected, Intune can continually sync and manage your Apple devices and apps. 
+## Add an MDM push certificate
+An Apple MDM push certificate sets up a secure connection between your Intune and Apple School Manager account. When connected, Intune can continually sync and manage your Apple devices and apps. 
 
 1. Sign in to the Intune for Education Portal.  
 2. Select **Tenant settings**.  
 3. Select **MDM push certificate** > **Create certificate**.   
-4. Follow the onscreen instructions on the **Create MDM Push Certificate** page. You will be required to visit the Apple Push Certificates portal to create an MDM push certificate. Sign in to the Apple Push Certificates portal with your school's Apple ID, not your personal one. After you download the certificate file from Apple, return to Intune for Education to complete the remaining fields on this page. 
+4. Follow the onscreen instructions on the **Create MDM Push Certificate** page. You'll need to visit the Apple Push Certificates portal to create an MDM push certificate. Sign in to the Apple Push Certificates portal with your school's Apple ID, not your personal one. After you download the certificate file from Apple, return to Intune for Education to complete the remaining fields on this page. 
 5. Select **Save** to create the certificate in Intune for Education.  
 
 The push certificate expires every 365 days. The certificate is needed to connect Intune for Education to your Apple School Manager account, so [you'll need to renew it yearly](renew-ios-certificate-token.md).  
@@ -76,7 +76,7 @@ Sometimes referred to as a DEP token or MDM server token, the enrollment program
 ### Shared iPad configuration  
 You can configure your iOS devices to enroll as Shared iPad devices. With Shared iPad, students and teachers sign in to your school's devices with their unique Managed Apple ID. As they move from device to device, their apps and data move with them. A student can use one device to begin writing a paper, and then sign in to a different device later to finish the paper. To learn more about *Shared iPad* and *Managed Apple IDs*, visit the [Apple Education website](https://www.apple.com/education/it/) and [documentation](https://go.microsoft.com/fwlink/?linkid=2060097&clcid=0x409).  
 
-Classroom devices can still be shared between students, even without Shared iPad. However, user data does not move between devices. Before you configure your server token, you'll choose if you want to enable Shared iPad. 
+Classroom devices can still be shared between students, even without Shared iPad. However, user data doesn't move between devices. Before you configure your server token, you'll choose if you want to enable Shared iPad. 
 
 ### Add enrollment program token  
 
@@ -97,7 +97,7 @@ The following steps describe how to add an enrollment program token to Intune fo
     1. Choose a device name prefix.
     2. Select **Download** to save the Intune public key so that you can upload it later. 
     3. Sign in to Apple School Manager to create and download a token. Use your school's Apple ID to sign in, not your personal one. If you don't have the MDM server information to complete this step, contact your school's Intune administrator. 
-    4. Stay in Apple School Manager and go to **Device Assignments**. Enter the serial number for each device, the order number for your entire device purchase, or a list of your devices in a CSV file.  From the drop-down menu, select **Assign to Server**. Then choose the MDM server you just created.
+    4. Stay in Apple School Manager and go to **Device Assignments**. Enter the serial number for each device, the order number for your entire device purchase, or a list of your devices in a CSV file.  From the drop-down menu, select **Assign to Server**. Then choose the MDM server you just created. 
     5. Return to the Intune for Education portal and enter the Apple ID you used to sign in to Apple School Manager.
     6. Upload the enrollment program token.
 8. Select **Save** to add the token to Intune. 
@@ -105,7 +105,7 @@ The following steps describe how to add an enrollment program token to Intune fo
 Enrollment program tokens expire every 365 days. The token is needed to view and manage your devices in the Intune for Education portal. You'll need to [renew it yearly](renew-ios-certificate-token.md).
 
 ### Device enrollment profile
-Intune for Education creates and applies an iOS enrollment profile to each enrollment profie you configure.
+Intune for Education creates and applies an iOS enrollment profile to each enrollment profile you configure.
 
 All iOS devices added to Intune for Education are set to supervised mode. As an admin, supervised mode allows you more control over your school's devices. For example, you can push new apps or app updates silently to a device. For a complete list of supervised-only settings, see the article, [Configurations requiring supervision](/intune/device-restrictions-ios#settings-that-require-supervised-mode).
 
@@ -146,11 +146,11 @@ Tokens expire every 365 days. Tokens are needed to manage VPP-purchased apps, so
 ### What's a managed device?
 To help you understand the difference between a managed and unmanaged device, let's look at the following scenario.
 
-A teacher brings a personal iOS device to school. During school hours, the teacher uses the device to schedule parent meetings and to keep track of class assignments.  
+A teacher brings a personal iOS device to school. During school hours, the teacher uses the device to schedule parent meetings and track of class assignments.  
 
- The device wasn't purchased by the school through the Apple DEP program. It's not enrolled under the Intune for Education tenant. As a result, there's no way for Intune to communicate with the teacher's device. The device is considered not managed -- the IT admin has no control over how the teacher uses the device during school hours. 
+ The device wasn't purchased by the school through the Apple DEP program. It's not enrolled under the Intune for Education tenant. As a result, there's no way for Intune to communicate with the teacher's device. The device is considered not managed so the IT admin has no control over how the teacher uses the device during school hours. 
 
-Similarly, since it's not a known, managed device, the teacher won't be able to access protected school resources, such as email.  
+Similarly, since it's not a known managed device, the teacher can't access protected school resources, such as email.  
 
 ## Next steps
 

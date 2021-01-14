@@ -43,12 +43,12 @@ The MDM push certificate is associated with the Apple ID you used to create it. 
 
 1. Go to **Tenant settings** > **MDM push certificate**.  
 2. Select **Renew certificate**.
-3. Follow the onscreen instructions to to renew and download your MDM push Certificate from the Apple Push Certificates Portal. Remember to sign in with the Apple ID you used to create your original certificate. After you renew and download the certificate, return to Intune for Education to complete the remaining fields on this screen.  
+3. Follow the onscreen instructions to renew and download your MDM push certificate in the Apple Push Certificates Portal. Remember to sign in with the Apple ID you used to create your original certificate. After you renew and download the certificate, return to Intune for Education to complete the remaining fields on this screen.  
 4. Select **Save**.    
 
 ## Renew enrollment program token 
 
-Renew the enrollment program token annually to make sure that Intune for Education always has an updated list of your iOS devices. This process requires you to sign in to Apple School Manager to download the token.  
+Renew the enrollment program token annually to keep Intune for Education up to date with your school's devices. This process requires you to sign in to Apple School Manager to download the token.  
 
 1. Go to **Tenant settings** > **Enrollment program tokens**.
 2. Select the token that you want to renew.
@@ -70,6 +70,6 @@ The VPP token is associated with the Apple ID you used to create it. Renew the t
 5. Select **Save**.   
 
 ## Next steps
-Now that your certificates and tokens are renewed, make sure [your group settings](edit-groups-intune-for-edu.md) are up-to-date. To see the current status of your groups in Intune, learn how to [view reports](what-are-reports.md).  
+Now that your certificates and tokens are renewed, make sure [your group settings](edit-groups-intune-for-edu.md) are up to date. To see the current status of your groups in Intune, learn how to [view reports](what-are-reports.md).  
 
 Read [What's new in Intune for Education](whats-new-in-edu.md) to find out about the latest updates and features.
