@@ -43,7 +43,7 @@ The MDM push certificate is associated with the Apple ID you used to create it. 
 
 1. Go to **Tenant settings** > **MDM push certificate**.  
 2. Select **Renew certificate**.
-3. Follow the onscreen instructions. Remember to sign in to the Appl Push Certificates Portal with the Apple ID you used to create your original certificate. After you renew and download the certificate, return to Intune for Education to complete the remaining steps on this screen.  
+3. Follow the onscreen instructions. Remember to sign in to the Apple Push Certificates Portal with the Apple ID you used to create your original certificate. After you renew and download the certificate, return to Intune for Education to complete the remaining steps on this screen.  
 4. Select **Save**.    
 
 ## Renew enrollment program token 

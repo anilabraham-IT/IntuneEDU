@@ -34,7 +34,7 @@ searchScope:
 
 Before you can manage or assign iOS devices to students and teachers, you must set up iOS device management in Intune for Education. Setup requires you to add an MDM Push Certificate and configure at least one enrollment program token (also known as an MDM server token or DEP token).  
 
-  ![Screenshot of the Tenant Settings, iOS Device Management Overview page, showing 3 interactive cards in a row named Set up MDM push certificate, Set up enrollment program token, and Set up Volume Purchase Program (VPP) token. Each card has a "Configure" or "Manage" button for users to begin setup or edit existing configurations.](./media/set-up-ios-management-landing-2101.png)](./media/set-up-ios-management-landing-2101.png#lightbox)   
+  [![Screenshot of the Tenant Settings, iOS Device Management Overview page, showing 3 interactive cards in a row named Set up MDM push certificate, Set up enrollment program token, and Set up Volume Purchase Program (VPP) token. Each card has a "Configure" or "Manage" button for users to begin setup or edit existing configurations.](./media/set-up-ios-management-landing-2101.png)](./media/set-up-ios-management-landing-2101.png#lightbox)   
 
 During setup, you'll connect your Intune for Education account with your Apple School Manager account. The connection makes sure that Intune for Education always has the most current details about your purchased iOS devices.  
 
@@ -82,8 +82,8 @@ You can configure your iOS devices to enroll as Shared iPad devices. With Shared
 
 Classroom devices can still be shared between students, even without Shared iPad. However, user data doesn't move between devices. Before you configure your server token, you'll choose if you want to enable Shared iPad. 
 
-        > [!NOTE]
-        > If you set up a device with Shared iPad, you'll get all of features that come with Shared iPad, except for the Classroom and Schoolwork apps. These apps aren't supported by Intune for Education. Shared iPad features will become available after you set up the enrollment program token.  
+> [!NOTE]
+> If you set up a device with Shared iPad, you'll get all of features that come with Shared iPad, except for the Classroom and Schoolwork apps. These apps aren't supported by Intune for Education. Shared iPad features will become available after you set up the enrollment program token.  
 
 ### Add enrollment program token  
 
