@@ -43,7 +43,7 @@ The MDM push certificate is associated with the Apple ID you used to create it. 
 
 1. Go to **Tenant settings** > **MDM push certificate**.  
 2. Select **Renew certificate**.
-3. Follow the onscreen instructions to renew and download your MDM push certificate in the Apple Push Certificates Portal. Remember to sign in with the Apple ID you used to create your original certificate. After you renew and download the certificate, return to Intune for Education to complete the remaining fields on this screen.  
+3. Follow the onscreen instructions. Remember to sign in to the Appl Push Certificates Portal with the Apple ID you used to create your original certificate. After you renew and download the certificate, return to Intune for Education to complete the remaining steps on this screen.  
 4. Select **Save**.    
 
 ## Renew enrollment program token 
@@ -53,7 +53,7 @@ Renew the enrollment program token annually to keep Intune for Education up to d
 1. Go to **Tenant settings** > **Enrollment program tokens**.
 2. Select the token that you want to renew.
 3. Select **Renew token**.
-4. Follow the onscreen instructions. Remember, sign in to Apple School Manager with the Apple ID you used to get your original token. After you renew and download the token, return to Intune for Education to complete the remaining fields on this screen. 
+4. Follow the onscreen instructions. Remember to sign in to Apple School Manager with the Apple ID you used to get your original token. After you renew and download the token, return to Intune for Education to complete the remaining steps on this screen.  
 5. Select **Save**.   
 
 ## Renew VPP token
@@ -64,9 +64,11 @@ The VPP token is associated with the Apple ID you used to create it. Renew the t
 1. Go to **Tenant settings** > **VPP tokens**.
 2. Find the token that you want to renew. Select the link that's in the **Associated apps** column.  
 3. Select **Renew token**.
-4. Follow the onscreen instructions to download and renew your token from Apple School Manager. Remember, sign in to Apple School Manager with the Apple ID you used to get your original token. After you renew and download the token, return to Intune for Education to complete the remaining fields on this screen. 
+4. Follow the onscreen instructions. Remember to sign in to Apple School Manager with the Apple ID you used to get your original token. After you renew and download the token, return to Intune for Education to complete the remaining steps on this screen.  
+
 > [!TIP]
-> When choosing a region, select where your school's devices are located. 
+> When choosing a region, select where your school's devices are located.  
+
 5. Select **Save**.   
 
 ## Next steps
