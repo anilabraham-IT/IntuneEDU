@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 01/09/2019
+ms.date: 01/14/2021
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -34,7 +34,7 @@ searchScope:
 
 Before you can manage or assign iOS devices to students and teachers, you must set up iOS device management in Intune for Education. This setup requires that you add an MDM Push Certificate and configure at least one MDM Server Token (also known as a DEP token).  
 
-  ![Screenshot of the Tenant Settings, iOS Device Management page, showing green circles with white checkmarks on the MDM Push Certificate, MDM Server token, and VPP token cards. Circles indicate that all are configured. User can click the blue rectangular button that says "Manage" to edit or update configurations.](./media/set-up-ios-management-landing-1807.png)   
+  ![Screenshot of the Tenant Settings, iOS Device Management page, showing green circles with white checkmarks on the MDM Push Certificate, MDM Server token, and VPP token cards. Circles indicate that all are configured. User can Select the blue rectangular button that says "Manage" to edit or update configurations.](./media/set-up-ios-management-landing-1807.png)   
 
 During setup, you'll connect your Intune for Education account with your Apple School Manager account. The connection makes sure that Intune for Education always has the most current details about your purchased iOS devices.
 
@@ -61,74 +61,65 @@ Before beginning, make sure you have:
 ## Add an MDM Push certificate
 An Apple MDM Push certificate sets up a secure connection between your Intune and Apple School Manager account. When connected, Intune can continually sync and manage your Apple devices and apps. 
 
-1. Sign in to the Intune for Education Portal.
-2. Go to the sidebar and click **Tenant settings** > **iOS Device Management**.
-3. Click the **MDM Push Certificate** tab.
-4. Follow the instructions on the **MDM Push Certificate** page. You will be required to visit the Apple Push Certificates portal to create an MDM push certificate. Sign in to the Apple Push Certificates portal with your school's Apple ID, not your personal one.
-5. Complete the steps in the Apple portal. After you create the certificate, click to download and save it.
-6. Return to the Intune for Education portal and enter the Apple ID you used to sign in to Apple Push Certificates portal.
-7. Upload the certificate you downloaded.
-8. Click **Save**.  
+1. Sign in to the Intune for Education Portal.  
+2. Select **Tenant settings**.  
+3. Select **MDM push certificate** > **Create certificate**.   
+4. Follow the onscreen instructions on the **Create MDM Push Certificate** page. You will be required to visit the Apple Push Certificates portal to create an MDM push certificate. Sign in to the Apple Push Certificates portal with your school's Apple ID, not your personal one. After you download the certificate file from Apple, return to Intune for Education to complete the remaining fields on this page. 
+5. Select **Save** to create the certificate in Intune for Education.  
 
 The push certificate expires every 365 days. The certificate is needed to connect Intune for Education to your Apple School Manager account, so [you'll need to renew it yearly](renew-ios-certificate-token.md).  
 
 
-## Configure MDM server token  
-Sometimes referred to as a DEP token, the MDM server token lets Intune sync device details from Apple School Manager. These details inform Intune of the devices it needs to manage, and populates your inventory in the Intune for Education portal.  
+## Configure enrollment program token  
+Sometimes referred to as a DEP token or MDM server token, the enrollment program token lets Intune sync device details from Apple School Manager. These details inform Intune of the devices it needs to manage, and populates your inventory in the Intune for Education portal.  
 
 ### Shared iPad configuration  
 You can configure your iOS devices to enroll as Shared iPad devices. With Shared iPad, students and teachers sign in to your school's devices with their unique Managed Apple ID. As they move from device to device, their apps and data move with them. A student can use one device to begin writing a paper, and then sign in to a different device later to finish the paper. To learn more about *Shared iPad* and *Managed Apple IDs*, visit the [Apple Education website](https://www.apple.com/education/it/) and [documentation](https://go.microsoft.com/fwlink/?linkid=2060097&clcid=0x409).  
 
 Classroom devices can still be shared between students, even without Shared iPad. However, user data does not move between devices. Before you configure your server token, you'll choose if you want to enable Shared iPad. 
 
-### Server token setup  
+### Add enrollment program token  
 
-The following steps describe how to configure your MDM Server Token. 
+The following steps describe how to add an enrollment program token to Intune for Education.  
 
-1. Go to **Tenant Settings** > **iOS Device Management**, and choose the **MDM Server Tokens** tab.
-2. Select **Set up token**.
-3. Choose how you want to enroll the devices associated with your new server token.  
+1. Go to **Tenant Settings** > **Enrollment program tokens**.
+2. Select **Add token**.
+3. Choose how you want to enroll the devices associated with your new server token. This option can't be changed once the token is created. If you want to change how devices enroll later, you'll need to create a new server token. 
     * To configure this token for Shared iPad, choose **Users will log in to devices with their Managed Apple IDs**. All devices assigned to this token will be set up so that users must sign in to them with a Managed Apple ID.  
-        > [!IMPORTANT]
-        > You can't change your choice after you create the server token. After that point, if you want to change how devices enroll, you'll need to create a new server token.  
 
         > [!NOTE]
-        > If you set up a device with Shared iPad, you'll get all of features that come with Shared iPad, except for the Classroom and Schoolwork apps. These apps aren't supported by Intune for Education. All other Shared iPad features will be available to you after you set up the MDM server token.  
+        > If you set up a device with Shared iPad, you'll get all of features that come with Shared iPad, except for the Classroom and Schoolwork apps. These apps aren't supported by Intune for Education. All other Shared iPad features will be available to you after you set up the token.  
 
-    * If your school isn't using Managed Apple IDs, choose **Anyone can unlock these devices...** Devices can still be shared by students&ndash;they'll just be accessed directly, without the need to sign in. They might require a device passcode, if you set one.  
+    * If your school isn't using Managed Apple IDs, choose **Anyone can unlock these devices...** Devices can still be shared by students but they'll be accessed directly, without the need to sign in. They might require a device passcode if you set one.  
 
-4. Select **Download** to download the required Intune public key. You'll need to upload this file in Apple School Manager to create your MDM server token. Save the file to your computer.
-5. Select **Go to my MDM Servers in Apple School Manager**. If prompted, sign in to Apple School Manager with your school's Apple ID, not your personal one.
-6. Follow the steps on screen to create an MDM server. Then save your changes. If you don't have the information to complete this step, contact your school's Intune administrator.
-7. Download and save the token for the MDM server.
-8. Stay in Apple School Manager and go to **Device Assignments**. Enter the serial number for each device, the order number for your entire device purchase, or a list of your devices in a CSV file.  
+4. Select **Set up enrollment program token**.  
+5. Follow the onscreen instructions.
+    1. Choose a device name prefix.
+    2. Select **Download** to save the Intune public key so that you can upload it later. 
+    3. Sign in to Apple School Manager to create and download a token. Use your school's Apple ID to sign in, not your personal one. If you don't have the MDM server information to complete this step, contact your school's Intune administrator. 
+    4. Stay in Apple School Manager and go to **Device Assignments**. Enter the serial number for each device, the order number for your entire device purchase, or a list of your devices in a CSV file.  From the drop-down menu, select **Assign to Server**. Then choose the MDM server you just created.
+    5. Return to the Intune for Education portal and enter the Apple ID you used to sign in to Apple School Manager.
+    6. Upload the enrollment program token.
+8. Select **Save** to add the token to Intune. 
 
-  ![Screenshot of the Apple School Manager website, Device Assignments page. Shows step 1, "Choose Devices" with radio button selections and an empty field box for user to enter how they want to manually input purchased devices. Shows step 2, "Choose Action" with a drop-down menu where user should select "Assign to Server."](./media/Apple-School-Manager-MDM-Server-token-1807.png)   
-
-9. From the drop-down menu, choose **Assign to Server**. Then choose the MDM server you just created.
-10. Return to the Intune for Education portal and enter the Apple ID you used to sign in to Apple School Manager.
-11. Upload the MDM server token you downloaded.
-12. Click **Save**.
-
-MDM server tokens expire every 365 days. The token is needed to view and manage your devices in the Intune for Education portal. You'll need to [renew it yearly](renew-ios-certificate-token.md).
+Enrollment program tokens expire every 365 days. The token is needed to view and manage your devices in the Intune for Education portal. You'll need to [renew it yearly](renew-ios-certificate-token.md).
 
 ### Device enrollment profile
-Intune for Education creates and applies an iOS enrollment profile to each MDM server token you configure.
+Intune for Education creates and applies an iOS enrollment profile to each enrollment profie you configure.
 
 All iOS devices added to Intune for Education are set to supervised mode. As an admin, supervised mode allows you more control over your school's devices. For example, you can push new apps or app updates silently to a device. For a complete list of supervised-only settings, see the article, [Configurations requiring supervision](/intune/device-restrictions-ios#settings-that-require-supervised-mode).
 
-Intune for Education applies a naming scheme to devices that you enroll with an MDM server token. The name will help you identify and group individual devices. By default, devices are named with their device serial number. You can also add on a custom device name when you set up your MDM server token.  
+Intune for Education applies a naming scheme to devices that you enroll with an enrollment program token. The name will help you identify and group individual devices. By default, devices are named with their device serial number. You can also add on a custom device name when you set up your enrollment program token.  
 
 For more details about enrollment profiles, view the [list of settings configured](add-devices-ios-edu.md#preconfigured-settings) during enrollment.  
 
 ### Sync managed devices
-Now that Intune for Education has permission to manage your iOS devices, sync with Apple to view a list of your managed devices.  
-1. Sign in to Intune for Education.
-2. Click **Tenant settings** > **iOS Device Management** > **DEP Tokens**.
-3. Click on any of the listed tokens.
-4. Click **Sync device list**. 
+Now that Intune for Education has permission to manage your iOS devices, sync with Apple to view a list of your managed devices.    
 
-Devices that appear in the list are ready for enrollment. Power them on to start the enrollment process.
+1. In the **Enrollment program tokens** list, find the token you created. Select the link that's under the **Devices ready to enroll** column in the same row.  
+2. Select **Sync device list**. 
+
+Devices that appear in the list are ready for enrollment. Power them on to start the enrollment process. 
 
 ## Configure VPP tokens
 
@@ -141,16 +132,16 @@ VPP tokens are necessary for Intune to:
 
 Without a VPP token, you can still search and get [free iOS apps through the App Store](add-apps-ios.md). However, to install the app on the device, the device user must sign in with an Apple ID. 
 
-1. On the **iOS Device Management** page, click the **VPP Tokens** tab.
-2. Click **Open Apple School Manager** and sign in with your school's Apple ID, not your personal one.
-3. Follow the steps in Apple School Manage to create and download the token. Save the token to your local drive.
-4. Return to the Intune for Education portal. Enter the Apple ID that you used to sign in to Apple School Manager.
-5. Click the folder icon to browse your computer's files. Select the token file that you downloaded and saved earlier.
-6. Choose the location of your school's devices.
-7. If you don't want to enable automatic app updates, switch the setting to disable them. 
-8. Click **Save**.
+1. Go to **Tenant Settings** > **VPP Tokens**.
+2. Select **Add token**. 
+3. Name the VPP token and then follow the onscreen instructions to create the token.  
+    1. Sign in to Apple School Manager to create and download a token. Use your school's Apple ID to sign in, not your personal one. 
+    2. Return to the Intune for Education portal and enter the Apple ID you used to sign in to Apple School Manager.
+    3. Upload the VPP token file and then select the region where your devices are. 
+    4. Enable or disable automatic app updates. 
+4. Select **Save** to add the token to Intune.  
 
-Tokens expire every 365 days. Tokens are needed to manage VPP-purchased apps, so [you'll need to renew them yearly](renew-ios-certificate-token.md).
+Tokens expire every 365 days. Tokens are needed to manage VPP-purchased apps, so [you'll need to renew them yearly](renew-ios-certificate-token.md).  
 
 ### What's a managed device?
 To help you understand the difference between a managed and unmanaged device, let's look at the following scenario.
