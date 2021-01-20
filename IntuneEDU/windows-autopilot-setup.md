@@ -91,7 +91,7 @@ Complete these steps to configure an Autopilot deployment profile for a group. W
 
 
 4. By default, a **Standard** user account type is selected. If you want all users in your tenant to be admins on their devices, select **Administrator** instead.    
-    * If only some of your users need to have admin permissions, create a group and deployment profile just for them. For example, if you want your staff to have admin privileges, create a group that's made up of your staff’s devices. Then complete steps 2 through 4 in this section to create a deployment profile that has an administrator user account type.
+    * If only some of your users need to have admin permissions, create a group and deployment profile just for them. For example, if you want your staff to have admin privileges, create a group that's made up of your staff’s devices. Then complete steps 2 through 4 in this section to create a deployment profile that has an administrator user account type.  
 
 ## Create dynamic group based on group tag  
 Create a dynamic group to quickly group Autopilot-registered devices. Setting a group tag rule will automatically create and populate a group with devices that you tagged during Autopilot registration. This feature eliminates the need for you to select and group devices one-by-one.    
