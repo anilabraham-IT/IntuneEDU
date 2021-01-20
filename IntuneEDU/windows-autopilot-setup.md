@@ -105,9 +105,9 @@ Group tags are assigned to devices during Windows Autopilot registration. Make s
 2. Under **Group type**, select **Dynamic**. 
 3. Under **Rules**:  
     a. Select **Devices**.
-    b. Select **On this platform** > **Windows**   
-    b. Select **Device group tag starts with** from the menu.  
-    c. Type in the name of the group tag. In this example, the group tag is called *Contoso Teachers*.  
+    b. Select **On this platform**. If you're prompted to select an OS, choose **Windows**.  
+    c. Select **Device group tag starts with** from the menu.  
+    d. Type in the name of the group tag. In this example, the group tag is called *Contoso Teachers*.  
 4. Select **Create group**. All Autopilot-registered devices with the specified group tag will be added to your new group. 
 
 To configure a a Windows Autopilot deployment profile for the group, select your new group and then select 
