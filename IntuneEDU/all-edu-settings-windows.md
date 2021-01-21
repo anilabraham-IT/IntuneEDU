@@ -168,9 +168,9 @@ Configure settings that affect when a device powers off or goes to sleep
 
 |Setting|What it does|
 |---|---|
-|Turn off device display after|Choose how many mintues of inactivity before device display turns off. Applys to devices plugged in and on battery. | 
-|Put device to sleep after|Choose how many mintues of inactivity before device transitions to sleep. Applys to devices plugged in and on battery.|  
-|Put device in hibernation after |Choose how many minutes of inactivity before device transitions to hibernate. Applys to devices plugged in and on battery.| 
+|Turn off device display after|Choose how many minutes of inactivity before device display turns off. Applies to devices plugged in and on battery. | 
+|Put device to sleep after|Choose how many minutes of inactivity before device transitions to sleep. Applies to devices plugged in and on battery.|  
+|Put device in hibernation after |Choose how many minutes of inactivity before device transitions to hibernate. Applies to devices plugged in and on battery.| 
 |Block changing power and sleep settings|Block users from changing power and sleep settings.|
 
 
@@ -297,6 +297,7 @@ Configure the user experience settings for:
 |Block Cortana|Block Cortana, the digital assistant built into Windows 10 that can answer questions and perform tasks.|
 |Block location services|Block apps from using location services to access the device’s location.|  
 |Block ending tasks in Task Manager|Block users from using Task Manager to force a program, process, or task to close.|
+|Configure time zone|Choose what time zone to apply to devices.|
 |Block changing date and time settings|Block users from changing the device date and time settings.|
 |Block changing language settings|Block users from changing the device language.|
 |Block changing device region settings|Block users from changing region settings, such as country and language.|
