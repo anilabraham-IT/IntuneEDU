@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 10/24/2019  
+ms.date: 01/21/2021  
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -81,10 +81,9 @@ Some factors, such as network and number of devices, could affect or delay your 
 ## Configure Autopilot deployment profiles  
 Complete these steps to configure an Autopilot deployment profile for a group. We recommend that you go to the All Devices group first and configure a default Autopilot deployment profile with standard user permissions. From there, you can go to other device groups and configure deployment profiles with administrator permissions.     
 
-1. From the menu on the left, go to **Groups** > **All Devices**. 
-2. Under **Settings**, go to **Windows Device Settings** > **Enrollment** > **Windows Autopilot**. 
-
-   ![Screenshot of All Devices group, Enrollment settings, highlighting Windows Autopilot section.](./media/enrollment-autopilot-settings-1910.png)  
+1. Sign in to Intune for Education and select **Groups**.  
+2. Select **All Devices** from the list of groups.  
+2. Select **Windows Device Settings** > **Enrollment** to open the **Windows Autopilot** settings.  
 
 3. Next to **Configure Autopilot deployment profile for devices**, select **User-driven**. After you select this option, the user account type appears.   
 
@@ -92,7 +91,7 @@ Complete these steps to configure an Autopilot deployment profile for a group. W
 
 
 4. By default, a **Standard** user account type is selected. If you want all users in your tenant to be admins on their devices, select **Administrator** instead.    
-    * If only some of your users need to have admin permissions, create a group and deployment profile just for them. For example, if you want your staff to have admin privileges, create a group that's made up of your staff’s devices. Then complete steps 2 through 4 in this section to create a deployment profile that has an administrator user account type.
+    * If only some of your users need to have admin permissions, create a group and deployment profile just for them. For example, if you want your staff to have admin privileges, create a group that's made up of your staff’s devices. Then complete steps 2 through 4 in this section to create a deployment profile that has an administrator user account type.  
 
 ## Create dynamic group based on group tag  
 Create a dynamic group to quickly group Autopilot-registered devices. Setting a group tag rule will automatically create and populate a group with devices that you tagged during Autopilot registration. This feature eliminates the need for you to select and group devices one-by-one.    
@@ -102,15 +101,17 @@ Group tags are assigned to devices during Windows Autopilot registration. Make s
    ![Screenshot of Groups page, Create group, highlighting dynamic group settings.](./media/dynamic-group-tag-1910.png) 
 
 1. Go to **Groups** > **Create group**.  
-2. Name your group.
-2. Under **Group type**, select **Dynamic**. 
+2. Name your group.  
+2. Under **Group type**, select **Dynamic**.  
 3. Under **Rules**:  
     a. Select **Devices**.  
-    b. Select **Windows**.  
-    c. Select **Device group tag starts with**.  
+    b. Select **On this platform**. If you're prompted to select an OS, choose **Windows**.  
+    c. Select **Device group tag starts with** from the menu.  
     d. Type in the name of the group tag. In this example, the group tag is called *Contoso Teachers*.  
-4. Select **Create group**. All Autopilot-registered devices with the specified group tag will be added to your new group. 
-5. Next, go to **Settings** > **Windows Device Settings** > **Enrollment** > **Windows Autopilot** to configure a deployment profile for your group.  
+4. Select **Create group**. All Autopilot-registered devices with the specified group tag will be added to your new group.  
+
+To configure a a Windows Autopilot deployment profile for the group, select your new group and then select 
+**Windows device settings** > **Enrollment**. See [Configure Autopilot deployment profiles](#configure-autopilot-deployment-profiles) to learn how to configure these settings.   
 
 ## Configure settings and apps  
 If each device in your school is used by a single user, we recommend that you:  
@@ -126,21 +127,21 @@ If the devices in your school are shared by all students, they'll most likely ha
 After you’re done with the configuration, and devices are delivered to each school, distribute them to students and teachers. They can set up the devices at home or at school, as long as there is a reliable network. For a brief overview of what the OOBE is like, see [User-driven mode](#autopilot-deployment-in-user-driven-mode ).    
 
 ## Monitor devices  
- Go to **Reports** > **Autopilot deployment report** to monitor the enrollment status of your school's devices.  
+Go to **Reports** > **Autopilot deployment** to monitor the enrollment status of your school's devices.  
 
-Use the report to quickly identify failed enrollments. To see more details or troubleshoot a failed enrollment, click on the device name. You’ll go to the **Device details page** > **Windows Autopilot details**.    
+Use the report to quickly identify failed enrollments. To see more details or troubleshoot a failed enrollment, select a device name and then select **Windows Autopilot details**.    
 
 ## Troubleshoot devices  
 If you experience a problem anytime during Windows Autopilot setup, see [Troubleshooting Windows Autopilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/troubleshooting).  
 
 ## Windows Autopilot Reset  
-When a device experiences issues during the school year, you can use Autopilot Reset to reset it to a healthy state. A reset can also be done on a group of devices. For more information about this feature, including how to use it in Intune for Education, see [Autopilot Reset](autopilot-reset.md).   
+When a device experiences issues during the school year, you can use Autopilot Reset to reset it to a healthy state. A reset can also be done on a group of devices. For more information, see [Autopilot Reset](autopilot-reset.md).   
 
  
 ## Next steps  
 Find out about the newest Autopilot features and other changes in Intune for Education. See [What's new](whats-new-in-edu.md) for a monthly summary of all new features in Intune for Education.     
 
-Make [changes to your groups](edu-device-remote-actions.md) and use [remote actions](edu-device-remote-actions.md) in Intune for Education.
+Make [changes to your groups](edu-device-remote-actions.md) and use [remote actions](edu-device-remote-actions.md) in Intune for Education.  
 
 
 
