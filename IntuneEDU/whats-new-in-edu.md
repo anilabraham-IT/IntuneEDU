@@ -52,10 +52,6 @@ For more detailed information about managing BitLocker keys in Intune, see [Mana
 [![Screenshot highlighting the Devices > Device details > Recovery keys table, which shows one recovery key for an example device.](./media/intune-education-bitlocker-2009.png)](./media/intune-education-bitlocker-2009.png#lightbox) 
 
 
-## August 2020
-
-Create longer names for Windows 10 devices running Windows 10, version 2004 or later.
-You can now give a device a name that's up to 53 characters long.  
 
 ## June 2020
 
