@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 01/20/2021  
+ms.date: 01/21/2021  
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -101,14 +101,14 @@ Group tags are assigned to devices during Windows Autopilot registration. Make s
    ![Screenshot of Groups page, Create group, highlighting dynamic group settings.](./media/dynamic-group-tag-1910.png) 
 
 1. Go to **Groups** > **Create group**.  
-2. Name your group.
-2. Under **Group type**, select **Dynamic**. 
+2. Name your group.  
+2. Under **Group type**, select **Dynamic**.  
 3. Under **Rules**:  
-    a. Select **Devices**.
+    a. Select **Devices**.  
     b. Select **On this platform**. If you're prompted to select an OS, choose **Windows**.  
     c. Select **Device group tag starts with** from the menu.  
     d. Type in the name of the group tag. In this example, the group tag is called *Contoso Teachers*.  
-4. Select **Create group**. All Autopilot-registered devices with the specified group tag will be added to your new group. 
+4. Select **Create group**. All Autopilot-registered devices with the specified group tag will be added to your new group.  
 
 To configure a a Windows Autopilot deployment profile for the group, select your new group and then select 
 **Windows device settings** > **Enrollment**. See [Configure Autopilot deployment profiles](#configure-autopilot-deployment-profiles) to learn how to configure these settings.   
