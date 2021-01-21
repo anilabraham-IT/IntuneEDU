@@ -168,9 +168,9 @@ Configure settings that affect when a device powers off or goes to sleep
 
 |Setting|What it does|
 |---|---|
-|Turn off device display after|Choose how many mintues of inactivity before device display turns off. Applys to devices plugged in and on battery. | 
-|Put device to sleep after|Choose how many mintues of inactivity before device transitions to sleep. Applys to devices plugged in and on battery.|  
-|Put device in hibernation after |Choose how many minutes of inactivity before device transitions to hibernate. Applys to devices plugged in and on battery.| 
+|Turn off device display after|Choose how many minutes of inactivity before device display turns off. Applies to devices plugged in and on battery. | 
+|Put device to sleep after|Choose how many minutes of inactivity before device transitions to sleep. Applies to devices plugged in and on battery.|  
+|Put device in hibernation after |Choose how many minutes of inactivity before device transitions to hibernate. Applies to devices plugged in and on battery.| 
 |Block changing power and sleep settings|Block users from changing power and sleep settings.|
 
 
