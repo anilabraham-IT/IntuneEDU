@@ -71,7 +71,7 @@ View the Windows Autopilot report for your tenant. This report provides a list o
 1. From the [Intune for Education dashboard](https://intuneeducation.portal.azure.com), click **Reports**.  
 2. Select the report you want to view. 
 3. Use the search boxes to find specific devices, applications, and settings.
-4. To download a report, click **Download report**. Intune for Education will download a report to your computer, as a comma-separated value (.csv) file. View and modiy the file in a spreadsheet app, such as [Microsoft Excel](https://support.office.com/article/Import-or-export-text-txt-or-csv-files-5250ac4c-663c-47ce-937b-339e391393ba).  
+4. To download a report, click **Download report**. Intune for Education will download a report to your computer, as a comma-separated value (.csv) file. View and modify the file in a spreadsheet app, such as [Microsoft Excel](https://support.office.com/article/Import-or-export-text-txt-or-csv-files-5250ac4c-663c-47ce-937b-339e391393ba).  
 
 ## Next steps  
 Find out more about the [full reporting experience in Intune](https://docs.microsoft.com/mem/intune/fundamentals/reports) or about reporting [using Microsoft Graph](https://developer.microsoft.com/graph/docs/overview/overview).
