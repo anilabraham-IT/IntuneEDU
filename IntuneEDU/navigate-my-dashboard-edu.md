@@ -56,16 +56,19 @@ Select **New dashboard** to create a dashboard from scratch. Creating a new dash
 
 ## Sidebar  
 
-Every page in Intune for Education has a  _sidebar_, which shows a list of categories related to managing users, apps, and devices in your school.  
-
+Every page in Intune for Education has a  _sidebar_ from which you can access the management areas of the portal.  Select **See all** to view additional areas and services not listed, including admin settings, School Data Sync, and help documentation.  
 
   ![Screenshot of the Intune for Edudcation sidebar showing the Dashboard and See all options,and eight Favorites.](./media/dashboard-left-sidebar-list-2101.png)
 
-Select **See all** to view all categories and services in Intune for Education, including admin settings, School Data Sync, and help documentation. 
 
-To reorder your sidebar, hover your cursor over the right-side of any service link. Then press and drag to reposition the service.  
+
+To reorder the links in your sidebar, hover your cursor over the right-side of a link. Then press and drag to reposition the service.  
 
   ![Image of Intune for Education sidebar with a move cursor hovering over the Enrollment managers item.](./media/dashboard-editing-sidebar-2001.png)  
+
+  ## Next steps  
+
+  Go through Express Configuration to quickly set up users and devices with the essential configurations. For more information, see [Express configuration in Intune for Education](express-configuration-intune-edu.md).   
 
 
 
