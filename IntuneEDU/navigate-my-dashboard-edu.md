@@ -50,13 +50,13 @@ You can use the dashboard tools to expand, edit, download, clone, or delete your
 
   ![Partial screenshot of Intune for Education dashboard, highlighting the toolbar options.](./media/dashboard-toolbar-2101.png)   
 
-Select **New dashboard** to create a dashboard from scratch. Creating a new dashboard doesn't overwrite or remove existing dashboards. Select the arrow next to the current dasboard name to access your other dashboards.  
+Select **New dashboard** to create a dashboard from scratch. Creating a new dashboard doesn't overwrite or remove existing dashboards. Select the arrow next to the current dashboard name to access your other dashboards.  
 
    ![Screenshot of Intune for Education dashboard. Arrow next to dashboard name is selected and reveals list of all dashboards in tenat.](./media/dashboard-add-new-2101.png)  
 
 ## Sidebar  
 
-Every page in Intune for Education has a  _sidebar_ from which you can access the management areas of the portal.  Select **See all** to view additional areas and services not listed, including admin settings, School Data Sync, and help documentation.  
+Every page in Intune for Education has a  _sidebar_ from which you can access the management areas of the portal.  Select **See all** to view additional areas and services in Intune for Education that aren't listed. 
 
   ![Screenshot of the Intune for Edudcation sidebar showing the Dashboard and See all options,and eight Favorites.](./media/dashboard-left-sidebar-list-2101.png)
 
