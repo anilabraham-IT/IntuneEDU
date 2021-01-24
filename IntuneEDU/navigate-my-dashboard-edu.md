@@ -1,14 +1,14 @@
 ---
 # required metadata
 
-title: How do I customize my dashboard?
+title: Navigate the Intune for Education dashboard
 titleSuffix: Intune for Education
-description: Learn how to customize your dashboard and sidebar in Intune for Education.
+description: Learn how to use the Intune for Education dashboard and sidebar to make navigating easier.
 keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 07/23/2018
+ms.date: 01/22/2021
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -32,36 +32,43 @@ searchScope:
 
 # Navigate your dashboard
 
-Your _dashboard_ is the main landing page for Intune for Education. It's where you begin every time you log in to the portal, and it's the starting point to manage your users, apps, and devices.  
+Your _dashboard_ is the main landing page for Intune for Education. It's where you begin every time you sign in, and it's the starting point to manage your users, apps, and devices.  
 
+  ![The dashboard screen, which shows express configuration, school data sync, manage user and device groups, and manage app tiles.](./media/dashboard-landing-page-2101.png)
 
-  ![The dashboard screen, which shows express configuration, school data sync, manage user and device groups, and manage app tiles.](./media/dashboard-001-landing-page.png)
-
-## Start your tasks
-Click any of the following tiles to jump into essential device management tasks:
+## Dashboard defaults and customizations  
+The default dashboard shows the following tiles to help get you started with essential device management tasks:
 
 * Launch Express Configuration
 * School Data Sync
 * Manage user and device groups
 * Manage apps
 
-Some tiles, such as School Data Sync and Manage apps, will update to show configuration status and current app inventory.
+Some tiles, such as School Data Sync and Manage apps, show metrics like configuration status and current app inventory.
 
-## Options in the side-bar
+You can use the dashboard tools to expand, edit, download, clone, or delete your dashboard. 
 
-Every page in Intune for Education has a  _sidebar_, which shows a list of categories related to managing users, apps, and devices in your school.
+  ![Partial screenshot of Intune for Education dashboard, highlighting the toolbar options.](./media/dashboard-toolbar-2101.png)   
 
-  ![The default setup for the left-hand sidebar, which lists Express configuration, groups, apps, Enrollment Managers, take a test profiles, alerts, reports, tenant settings, terms of use settings, and see all, which will pop out to allow modification of this default list of tasks.](./media/dashboard-002-left-sidebar-list.png)
+Select **New dashboard** to create a dashboard from scratch. Creating a new dashboard doesn't overwrite or remove existing dashboards. Select the arrow next to the current dashboard name to access your other dashboards.  
 
-## Pin service to sidebar
-To see a list of everything you can do in Intune for Education, click **All services**. Click the star next to a service to *favorite* it and pin in to the sidebar. Click the star again to remove it from the sidebar. 
+   ![Screenshot of Intune for Education dashboard. Arrow next to dashboard name is selected and reveals list of all dashboards in tenat.](./media/dashboard-add-new-2101.png)  
 
-  ![The service menu pop-out, which has all available settings in a list.](./media/dashboard-003-change-sidebar-popout.png)
+## Sidebar  
 
-## Reorganize sidebar
-To change the order of services in the sidebar, go to the sidebar and hover over the right-side of service link. Click and drag the three vertical dots to reposition the service. 
+Every page in Intune for Education has a  _sidebar_ from which you can access the management areas of the portal.  Select **See all** to view additional areas and services in Intune for Education that aren't listed. 
 
-  ![The three dots that appear on hover are next to one of the list items. The cursor changes to a select option.](./media/dashboard-004-editing-sidebar.png)
+  ![Screenshot of the Intune for Edudcation sidebar showing the Dashboard and See all options,and eight Favorites.](./media/dashboard-left-sidebar-list-2101.png)
 
-## Collapse and expand sidebar
-To collapse the sidebar so that only icons are visible, go to the top of the page and click the left-pointing arrows. Select the right-pointing arrows to expand the menu.  
+
+
+To reorder the links in your sidebar, hover your cursor over the right-side of a link. Then press and drag to reposition the service.  
+
+  ![Image of Intune for Education sidebar with a move cursor hovering over the Enrollment managers item.](./media/dashboard-editing-sidebar-2001.png)  
+
+  ## Next steps  
+
+  Go through Express Configuration to quickly set up users and devices with the essential configurations. For more information, see [Express configuration in Intune for Education](express-configuration-intune-edu.md).   
+
+
+
