@@ -8,7 +8,7 @@ keywords:
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 09/21/2020
+ms.date: 02/09/2021
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -33,6 +33,13 @@ searchScope:
 Learn what's new in Intune for Education. Find out about upcoming changes, product notices, and features from previous releases.  
 
 [Tell us how we're doing](https://go.microsoft.com/fwlink/?linkid=2133879). We're always looking to improve Intune for Education and would love to hear what you think of the changes this month and how we can improve. 
+
+
+## February 2021
+### Create a custom home screen layout for iOS devices  
+Create and edit the home screen layout on iPad devices to make it easy for students to find the things they need for school. This feature lets you organize and preview how apps (including web apps) and icons appear on the home screen pages, dock, and within folders. To try it out, go to **Groups** > select a group >  **iOS device settings** > **Lock screen, wallpaper, and home screen layout**.    
+
+![Screenshot of Intune for Education *Edit iOS Home Screen layout* page.](./media/intune-education-ios-home-screen-layout-2102.png)
 
 ## September 2020
 ### Change primary user for Windows devices 
