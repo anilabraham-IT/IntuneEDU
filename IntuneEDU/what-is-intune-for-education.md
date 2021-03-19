@@ -45,7 +45,7 @@ The Intune for Education portal is designed to include only the settings and wor
 ## Sign up for Intune for Education
 If you're not already signed up with an Intune for Education account, learn [how to get started](https://docs.microsoft.com/intune/account-sign-up). The article is for system administrators who are ready to sign up their school for an Intune subscription. 
 
-## Manually add users to you Intune subscription
+## Manually add users to your Intune subscription
 If you're not using the Microsoft School Data Sync (SDS) service to import student and teacher records, you must [manually add users to your Intune subscription](https://docs.microsoft.com/intune/users-add). Students and teachers can be added through the Azure portal or through the Office 365 portal. At the time of user setup, you'll also want to grant admin permissions. 
 
 ## Supported OS and browsers
